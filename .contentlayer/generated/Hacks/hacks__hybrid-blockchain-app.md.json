@@ -1,0 +1,32 @@
+{
+  "title": "Hybrid Blockchain App",
+  "description": "Submission for Indian Bank's Innovision Hackathon 2025. A hybrid blockchain application that combines the benefits of both public and private blockchains. Utilizes Hyperledger Fabric for transactions and Ethereum for decentralization.",
+  "image": "/static/images/hba.png",
+  "href": "https://github.com/visvig/innovision25-paperclip",
+  "order": 2,
+  "body": {
+    "raw": "\n",
+    "code": "var Component=(()=>{var b=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var g=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),x=(t,n)=>{for(var i in n)r(t,i,{get:n[i],enumerable:!0})},c=(t,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of l(n))!u.call(t,o)&&o!==i&&r(t,o,{get:()=>n[o],enumerable:!(a=d(n,o))||a.enumerable});return t};var k=(t,n,i)=>(i=t!=null?b(f(t)):{},c(n||!t||!t.__esModule?r(i,\"default\",{value:t,enumerable:!0}):i,t)),v=t=>c(r({},\"__esModule\",{value:!0}),t);var p=g((F,s)=>{s.exports=_jsx_runtime});var y={};x(y,{default:()=>m,frontmatter:()=>_});var e=k(p()),_={title:\"Hybrid Blockchain App\",description:\"Submission for Indian Bank's Innovision Hackathon 2025. A hybrid blockchain application that combines the benefits of both public and private blockchains. Utilizes Hyperledger Fabric for transactions and Ethereum for decentralization.\",image:\"/static/images/hba.png\",href:\"https://github.com/visvig/innovision25-paperclip\",order:2};function h(t){return(0,e.jsx)(e.Fragment,{})}function m(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(h,{...t})}):h(t)}return v(y);})();\n;return Component;"
+  },
+  "_id": "hacks/hybrid-blockchain-app.md",
+  "_raw": {
+    "sourceFilePath": "hacks/hybrid-blockchain-app.md",
+    "sourceFileName": "hybrid-blockchain-app.md",
+    "sourceFileDir": "hacks",
+    "contentType": "markdown",
+    "flattenedPath": "hacks/hybrid-blockchain-app"
+  },
+  "type": "Hacks",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "hybrid-blockchain-app",
+  "path": "hacks/hybrid-blockchain-app",
+  "filePath": "hacks/hybrid-blockchain-app.md",
+  "toc": [],
+  "excerpt": "",
+  "firstImage": "/static/images/hba.png"
+}

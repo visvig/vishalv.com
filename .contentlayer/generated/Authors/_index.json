@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Vishal V",
+    "avatar": "/static/images/avatar.jpg",
+    "occupation": "Strategy & Business Design",
+    "company": "Monitor Deloitte",
+    "email": "vishalvignesh.iitm@gmail.com",
+    "twitter": "https://twitter.com/VishalVignesh_",
+    "linkedin": "https://www.linkedin.com/vishalvignesh",
+    "github": "https://github.com/visvig",
+    "body": {
+      "raw": "\nHi, I’m Vishal. I work in strategy consulting, and I spend a lot of my time trying to understand how things fit together in markets, technology, and life in general. I learn by writing, so this site is my place to think in public and keep track of what I’m exploring.\n\nOutside of work, I read, lift, experiment with side projects, and follow my curiosity. This site is a work in progress, just like me, and I’m slowly adding to it as I figure things out.",
+      "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var f=(t,i)=>()=>(i||t((i={exports:{}}).exports,i),i.exports),y=(t,i)=>{for(var n in i)o(t,n,{get:i[n],enumerable:!0})},r=(t,i,n,a)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let s of p(i))!w.call(t,s)&&s!==n&&o(t,s,{get:()=>i[s],enumerable:!(a=d(i,s))||a.enumerable});return t};var x=(t,i,n)=>(n=t!=null?g(u(t)):{},r(i||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>r(o({},\"__esModule\",{value:!0}),t);var m=f((_,l)=>{l.exports=_jsx_runtime});var v={};y(v,{default:()=>h,frontmatter:()=>j});var e=x(m()),j={name:\"Vishal V\",avatar:\"/static/images/avatar.jpg\",occupation:\"Strategy & Business Design\",company:\"Monitor Deloitte\",email:\"vishalvignesh.iitm@gmail.com\",twitter:\"https://twitter.com/VishalVignesh_\",linkedin:\"https://www.linkedin.com/vishalvignesh\",github:\"https://github.com/visvig\"};function c(t){let i={p:\"p\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(i.p,{children:\"Hi, I\\u2019m Vishal. I work in strategy consulting, and I spend a lot of my time trying to understand how things fit together in markets, technology, and life in general. I learn by writing, so this site is my place to think in public and keep track of what I\\u2019m exploring.\"}),(0,e.jsx)(i.p,{children:\"Outside of work, I read, lift, experiment with side projects, and follow my curiosity. This site is a work in progress, just like me, and I\\u2019m slowly adding to it as I figure things out.\"})]})}function h(t={}){let{wrapper:i}=t.components||{};return i?(0,e.jsx)(i,{...t,children:(0,e.jsx)(c,{...t})}):c(t)}return k(v);})();\n;return Component;"
+    },
+    "_id": "authors/default.md",
+    "_raw": {
+      "sourceFilePath": "authors/default.md",
+      "sourceFileName": "default.md",
+      "sourceFileDir": "authors",
+      "contentType": "markdown",
+      "flattenedPath": "authors/default"
+    },
+    "type": "Authors",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.43,
+      "time": 25800,
+      "words": 86
+    },
+    "slug": "default",
+    "path": "authors/default",
+    "filePath": "authors/default.md",
+    "toc": []
+  }
+]

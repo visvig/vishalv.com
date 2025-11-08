@@ -1,0 +1,31 @@
+{
+  "isPage": false,
+  "date": "2025-10-24T00:00:00.000Z",
+  "movement": "Deadlift",
+  "weight": "130 kg",
+  "reps": "10",
+  "notes": "Trap Bar",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),l=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=d(e,o))||m.enumerable});return t};var D=(t,e,n)=>(n=t!=null?f(_(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),M=t=>s(a({},\"__esModule\",{value:!0}),t);var i=j((F,c)=>{c.exports=_jsx_runtime});var w={};l(w,{default:()=>x,frontmatter:()=>h});var r=D(i()),h={date:\"2025-10-24\",movement:\"Deadlift\",weight:\"130 kg\",reps:\"10\",notes:\"Trap Bar\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return M(w);})();\n;return Component;"
+  },
+  "_id": "health/performance/trap-bar-deadlift.md",
+  "_raw": {
+    "sourceFilePath": "health/performance/trap-bar-deadlift.md",
+    "sourceFileName": "trap-bar-deadlift.md",
+    "sourceFileDir": "health/performance",
+    "contentType": "markdown",
+    "flattenedPath": "health/performance/trap-bar-deadlift"
+  },
+  "type": "Health",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "performance/trap-bar-deadlift",
+  "path": "health/performance/trap-bar-deadlift",
+  "filePath": "health/performance/trap-bar-deadlift.md",
+  "toc": []
+}

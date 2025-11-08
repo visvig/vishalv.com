@@ -1,0 +1,31 @@
+{
+  "isPage": false,
+  "date": "2025-10-30T00:00:00.000Z",
+  "movement": "Leg Press",
+  "weight": "247 kg",
+  "reps": "10",
+  "notes": "Plate-loaded",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!l.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var M=(t,e,n)=>(n=t!=null?i(_(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),h=t=>m(a({},\"__esModule\",{value:!0}),t);var u=p((F,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>w});var r=M(u()),w={date:\"2025-10-30\",movement:\"Leg Press\",weight:\"247 kg\",reps:\"10\",notes:\"Plate-loaded\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return h(C);})();\n;return Component;"
+  },
+  "_id": "health/performance/leg-press-machine.md",
+  "_raw": {
+    "sourceFilePath": "health/performance/leg-press-machine.md",
+    "sourceFileName": "leg-press-machine.md",
+    "sourceFileDir": "health/performance",
+    "contentType": "markdown",
+    "flattenedPath": "health/performance/leg-press-machine"
+  },
+  "type": "Health",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "performance/leg-press-machine",
+  "path": "health/performance/leg-press-machine",
+  "filePath": "health/performance/leg-press-machine.md",
+  "toc": []
+}

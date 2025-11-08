@@ -1,0 +1,44 @@
+[
+  {
+    "title": "The Cost of Convenience",
+    "date": "2025-10-26T00:00:00.000Z",
+    "tags": [
+      "digital"
+    ],
+    "draft": false,
+    "summary": "I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.",
+    "body": {
+      "raw": "Most people begin with platforms like WordPress because they promise freedom from friction. They present publishing as something that should never require architectural thought. It feels reasonable at first to accept that promise. You build, you publish, and the platform handles the rest. But convenience has a cost. WordPress shields users from complexity by design, and that protection eventually becomes a limitation. You can choose themes and install plugins, but you cannot touch the logic that defines the system. It decides how your content lives, how it is stored, and how far you can go before you start breaking its boundaries. For casual publishing that is fine. For anyone who wants ownership, it becomes a cage.\n\nA creator who wants durability must think beyond platforms. Real control begins when content exists as files you can see, version, and rebuild. Once you understand that your work deserves permanence, convenience stops feeling like a virtue. Most services hide the structure that holds your writing together. They treat content as something that lives behind a user interface instead of inside a directory. That model collapses the moment you want transparency or longevity.\n\nThe modern stack solves this. Next.js provides a clear framework for routing and rendering. MDX merges writing and logic so Markdown can evolve without losing simplicity. Contentlayer turns your Markdown into structured data, giving each file a defined schema. Obsidian keeps everything local, allowing you to write in an environment that remains yours even if every external service disappears. Together they form a pipeline that is transparent, typed, and portable.\n\nWhen your site exists as code, you own it in every sense. The content lives in your repository, versioned and inspectable. The build process is reproducible. The hosting is interchangeable. Nothing depends on the lifespan of a company or the policies of a service. You can change frameworks, redeploy anywhere, and still keep everything intact. Portability becomes a property of the design, not a feature you have to pay for.\n\nFor most people, Substack or Ghost will be enough. They offer reach, templates, and built-in audiences. But they also shape creation by what performs best inside their own metrics. Platforms reward attention. Systems reward understanding. If you care more about independence than visibility, the path is simple.",
+      "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var o in e)i(t,o,{get:e[o],enumerable:!0})},r=(t,e,o,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of y(e))!f.call(t,s)&&s!==o&&i(t,s,{get:()=>e[s],enumerable:!(a=p(e,s))||a.enumerable});return t};var w=(t,e,o)=>(o=t!=null?u(m(t)):{},r(e||!t||!t.__esModule?i(o,\"default\",{value:t,enumerable:!0}):o,t)),v=t=>r(i({},\"__esModule\",{value:!0}),t);var h=g((M,l)=>{l.exports=_jsx_runtime});var x={};b(x,{default:()=>d,frontmatter:()=>k});var n=w(h()),k={title:\"The Cost of Convenience\",date:\"2025-10-26\",tags:[\"digital\"],draft:!1,summary:\"I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.\"};function c(t){let e={p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Most people begin with platforms like WordPress because they promise freedom from friction. They present publishing as something that should never require architectural thought. It feels reasonable at first to accept that promise. You build, you publish, and the platform handles the rest. But convenience has a cost. WordPress shields users from complexity by design, and that protection eventually becomes a limitation. You can choose themes and install plugins, but you cannot touch the logic that defines the system. It decides how your content lives, how it is stored, and how far you can go before you start breaking its boundaries. For casual publishing that is fine. For anyone who wants ownership, it becomes a cage.\"}),(0,n.jsx)(e.p,{children:\"A creator who wants durability must think beyond platforms. Real control begins when content exists as files you can see, version, and rebuild. Once you understand that your work deserves permanence, convenience stops feeling like a virtue. Most services hide the structure that holds your writing together. They treat content as something that lives behind a user interface instead of inside a directory. That model collapses the moment you want transparency or longevity.\"}),(0,n.jsx)(e.p,{children:\"The modern stack solves this. Next.js provides a clear framework for routing and rendering. MDX merges writing and logic so Markdown can evolve without losing simplicity. Contentlayer turns your Markdown into structured data, giving each file a defined schema. Obsidian keeps everything local, allowing you to write in an environment that remains yours even if every external service disappears. Together they form a pipeline that is transparent, typed, and portable.\"}),(0,n.jsx)(e.p,{children:\"When your site exists as code, you own it in every sense. The content lives in your repository, versioned and inspectable. The build process is reproducible. The hosting is interchangeable. Nothing depends on the lifespan of a company or the policies of a service. You can change frameworks, redeploy anywhere, and still keep everything intact. Portability becomes a property of the design, not a feature you have to pay for.\"}),(0,n.jsx)(e.p,{children:\"For most people, Substack or Ghost will be enough. They offer reach, templates, and built-in audiences. But they also shape creation by what performs best inside their own metrics. Platforms reward attention. Systems reward understanding. If you care more about independence than visibility, the path is simple.\"})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(c,{...t})}):c(t)}return v(x);})();\n;return Component;"
+    },
+    "_id": "blog/the-cost-of-convenience.md",
+    "_raw": {
+      "sourceFilePath": "blog/the-cost-of-convenience.md",
+      "sourceFileName": "the-cost-of-convenience.md",
+      "sourceFileDir": "blog",
+      "contentType": "markdown",
+      "flattenedPath": "blog/the-cost-of-convenience"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "2 min read",
+      "minutes": 1.88,
+      "time": 112800,
+      "words": 376
+    },
+    "slug": "the-cost-of-convenience",
+    "path": "notes/the-cost-of-convenience",
+    "filePath": "blog/the-cost-of-convenience.md",
+    "toc": [],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "The Cost of Convenience",
+      "datePublished": "2025-10-26T00:00:00.000Z",
+      "dateModified": "2025-10-26T00:00:00.000Z",
+      "description": "I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.",
+      "image": "/static/images/twitter-card.png",
+      "url": "https://tailwind-nextjs-starter-blog.vercel.app/notes/the-cost-of-convenience"
+    }
+  }
+]

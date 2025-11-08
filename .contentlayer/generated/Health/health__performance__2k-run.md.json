@@ -1,0 +1,31 @@
+{
+  "isPage": false,
+  "date": "2025-08-06T00:00:00.000Z",
+  "movement": "2K Run",
+  "weight": "11:52 min",
+  "reps": "",
+  "notes": "Treadmill",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!p.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=f(e,o))||m.enumerable});return t};var M=(t,e,n)=>(n=t!=null?d(l(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),h=t=>s(a({},\"__esModule\",{value:!0}),t);var u=g((F,i)=>{i.exports=_jsx_runtime});var C={};j(C,{default:()=>x,frontmatter:()=>w});var r=M(u()),w={date:\"2025-08-06\",movement:\"2K Run\",weight:\"11:52 min\",reps:\"\",notes:\"Treadmill\"};function c(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return h(C);})();\n;return Component;"
+  },
+  "_id": "health/performance/2k-run.md",
+  "_raw": {
+    "sourceFilePath": "health/performance/2k-run.md",
+    "sourceFileName": "2k-run.md",
+    "sourceFileDir": "health/performance",
+    "contentType": "markdown",
+    "flattenedPath": "health/performance/2k-run"
+  },
+  "type": "Health",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "performance/2k-run",
+  "path": "health/performance/2k-run",
+  "filePath": "health/performance/2k-run.md",
+  "toc": []
+}

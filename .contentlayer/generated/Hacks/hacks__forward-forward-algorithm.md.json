@@ -1,0 +1,32 @@
+{
+  "title": "Forward Forward Algorithm",
+  "description": "Code Implementation of Geoffrey Hinton's Forward-Forward Algorithm (NeurIPS, 2019). This offers an alternative approach to training neural networks. Inspired by neuroscience, steps towards neuromorphic computing.",
+  "image": "/static/images/ff-algo.png",
+  "href": "https://github.com/visvig/forward-forward-algorithm",
+  "order": 3,
+  "body": {
+    "raw": "\n",
+    "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var w=(r,t)=>()=>(t||r((t={exports:{}}).exports,t),t.exports),x=(r,t)=>{for(var e in t)a(r,e,{get:t[e],enumerable:!0})},s=(r,t,e,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of u(t))!l.call(r,n)&&n!==e&&a(r,n,{get:()=>t[n],enumerable:!(i=p(t,n))||i.enumerable});return r};var F=(r,t,e)=>(e=r!=null?g(h(r)):{},s(t||!r||!r.__esModule?a(e,\"default\",{value:r,enumerable:!0}):e,r)),_=r=>s(a({},\"__esModule\",{value:!0}),r);var c=w((C,m)=>{m.exports=_jsx_runtime});var v={};x(v,{default:()=>d,frontmatter:()=>j});var o=F(c()),j={title:\"Forward Forward Algorithm\",description:\"Code Implementation of Geoffrey Hinton's Forward-Forward Algorithm (NeurIPS, 2019). This offers an alternative approach to training neural networks. Inspired by neuroscience, steps towards neuromorphic computing.\",image:\"/static/images/ff-algo.png\",href:\"https://github.com/visvig/forward-forward-algorithm\",order:3};function f(r){return(0,o.jsx)(o.Fragment,{})}function d(r={}){let{wrapper:t}=r.components||{};return t?(0,o.jsx)(t,{...r,children:(0,o.jsx)(f,{...r})}):f(r)}return _(v);})();\n;return Component;"
+  },
+  "_id": "hacks/forward-forward-algorithm.md",
+  "_raw": {
+    "sourceFilePath": "hacks/forward-forward-algorithm.md",
+    "sourceFileName": "forward-forward-algorithm.md",
+    "sourceFileDir": "hacks",
+    "contentType": "markdown",
+    "flattenedPath": "hacks/forward-forward-algorithm"
+  },
+  "type": "Hacks",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "forward-forward-algorithm",
+  "path": "hacks/forward-forward-algorithm",
+  "filePath": "hacks/forward-forward-algorithm.md",
+  "toc": [],
+  "excerpt": "",
+  "firstImage": "/static/images/ff-algo.png"
+}

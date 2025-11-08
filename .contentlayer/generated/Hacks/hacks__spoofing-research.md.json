@@ -1,0 +1,32 @@
+{
+  "title": "Spoofing Research",
+  "description": "Part of an 85-credit dual degree thesis project in financial market microstructure. The goal is to study and detect spoofing behavior in financial markets through various sophisticated agent designs, exchange modifications and controlled experimentations.",
+  "image": "/static/images/sr.png",
+  "href": "https://github.com/visvig/spoofing-research",
+  "order": 1,
+  "body": {
+    "raw": "\n\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!l.call(t,i)&&i!==n&&o(t,i,{get:()=>e[i],enumerable:!(a=f(e,i))||a.enumerable});return t};var j=(t,e,n)=>(n=t!=null?u(p(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),v=t=>s(o({},\"__esModule\",{value:!0}),t);var d=x((y,c)=>{c.exports=_jsx_runtime});var b={};_(b,{default:()=>m,frontmatter:()=>M});var r=j(d()),M={title:\"Spoofing Research\",description:\"Part of an 85-credit dual degree thesis project in financial market microstructure. The goal is to study and detect spoofing behavior in financial markets through various sophisticated agent designs, exchange modifications and controlled experimentations.\",image:\"/static/images/sr.png\",href:\"https://github.com/visvig/spoofing-research\",order:1};function g(t){return(0,r.jsx)(r.Fragment,{})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(g,{...t})}):g(t)}return v(b);})();\n;return Component;"
+  },
+  "_id": "hacks/spoofing-research.md",
+  "_raw": {
+    "sourceFilePath": "hacks/spoofing-research.md",
+    "sourceFileName": "spoofing-research.md",
+    "sourceFileDir": "hacks",
+    "contentType": "markdown",
+    "flattenedPath": "hacks/spoofing-research"
+  },
+  "type": "Hacks",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "spoofing-research",
+  "path": "hacks/spoofing-research",
+  "filePath": "hacks/spoofing-research.md",
+  "toc": [],
+  "excerpt": "",
+  "firstImage": "/static/images/sr.png"
+}

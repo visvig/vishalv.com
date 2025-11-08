@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Forward Forward Algorithm",
+    "description": "Code Implementation of Geoffrey Hinton's Forward-Forward Algorithm (NeurIPS, 2019). This offers an alternative approach to training neural networks. Inspired by neuroscience, steps towards neuromorphic computing.",
+    "image": "/static/images/ff-algo.png",
+    "href": "https://github.com/visvig/forward-forward-algorithm",
+    "order": 3,
+    "body": {
+      "raw": "\n",
+      "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var w=(r,t)=>()=>(t||r((t={exports:{}}).exports,t),t.exports),x=(r,t)=>{for(var e in t)a(r,e,{get:t[e],enumerable:!0})},s=(r,t,e,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of u(t))!l.call(r,n)&&n!==e&&a(r,n,{get:()=>t[n],enumerable:!(i=p(t,n))||i.enumerable});return r};var F=(r,t,e)=>(e=r!=null?g(h(r)):{},s(t||!r||!r.__esModule?a(e,\"default\",{value:r,enumerable:!0}):e,r)),_=r=>s(a({},\"__esModule\",{value:!0}),r);var c=w((C,m)=>{m.exports=_jsx_runtime});var v={};x(v,{default:()=>d,frontmatter:()=>j});var o=F(c()),j={title:\"Forward Forward Algorithm\",description:\"Code Implementation of Geoffrey Hinton's Forward-Forward Algorithm (NeurIPS, 2019). This offers an alternative approach to training neural networks. Inspired by neuroscience, steps towards neuromorphic computing.\",image:\"/static/images/ff-algo.png\",href:\"https://github.com/visvig/forward-forward-algorithm\",order:3};function f(r){return(0,o.jsx)(o.Fragment,{})}function d(r={}){let{wrapper:t}=r.components||{};return t?(0,o.jsx)(t,{...r,children:(0,o.jsx)(f,{...r})}):f(r)}return _(v);})();\n;return Component;"
+    },
+    "_id": "hacks/forward-forward-algorithm.md",
+    "_raw": {
+      "sourceFilePath": "hacks/forward-forward-algorithm.md",
+      "sourceFileName": "forward-forward-algorithm.md",
+      "sourceFileDir": "hacks",
+      "contentType": "markdown",
+      "flattenedPath": "hacks/forward-forward-algorithm"
+    },
+    "type": "Hacks",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "forward-forward-algorithm",
+    "path": "hacks/forward-forward-algorithm",
+    "filePath": "hacks/forward-forward-algorithm.md",
+    "toc": [],
+    "excerpt": "",
+    "firstImage": "/static/images/ff-algo.png"
+  },
+  {
+    "title": "Hybrid Blockchain App",
+    "description": "Submission for Indian Bank's Innovision Hackathon 2025. A hybrid blockchain application that combines the benefits of both public and private blockchains. Utilizes Hyperledger Fabric for transactions and Ethereum for decentralization.",
+    "image": "/static/images/hba.png",
+    "href": "https://github.com/visvig/innovision25-paperclip",
+    "order": 2,
+    "body": {
+      "raw": "\n",
+      "code": "var Component=(()=>{var b=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var g=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),x=(t,n)=>{for(var i in n)r(t,i,{get:n[i],enumerable:!0})},c=(t,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of l(n))!u.call(t,o)&&o!==i&&r(t,o,{get:()=>n[o],enumerable:!(a=d(n,o))||a.enumerable});return t};var k=(t,n,i)=>(i=t!=null?b(f(t)):{},c(n||!t||!t.__esModule?r(i,\"default\",{value:t,enumerable:!0}):i,t)),v=t=>c(r({},\"__esModule\",{value:!0}),t);var p=g((F,s)=>{s.exports=_jsx_runtime});var y={};x(y,{default:()=>m,frontmatter:()=>_});var e=k(p()),_={title:\"Hybrid Blockchain App\",description:\"Submission for Indian Bank's Innovision Hackathon 2025. A hybrid blockchain application that combines the benefits of both public and private blockchains. Utilizes Hyperledger Fabric for transactions and Ethereum for decentralization.\",image:\"/static/images/hba.png\",href:\"https://github.com/visvig/innovision25-paperclip\",order:2};function h(t){return(0,e.jsx)(e.Fragment,{})}function m(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(h,{...t})}):h(t)}return v(y);})();\n;return Component;"
+    },
+    "_id": "hacks/hybrid-blockchain-app.md",
+    "_raw": {
+      "sourceFilePath": "hacks/hybrid-blockchain-app.md",
+      "sourceFileName": "hybrid-blockchain-app.md",
+      "sourceFileDir": "hacks",
+      "contentType": "markdown",
+      "flattenedPath": "hacks/hybrid-blockchain-app"
+    },
+    "type": "Hacks",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "hybrid-blockchain-app",
+    "path": "hacks/hybrid-blockchain-app",
+    "filePath": "hacks/hybrid-blockchain-app.md",
+    "toc": [],
+    "excerpt": "",
+    "firstImage": "/static/images/hba.png"
+  },
+  {
+    "title": "Spoofing Research",
+    "description": "Part of an 85-credit dual degree thesis project in financial market microstructure. The goal is to study and detect spoofing behavior in financial markets through various sophisticated agent designs, exchange modifications and controlled experimentations.",
+    "image": "/static/images/sr.png",
+    "href": "https://github.com/visvig/spoofing-research",
+    "order": 1,
+    "body": {
+      "raw": "\n\n",
+      "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!l.call(t,i)&&i!==n&&o(t,i,{get:()=>e[i],enumerable:!(a=f(e,i))||a.enumerable});return t};var j=(t,e,n)=>(n=t!=null?u(p(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),v=t=>s(o({},\"__esModule\",{value:!0}),t);var d=x((y,c)=>{c.exports=_jsx_runtime});var b={};_(b,{default:()=>m,frontmatter:()=>M});var r=j(d()),M={title:\"Spoofing Research\",description:\"Part of an 85-credit dual degree thesis project in financial market microstructure. The goal is to study and detect spoofing behavior in financial markets through various sophisticated agent designs, exchange modifications and controlled experimentations.\",image:\"/static/images/sr.png\",href:\"https://github.com/visvig/spoofing-research\",order:1};function g(t){return(0,r.jsx)(r.Fragment,{})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(g,{...t})}):g(t)}return v(b);})();\n;return Component;"
+    },
+    "_id": "hacks/spoofing-research.md",
+    "_raw": {
+      "sourceFilePath": "hacks/spoofing-research.md",
+      "sourceFileName": "spoofing-research.md",
+      "sourceFileDir": "hacks",
+      "contentType": "markdown",
+      "flattenedPath": "hacks/spoofing-research"
+    },
+    "type": "Hacks",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "spoofing-research",
+    "path": "hacks/spoofing-research",
+    "filePath": "hacks/spoofing-research.md",
+    "toc": [],
+    "excerpt": "",
+    "firstImage": "/static/images/sr.png"
+  },
+  {
+    "title": "Wikipedia Universe",
+    "description": "Explore the graph-like structure representing the relationships between Wikipedia articles. The application updates in real time as it crawls through new links. It also stores the article titles in a text file for later reference.",
+    "image": "/static/images/wu.png",
+    "href": "https://github.com/visvig/wikipedia-universe",
+    "order": 4,
+    "body": {
+      "raw": "\n",
+      "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),w=(e,t)=>{for(var i in t)a(e,i,{get:t[i],enumerable:!0})},o=(e,t,i,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of g(t))!f.call(e,n)&&n!==i&&a(e,n,{get:()=>t[n],enumerable:!(s=m(t,n))||s.enumerable});return e};var k=(e,t,i)=>(i=e!=null?h(d(e)):{},o(t||!e||!e.__esModule?a(i,\"default\",{value:e,enumerable:!0}):i,e)),_=e=>o(a({},\"__esModule\",{value:!0}),e);var l=x((b,c)=>{c.exports=_jsx_runtime});var j={};w(j,{default:()=>u,frontmatter:()=>v});var r=k(l()),v={title:\"Wikipedia Universe\",description:\"Explore the graph-like structure representing the relationships between Wikipedia articles. The application updates in real time as it crawls through new links. It also stores the article titles in a text file for later reference.\",image:\"/static/images/wu.png\",href:\"https://github.com/visvig/wikipedia-universe\",order:4};function p(e){return(0,r.jsx)(r.Fragment,{})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return _(j);})();\n;return Component;"
+    },
+    "_id": "hacks/wikipedia-universe.md",
+    "_raw": {
+      "sourceFilePath": "hacks/wikipedia-universe.md",
+      "sourceFileName": "wikipedia-universe.md",
+      "sourceFileDir": "hacks",
+      "contentType": "markdown",
+      "flattenedPath": "hacks/wikipedia-universe"
+    },
+    "type": "Hacks",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "wikipedia-universe",
+    "path": "hacks/wikipedia-universe",
+    "filePath": "hacks/wikipedia-universe.md",
+    "toc": [],
+    "excerpt": "",
+    "firstImage": "/static/images/wu.png"
+  }
+]

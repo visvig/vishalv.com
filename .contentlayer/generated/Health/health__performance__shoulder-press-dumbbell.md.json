@@ -1,0 +1,31 @@
+{
+  "isPage": false,
+  "date": "2025-10-15T00:00:00.000Z",
+  "movement": "Shoulder",
+  "weight": "22.5 kg",
+  "reps": "8",
+  "notes": "Seated Dumbbell",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of l(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=f(e,o))||m.enumerable});return t};var j=(t,e,n)=>(n=t!=null?i(_(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),D=t=>s(a({},\"__esModule\",{value:!0}),t);var c=p((C,u)=>{u.exports=_jsx_runtime});var b={};h(b,{default:()=>d,frontmatter:()=>M});var r=j(c()),M={date:\"2025-10-15\",movement:\"Shoulder\",weight:\"22.5 kg\",reps:\"8\",notes:\"Seated Dumbbell\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return D(b);})();\n;return Component;"
+  },
+  "_id": "health/performance/shoulder-press-dumbbell.md",
+  "_raw": {
+    "sourceFilePath": "health/performance/shoulder-press-dumbbell.md",
+    "sourceFileName": "shoulder-press-dumbbell.md",
+    "sourceFileDir": "health/performance",
+    "contentType": "markdown",
+    "flattenedPath": "health/performance/shoulder-press-dumbbell"
+  },
+  "type": "Health",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "performance/shoulder-press-dumbbell",
+  "path": "health/performance/shoulder-press-dumbbell",
+  "filePath": "health/performance/shoulder-press-dumbbell.md",
+  "toc": []
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Why I Track Performance",
+  "description": null,
+  "order": 1,
+  "isPage": false,
+  "body": {
+    "raw": "If numbers move, recovery, food, sleep, and focus are all in sync. If they don’t, something’s off. It keeps things simple.\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)r(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of d(n))!h.call(e,o)&&o!==t&&r(e,o,{get:()=>n[o],enumerable:!(c=u(n,o))||c.enumerable});return e};var I=(e,n,t)=>(t=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?r(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(r({},\"__esModule\",{value:!0}),e);var m=y((v,f)=>{f.exports=_jsx_runtime});var g={};_(g,{default:()=>l,frontmatter:()=>M});var s=I(m()),M={title:\"Why I Track Performance\",order:1,description:null};function a(e){let n={p:\"p\",...e.components};return(0,s.jsx)(n.p,{children:\"If numbers move, recovery, food, sleep, and focus are all in sync. If they don\\u2019t, something\\u2019s off. It keeps things simple.\"})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,s.jsx)(n,{...e,children:(0,s.jsx)(a,{...e})}):a(e)}return j(g);})();\n;return Component;"
+  },
+  "_id": "health/morning-movement.md",
+  "_raw": {
+    "sourceFilePath": "health/morning-movement.md",
+    "sourceFileName": "morning-movement.md",
+    "sourceFileDir": "health",
+    "contentType": "markdown",
+    "flattenedPath": "health/morning-movement"
+  },
+  "type": "Health",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.105,
+    "time": 6300,
+    "words": 21
+  },
+  "slug": "morning-movement",
+  "path": "health/morning-movement",
+  "filePath": "health/morning-movement.md",
+  "toc": []
+}

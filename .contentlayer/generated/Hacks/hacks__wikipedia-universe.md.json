@@ -1,0 +1,32 @@
+{
+  "title": "Wikipedia Universe",
+  "description": "Explore the graph-like structure representing the relationships between Wikipedia articles. The application updates in real time as it crawls through new links. It also stores the article titles in a text file for later reference.",
+  "image": "/static/images/wu.png",
+  "href": "https://github.com/visvig/wikipedia-universe",
+  "order": 4,
+  "body": {
+    "raw": "\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),w=(e,t)=>{for(var i in t)a(e,i,{get:t[i],enumerable:!0})},o=(e,t,i,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of g(t))!f.call(e,n)&&n!==i&&a(e,n,{get:()=>t[n],enumerable:!(s=m(t,n))||s.enumerable});return e};var k=(e,t,i)=>(i=e!=null?h(d(e)):{},o(t||!e||!e.__esModule?a(i,\"default\",{value:e,enumerable:!0}):i,e)),_=e=>o(a({},\"__esModule\",{value:!0}),e);var l=x((b,c)=>{c.exports=_jsx_runtime});var j={};w(j,{default:()=>u,frontmatter:()=>v});var r=k(l()),v={title:\"Wikipedia Universe\",description:\"Explore the graph-like structure representing the relationships between Wikipedia articles. The application updates in real time as it crawls through new links. It also stores the article titles in a text file for later reference.\",image:\"/static/images/wu.png\",href:\"https://github.com/visvig/wikipedia-universe\",order:4};function p(e){return(0,r.jsx)(r.Fragment,{})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "hacks/wikipedia-universe.md",
+  "_raw": {
+    "sourceFilePath": "hacks/wikipedia-universe.md",
+    "sourceFileName": "wikipedia-universe.md",
+    "sourceFileDir": "hacks",
+    "contentType": "markdown",
+    "flattenedPath": "hacks/wikipedia-universe"
+  },
+  "type": "Hacks",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "wikipedia-universe",
+  "path": "hacks/wikipedia-universe",
+  "filePath": "hacks/wikipedia-universe.md",
+  "toc": [],
+  "excerpt": "",
+  "firstImage": "/static/images/wu.png"
+}

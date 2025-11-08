@@ -1,0 +1,186 @@
+[
+  {
+    "title": "Why I Track Performance",
+    "description": null,
+    "order": 1,
+    "isPage": false,
+    "body": {
+      "raw": "If numbers move, recovery, food, sleep, and focus are all in sync. If they don’t, something’s off. It keeps things simple.\n",
+      "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)r(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of d(n))!h.call(e,o)&&o!==t&&r(e,o,{get:()=>n[o],enumerable:!(c=u(n,o))||c.enumerable});return e};var I=(e,n,t)=>(t=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?r(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(r({},\"__esModule\",{value:!0}),e);var m=y((v,f)=>{f.exports=_jsx_runtime});var g={};_(g,{default:()=>l,frontmatter:()=>M});var s=I(m()),M={title:\"Why I Track Performance\",order:1,description:null};function a(e){let n={p:\"p\",...e.components};return(0,s.jsx)(n.p,{children:\"If numbers move, recovery, food, sleep, and focus are all in sync. If they don\\u2019t, something\\u2019s off. It keeps things simple.\"})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,s.jsx)(n,{...e,children:(0,s.jsx)(a,{...e})}):a(e)}return j(g);})();\n;return Component;"
+    },
+    "_id": "health/morning-movement.md",
+    "_raw": {
+      "sourceFilePath": "health/morning-movement.md",
+      "sourceFileName": "morning-movement.md",
+      "sourceFileDir": "health",
+      "contentType": "markdown",
+      "flattenedPath": "health/morning-movement"
+    },
+    "type": "Health",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.105,
+      "time": 6300,
+      "words": 21
+    },
+    "slug": "morning-movement",
+    "path": "health/morning-movement",
+    "filePath": "health/morning-movement.md",
+    "toc": []
+  },
+  {
+    "isPage": false,
+    "date": "2025-08-06T00:00:00.000Z",
+    "movement": "2K Run",
+    "weight": "11:52 min",
+    "reps": "",
+    "notes": "Treadmill",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!p.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=f(e,o))||m.enumerable});return t};var M=(t,e,n)=>(n=t!=null?d(l(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),h=t=>s(a({},\"__esModule\",{value:!0}),t);var u=g((F,i)=>{i.exports=_jsx_runtime});var C={};j(C,{default:()=>x,frontmatter:()=>w});var r=M(u()),w={date:\"2025-08-06\",movement:\"2K Run\",weight:\"11:52 min\",reps:\"\",notes:\"Treadmill\"};function c(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return h(C);})();\n;return Component;"
+    },
+    "_id": "health/performance/2k-run.md",
+    "_raw": {
+      "sourceFilePath": "health/performance/2k-run.md",
+      "sourceFileName": "2k-run.md",
+      "sourceFileDir": "health/performance",
+      "contentType": "markdown",
+      "flattenedPath": "health/performance/2k-run"
+    },
+    "type": "Health",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "performance/2k-run",
+    "path": "health/performance/2k-run",
+    "filePath": "health/performance/2k-run.md",
+    "toc": []
+  },
+  {
+    "isPage": false,
+    "date": "2025-10-29T00:00:00.000Z",
+    "movement": "Chest Press",
+    "weight": "61.25 kg",
+    "reps": "4",
+    "notes": "Machine Press",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var f=Object.create;var s=Object.defineProperty;var _=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),M=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!h.call(t,o)&&o!==n&&s(t,o,{get:()=>e[o],enumerable:!(a=_(e,o))||a.enumerable});return t};var j=(t,e,n)=>(n=t!=null?f(g(t)):{},m(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>m(s({},\"__esModule\",{value:!0}),t);var i=p((F,c)=>{c.exports=_jsx_runtime});var w={};M(w,{default:()=>x,frontmatter:()=>l});var r=j(i()),l={date:\"2025-10-29\",movement:\"Chest Press\",weight:\"61.25 kg\",reps:\"4\",notes:\"Machine Press\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return C(w);})();\n;return Component;"
+    },
+    "_id": "health/performance/chest-press-machine.md",
+    "_raw": {
+      "sourceFilePath": "health/performance/chest-press-machine.md",
+      "sourceFileName": "chest-press-machine.md",
+      "sourceFileDir": "health/performance",
+      "contentType": "markdown",
+      "flattenedPath": "health/performance/chest-press-machine"
+    },
+    "type": "Health",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "performance/chest-press-machine",
+    "path": "health/performance/chest-press-machine",
+    "filePath": "health/performance/chest-press-machine.md",
+    "toc": []
+  },
+  {
+    "isPage": false,
+    "date": "2025-10-30T00:00:00.000Z",
+    "movement": "Leg Press",
+    "weight": "247 kg",
+    "reps": "10",
+    "notes": "Plate-loaded",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!l.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var M=(t,e,n)=>(n=t!=null?i(_(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),h=t=>m(a({},\"__esModule\",{value:!0}),t);var u=p((F,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>w});var r=M(u()),w={date:\"2025-10-30\",movement:\"Leg Press\",weight:\"247 kg\",reps:\"10\",notes:\"Plate-loaded\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return h(C);})();\n;return Component;"
+    },
+    "_id": "health/performance/leg-press-machine.md",
+    "_raw": {
+      "sourceFilePath": "health/performance/leg-press-machine.md",
+      "sourceFileName": "leg-press-machine.md",
+      "sourceFileDir": "health/performance",
+      "contentType": "markdown",
+      "flattenedPath": "health/performance/leg-press-machine"
+    },
+    "type": "Health",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "performance/leg-press-machine",
+    "path": "health/performance/leg-press-machine",
+    "filePath": "health/performance/leg-press-machine.md",
+    "toc": []
+  },
+  {
+    "isPage": false,
+    "date": "2025-10-15T00:00:00.000Z",
+    "movement": "Shoulder",
+    "weight": "22.5 kg",
+    "reps": "8",
+    "notes": "Seated Dumbbell",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of l(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=f(e,o))||m.enumerable});return t};var j=(t,e,n)=>(n=t!=null?i(_(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),D=t=>s(a({},\"__esModule\",{value:!0}),t);var c=p((C,u)=>{u.exports=_jsx_runtime});var b={};h(b,{default:()=>d,frontmatter:()=>M});var r=j(c()),M={date:\"2025-10-15\",movement:\"Shoulder\",weight:\"22.5 kg\",reps:\"8\",notes:\"Seated Dumbbell\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return D(b);})();\n;return Component;"
+    },
+    "_id": "health/performance/shoulder-press-dumbbell.md",
+    "_raw": {
+      "sourceFilePath": "health/performance/shoulder-press-dumbbell.md",
+      "sourceFileName": "shoulder-press-dumbbell.md",
+      "sourceFileDir": "health/performance",
+      "contentType": "markdown",
+      "flattenedPath": "health/performance/shoulder-press-dumbbell"
+    },
+    "type": "Health",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "performance/shoulder-press-dumbbell",
+    "path": "health/performance/shoulder-press-dumbbell",
+    "filePath": "health/performance/shoulder-press-dumbbell.md",
+    "toc": []
+  },
+  {
+    "isPage": false,
+    "date": "2025-10-24T00:00:00.000Z",
+    "movement": "Deadlift",
+    "weight": "130 kg",
+    "reps": "10",
+    "notes": "Trap Bar",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),l=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=d(e,o))||m.enumerable});return t};var D=(t,e,n)=>(n=t!=null?f(_(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),M=t=>s(a({},\"__esModule\",{value:!0}),t);var i=j((F,c)=>{c.exports=_jsx_runtime});var w={};l(w,{default:()=>x,frontmatter:()=>h});var r=D(i()),h={date:\"2025-10-24\",movement:\"Deadlift\",weight:\"130 kg\",reps:\"10\",notes:\"Trap Bar\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return M(w);})();\n;return Component;"
+    },
+    "_id": "health/performance/trap-bar-deadlift.md",
+    "_raw": {
+      "sourceFilePath": "health/performance/trap-bar-deadlift.md",
+      "sourceFileName": "trap-bar-deadlift.md",
+      "sourceFileDir": "health/performance",
+      "contentType": "markdown",
+      "flattenedPath": "health/performance/trap-bar-deadlift"
+    },
+    "type": "Health",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "performance/trap-bar-deadlift",
+    "path": "health/performance/trap-bar-deadlift",
+    "filePath": "health/performance/trap-bar-deadlift.md",
+    "toc": []
+  }
+]
