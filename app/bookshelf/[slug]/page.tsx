@@ -22,7 +22,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
   }
 
   return genPageMetadata({
-    title: entry.title,
+    title: entry.title ?? entry.slug,
     description: entry.description ?? entry.excerpt,
   })
 }
