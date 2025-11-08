@@ -43,22 +43,24 @@ export default function BookshelfPage() {
                     className="h-full w-auto object-contain"
                   />
                 </div>
-              ) : entry.firstImage && (
-                <div className="relative h-60 w-full overflow-hidden">
-                  <Image
-                    src={entry.firstImage}
-                    alt={entry.title || 'Book cover'}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+              ) : (
+                entry.firstImage && (
+                  <div className="relative h-60 w-full overflow-hidden">
+                    <Image
+                      src={entry.firstImage}
+                      alt={entry.title || 'Book cover'}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                )
               )}
               <div className="flex flex-1 flex-col space-y-4 p-6">
                 <div className="space-y-2">
                   <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
                     <Link
                       href={`/bookshelf/${entry.slug}`}
-                      className="text-gray-900 transition-colors hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-400"
+                      className="hover:text-primary-500 dark:hover:text-primary-400 text-gray-900 transition-colors dark:text-gray-100"
                     >
                       {entry.title}
                     </Link>
@@ -70,10 +72,14 @@ export default function BookshelfPage() {
                   )}
                   <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-400 dark:text-gray-300">
                     {entry.category && (
-                      <span className="uppercase tracking-wide text-primary-500">{entry.category}</span>
+                      <span className="text-primary-500 tracking-wide uppercase">
+                        {entry.category}
+                      </span>
                     )}
                     {entry.readingPeriod && <span>{`Reading period: ${entry.readingPeriod}`}</span>}
-                    {typeof entry.rating === 'number' && <span>{`Rating: ${entry.rating} / 5`}</span>}
+                    {typeof entry.rating === 'number' && (
+                      <span>{`Rating: ${entry.rating} / 5`}</span>
+                    )}
                   </div>
                 </div>
                 <div className="mt-auto text-sm font-medium">

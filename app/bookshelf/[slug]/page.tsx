@@ -42,7 +42,7 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
       <div className="space-y-6 pt-10 pb-10">
         <Link
           href="/bookshelf"
-          className="inline-flex items-center text-sm font-semibold text-primary-500 transition hover:text-primary-600 dark:text-primary-400 dark:hover:text-primary-300"
+          className="text-primary-500 hover:text-primary-600 dark:text-primary-400 dark:hover:text-primary-300 inline-flex items-center text-sm font-semibold transition"
         >
           &larr; Back to Bookshelf
         </Link>
@@ -52,7 +52,7 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
           </h1>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-400 dark:text-gray-300">
             {entry.category && (
-              <span className="font-semibold uppercase tracking-[0.2em] text-primary-500">
+              <span className="text-primary-500 font-semibold tracking-[0.2em] uppercase">
                 {entry.category}
               </span>
             )}
@@ -60,12 +60,14 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
             {typeof entry.rating === 'number' && <span>{`Rating: ${entry.rating} / 5`}</span>}
           </div>
           {content.description && (
-            <p className="text-base leading-7 text-gray-400 dark:text-gray-300">{content.description}</p>
+            <p className="text-base leading-7 text-gray-400 dark:text-gray-300">
+              {content.description}
+            </p>
           )}
         </div>
       </div>
       <div className="h-px bg-gray-200 dark:bg-gray-700" />
-      <div className="prose max-w-none pt-8 dark:prose-invert">
+      <div className="prose dark:prose-invert max-w-none pt-8">
         <MDXLayoutRenderer code={entry.body.code} components={components} />
       </div>
     </div>

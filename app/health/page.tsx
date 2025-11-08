@@ -32,7 +32,8 @@ export default function HealthPage() {
         <section className="space-y-6">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
             {performances.slice(0, 5).map((entry) => {
-              const hasWeight = entry.weight !== undefined && entry.weight !== null && entry.weight !== ''
+              const hasWeight =
+                entry.weight !== undefined && entry.weight !== null && entry.weight !== ''
               const weightRaw = hasWeight ? String(entry.weight).trim() : ''
               const [weightValueToken, ...weightUnitTokens] = weightRaw.split(/\s+/)
               const weightHasUnit = weightUnitTokens.length > 0
@@ -46,7 +47,7 @@ export default function HealthPage() {
                   className="flex h-full flex-col justify-between rounded-xl border border-gray-200/50 bg-gray-100/75 p-8 shadow-sm backdrop-blur-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-gray-800/50 dark:bg-gray-900/60"
                 >
                   <div className="space-y-4">
-                    <span className="block text-xs font-semibold uppercase tracking-[0.3em] text-primary-500">
+                    <span className="text-primary-500 block text-xs font-semibold tracking-[0.3em] uppercase">
                       {entry.movement}
                     </span>
                     <div className="space-y-1">
@@ -61,13 +62,13 @@ export default function HealthPage() {
                         </div>
                       )}
                       {repsDisplay ? (
-                        <p className="text-base font-semibold uppercase tracking-wide text-gray-700 dark:text-gray-300">
+                        <p className="text-base font-semibold tracking-wide text-gray-700 uppercase dark:text-gray-300">
                           {repsDisplay}
                         </p>
                       ) : (
                         <span
                           aria-hidden="true"
-                          className="block text-base font-semibold uppercase tracking-wide opacity-0"
+                          className="block text-base font-semibold tracking-wide uppercase opacity-0"
                         >
                           × 00
                         </span>
@@ -85,14 +86,18 @@ export default function HealthPage() {
                       </time>
                     )}
                     {entry.notes && (
-                      <p className="text-sm leading-6 text-gray-400 dark:text-gray-300">{entry.notes}</p>
+                      <p className="text-sm leading-6 text-gray-400 dark:text-gray-300">
+                        {entry.notes}
+                      </p>
                     )}
                   </div>
                 </div>
               )
             })}
             {!performances.length && (
-              <p className="text-sm text-gray-400 dark:text-gray-300">No training entries recorded yet.</p>
+              <p className="text-sm text-gray-400 dark:text-gray-300">
+                No training entries recorded yet.
+              </p>
             )}
           </div>
         </section>
@@ -109,7 +114,7 @@ export default function HealthPage() {
                     {displayTitle}
                   </h3>
                 )}
-                <div className="prose max-w-none pt-4 text-gray-400 dark:text-gray-300 dark:prose-invert">
+                <div className="prose dark:prose-invert max-w-none pt-4 text-gray-400 dark:text-gray-300">
                   <MDXLayoutRenderer code={item.body.code} components={components} />
                 </div>
               </article>
