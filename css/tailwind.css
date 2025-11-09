@@ -57,6 +57,16 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
+  body {
+    color: var(--color-gray-900);
+    background-color: var(--color-gray-50);
+  }
+
+  .dark body {
+    color: var(--color-gray-200);
+    background-color: var(--color-gray-900);
+  }
+
   *,
   ::after,
   ::before,
@@ -80,7 +90,7 @@
 
 @layer utilities {
   .prose {
-    color: var(--color-gray-400);
+    color: var(--color-gray-700);
     & a {
       color: var(--color-primary-500);
       &:hover {
@@ -100,6 +110,10 @@
     & :where(code):not(pre code) {
       color: var(--color-indigo-500);
     }
+  }
+
+  .dark .prose {
+    color: var(--color-gray-200);
   }
 
   .prose-invert {

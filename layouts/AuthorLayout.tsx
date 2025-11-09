@@ -34,10 +34,10 @@ export default function AuthorLayout({ children, content }: Props) {
             <div className="text-gray-700 dark:text-gray-200">{occupation}</div>
             <div className="text-gray-700 dark:text-gray-200">{company}</div>
             <div className="flex space-x-3 pt-6">
-              <SocialIcon kind="mail" href={`mailto:${email}`} />
-              <SocialIcon kind="github" href={github} />
-              <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="x" href={twitter} />
+              <SocialIcon kind="linkedin" href={linkedin} />
+              <SocialIcon kind="github" href={github} />
+              <SocialIcon kind="mail" href={`mailto:${email}`} />
               <SocialIcon kind="bluesky" href={bluesky} />
             </div>
           </div>
