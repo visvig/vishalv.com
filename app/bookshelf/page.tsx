@@ -22,10 +22,10 @@ export default function BookshelfPage() {
         <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
           {PAGE_TITLE}
         </h1>
-        <p className="text-lg leading-7 text-gray-400 dark:text-gray-300">{PAGE_DESCRIPTION}</p>
+        <p className="text-lg leading-7 text-gray-800 dark:text-gray-200">{PAGE_DESCRIPTION}</p>
       </div>
       {!entries.length ? (
-        <p className="pt-12 text-gray-400 dark:text-gray-300">No books logged yet.</p>
+        <p className="pt-12 text-gray-700 dark:text-gray-200">No books logged yet.</p>
       ) : (
         <div className="grid gap-8 py-12 sm:grid-cols-2 xl:grid-cols-3">
           {entries.map((entry) => (
@@ -66,11 +66,11 @@ export default function BookshelfPage() {
                     </Link>
                   </h2>
                   {entry.author && (
-                    <p className="text-base font-medium text-gray-400 dark:text-gray-300">
+                    <p className="text-base font-medium text-gray-700 dark:text-gray-200">
                       {`by ${entry.author}`}
                     </p>
                   )}
-                  <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-400 dark:text-gray-300">
+                  <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-700 dark:text-gray-200">
                     {entry.category && (
                       <span className="text-primary-500 tracking-wide uppercase">
                         {entry.category}

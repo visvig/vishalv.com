@@ -50,7 +50,7 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl md:leading-tight dark:text-gray-100">
             {content.title}
           </h1>
-          <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-400 dark:text-gray-300">
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-700 dark:text-gray-200">
             {entry.category && (
               <span className="text-primary-500 font-semibold tracking-[0.2em] uppercase">
                 {entry.category}
@@ -60,7 +60,7 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
             {typeof entry.rating === 'number' && <span>{`Rating: ${entry.rating} / 5`}</span>}
           </div>
           {content.description && (
-            <p className="text-base leading-7 text-gray-400 dark:text-gray-300">
+            <p className="text-base leading-7 text-gray-700 dark:text-gray-200">
               {content.description}
             </p>
           )}

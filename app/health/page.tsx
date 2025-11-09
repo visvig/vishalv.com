@@ -26,7 +26,7 @@ export default function HealthPage() {
         <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
           {PAGE_TITLE}
         </h1>
-        <p className="text-lg leading-7 text-gray-400 dark:text-gray-300">{PAGE_DESCRIPTION}</p>
+        <p className="text-lg leading-7 text-gray-800 dark:text-gray-200">{PAGE_DESCRIPTION}</p>
       </div>
       <div className="space-y-16 py-12">
         <section className="space-y-6">
@@ -77,7 +77,7 @@ export default function HealthPage() {
                   </div>
                   <div className="space-y-2 pt-4">
                     {entry.date && (
-                      <time className="block text-xs font-medium text-gray-400 dark:text-gray-300">
+                      <time className="block text-xs font-medium text-gray-700 dark:text-gray-200">
                         {new Date(entry.date).toLocaleDateString(undefined, {
                           month: 'short',
                           day: 'numeric',
@@ -86,7 +86,7 @@ export default function HealthPage() {
                       </time>
                     )}
                     {entry.notes && (
-                      <p className="text-sm leading-6 text-gray-400 dark:text-gray-300">
+                      <p className="text-sm leading-6 text-gray-700 dark:text-gray-200">
                         {entry.notes}
                       </p>
                     )}
@@ -95,7 +95,7 @@ export default function HealthPage() {
               )
             })}
             {!performances.length && (
-              <p className="text-sm text-gray-400 dark:text-gray-300">
+              <p className="text-sm text-gray-700 dark:text-gray-200">
                 No training entries recorded yet.
               </p>
             )}
@@ -114,7 +114,7 @@ export default function HealthPage() {
                     {displayTitle}
                   </h3>
                 )}
-                <div className="prose dark:prose-invert max-w-none pt-4 text-gray-400 dark:text-gray-300">
+                <div className="prose dark:prose-invert max-w-none pt-4 text-gray-700 dark:text-gray-200">
                   <MDXLayoutRenderer code={item.body.code} components={components} />
                 </div>
               </article>
