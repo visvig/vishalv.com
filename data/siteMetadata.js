@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: ' Blog',
+  title: 'Vishal V',
   author: 'Vishal V',
   headerTitle: 'Vishal V',
-  description: 'Personal blog by Vishal V',
+  description: 'Personal website of Vishal V, featuring writing, ideas, projects, and research',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://www.vishalv.com',
