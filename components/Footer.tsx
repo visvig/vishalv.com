@@ -3,7 +3,7 @@ import siteMetadata from '@/data/siteMetadata'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="pb-8">
       <div className="mt-16 flex flex-col items-center">
         <div className="mb-2 flex space-x-2 text-sm text-gray-700 dark:text-gray-200">
           <div>{siteMetadata.author}</div>
