@@ -5,7 +5,7 @@ occupation: Strategy & Business Design
 company: Monitor Deloitte
 email: vishalvignesh.iitm@gmail.com
 twitter: https://twitter.com/VishalVignesh_
-linkedin: https://www.linkedin.com/vishalvignesh
+linkedin: https://www.linkedin.com/in/vishalvignesh
 github: https://github.com/visvig
 ---
 
