@@ -5,11 +5,10 @@ category: Physics
 readingPeriod: 30 Days
 rating: 5
 order: -1
-description: The best primer for taking quantum mechanics seriously without the hand-waving.
+description: "Susskind’s ‘Theoretical Minimum Series: Quantum Mechanics’ Review"
 image: /static/images/ttm-qm.jpg
 ---
-
-Always been a bit of a science geek, but my last real quantum encounter was with that _Black Mirror_ episode, _Joan is Awful_. Then, out of nowhere, I found myself deep in a book on quantum mechanics, a book that used to be just confusing jargon to me. Thanks to some college Li.   near Algebra, it’s started making sense. It’s weirdly thrilling, to realize that quantum mechanics is not just sci-fi stuff — it’s real, and it’s so weird.
+Always been a bit of a science geek, but my last real quantum encounter was with that _Black Mirror_ episode, _Joan is Awful_. Then, out of nowhere, I found myself deep in a book on quantum mechanics, a book that used to be just confusing jargon to me. Thanks to some college Linear Algebra, it’s started making sense. It’s weirdly thrilling, to realize that quantum mechanics is not just sci-fi stuff — it’s real, and it’s so weird.
 
 ### What’s exactly “weird”?
 

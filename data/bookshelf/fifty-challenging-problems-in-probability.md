@@ -8,9 +8,6 @@ order: -2
 description: Selected problem famously known as the 3-Man jury.
 image: /static/images/fcpip.jpg
 ---
-
-> Jury — a group of members of the public in a court of law who listen to the facts about a crime and decide if somebody is guilty or not guilty.
-
 Consider a 3-man jury: two serious ones and a joker. We’re assuming the probability of each serious juror independently making the correct judgment is _p_, and the joker makes a random decision (with a probability of 0.5 for being correct since their decision is random, like flipping a coin).
 
 ### Two Serious Jurors Agree
@@ -48,5 +45,3 @@ Without _Two-Face_ (referred to as _Joker_ in this article), the jury (_Batm
 Comparing these two probabilities demonstrates that the inclusion of _Harvey Dent,_ aka _Two-Face,_ in the jury increases the overall probability of making a correct decision. The addition of _Two-Face’s_ random decision-making paradoxically, enhances the jury’s effectiveness in scenarios where _Batman_ and _Gordon_ disagree.
 
 It's fascinating how a chance element can enhance the results of group decision-making.
-
-This problem was adapted from the book “50 Challenging Problems in Probability.”

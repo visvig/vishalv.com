@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/hacks/spoofing-research.md",
+                "file": "data/bookshelf/understanding-deep-learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spoofing-research"
+              "title": "understanding-deep-learning"
             }
           }
         ]
@@ -171,6 +171,13 @@
   },
   "active": "73898b2cb879e34b",
   "lastOpenFiles": [
+    "data/bookshelf/to-kill-a-mockingbird.md",
+    "data/bookshelf/thus-spoke-zarathustra.md",
+    "data/bookshelf/the-theoretical-minimum-qm.md",
+    "data/bookshelf/the-catcher-in-the-rye.md",
+    "data/bookshelf/fifty-challenging-problems-in-probability.md",
+    "data/bookshelf/brief-interviews-with-hideous-men.md",
+    "data/hacks/spoofing-research.md",
     "data/blog/the-cost-of-convenience.md",
     "README.md"
   ]
