@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/bookshelf/understanding-deep-learning.md",
+                "file": "data/blog/the-cost-of-convenience.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "understanding-deep-learning"
+              "title": "the-cost-of-convenience"
             }
           }
         ]
@@ -171,13 +171,18 @@
   },
   "active": "73898b2cb879e34b",
   "lastOpenFiles": [
+    "data/health/philosophy.md",
+    "data/hacks/wikipedia-universe.md",
+    "data/hacks/spoofing-research.md",
+    "data/hacks/hybrid-blockchain-app.md",
+    "data/hacks/forward-forward-algorithm.md",
+    "data/bookshelf/understanding-deep-learning.md",
     "data/bookshelf/to-kill-a-mockingbird.md",
     "data/bookshelf/thus-spoke-zarathustra.md",
     "data/bookshelf/the-theoretical-minimum-qm.md",
     "data/bookshelf/the-catcher-in-the-rye.md",
     "data/bookshelf/fifty-challenging-problems-in-probability.md",
     "data/bookshelf/brief-interviews-with-hideous-men.md",
-    "data/hacks/spoofing-research.md",
     "data/blog/the-cost-of-convenience.md",
     "README.md"
   ]
