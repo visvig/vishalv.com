@@ -96,6 +96,11 @@ module.exports = () => {
           destination: '/notes/:slug*',
           permanent: true,
         },
+        {
+          source: '/projects/:path*',
+          destination: '/hacks/:path*',
+          permanent: true,
+        },
       ]
     },
     webpack: (config, options) => {

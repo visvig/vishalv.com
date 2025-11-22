@@ -47,7 +47,7 @@ Environment variables (`.env.local` + hosting platform):
 ## Content
 
 - Notes: `data/blog/*.md` → `/notes/[slug]`
-- Hacks: `data/hacks/*.md` → `/projects`
+- Hacks: `data/hacks/*.md` → `/hacks`
 - Bookshelf: `data/bookshelf/*.md` → `/bookshelf` + `/bookshelf/[slug]`
 - Health logs/routines: `data/health/**`
 - Author profile: `data/authors/default.md`

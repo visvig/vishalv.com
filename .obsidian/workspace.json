@@ -171,6 +171,8 @@
   },
   "active": "73898b2cb879e34b",
   "lastOpenFiles": [
+    "app/hacks/page.tsx",
+    "app/hacks",
     "data/health/philosophy.md",
     "data/hacks/wikipedia-universe.md",
     "data/hacks/spoofing-research.md",
