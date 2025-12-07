@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/blog/thermo-computing.md",
+                "file": "data/hacks/spoofing-research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "thermo-computing"
+              "title": "spoofing-research"
             }
           },
           {
@@ -185,6 +185,8 @@
   },
   "active": "73898b2cb879e34b",
   "lastOpenFiles": [
+    "data/hacks/forward-forward-algorithm.md",
+    "data/blog/thermo-computing.md",
     "node_modules/@next/swc-darwin-arm64/next-swc.darwin-arm64.node",
     "data/blog/the-cost-of-convenience.md",
     "data/blog/consulting-experience.md",
@@ -195,10 +197,8 @@
     "data/health/philosophy.md",
     "data/hacks/spoofing-research.md",
     "data/hacks/wikipedia-universe.md",
-    "data/hacks/forward-forward-algorithm.md",
     "data/hacks/hybrid-blockchain-app.md",
     "data/authors/default.md",
-    "data/blog/thermo-computing.md",
     "app/hacks/page.tsx",
     "app/hacks",
     "data/bookshelf/understanding-deep-learning.md",
