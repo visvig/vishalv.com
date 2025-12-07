@@ -4,7 +4,7 @@ Personal site for Vishal V. Built on top of Timothy Lin’s Tailwind Next.js Sta
 
 ## Stack
 
-- Next.js 15 (App Router) + React 19
+- Next.js 15.2.6 (App Router) + React 19.0.1
 - Contentlayer 2 + MDX for typed Markdown content
 - Tailwind CSS 4 with a custom palette
 - Pliny utilities (layouts, newsletter, kbar search, RSS)
