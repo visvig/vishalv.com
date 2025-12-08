@@ -8,13 +8,12 @@ twitter: https://twitter.com/VishalVignesh_
 linkedin: https://www.linkedin.com/in/vishalvignesh
 github: https://github.com/visvig
 ---
-
 Hey, I’m Vishal.
 
 I am a mechanical engineering and data science graduate from the Indian Institute of Technology Madras and now work in strategy consulting at Monitor Deloitte.
 
-I have always been drawn to science and technology, and I’ve always seen it as the place where world-changing ideas originate. From a value-creation point of view, I believe fundamental contributions matter the most, and that belief shapes the way I look at innovation. I enjoy understanding how teams around the world, including DeepTech start-ups and research labs, turn technical breakthroughs into real businesses.
+I’ve always loved following technology, and now I’m just as interested in which ideas have the highest potential to create value. That’s why I enjoy learning about teams around the world, particularly DeepTech start-ups and research labs, and how they turn hard technical feats into real businesses. It’s always interesting to compare notes with friends in the VC space about the bets these companies are placing.
 
-Outside work, I am usually on X or speaking with friends in the VC space about the bets these companies are placing. This site is where I keep log of what I’m thinking, learning, or simply what I want to return to later.
+This site is where I keep a log of what I’m thinking, learning, or simply what I want to return to later. It might also contain my other interests like reading classics or lifting heavy.
 
-I’m early in my career and still shaping the path ahead. This space will keep evolving as I do.
+Stick around for a reasonably structured narrative around these areas :)

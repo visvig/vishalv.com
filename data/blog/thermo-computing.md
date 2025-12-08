@@ -1,5 +1,5 @@
 ---
-title: Betting On New Compute Frontier
+title: Betting On a New Compute Frontier
 date: 2025-11-29
 tags:
   - computing
