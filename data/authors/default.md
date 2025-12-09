@@ -10,10 +10,12 @@ github: https://github.com/visvig
 ---
 Hey, I’m Vishal.
 
-I am a mechanical engineering and data science graduate from the Indian Institute of Technology Madras and now work in strategy consulting at Monitor Deloitte.
+I’m a mechanical engineering and data science graduate from the Indian Institute of Technology Madras, and I’m now a Strategy & Business Design Analyst at Monitor Deloitte.
 
-I’ve always loved following technology, and now I’m just as interested in which ideas have the highest potential to create value. That’s why I enjoy learning about teams around the world, particularly DeepTech start-ups and research labs, and how they turn hard technical feats into real businesses. It’s always interesting to compare notes with friends in the VC space about the bets these companies are placing.
+I’ve always geeked out on science and technology. In college, being around people building serious tech and research projects got me hooked on startups. I began to find it more fun to think about the “next big thing” and which startups would end up playing a big role in it.
 
-This site is where I keep a log of what I’m thinking, learning, or simply what I want to return to later. It might also contain my other interests like reading classics or lifting heavy.
+It’s interesting to compare notes with friends in the venture space about the bets these budding companies are placing, but I wouldn’t say I don’t enjoy the learning process that comes with digging into the science behind what they’re building.
 
-Stick around for a reasonably structured narrative around these areas :)
+This site is where I keep a log of what I’m thinking, learning, or ideas I want to return to later. It might also contain my other interests like reading classics or lifting heavy.
+
+Stick around for reasonably structured narratives :)
