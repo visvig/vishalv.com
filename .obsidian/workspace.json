@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "consulting-experience"
             }
+          },
+          {
+            "id": "7b92e1d43c76bc55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data/blog/thermo-computing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "thermo-computing"
+            }
           }
         ]
       }
@@ -186,8 +200,9 @@
   "active": "73898b2cb879e34b",
   "lastOpenFiles": [
     "data/blog/thermo-computing.md",
-    "data/blog/the-cost-of-convenience.md",
     "data/blog/consulting-experience.md",
+    "data/authors/default.md",
+    "data/blog/the-cost-of-convenience.md",
     "data/hacks/spoofing-research.md",
     "data/hacks/forward-forward-algorithm.md",
     "node_modules/@next/swc-darwin-arm64/next-swc.darwin-arm64.node",
@@ -198,7 +213,6 @@
     "data/health/philosophy.md",
     "data/hacks/wikipedia-universe.md",
     "data/hacks/hybrid-blockchain-app.md",
-    "data/authors/default.md",
     "app/hacks/page.tsx",
     "app/hacks",
     "data/bookshelf/understanding-deep-learning.md",
