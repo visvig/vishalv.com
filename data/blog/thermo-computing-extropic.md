@@ -70,11 +70,11 @@ Energy-based models come from that view. Instead of asking “what is the answer
 
 Technically, the model defines an unnormalized probability distribution
 
-\[
-p(x) \propto e^{-E_\theta(x)}
-\]
+$$
+p(x) \propto e^{-E_{\theta}(x)}
+$$
 
-where \(E_\theta(x)\) is the learned energy function.
+where $E_{\theta}(x)$ is the learned energy function.
 
 Learning shapes the terrain by pushing down the energy of data-like configurations and pushing up the energy of mismatched ones. Another way to say this is that the model reshapes the implied probability distribution over configurations.
 
