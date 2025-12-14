@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/blog/thermo-computing-extropic.md",
+                "file": "data/blog/bets-on-post-GPU-compute.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "thermo-computing-extropic"
+              "title": "bets-on-post-GPU-compute"
             }
           }
         ],
@@ -187,7 +187,7 @@
   "active": "7b92e1d43c76bc55",
   "lastOpenFiles": [
     "data/blog/consulting-experience.md",
-    "data/blog/thermo-computing-extropic.md",
+    "data/blog/bets-on-post-GPU-compute.md",
     "data/blog/the-cost-of-convenience.md",
     "data/blog/ebms-and-pgms.md",
     "data/authors/default.md",
