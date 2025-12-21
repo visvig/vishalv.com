@@ -6,7 +6,7 @@ readingPeriod: 5 days
 rating: 3
 order: -7
 description: Dostoyevsky's 'White Nights' Describes Two Ways To Wait
-image: /static/images/wu.png
+image: /static/images/wn.png
 ---
 ### On the direction of waiting
 
