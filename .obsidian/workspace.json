@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c688304cafaffcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data/blog/consulting-experience.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "consulting-experience"
-            }
-          },
-          {
             "id": "7b92e1d43c76bc55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/blog/bets-on-post-GPU-compute.md",
+                "file": "data/health/performance/chest-press-machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bets-on-post-GPU-compute"
+              "title": "chest-press-machine"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,10 +171,13 @@
   },
   "active": "7b92e1d43c76bc55",
   "lastOpenFiles": [
+    "data/bookshelf/white-nights.md",
+    "data/bookshelf/thus-spoke-zarathustra.md",
+    "data/bookshelf/understanding-deep-learning.md",
     "data/blog/consulting-experience.md",
     "data/blog/bets-on-post-GPU-compute.md",
-    "data/blog/the-cost-of-convenience.md",
     "data/blog/ebms-and-pgms.md",
+    "data/blog/the-cost-of-convenience.md",
     "data/authors/default.md",
     "data/hacks/spoofing-research.md",
     "data/hacks/forward-forward-algorithm.md",
@@ -203,9 +191,7 @@
     "data/hacks/hybrid-blockchain-app.md",
     "app/hacks/page.tsx",
     "app/hacks",
-    "data/bookshelf/understanding-deep-learning.md",
     "data/bookshelf/to-kill-a-mockingbird.md",
-    "data/bookshelf/thus-spoke-zarathustra.md",
     "data/bookshelf/the-theoretical-minimum-qm.md",
     "data/bookshelf/the-catcher-in-the-rye.md",
     "data/bookshelf/fifty-challenging-problems-in-probability.md",

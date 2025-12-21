@@ -1,7 +1,7 @@
 ---
-date: 2025-11-29
+date: 2025-12-21
 movement: Chest Press
-weight: 61.25 kg
-reps: "10"
+weight: 70 kg
+reps: "6"
 notes: Machine Press
 ---
