@@ -5,7 +5,7 @@ category: Math
 readingPeriod: 30 Days
 rating: 5
 order: -2
-description: Selected problem famously known as the 3-Man jury.
+description: Selected problem famously known as the 3-Man jury
 image: /static/images/fcpip.jpg
 ---
 Consider a 3-man jury: two serious ones and a joker. We’re assuming the probability of each serious juror independently making the correct judgment is _p_, and the joker makes a random decision (with a probability of 0.5 for being correct since their decision is random, like flipping a coin).
