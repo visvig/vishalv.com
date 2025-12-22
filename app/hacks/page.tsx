@@ -17,7 +17,7 @@ export default function Hacks() {
             Hacks
           </h1>
           <p className="text-lg leading-7 text-gray-800 dark:text-gray-200">
-            Projects I’ve worked on
+            Experiments and prototypes
           </p>
         </div>
         <div className="container py-12">

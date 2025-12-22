@@ -4,7 +4,7 @@ import { genPageMetadata } from 'app/seo'
 import { allBookshelves } from 'contentlayer/generated'
 
 const PAGE_TITLE = 'Bookshelf'
-const PAGE_DESCRIPTION = 'Titles I’ve found worth my time'
+const PAGE_DESCRIPTION = 'A reading collection'
 
 export const metadata = genPageMetadata({
   title: PAGE_TITLE,
