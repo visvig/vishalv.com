@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/health/performance/trap-bar-deadlift.md",
+                "file": "data/health/performance/shoulder-press-dumbbell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "trap-bar-deadlift"
+              "title": "shoulder-press-dumbbell"
             }
           }
         ]
@@ -171,9 +171,11 @@
   },
   "active": "7b92e1d43c76bc55",
   "lastOpenFiles": [
+    "data/health/performance/trap-bar-deadlift.md",
     "data/health/performance/shoulder-press-dumbbell.md",
-    "data/health/performance/leg-press-machine.md",
     "data/health/performance/chest-press-machine.md",
+    "data/health/performance/leg-press-machine.md",
+    "data/health/performance/2k-run.md",
     "data/authors/default.md",
     "data/blog/the-cost-of-convenience.md",
     "data/blog/ebms-and-pgms.md",
@@ -192,9 +194,7 @@
     "data/hacks/forward-forward-algorithm.md",
     "data/hacks/hybrid-blockchain-app.md",
     "data/hacks/spoofing-research.md",
-    "data/health/performance/2k-run.md",
     "node_modules/@next/swc-darwin-arm64/next-swc.darwin-arm64.node",
-    "data/health/performance/trap-bar-deadlift.md",
     "data/health/philosophy.md",
     "app/hacks/page.tsx",
     "app/hacks",
