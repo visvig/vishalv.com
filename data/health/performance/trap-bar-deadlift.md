@@ -1,7 +1,7 @@
 ---
-date: 2025-10-24
+date: 2025-12-30
 movement: Deadlift
-weight: 130 kg
-reps: "10"
+weight: 150 kg
+reps: "6"
 notes: Trap Bar
 ---
