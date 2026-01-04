@@ -1,7 +1,7 @@
 ---
-date: 2025-10-15
+date: 2026-01-03
 movement: Shoulder
-weight: 45 kg
-reps: "8"
+weight: 45.2 kg
+reps: "9"
 notes: Seated Dumbbell
 ---
