@@ -1,7 +1,7 @@
 ---
-date: 2026-01-15
+date: 2026-01-23
 movement: Deadlift
-weight: 165 kg
-reps: "6"
+weight: 185 kg
+reps: "4"
 notes: Trap Bar
 ---
