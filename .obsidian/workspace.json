@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/health/performance/chest-press-machine.md",
+                "file": "data/health/performance/leg-press-machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chest-press-machine"
+              "title": "leg-press-machine"
             }
           }
         ]
@@ -171,10 +171,10 @@
   },
   "active": "7b92e1d43c76bc55",
   "lastOpenFiles": [
+    "data/health/performance/chest-press-machine.md",
     "data/health/performance/trap-bar-deadlift.md",
     "data/health/performance/shoulder-press-dumbbell.md",
     "data/health/performance/leg-press-machine.md",
-    "data/health/performance/chest-press-machine.md",
     "data/health/performance/2k-run.md",
     "data/blog/consulting-experience.md",
     "data/blog/bets-on-post-GPU-compute.md",
