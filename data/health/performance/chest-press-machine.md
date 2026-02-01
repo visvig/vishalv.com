@@ -1,7 +1,7 @@
 ---
-date: 2026-01-26
+date: 2026-01-30
 movement: Chest Press
-weight: 90 kg
-reps: "7"
+weight: 102.6 kg
+reps: "3"
 notes: Plate-loaded
 ---
