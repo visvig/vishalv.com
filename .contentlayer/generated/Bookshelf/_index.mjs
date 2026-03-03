@@ -7,5 +7,6 @@ import bookshelf__theTheoreticalMinimumQmMd from './bookshelf__the-theoretical-m
 import bookshelf__thusSpokeZarathustraMd from './bookshelf__thus-spoke-zarathustra.md.json' with { type: 'json' }
 import bookshelf__toKillAMockingbirdMd from './bookshelf__to-kill-a-mockingbird.md.json' with { type: 'json' }
 import bookshelf__understandingDeepLearningMd from './bookshelf__understanding-deep-learning.md.json' with { type: 'json' }
+import bookshelf__whiteNightsMd from './bookshelf__white-nights.md.json' with { type: 'json' }
 
-export const allBookshelves = [bookshelf__briefInterviewsWithHideousMenMd, bookshelf__fiftyChallengingProblemsInProbabilityMd, bookshelf__theCatcherInTheRyeMd, bookshelf__theTheoreticalMinimumQmMd, bookshelf__thusSpokeZarathustraMd, bookshelf__toKillAMockingbirdMd, bookshelf__understandingDeepLearningMd]
+export const allBookshelves = [bookshelf__briefInterviewsWithHideousMenMd, bookshelf__fiftyChallengingProblemsInProbabilityMd, bookshelf__theCatcherInTheRyeMd, bookshelf__theTheoreticalMinimumQmMd, bookshelf__thusSpokeZarathustraMd, bookshelf__toKillAMockingbirdMd, bookshelf__understandingDeepLearningMd, bookshelf__whiteNightsMd]

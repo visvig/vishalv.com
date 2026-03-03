@@ -3,13 +3,13 @@
   "avatar": "/static/images/avatar.jpg",
   "occupation": "Strategy & Business Design",
   "company": "Monitor Deloitte",
-  "email": "vishalvignesh.iitm@gmail.com",
+  "email": "vishalv@alumni.iitm.ac.in",
   "twitter": "https://twitter.com/VishalVignesh_",
-  "linkedin": "https://www.linkedin.com/vishalvignesh",
+  "linkedin": "https://www.linkedin.com/in/vishalvignesh",
   "github": "https://github.com/visvig",
   "body": {
-    "raw": "\nHi, I’m Vishal. I work in strategy consulting, and I spend a lot of my time trying to understand how things fit together in markets, technology, and life in general. I learn by writing, so this site is my place to think in public and keep track of what I’m exploring.\n\nOutside of work, I read, lift, experiment with side projects, and follow my curiosity. This site is a work in progress, just like me, and I’m slowly adding to it as I figure things out.",
-    "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var f=(t,i)=>()=>(i||t((i={exports:{}}).exports,i),i.exports),y=(t,i)=>{for(var n in i)o(t,n,{get:i[n],enumerable:!0})},r=(t,i,n,a)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let s of p(i))!w.call(t,s)&&s!==n&&o(t,s,{get:()=>i[s],enumerable:!(a=d(i,s))||a.enumerable});return t};var x=(t,i,n)=>(n=t!=null?g(u(t)):{},r(i||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>r(o({},\"__esModule\",{value:!0}),t);var m=f((_,l)=>{l.exports=_jsx_runtime});var v={};y(v,{default:()=>h,frontmatter:()=>j});var e=x(m()),j={name:\"Vishal V\",avatar:\"/static/images/avatar.jpg\",occupation:\"Strategy & Business Design\",company:\"Monitor Deloitte\",email:\"vishalvignesh.iitm@gmail.com\",twitter:\"https://twitter.com/VishalVignesh_\",linkedin:\"https://www.linkedin.com/vishalvignesh\",github:\"https://github.com/visvig\"};function c(t){let i={p:\"p\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(i.p,{children:\"Hi, I\\u2019m Vishal. I work in strategy consulting, and I spend a lot of my time trying to understand how things fit together in markets, technology, and life in general. I learn by writing, so this site is my place to think in public and keep track of what I\\u2019m exploring.\"}),(0,e.jsx)(i.p,{children:\"Outside of work, I read, lift, experiment with side projects, and follow my curiosity. This site is a work in progress, just like me, and I\\u2019m slowly adding to it as I figure things out.\"})]})}function h(t={}){let{wrapper:i}=t.components||{};return i?(0,e.jsx)(i,{...t,children:(0,e.jsx)(c,{...t})}):c(t)}return k(v);})();\n;return Component;"
+    "raw": "Hey, I’m Vishal.\n\nI’m a mechanical engineering and data science graduate from the Indian Institute of Technology Madras, and I currently work as a Strategy & Business Design Analyst at Monitor Deloitte.\n\nI’ve always been drawn to science and technology. Being around serious tech and research projects in college pushed me toward startups, and eventually toward thinking about which ideas are likely to matter next and why.\n\nThis site is where I keep a log of what I’m thinking, learning, or ideas I want to return to. It also includes some of my other interests, like reading classics or lifting heavy.\n\nStick around for reasonably structured narratives :)",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},o=(t,e,a,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of g(e))!w.call(t,i)&&i!==a&&s(t,i,{get:()=>e[i],enumerable:!(r=u(e,i))||r.enumerable});return t};var f=(t,e,a)=>(a=t!=null?m(p(t)):{},o(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),x=t=>o(s({},\"__esModule\",{value:!0}),t);var l=y((j,c)=>{c.exports=_jsx_runtime});var k={};v(k,{default:()=>d,frontmatter:()=>I});var n=f(l()),I={name:\"Vishal V\",avatar:\"/static/images/avatar.jpg\",occupation:\"Strategy & Business Design\",company:\"Monitor Deloitte\",email:\"vishalv@alumni.iitm.ac.in\",twitter:\"https://twitter.com/VishalVignesh_\",linkedin:\"https://www.linkedin.com/in/vishalvignesh\",github:\"https://github.com/visvig\"};function h(t){let e={p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Hey, I\\u2019m Vishal.\"}),(0,n.jsx)(e.p,{children:\"I\\u2019m a mechanical engineering and data science graduate from the Indian Institute of Technology Madras, and I currently work as a Strategy & Business Design Analyst at Monitor Deloitte.\"}),(0,n.jsx)(e.p,{children:\"I\\u2019ve always been drawn to science and technology. Being around serious tech and research projects in college pushed me toward startups, and eventually toward thinking about which ideas are likely to matter next and why.\"}),(0,n.jsx)(e.p,{children:\"This site is where I keep a log of what I\\u2019m thinking, learning, or ideas I want to return to. It also includes some of my other interests, like reading classics or lifting heavy.\"}),(0,n.jsx)(e.p,{children:\"Stick around for reasonably structured narratives :)\"})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(h,{...t})}):h(t)}return x(k);})();\n;return Component;"
   },
   "_id": "authors/default.md",
   "_raw": {
@@ -22,9 +22,9 @@
   "type": "Authors",
   "readingTime": {
     "text": "1 min read",
-    "minutes": 0.43,
-    "time": 25800,
-    "words": 86
+    "minutes": 0.54,
+    "time": 32400,
+    "words": 108
   },
   "slug": "default",
   "path": "authors/default",

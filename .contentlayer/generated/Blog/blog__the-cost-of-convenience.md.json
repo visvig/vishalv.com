@@ -37,6 +37,6 @@
     "dateModified": "2025-10-26T00:00:00.000Z",
     "description": "I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.",
     "image": "/static/images/twitter-card.png",
-    "url": "https://tailwind-nextjs-starter-blog.vercel.app/notes/the-cost-of-convenience"
+    "url": "https://www.vishalv.com/notes/the-cost-of-convenience"
   }
 }
