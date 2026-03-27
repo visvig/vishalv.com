@@ -187,6 +187,49 @@
     }
   },
   {
+    "title": "How is AI as a service priced",
+    "date": "2026-03-22T00:00:00.000Z",
+    "tags": [
+      "economics",
+      "AI"
+    ],
+    "draft": true,
+    "summary": "something that leverages corporate finance to explain decision making wrt to AI",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!l.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=f(e,o))||i.enumerable});return t};var j=(t,e,n)=>(n=t!=null?d(p(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),w=t=>s(a({},\"__esModule\",{value:!0}),t);var m=_((v,c)=>{c.exports=_jsx_runtime});var I={};h(I,{default:()=>x,frontmatter:()=>A});var r=j(m()),A={title:\"How is AI as a service priced\",date:\"2026-03-22\",tags:[\"economics\",\"AI\"],draft:!0,summary:\"something that leverages corporate finance to explain decision making wrt to AI\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return w(I);})();\n;return Component;"
+    },
+    "_id": "blog/economics-AI.md",
+    "_raw": {
+      "sourceFilePath": "blog/economics-AI.md",
+      "sourceFileName": "economics-AI.md",
+      "sourceFileDir": "blog",
+      "contentType": "markdown",
+      "flattenedPath": "blog/economics-AI"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "economics-AI",
+    "path": "notes/economics-AI",
+    "filePath": "blog/economics-AI.md",
+    "toc": [],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "How is AI as a service priced",
+      "datePublished": "2026-03-22T00:00:00.000Z",
+      "dateModified": "2026-03-22T00:00:00.000Z",
+      "description": "something that leverages corporate finance to explain decision making wrt to AI",
+      "image": "/static/images/twitter-card.png",
+      "url": "https://www.vishalv.com/notes/economics-AI"
+    }
+  },
+  {
     "title": "The Cost of Convenience",
     "date": "2025-10-26T00:00:00.000Z",
     "tags": [
@@ -226,6 +269,48 @@
       "description": "I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.",
       "image": "/static/images/twitter-card.png",
       "url": "https://www.vishalv.com/notes/the-cost-of-convenience"
+    }
+  },
+  {
+    "title": "How much?",
+    "date": "2025-12-06T00:00:00.000Z",
+    "tags": [
+      "design"
+    ],
+    "draft": true,
+    "summary": "How much design decisions should we hand over to AI?",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var x=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var l=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},u=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!_.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var j=(t,e,n)=>(n=t!=null?x(h(t)):{},u(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),p=t=>u(a({},\"__esModule\",{value:!0}),t);var c=l((D,m)=>{m.exports=_jsx_runtime});var y={};w(y,{default:()=>i,frontmatter:()=>M});var r=j(c()),M={title:\"How much?\",date:\"2025-12-06\",tags:[\"design\"],draft:!0,summary:\"How much design decisions should we hand over to AI?\"};function d(t){return(0,r.jsx)(r.Fragment,{})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return p(y);})();\n;return Component;"
+    },
+    "_id": "blog/vibe-coding.md",
+    "_raw": {
+      "sourceFilePath": "blog/vibe-coding.md",
+      "sourceFileName": "vibe-coding.md",
+      "sourceFileDir": "blog",
+      "contentType": "markdown",
+      "flattenedPath": "blog/vibe-coding"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "vibe-coding",
+    "path": "notes/vibe-coding",
+    "filePath": "blog/vibe-coding.md",
+    "toc": [],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "How much?",
+      "datePublished": "2025-12-06T00:00:00.000Z",
+      "dateModified": "2025-12-06T00:00:00.000Z",
+      "description": "How much design decisions should we hand over to AI?",
+      "image": "/static/images/twitter-card.png",
+      "url": "https://www.vishalv.com/notes/vibe-coding"
     }
   }
 ]

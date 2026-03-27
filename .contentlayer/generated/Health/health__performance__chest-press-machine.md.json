@@ -1,13 +1,13 @@
 {
   "isPage": false,
-  "date": "2026-01-30T00:00:00.000Z",
+  "date": "2026-03-06T00:00:00.000Z",
   "movement": "Chest Press",
-  "weight": "102.6 kg",
-  "reps": "3",
+  "weight": "105 kg",
+  "reps": "4",
   "notes": "Plate-loaded",
   "body": {
     "raw": "",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!l.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var j=(t,e,n)=>(n=t!=null?i(g(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>m(a({},\"__esModule\",{value:!0}),t);var u=p((F,c)=>{c.exports=_jsx_runtime});var w={};h(w,{default:()=>d,frontmatter:()=>M});var r=j(u()),M={date:\"2026-01-30\",movement:\"Chest Press\",weight:\"102.6 kg\",reps:\"3\",notes:\"Plate-loaded\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return C(w);})();\n;return Component;"
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!l.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var j=(t,e,n)=>(n=t!=null?i(g(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>m(a({},\"__esModule\",{value:!0}),t);var u=p((F,c)=>{c.exports=_jsx_runtime});var w={};h(w,{default:()=>d,frontmatter:()=>M});var r=j(u()),M={date:\"2026-03-06\",movement:\"Chest Press\",weight:\"105 kg\",reps:\"4\",notes:\"Plate-loaded\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return C(w);})();\n;return Component;"
   },
   "_id": "health/performance/chest-press-machine.md",
   "_raw": {

@@ -3,6 +3,8 @@
 import blog__betsOnPostGpuComputeMd from './blog__bets-on-post-GPU-compute.md.json' with { type: 'json' }
 import blog__consultingExperienceMd from './blog__consulting-experience.md.json' with { type: 'json' }
 import blog__ebmsAndPgmsMd from './blog__ebms-and-pgms.md.json' with { type: 'json' }
+import blog__economicsAiMd from './blog__economics-AI.md.json' with { type: 'json' }
 import blog__theCostOfConvenienceMd from './blog__the-cost-of-convenience.md.json' with { type: 'json' }
+import blog__vibeCodingMd from './blog__vibe-coding.md.json' with { type: 'json' }
 
-export const allBlogs = [blog__betsOnPostGpuComputeMd, blog__consultingExperienceMd, blog__ebmsAndPgmsMd, blog__theCostOfConvenienceMd]
+export const allBlogs = [blog__betsOnPostGpuComputeMd, blog__consultingExperienceMd, blog__ebmsAndPgmsMd, blog__economicsAiMd, blog__theCostOfConvenienceMd, blog__vibeCodingMd]

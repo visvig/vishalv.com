@@ -41,8 +41,9 @@ yarn lint
 
 Environment variables (`.env.local` + hosting platform):
 
-- `NEXT_UMAMI_ID` (optional) for analytics.
 - `BUTTONDOWN_API_KEY` and `BUTTONDOWN_SECURITY_TOKEN` for newsletter signup via Buttondown. Set `siteMetadata.newsletter.provider = null` to hide it.
+
+Vercel Web Analytics is wired in [app/layout.tsx](/Users/vishalvignesh/codes/vishalv.com/app/layout.tsx) via `@vercel/analytics`. Enable Analytics for the project in Vercel to start collecting data on deployed traffic.
 
 ## Content
 
