@@ -205,23 +205,23 @@ export default function ListLayoutWithTags({
                               ))}
                             </div>
                           )}
-                      </div>
-                      <div className="prose max-w-none text-gray-700 dark:text-gray-200">
-                        {summary}
-                      </div>
-                      {entryCtaLabel && (
-                        <div className="text-base leading-6 font-medium">
-                          <Link
-                            href={`/${path}`}
-                            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          >
-                            {entryCtaLabel} &rarr;
-                          </Link>
                         </div>
-                      )}
-                    </div>
-                  </article>
-                )}
+                        <div className="prose max-w-none text-gray-700 dark:text-gray-200">
+                          {summary}
+                        </div>
+                        {entryCtaLabel && (
+                          <div className="text-base leading-6 font-medium">
+                            <Link
+                              href={`/${path}`}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              {entryCtaLabel} &rarr;
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    </article>
+                  )}
                 </li>
               )
             })}

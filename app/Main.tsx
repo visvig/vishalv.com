@@ -33,9 +33,7 @@ export default function Home({ entries }: { entries: HomeEntry[] }) {
                 <dl>
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-base leading-6 font-medium text-gray-700 dark:text-gray-200">
-                    <time dateTime={entry.date}>
-                      {formatDate(entry.date, siteMetadata.locale)}
-                    </time>
+                    <time dateTime={entry.date}>{formatDate(entry.date, siteMetadata.locale)}</time>
                   </dd>
                 </dl>
                 <div className="space-y-5 xl:col-span-3">

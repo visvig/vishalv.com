@@ -6,10 +6,9 @@ import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
 
 const Header = () => {
-  let headerClass = 'flex items-center w-full justify-between bg-gray-50 dark:bg-gray-950 py-10'
-  if (siteMetadata.stickyNav) {
-    headerClass += ' sticky top-0 z-50'
-  }
+  const headerClass = siteMetadata.stickyNav
+    ? 'sticky top-0 z-50 flex w-full items-center justify-between bg-gray-50 py-10 dark:bg-gray-950'
+    : 'flex w-full items-center justify-between bg-gray-50 py-10 dark:bg-gray-950'
 
   return (
     <header className={headerClass}>
@@ -30,7 +29,7 @@ const Header = () => {
               <Link
                 key={link.title}
                 href={link.href}
-                className="hover:text-primary-500 dark:hover:text-primary-400 m-1 whitespace-nowrap font-medium text-gray-900 dark:text-gray-100"
+                className="m-1 whitespace-nowrap font-medium text-gray-900 hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-400"
               >
                 {link.title}
               </Link>

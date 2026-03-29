@@ -7,9 +7,7 @@ import siteMetadata from '@/data/siteMetadata'
 export type WritingCollection = 'notes' | 'theses'
 
 export function getPublishedWritingPosts(collection: WritingCollection) {
-  return allBlogs.filter(
-    (post) => post.draft !== true && post.path.startsWith(`${collection}/`)
-  )
+  return allBlogs.filter((post) => post.draft !== true && post.path.startsWith(`${collection}/`))
 }
 
 function getPublicWritingCoreContent(post: Blog, collection: WritingCollection) {
