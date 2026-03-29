@@ -1,34 +1,29 @@
-
-  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-      <title>vishalv.com</title>
-      <link>https://www.vishalv.com/notes</link>
-      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
-      <language>en-us</language>
-      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
-      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
-      <lastBuildDate>Sun, 14 Dec 2025 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://www.vishalv.com/feed.xml" rel="self" type="application/rss+xml"/>
-      
-  <item>
-    <guid>https://www.vishalv.com/notes/bets-on-post-GPU-compute</guid>
-    <title>Bets on Post-GPU Compute</title>
-    <link>https://www.vishalv.com/notes/bets-on-post-GPU-compute</link>
-    <description>Post-GPU compute is a bet that new hardware will make different primitives cheap. When the primitive changes, the winning model classes change. Extropic is a bet that sampling becomes that primitive.</description>
-    <pubDate>Sun, 14 Dec 2025 00:00:00 GMT</pubDate>
-    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>computing</category><category>deeptech</category><category>start-ups</category><category>vc</category><category>AI</category>
-  </item>
-
-  <item>
-    <guid>https://www.vishalv.com/notes/the-cost-of-convenience</guid>
-    <title>The Cost of Convenience</title>
-    <link>https://www.vishalv.com/notes/the-cost-of-convenience</link>
-    <description>I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.</description>
-    <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
-    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>digital</category>
-  </item>
-
-    </channel>
-  </rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vishalv.com</title>
+    <link>https://www.vishalv.com</link>
+    <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+    <language>en-us</language>
+    <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+    <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.vishalv.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <guid>https://www.vishalv.com/theses/bets-on-post-GPU-compute</guid>
+      <title>Bets on Post-GPU Compute</title>
+      <link>https://www.vishalv.com/theses/bets-on-post-GPU-compute</link>
+      <description>Post-GPU compute is a bet that new hardware will make different primitives cheap. When the primitive changes, the winning model classes change. Extropic is a bet that sampling becomes that primitive.</description>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 GMT</pubDate>
+      <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    </item>
+    <item>
+      <guid>https://www.vishalv.com/notes/the-cost-of-convenience</guid>
+      <title>The Cost of Convenience</title>
+      <link>https://www.vishalv.com/notes/the-cost-of-convenience</link>
+      <description>I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.</description>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
+      <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+      <category>digital</category>
+    </item>
+  </channel>
+</rss>

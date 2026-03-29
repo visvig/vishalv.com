@@ -27,13 +27,8 @@ import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 import prettier from 'prettier'
 
 const root = process.cwd()
-const isProduction = process.env.NODE_ENV === 'production'
-
 function toRoutePath(flattenedPath: string) {
   const segments = flattenedPath.split('/')
-  if (segments[0] === 'blog') {
-    segments[0] = 'notes'
-  }
   if (segments[0] === 'pages') {
     segments.shift()
   }
@@ -121,12 +116,12 @@ const computedFields: ComputedFields = {
 }
 
 /**
- * Count the occurrences of all tags across blog posts and write to json file
+ * Count the occurrences of all tags across content posts and write to json file
  */
 async function createTagCount(allBlogs) {
   const tagCount: Record<string, number> = {}
   allBlogs.forEach((file) => {
-    if (file.tags && (!isProduction || file.draft !== true)) {
+    if (file.tags && file.draft !== true && file.path.startsWith('notes/')) {
       file.tags.forEach((tag) => {
         const formattedTag = slugify(tag)
         if (formattedTag in tagCount) {
@@ -146,9 +141,10 @@ function createSearchIndex(allBlogs) {
     siteMetadata?.search?.provider === 'kbar' &&
     siteMetadata.search.kbarConfig.searchDocumentsPath
   ) {
+    const publishedPosts = allBlogs.filter((post) => post.draft !== true)
     writeFileSync(
       `public/${path.basename(siteMetadata.search.kbarConfig.searchDocumentsPath)}`,
-      JSON.stringify(allCoreContent(sortPosts(allBlogs)))
+      JSON.stringify(allCoreContent(sortPosts(publishedPosts)))
     )
     console.log('Local search index generated...')
   }
@@ -156,7 +152,7 @@ function createSearchIndex(allBlogs) {
 
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
-  filePathPattern: 'blog/**/*.md',
+  filePathPattern: '{notes,theses}/**/*.md',
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },

@@ -1,12 +1,6 @@
 ---
 title: Bets on Post-GPU Compute
 date: 2025-12-14
-tags:
-  - computing
-  - deeptech
-  - start-ups
-  - vc
-  - AI
 draft: false
 summary: Post-GPU compute is a bet that new hardware will make different primitives cheap. When the primitive changes, the winning model classes change. Extropic is a bet that sampling becomes that primitive.
 ---

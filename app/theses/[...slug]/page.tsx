@@ -21,16 +21,16 @@ export async function generateMetadata(props: {
   params: Promise<{ slug: string[] }>
 }): Promise<Metadata | undefined> {
   const params = await props.params
-  return getWritingMetadata('notes', decodeURI(params.slug.join('/')))
+  return getWritingMetadata('theses', decodeURI(params.slug.join('/')))
 }
 
 export const generateStaticParams = async () => {
-  return getWritingStaticParams('notes')
+  return getWritingStaticParams('theses')
 }
 
 export default async function Page(props: { params: Promise<{ slug: string[] }> }) {
   const params = await props.params
-  const pageData = getWritingPageData('notes', decodeURI(params.slug.join('/')))
+  const pageData = getWritingPageData('theses', decodeURI(params.slug.join('/')))
 
   if (!pageData) {
     return notFound()

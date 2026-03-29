@@ -17,6 +17,10 @@ interface PaginationProps {
 interface ListLayoutProps {
   posts: CoreContent<Blog>[]
   title: string
+  description?: string
+  showTagSidebar?: boolean
+  entryLayout?: 'stacked' | 'datedGrid'
+  entryCtaLabel?: string
   initialDisplayPosts?: CoreContent<Blog>[]
   pagination?: PaginationProps
 }
@@ -69,6 +73,10 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
 export default function ListLayoutWithTags({
   posts,
   title,
+  description,
+  showTagSidebar = true,
+  entryLayout = 'stacked',
+  entryCtaLabel,
   initialDisplayPosts = [],
   pagination,
 }: ListLayoutProps) {
@@ -80,24 +88,27 @@ export default function ListLayoutWithTags({
   const displayPosts = initialDisplayPosts.length > 0 ? initialDisplayPosts : posts
 
   return (
-    <>
-      <div>
-        <div className="pt-6 pb-6">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:hidden sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
-            {title}
-          </h1>
-        </div>
-        <div className="flex sm:space-x-24">
+    <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+          {title}
+        </h1>
+        {description && (
+          <p className="text-lg leading-7 text-gray-800 dark:text-gray-200">{description}</p>
+        )}
+      </div>
+      <div className={showTagSidebar ? 'flex pt-6 sm:space-x-24' : 'pt-6'}>
+        {showTagSidebar && (
           <div className="hidden h-full max-h-screen max-w-[280px] min-w-[280px] flex-wrap overflow-auto rounded-sm bg-gray-100 pt-5 shadow-md sm:flex dark:bg-gray-900/70 dark:shadow-gray-800/40">
             <div className="px-6 py-4">
               {pathname.startsWith('/notes') ? (
-                <h3 className="text-primary-500 font-bold uppercase">All Notes</h3>
+                <h3 className="text-primary-500 font-bold uppercase">Notes</h3>
               ) : (
                 <Link
                   href={`/notes`}
                   className="hover:text-primary-500 dark:hover:text-primary-500 font-bold text-gray-700 uppercase dark:text-gray-300"
                 >
-                  All Notes
+                  Notes
                 </Link>
               )}
               <ul>
@@ -123,12 +134,54 @@ export default function ListLayoutWithTags({
               </ul>
             </div>
           </div>
-          <div>
-            <ul>
-              {displayPosts.map((post) => {
-                const { path, date, title, summary, tags } = post
-                return (
-                  <li key={path} className="py-5">
+        )}
+        <div className={showTagSidebar ? 'flex-1' : ''}>
+          <ul>
+            {displayPosts.map((post) => {
+              const { path, date, title, summary, tags } = post
+              return (
+                <li key={path} className="py-5">
+                  {entryLayout === 'datedGrid' ? (
+                    <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                      <dl>
+                        <dt className="sr-only">Published on</dt>
+                        <dd className="text-base leading-6 font-medium text-gray-700 dark:text-gray-200">
+                          <time dateTime={date} suppressHydrationWarning>
+                            {formatDate(date, siteMetadata.locale)}
+                          </time>
+                        </dd>
+                      </dl>
+                      <div className="space-y-3 xl:col-span-3">
+                        <div>
+                          <h2 className="text-2xl leading-8 font-bold tracking-tight">
+                            <Link href={`/${path}`} className="text-gray-900 dark:text-gray-100">
+                              {title}
+                            </Link>
+                          </h2>
+                          {tags?.length > 0 && (
+                            <div className="flex flex-wrap">
+                              {tags.map((tag) => (
+                                <Tag key={tag} text={tag} />
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                        <div className="prose max-w-none text-gray-700 dark:text-gray-200">
+                          {summary}
+                        </div>
+                        {entryCtaLabel && (
+                          <div className="text-base leading-6 font-medium">
+                            <Link
+                              href={`/${path}`}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              {entryCtaLabel} &rarr;
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    </article>
+                  ) : (
                     <article className="flex flex-col space-y-2 xl:space-y-0">
                       <dl>
                         <dt className="sr-only">Published on</dt>
@@ -145,27 +198,39 @@ export default function ListLayoutWithTags({
                               {title}
                             </Link>
                           </h2>
-                          <div className="flex flex-wrap">
-                            {tags?.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
-                        </div>
-                        <div className="prose max-w-none text-gray-700 dark:text-gray-200">
-                          {summary}
-                        </div>
+                          {tags?.length > 0 && (
+                            <div className="flex flex-wrap">
+                              {tags.map((tag) => (
+                                <Tag key={tag} text={tag} />
+                              ))}
+                            </div>
+                          )}
                       </div>
-                    </article>
-                  </li>
-                )
-              })}
-            </ul>
-            {pagination && pagination.totalPages > 1 && (
-              <Pagination currentPage={pagination.currentPage} totalPages={pagination.totalPages} />
-            )}
-          </div>
+                      <div className="prose max-w-none text-gray-700 dark:text-gray-200">
+                        {summary}
+                      </div>
+                      {entryCtaLabel && (
+                        <div className="text-base leading-6 font-medium">
+                          <Link
+                            href={`/${path}`}
+                            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          >
+                            {entryCtaLabel} &rarr;
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+                  </article>
+                )}
+                </li>
+              )
+            })}
+          </ul>
+          {pagination && pagination.totalPages > 1 && (
+            <Pagination currentPage={pagination.currentPage} totalPages={pagination.totalPages} />
+          )}
         </div>
       </div>
-    </>
+    </div>
   )
 }

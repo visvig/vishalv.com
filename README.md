@@ -47,7 +47,8 @@ Vercel Web Analytics is wired in [app/layout.tsx](/Users/vishalvignesh/codes/vis
 
 ## Content
 
-- Notes: `data/blog/*.md` → `/notes/[slug]`
+- Notes: `data/notes/*.md` → `/notes/[slug]`
+- Theses: `data/theses/*.md` → `/theses/[slug]`
 - Hacks: `data/hacks/*.md` → `/hacks`
 - Bookshelf: `data/bookshelf/*.md` → `/bookshelf` + `/bookshelf/[slug]`
 - Health logs/routines: `data/health/**`

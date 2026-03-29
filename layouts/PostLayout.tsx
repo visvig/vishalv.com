@@ -9,10 +9,6 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
-const editUrl = (path) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
-const discussUrl = (path) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/${path}`)}`
-
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
   year: 'numeric',
@@ -29,8 +25,9 @@ interface LayoutProps {
 }
 
 export default function PostLayout({ content, authorDetails, next, prev, children }: LayoutProps) {
-  const { filePath, path, slug, date, title, tags } = content
+  const { path, date, title, tags } = content
   const basePath = path.split('/')[0]
+  const collectionLabel = basePath[0].toUpperCase() + basePath.slice(1)
 
   return (
     <SectionContainer>
@@ -97,7 +94,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
             </div>
             <footer>
               <div className="divide-gray-200 text-sm leading-5 font-medium xl:col-start-1 xl:row-start-2 xl:divide-y dark:divide-gray-700">
-                {tags && (
+                {tags?.length > 0 && (
                   <div className="py-4 xl:py-8">
                     <h2 className="text-xs tracking-wide text-gray-600 uppercase dark:text-gray-300">
                       Tags
@@ -138,9 +135,9 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                 <Link
                   href={`/${basePath}`}
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                  aria-label="Back to notes"
+                  aria-label={`Back to ${basePath}`}
                 >
-                  &larr; Back to notes
+                  &larr; Back to {collectionLabel}
                 </Link>
               </div>
             </footer>
