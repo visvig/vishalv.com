@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/theses/bets-on-post-GPU-compute.md",
+                "file": "data/hacks/zotero-ios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bets-on-post-GPU-compute"
+              "title": "zotero-ios"
             }
           }
         ]
@@ -169,29 +169,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "de439f647e6cc96e",
+  "active": "e5010ff08d44810e",
   "lastOpenFiles": [
+    "data/hacks/spoofing-research.md",
+    "data/hacks/zotero-ios.md",
+    "data/hacks/hybrid-blockchain-app.md",
+    "data/hacks/forward-forward-algorithm.md",
+    "data/hacks/wikipedia-universe.md",
+    "data/bookshelf/to-kill-a-mockingbird.md",
+    "data/bookshelf/understanding-deep-learning.md",
+    "data/bookshelf/white-nights.md",
+    "public/static/images/zotero-ios.png",
+    "public/static/images/zotero-ios",
+    "public/static/images/Unconfirmed 710654.crdownload",
+    "data/notes/ebms-and-pgms.md",
+    "data/notes/economics-AI.md",
+    "data/notes/the-cost-of-convenience.md",
+    "data/theses/bets-on-post-GPU-compute.md",
     "app/writings.ts",
     "data/logo.svg",
     "data/health/philosophy.md",
     "data/health/performance/shoulder-press-dumbbell.md",
     "data/health/performance/chest-press-machine.md",
     "data/health/performance/2k-run.md",
-    "data/hacks/wikipedia-universe.md",
-    "data/hacks/spoofing-research.md",
-    "data/hacks/hybrid-blockchain-app.md",
-    "data/hacks/forward-forward-algorithm.md",
     "data/authors/default.md",
     "data/bookshelf/brief-interviews-with-hideous-men.md",
     "app/theses/[...slug]/page.tsx",
     "app/theses/[...slug]",
     "data/blog/ebms-and-pgms.md",
-    "data/theses/bets-on-post-GPU-compute.md",
     "data/theses",
     "data/notes/vibe-coding.md",
-    "data/notes/the-cost-of-convenience.md",
-    "data/notes/economics-AI.md",
-    "data/notes/ebms-and-pgms.md",
     "data/notes/consulting-experience.md",
     "data/notes",
     "data/blog/bets-on-post-GPU-compute.md",
@@ -202,12 +209,6 @@
     "node_modules/prettier-plugin-tailwindcss/node_modules",
     "app/theses/page.tsx",
     "app/theses",
-    "public/tags/vc/feed.xml",
-    "public/tags/ai/feed.xml",
-    "public/tags/start-ups/feed.xml",
-    "node_modules/@vercel/analytics/README.md",
-    "Untitled.md",
-    "data/health/performance/trap-bar-deadlift.md",
     "public/static/images/wn.jpg"
   ]
 }
