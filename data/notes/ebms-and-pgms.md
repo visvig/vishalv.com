@@ -2,31 +2,30 @@
 title: PGMs, EBMs, Sampling
 date: 2025-11-29
 tags:
-  - PGM
-  - EBM
+  - Math
+  - PGMs
   - Sampling
-  - MCMC
 draft: false
-summary:
+summary: Connecting probabilistic graphical models to energy-based formulations, and showing how sampling replaces optimization as the core mechanism for inference and computation.
 ---
 # Probabilistic Graphical Models (PGMs)
 
 A probabilistic graphical model encodes a probability distribution into a graph so that graph algorithms can be used to perform inference. This turns probabilistic reasoning into a structured computational problem and ties it closely to the hardware that executes the updates.
 
-### Bayesian Networks and Markov Random Fields
+## Bayesian Networks and Markov Random Fields
 
 Bayesian networks and Markov random fields are two forms of probabilistic structure. They both describe how variables relate but they do so in different ways.
 
 The joint probability of variables A, B, C describes the probability that all of them occur together. Any variable can depend on many others but those dependencies can be expressed either as cause and effect or as correlations.
 
-##### Bayesian Nets
+### Bayesian Nets
 
 - Bayesian networks express dependencies as directed acyclic graphs. 
 - Each arrow represents a conditional probability. 
 - The entire joint distribution factors into a chain of conditional relationships without self reference. 
 - These models are usually used to represent causal structure and the goal of inference is to compute the probability of any variable once evidence is known.
 
-##### Markov Random Fields
+### Markov Random Fields
 
 - Markov random fields use undirected graphs. 
 - The joint probability is written as a product of potential functions over cliques of the graph.
@@ -45,24 +44,43 @@ Markov random fields provide a natural bridge from probabilistic graphical model
 
 In an MRF, the joint distribution is written as a product of potential functions over cliques:
 
-P(x) = (1 / Z) ∏_c ψ_c(x_c)
+$$
+
+P(x) = \frac{1}{Z} \prod_{c} \psi_c(x_c)
+
+$$
 
 If each potential is expressed as an exponential of a negative energy:
 
-ψ_c(x_c) = exp(−E_c(x_c))
+$$
+
+\psi_c(x_c) = \exp(-E_c(x_c))
+
+$$
 
 then the joint becomes:
 
-P(x) = (1 / Z) ∏_c exp(−E_c(x_c))  
-     = (1 / Z) exp(−∑_c E_c(x_c))
+$$
+
+P(x) = \frac{1}{Z} \prod_{c} \exp(-E_c(x_c))
+
+     = \frac{1}{Z} \exp\left(-\sum_{c} E_c(x_c)\right)
+
+$$
 
 Define:
+$$
 
-E(x) = ∑_c E_c(x_c)
+E(x) = \sum_{c} E_c(x_c)
+
+$$
 
 Then:
+$$
 
-P(x) = (1 / Z) exp(−E(x))
+P(x) = \frac{1}{Z} \exp(-E(x))
+
+$$
 
 This is exactly the form used in Energy Based Models, where a global energy function E(x) defines the probability distribution.
 

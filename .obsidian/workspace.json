@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/notes/ebms-and-pgms.md",
+                "file": "data/notes/the-cost-of-convenience.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ebms-and-pgms"
+              "title": "the-cost-of-convenience"
             }
           }
         ]
@@ -171,11 +171,11 @@
   },
   "active": "e5010ff08d44810e",
   "lastOpenFiles": [
-    "data/notes/economics-AI.md",
-    "data/notes/consulting-experience.md",
     "data/notes/ebms-and-pgms.md",
-    "data/notes/vibe-coding.md",
+    "data/notes/economics-AI.md",
     "data/notes/the-cost-of-convenience.md",
+    "data/notes/consulting-experience.md",
+    "data/notes/vibe-coding.md",
     "data/hacks/forward-forward-algorithm.md",
     "data/hacks/thrml.md",
     "public/static/images/thrml.png",

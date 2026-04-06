@@ -2,7 +2,8 @@
 title: The Cost of Convenience
 date: 2025-10-26
 tags:
-  - digital
+  - Design
+  - Ownership
 draft: false
 summary: I finally deleted my WordPress setup and replaced it with a system I actually control. Markdown, Git, Next.js and Contentlayer now run the show and this stack will survive anything because it is simple, portable and mine.
 ---
