@@ -53,15 +53,7 @@ type HomeProps = {
   about: HomeAbout | null
 }
 
-function SectionHeader({
-  title,
-  href,
-  cta,
-}: {
-  title: string
-  href: string
-  cta: string
-}) {
+function SectionHeader({ title, href, cta }: { title: string; href: string; cta: string }) {
   return (
     <div className="flex items-baseline justify-between gap-4">
       <h2 className="text-2xl leading-8 font-bold tracking-tight text-gray-900 dark:text-gray-100">
@@ -142,15 +134,12 @@ export default function Home({ latestThesis, hacks, notes, books, metrics, about
                     href={hack.href}
                     className="block overflow-hidden rounded-xl border border-gray-200/50 bg-gray-100/75 shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-gray-800/50 dark:bg-gray-900/60"
                   >
-                    <div className={hack.image ? 'grid grid-cols-[96px_minmax(0,1fr)] md:block' : ''}>
+                    <div
+                      className={hack.image ? 'grid grid-cols-[96px_minmax(0,1fr)] md:block' : ''}
+                    >
                       {hack.image && (
                         <div className="relative h-full min-h-[96px] w-full overflow-hidden md:aspect-[16/10] md:h-auto">
-                          <Image
-                            src={hack.image}
-                            alt={hack.title}
-                            fill
-                            className="object-cover"
-                          />
+                          <Image src={hack.image} alt={hack.title} fill className="object-cover" />
                         </div>
                       )}
                       <div className="min-w-0 space-y-2 p-4 md:p-5">
@@ -211,12 +200,7 @@ export default function Home({ latestThesis, hacks, notes, books, metrics, about
                 >
                   {book.image && (
                     <div className="relative h-48 w-full overflow-hidden">
-                      <Image
-                        src={book.image}
-                        alt={book.title}
-                        fill
-                        className="object-cover"
-                      />
+                      <Image src={book.image} alt={book.title} fill className="object-cover" />
                     </div>
                   )}
                   <div className="space-y-2 p-5">
