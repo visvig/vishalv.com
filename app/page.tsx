@@ -58,7 +58,10 @@ export default async function Page() {
     : null
 
   const hacks: HomeHack[] = allHacks
-    .filter((item) => item.draft !== true)
+    .filter(
+      (item): item is (typeof allHacks)[number] & { href: string } =>
+        item.draft !== true && Boolean(item.href)
+    )
     .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
     .slice(0, 3)
     .map((item) => ({
