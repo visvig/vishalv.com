@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/pgms</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Sat, 29 Nov 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/pgms/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/ebms-and-pgms</guid>
+    <title>PGMs, EBMs, Sampling</title>
+    <link>https://www.vishalv.com/notes/ebms-and-pgms</link>
+    <description>Connecting probabilistic graphical models to energy-based formulations, and showing how sampling replaces optimization as the core mechanism for inference and computation.</description>
+    <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>Math</category><category>PGMs</category><category>Sampling</category>
+  </item>
+
+    </channel>
+  </rss>

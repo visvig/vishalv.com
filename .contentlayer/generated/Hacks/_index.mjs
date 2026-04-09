@@ -3,6 +3,8 @@
 import hacks__forwardForwardAlgorithmMd from './hacks__forward-forward-algorithm.md.json' with { type: 'json' }
 import hacks__hybridBlockchainAppMd from './hacks__hybrid-blockchain-app.md.json' with { type: 'json' }
 import hacks__spoofingResearchMd from './hacks__spoofing-research.md.json' with { type: 'json' }
+import hacks__thrmlMd from './hacks__thrml.md.json' with { type: 'json' }
 import hacks__wikipediaUniverseMd from './hacks__wikipedia-universe.md.json' with { type: 'json' }
+import hacks__zoteroIosMd from './hacks__zotero-ios.md.json' with { type: 'json' }
 
-export const allHacks = [hacks__forwardForwardAlgorithmMd, hacks__hybridBlockchainAppMd, hacks__spoofingResearchMd, hacks__wikipediaUniverseMd]
+export const allHacks = [hacks__forwardForwardAlgorithmMd, hacks__hybridBlockchainAppMd, hacks__spoofingResearchMd, hacks__thrmlMd, hacks__wikipediaUniverseMd, hacks__zoteroIosMd]
