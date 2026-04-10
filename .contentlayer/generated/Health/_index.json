@@ -92,14 +92,14 @@
   },
   {
     "isPage": false,
-    "date": "2026-03-07T00:00:00.000Z",
+    "date": "2026-04-01T00:00:00.000Z",
     "movement": "Leg Press",
-    "weight": "316.6 kg",
+    "weight": "318 kg",
     "reps": "10",
     "notes": "Plate-loaded",
     "body": {
       "raw": "",
-      "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!l.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var M=(t,e,n)=>(n=t!=null?i(_(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),h=t=>m(a({},\"__esModule\",{value:!0}),t);var u=p((F,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>w});var r=M(u()),w={date:\"2026-03-07\",movement:\"Leg Press\",weight:\"316.6 kg\",reps:\"10\",notes:\"Plate-loaded\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return h(C);})();\n;return Component;"
+      "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!l.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var M=(t,e,n)=>(n=t!=null?i(_(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),h=t=>m(a({},\"__esModule\",{value:!0}),t);var u=p((F,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>w});var r=M(u()),w={date:\"2026-04-01\",movement:\"Leg Press\",weight:\"318 kg\",reps:\"10\",notes:\"Plate-loaded\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return h(C);})();\n;return Component;"
     },
     "_id": "health/performance/leg-press-machine.md",
     "_raw": {
@@ -119,37 +119,6 @@
     "slug": "performance/leg-press-machine",
     "path": "health/performance/leg-press-machine",
     "filePath": "health/performance/leg-press-machine.md",
-    "toc": []
-  },
-  {
-    "isPage": false,
-    "date": "2026-01-22T00:00:00.000Z",
-    "movement": "Shoulder",
-    "weight": "49.8 kg",
-    "reps": "6",
-    "notes": "Seated Dumbbell",
-    "body": {
-      "raw": "",
-      "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of l(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=f(e,o))||m.enumerable});return t};var j=(t,e,n)=>(n=t!=null?i(_(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),D=t=>s(a({},\"__esModule\",{value:!0}),t);var c=p((C,u)=>{u.exports=_jsx_runtime});var b={};h(b,{default:()=>d,frontmatter:()=>M});var r=j(c()),M={date:\"2026-01-22\",movement:\"Shoulder\",weight:\"49.8 kg\",reps:\"6\",notes:\"Seated Dumbbell\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return D(b);})();\n;return Component;"
-    },
-    "_id": "health/performance/shoulder-press-dumbbell.md",
-    "_raw": {
-      "sourceFilePath": "health/performance/shoulder-press-dumbbell.md",
-      "sourceFileName": "shoulder-press-dumbbell.md",
-      "sourceFileDir": "health/performance",
-      "contentType": "markdown",
-      "flattenedPath": "health/performance/shoulder-press-dumbbell"
-    },
-    "type": "Health",
-    "readingTime": {
-      "text": "0 min read",
-      "minutes": 0,
-      "time": 0,
-      "words": 0
-    },
-    "slug": "performance/shoulder-press-dumbbell",
-    "path": "health/performance/shoulder-press-dumbbell",
-    "filePath": "health/performance/shoulder-press-dumbbell.md",
     "toc": []
   },
   {
@@ -181,6 +150,37 @@
     "slug": "performance/trap-bar-deadlift",
     "path": "health/performance/trap-bar-deadlift",
     "filePath": "health/performance/trap-bar-deadlift.md",
+    "toc": []
+  },
+  {
+    "isPage": false,
+    "date": "2026-04-08T00:00:00.000Z",
+    "movement": "Overhead",
+    "weight": "80 kg",
+    "reps": "7",
+    "notes": "Iso-Lateral",
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!p.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var l=(t,e,n)=>(n=t!=null?d(g(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),M=t=>m(a({},\"__esModule\",{value:!0}),t);var u=h((D,c)=>{c.exports=_jsx_runtime});var w={};j(w,{default:()=>i,frontmatter:()=>v});var r=l(u()),v={date:\"2026-04-08\",movement:\"Overhead\",weight:\"80 kg\",reps:\"7\",notes:\"Iso-Lateral\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return M(w);})();\n;return Component;"
+    },
+    "_id": "health/performance/shoulder-press.md",
+    "_raw": {
+      "sourceFilePath": "health/performance/shoulder-press.md",
+      "sourceFileName": "shoulder-press.md",
+      "sourceFileDir": "health/performance",
+      "contentType": "markdown",
+      "flattenedPath": "health/performance/shoulder-press"
+    },
+    "type": "Health",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "performance/shoulder-press",
+    "path": "health/performance/shoulder-press",
+    "filePath": "health/performance/shoulder-press.md",
     "toc": []
   }
 ]

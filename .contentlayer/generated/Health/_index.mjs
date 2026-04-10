@@ -4,7 +4,7 @@ import health__philosophyMd from './health__philosophy.md.json' with { type: 'js
 import health__performance__2kRunMd from './health__performance__2k-run.md.json' with { type: 'json' }
 import health__performance__chestPressMachineMd from './health__performance__chest-press-machine.md.json' with { type: 'json' }
 import health__performance__legPressMachineMd from './health__performance__leg-press-machine.md.json' with { type: 'json' }
-import health__performance__shoulderPressDumbbellMd from './health__performance__shoulder-press-dumbbell.md.json' with { type: 'json' }
 import health__performance__trapBarDeadliftMd from './health__performance__trap-bar-deadlift.md.json' with { type: 'json' }
+import health__performance__shoulderPressMd from './health__performance__shoulder-press.md.json' with { type: 'json' }
 
-export const allHealth = [health__philosophyMd, health__performance__2kRunMd, health__performance__chestPressMachineMd, health__performance__legPressMachineMd, health__performance__shoulderPressDumbbellMd, health__performance__trapBarDeadliftMd]
+export const allHealth = [health__philosophyMd, health__performance__2kRunMd, health__performance__chestPressMachineMd, health__performance__legPressMachineMd, health__performance__trapBarDeadliftMd, health__performance__shoulderPressMd]
