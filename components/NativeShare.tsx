@@ -23,7 +23,7 @@ export default function NativeShare({ title, text, className }: NativeShareProps
     <button
       type="button"
       className={[
-        'inline-flex items-center gap-2 rounded-full border border-primary-500/25 bg-primary-500/10 px-4 py-2 text-sm font-semibold text-primary-600 shadow-sm transition hover:bg-primary-500/15 dark:border-primary-400/25 dark:bg-primary-400/10 dark:text-primary-300 dark:hover:bg-primary-400/15',
+        'border-primary-500/25 bg-primary-500/10 text-primary-600 hover:bg-primary-500/15 dark:border-primary-400/25 dark:bg-primary-400/10 dark:text-primary-300 dark:hover:bg-primary-400/15 inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold shadow-sm transition',
         className,
       ]
         .filter(Boolean)
