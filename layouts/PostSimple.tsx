@@ -7,6 +7,7 @@ import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import NativeShare from '@/components/NativeShare'
 
 interface LayoutProps {
   content: CoreContent<Blog>
@@ -16,7 +17,7 @@ interface LayoutProps {
 }
 
 export default function PostLayout({ content, next, prev, children }: LayoutProps) {
-  const { path, slug, date, title } = content
+  const { date, title } = content
 
   return (
     <SectionContainer>
@@ -36,6 +37,9 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
               <div>
                 <PageTitle>{title}</PageTitle>
               </div>
+              <div className="flex justify-center pt-4">
+                <NativeShare title={title} />
+              </div>
             </div>
           </header>
           <div className="grid-rows-[auto_1fr] divide-y divide-gray-200 pb-8 xl:divide-y-0 dark:divide-gray-700">
@@ -43,9 +47,9 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
               <div className="prose dark:prose-invert max-w-none pt-10 pb-8">{children}</div>
             </div>
             <footer>
-              <div className="flex flex-col text-sm font-medium sm:flex-row sm:justify-between sm:text-base">
+              <div className="flex flex-col gap-4 pt-4 text-sm font-medium sm:flex-row sm:justify-between sm:text-base xl:pt-8">
                 {prev && prev.path && (
-                  <div className="pt-4 xl:pt-8">
+                  <div>
                     <Link
                       href={`/${prev.path}`}
                       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
@@ -56,7 +60,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
                   </div>
                 )}
                 {next && next.path && (
-                  <div className="pt-4 xl:pt-8">
+                  <div>
                     <Link
                       href={`/${next.path}`}
                       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"

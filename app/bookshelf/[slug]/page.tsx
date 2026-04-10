@@ -5,6 +5,7 @@ import { genPageMetadata } from 'app/seo'
 import { allBookshelves } from 'contentlayer/generated'
 import { coreContent } from 'pliny/utils/contentlayer'
 import Link from '@/components/Link'
+import NativeShare from '@/components/NativeShare'
 
 const entries = allBookshelves.filter((entry) => entry.isPage !== true && entry.draft !== true)
 
@@ -64,6 +65,9 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
               {content.description}
             </p>
           )}
+          <div className="pt-2">
+            <NativeShare title={content.title} />
+          </div>
         </div>
       </div>
       <div className="h-px bg-gray-200 dark:bg-gray-700" />

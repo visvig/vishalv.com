@@ -8,6 +8,7 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import NativeShare from '@/components/NativeShare'
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
@@ -87,6 +88,9 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                     </li>
                   ))}
                 </ul>
+                <div className="flex justify-center pt-6 xl:justify-start">
+                  <NativeShare title={title} />
+                </div>
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 xl:col-span-3 xl:row-span-2 xl:pb-0 dark:divide-gray-700">
