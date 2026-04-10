@@ -37,6 +37,7 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
   }
 
   const content = coreContent(entry)
+  const entryTitle = content.title ?? entry.slug
 
   return (
     <div className="mx-auto max-w-3xl divide-y divide-gray-200 pb-16 dark:divide-gray-700">
@@ -49,7 +50,7 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
         </Link>
         <div className="space-y-3">
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl md:leading-tight dark:text-gray-100">
-            {content.title}
+            {entryTitle}
           </h1>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-700 dark:text-gray-200">
             {entry.category && (
@@ -66,7 +67,7 @@ export default async function BookshelfEntryPage(props: { params: Promise<{ slug
             </p>
           )}
           <div className="pt-2">
-            <NativeShare title={content.title} />
+            <NativeShare title={entryTitle} />
           </div>
         </div>
       </div>
