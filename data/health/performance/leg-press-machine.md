@@ -1,7 +1,7 @@
 ---
-date: 2026-04-01
+date: 2026-04-11
 movement: Leg Press
-weight: 318 kg
+weight: 323 kg
 reps: "10"
 notes: Plate-loaded
 ---

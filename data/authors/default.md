@@ -12,7 +12,7 @@ Hey, I’m Vishal.
 
 I’m a mechanical engineering and data science graduate from the Indian Institute of Technology Madras, and I currently work as a Strategy & Business Design Analyst at Monitor Deloitte.
 
-I’ve always been drawn to science and technology. Being around serious tech and research projects in college pushed me toward startups, and eventually toward thinking about which ideas are likely to matter next and why.
+I want to help others navigate change and growth, and consulting is one way I do that in practice with large businesses. I’ve always been drawn to science and technology. Being around serious tech and research projects in college pushed me toward startups, and eventually toward thinking about which ideas are likely to matter next and why.
 
 This site is where I keep a log of what I’m thinking, learning, or ideas I want to return to. It also includes some of my other interests, like reading classics or lifting heavy.
 
