@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/authors/default.md",
+                "file": "data/health/performance/trap-bar-deadlift.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "default"
+              "title": "trap-bar-deadlift"
             }
           }
         ]
@@ -171,16 +171,16 @@
   },
   "active": "e5010ff08d44810e",
   "lastOpenFiles": [
-    "data/health/performance/trap-bar-deadlift.md",
-    "data/health/performance/leg-press-machine.md",
     "data/health/performance/shoulder-press.md",
+    "data/health/performance/leg-press-machine.md",
     "data/health/performance/chest-press-machine.md",
     "data/health/performance/2k-run.md",
+    "data/health/performance/trap-bar-deadlift.md",
+    "data/notes/crypto-trading.md",
     "data/notes/zotero-ios.md",
+    "data/authors/default.md",
     "data/notes/the-cost-of-convenience.md",
     "data/notes/ebms-and-pgms.md",
-    "data/notes/crypto-markets.md",
-    "data/authors/default.md",
     "data/bookshelf/brief-interviews-with-hideous-men.md",
     "components/NativeShare.tsx",
     "data/bookshelf/to-kill-a-mockingbird.md",

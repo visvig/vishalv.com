@@ -1,45 +1,5 @@
 [
   {
-    "title": "Rust Client",
-    "date": "2025-11-29T00:00:00.000Z",
-    "tags": [],
-    "draft": true,
-    "summary": null,
-    "body": {
-      "raw": "",
-      "code": "var Component=(()=>{var x=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),p=(t,n)=>{for(var e in n)o(t,e,{get:n[e],enumerable:!0})},s=(t,n,e,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of d(n))!g.call(t,a)&&a!==e&&o(t,a,{get:()=>n[a],enumerable:!(u=f(n,a))||u.enumerable});return t};var C=(t,n,e)=>(e=t!=null?x(_(t)):{},s(n||!t||!t.__esModule?o(e,\"default\",{value:t,enumerable:!0}):e,t)),M=t=>s(o({},\"__esModule\",{value:!0}),t);var l=j((X,m)=>{m.exports=_jsx_runtime});var D={};p(D,{default:()=>i,frontmatter:()=>y});var r=C(l()),y={title:\"Rust Client\",date:\"2025-11-29\",tags:null,draft:!0,summary:null};function c(t){return(0,r.jsx)(r.Fragment,{})}function i(t={}){let{wrapper:n}=t.components||{};return n?(0,r.jsx)(n,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return M(D);})();\n;return Component;"
-    },
-    "_id": "notes/crypto-markets.md",
-    "_raw": {
-      "sourceFilePath": "notes/crypto-markets.md",
-      "sourceFileName": "crypto-markets.md",
-      "sourceFileDir": "notes",
-      "contentType": "markdown",
-      "flattenedPath": "notes/crypto-markets"
-    },
-    "type": "Blog",
-    "readingTime": {
-      "text": "0 min read",
-      "minutes": 0,
-      "time": 0,
-      "words": 0
-    },
-    "slug": "crypto-markets",
-    "path": "notes/crypto-markets",
-    "filePath": "notes/crypto-markets.md",
-    "toc": [],
-    "structuredData": {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Rust Client",
-      "datePublished": "2025-11-29T00:00:00.000Z",
-      "dateModified": "2025-11-29T00:00:00.000Z",
-      "description": null,
-      "image": "/static/images/twitter-card.png",
-      "url": "https://www.vishalv.com/notes/crypto-markets"
-    }
-  },
-  {
     "title": "PGMs, EBMs, Sampling",
     "date": "2025-11-29T00:00:00.000Z",
     "tags": [
@@ -343,6 +303,46 @@
       "description": "something that leverages corporate finance to explain decision making wrt to AI",
       "image": "/static/images/twitter-card.png",
       "url": "https://www.vishalv.com/theses/economics-AI"
+    }
+  },
+  {
+    "title": "Rust Client",
+    "date": "2025-11-29T00:00:00.000Z",
+    "tags": [],
+    "draft": true,
+    "summary": null,
+    "body": {
+      "raw": "",
+      "code": "var Component=(()=>{var x=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),p=(t,n)=>{for(var e in n)o(t,e,{get:n[e],enumerable:!0})},s=(t,n,e,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of d(n))!g.call(t,a)&&a!==e&&o(t,a,{get:()=>n[a],enumerable:!(u=f(n,a))||u.enumerable});return t};var C=(t,n,e)=>(e=t!=null?x(_(t)):{},s(n||!t||!t.__esModule?o(e,\"default\",{value:t,enumerable:!0}):e,t)),M=t=>s(o({},\"__esModule\",{value:!0}),t);var l=j((X,m)=>{m.exports=_jsx_runtime});var D={};p(D,{default:()=>i,frontmatter:()=>y});var r=C(l()),y={title:\"Rust Client\",date:\"2025-11-29\",tags:null,draft:!0,summary:null};function c(t){return(0,r.jsx)(r.Fragment,{})}function i(t={}){let{wrapper:n}=t.components||{};return n?(0,r.jsx)(n,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return M(D);})();\n;return Component;"
+    },
+    "_id": "notes/crypto-trading.md",
+    "_raw": {
+      "sourceFilePath": "notes/crypto-trading.md",
+      "sourceFileName": "crypto-trading.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/crypto-trading"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "0 min read",
+      "minutes": 0,
+      "time": 0,
+      "words": 0
+    },
+    "slug": "crypto-trading",
+    "path": "notes/crypto-trading",
+    "filePath": "notes/crypto-trading.md",
+    "toc": [],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Rust Client",
+      "datePublished": "2025-11-29T00:00:00.000Z",
+      "dateModified": "2025-11-29T00:00:00.000Z",
+      "description": null,
+      "image": "/static/images/twitter-card.png",
+      "url": "https://www.vishalv.com/notes/crypto-trading"
     }
   }
 ]
