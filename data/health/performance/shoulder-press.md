@@ -1,7 +1,7 @@
 ---
-date: 2026-04-08
+date: 2026-04-28
 movement: Overhead
-weight: 80 kg
-reps: "7"
+weight: 85 kg
+reps: "6"
 notes: Iso-Lateral
 ---
