@@ -17,7 +17,7 @@ Personal site for Vishal V. Built on top of Timothy Lin’s Tailwind Next.js Sta
 | `app/` | Routes, layouts, API handlers. |
 | `components/` | Shared UI pieces. |
 | `layouts/` | Page/article layouts via Pliny. |
-| `data/workspace/` | Personal knowledge workspace: notes, theses, raw research, templates. |
+| `data/frontiers/` | Personal knowledge frontiers: publishable notes/theses, research notes, templates. |
 | `data/showcase/` | Public-facing content collections, metadata, and support data. |
 | `css/` | Tailwind + Prism styles. |
 | `scripts/` | Post-build tasks (RSS, search index). |
@@ -48,10 +48,10 @@ Vercel Web Analytics is wired in [app/layout.tsx](/Users/vishalvignesh/codes/vis
 
 ## Content
 
-- Notes: `data/workspace/notes/*.md` → `/notes/[slug]`
-- Theses: `data/workspace/theses/*.md` → `/theses/[slug]`
-- Research: `data/workspace/research/**` stays private/raw and is excluded from Contentlayer.
-- Obsidian templates: `data/workspace/obsidian-templates/**` stays private/workspace-only and is excluded from Contentlayer.
+- Notes: `data/frontiers/publish/notes/*.md` → `/notes/[slug]`
+- Theses: `data/frontiers/publish/theses/*.md` → `/theses/[slug]`
+- Research notes: `data/frontiers/research-notes/**` stays private/raw and is excluded from Contentlayer.
+- Obsidian templates: `data/frontiers/obsidian-templates/**` stays private/frontiers-only and is excluded from Contentlayer.
 - Hacks: `data/showcase/hacks/*.md` → `/hacks`
 - Bookshelf: `data/showcase/bookshelf/*.md` → `/bookshelf` + `/bookshelf/[slug]`
 - Health logs/routines: `data/showcase/health/**`

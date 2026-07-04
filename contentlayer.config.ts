@@ -30,8 +30,11 @@ const root = process.cwd()
 
 function toContentPath(flattenedPath: string) {
   const segments = flattenedPath.split('/')
-  if (segments[0] === 'workspace' || segments[0] === 'showcase') {
-    segments.shift()
+  if (segments[0] === 'frontiers') {
+    return segments[1] === 'publish' ? segments.slice(2).join('/') : segments.slice(1).join('/')
+  }
+  if (segments[0] === 'showcase') {
+    return segments.slice(1).join('/')
   }
   return segments.join('/')
 }
@@ -158,7 +161,7 @@ function createSearchIndex(allBlogs) {
 
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
-  filePathPattern: 'workspace/{notes,theses}/**/*.md',
+  filePathPattern: 'frontiers/publish/{notes,theses}/**/*.md',
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
@@ -295,7 +298,11 @@ export const Health = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: 'data',
-  contentDirExclude: ['workspace/research', 'workspace/obsidian-templates'],
+  contentDirExclude: [
+    'frontiers/research-notes',
+    'frontiers/obsidian-templates',
+    'frontiers/.obsidian',
+  ],
   documentTypes: [Blog, Authors, Bookshelf, Hacks, Health],
   mdx: {
     cwd: process.cwd(),

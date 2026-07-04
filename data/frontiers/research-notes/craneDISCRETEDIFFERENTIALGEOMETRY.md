@@ -106,7 +106,7 @@ focus purely on connectivity: which pieces of the surface are connected to each 
 
 
 
-![data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-10-x91-y534.png](data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-10-x91-y534.png)
+![data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-10-x91-y534.png](data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-10-x91-y534.png)
 >Shaded is for triangles. Otherwise its just edges.
 
 Dotted line to show tetrahedron. 
@@ -217,7 +217,7 @@ complex K is a pure k-simplicial complex if every simplex σ′ ∈ K is contain
 Notice there's no tetrahedron here. Only vertex, edge and triangles. This is a pure 2-simplicial complex - and all vertexes (0-simplex) are part of some edge (1-simplex) and is part of some triangle (2-simplex) in the simplicial complex. 
 
 
-![data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-11-x150-y422.png](data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-11-x150-y422.png)
+![data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-11-x150-y422.png](data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-11-x150-y422.png)
 >pure simplicial complex only has triangles. No vertex only, edge only, tetrahedron only observed. So, every vertex, edge are part of some triangle. 
 
 
@@ -563,7 +563,7 @@ simplicial n-manifold is a pure simplicial n-complex where the link of every ver
 "surface" if 2-manifold. 
 
 
-![data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-17-x232-y433.png](data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-17-x232-y433.png)
+![data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-17-x232-y433.png](data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-17-x232-y433.png)
 >simplicial n-sphere. 
 
 
@@ -598,7 +598,7 @@ complex K comprised of vertices V, edges E, and triangles F, then we might assig
 
 
 
-![data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-18-x224-y573.png](data/workspace/research/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-18-x224-y573.png)
+![data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-18-x224-y573.png](data/frontiers/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-18-x224-y573.png)
 >Not a tetrahedron. Just a simplicial 2-complex. 
 
 
@@ -684,4 +684,3 @@ ign of each nonzero entry will depend on the relative orientation of the two cor
 
 
 >Edge 1 is going towards 2 so sign of 2 is positive. 
-
