@@ -289,6 +289,7 @@ export const Health = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: 'data',
+  contentDirExclude: ['research'],
   documentTypes: [Blog, Authors, Bookshelf, Hacks, Health],
   mdx: {
     cwd: process.cwd(),

@@ -1,3 +1,21 @@
-.next
-.contentlayer
-node_modules
+# dependencies
+node_modules/
+
+# build and generated content
+.next/
+.contentlayer/
+
+# local logs
+yarn-error.log
+npm-debug.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Obsidian local state and installed plugins
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/plugins/
