@@ -5,7 +5,7 @@ import type { Blog } from 'contentlayer/generated'
 import Link from '@/components/Link'
 import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata from '@/data/showcase/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import NativeShare from '@/components/NativeShare'
 

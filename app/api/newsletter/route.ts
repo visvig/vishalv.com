@@ -1,5 +1,5 @@
 import { NewsletterAPI } from 'pliny/newsletter'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata from '@/data/showcase/siteMetadata'
 
 export const dynamic = 'force-static'
 

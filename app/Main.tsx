@@ -1,6 +1,6 @@
 import Image from '@/components/Image'
 import Link from '@/components/Link'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata from '@/data/showcase/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 
 type HomeThesis = {

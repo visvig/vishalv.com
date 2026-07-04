@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { coreContent, sortPosts } from 'pliny/utils/contentlayer'
 import { allAuthors, allBlogs } from 'contentlayer/generated'
 import type { Authors, Blog } from 'contentlayer/generated'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata from '@/data/showcase/siteMetadata'
 
 export type WritingCollection = 'notes' | 'theses'
 

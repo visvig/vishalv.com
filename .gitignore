@@ -4,6 +4,7 @@ node_modules/
 # build and generated content
 .next/
 .contentlayer/
+tsconfig.tsbuildinfo
 
 # local logs
 yarn-error.log

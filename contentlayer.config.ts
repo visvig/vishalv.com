@@ -22,16 +22,22 @@ import rehypeKatexNoTranslate from 'rehype-katex-notranslate'
 import rehypeCitation from 'rehype-citation'
 import rehypePrismPlus from 'rehype-prism-plus'
 import rehypePresetMinify from 'rehype-preset-minify'
-import siteMetadata from './data/siteMetadata'
+import siteMetadata from './data/showcase/siteMetadata'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 import prettier from 'prettier'
 
 const root = process.cwd()
-function toRoutePath(flattenedPath: string) {
+
+function toContentPath(flattenedPath: string) {
   const segments = flattenedPath.split('/')
-  if (segments[0] === 'pages') {
+  if (segments[0] === 'workspace' || segments[0] === 'showcase') {
     segments.shift()
   }
+  return segments.join('/')
+}
+
+function toRoutePath(flattenedPath: string) {
+  const segments = toContentPath(flattenedPath).split('/')
   if (segments[segments.length - 1] === 'index') {
     segments.pop()
   }
@@ -102,7 +108,7 @@ const computedFields: ComputedFields = {
   readingTime: { type: 'json', resolve: (doc) => readingTime(doc.body.raw) },
   slug: {
     type: 'string',
-    resolve: (doc) => doc._raw.flattenedPath.replace(/^.+?(\/)/, ''),
+    resolve: (doc) => toContentPath(doc._raw.flattenedPath).replace(/^.+?(\/)/, ''),
   },
   path: {
     type: 'string',
@@ -152,7 +158,7 @@ function createSearchIndex(allBlogs) {
 
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
-  filePathPattern: '{notes,theses}/**/*.md',
+  filePathPattern: 'workspace/{notes,theses}/**/*.md',
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
@@ -187,7 +193,7 @@ export const Blog = defineDocumentType(() => ({
 
 export const Authors = defineDocumentType(() => ({
   name: 'Authors',
-  filePathPattern: 'authors/**/*.md',
+  filePathPattern: 'showcase/authors/**/*.md',
   contentType: 'mdx',
   fields: {
     name: { type: 'string', required: true },
@@ -206,7 +212,7 @@ export const Authors = defineDocumentType(() => ({
 
 export const Bookshelf = defineDocumentType(() => ({
   name: 'Bookshelf',
-  filePathPattern: 'bookshelf/**/*.md',
+  filePathPattern: 'showcase/bookshelf/**/*.md',
   contentType: 'mdx',
   fields: {
     title: { type: 'string' },
@@ -239,7 +245,7 @@ export const Bookshelf = defineDocumentType(() => ({
 
 export const Hacks = defineDocumentType(() => ({
   name: 'Hacks',
-  filePathPattern: 'hacks/**/*.md',
+  filePathPattern: 'showcase/hacks/**/*.md',
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
@@ -268,7 +274,7 @@ export const Hacks = defineDocumentType(() => ({
 
 export const Health = defineDocumentType(() => ({
   name: 'Health',
-  filePathPattern: 'health/**/*.md',
+  filePathPattern: 'showcase/health/**/*.md',
   contentType: 'mdx',
   fields: {
     title: { type: 'string' },
@@ -289,7 +295,7 @@ export const Health = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: 'data',
-  contentDirExclude: ['research'],
+  contentDirExclude: ['workspace/research', 'workspace/obsidian-templates'],
   documentTypes: [Blog, Authors, Bookshelf, Hacks, Health],
   mdx: {
     cwd: process.cwd(),
@@ -315,7 +321,7 @@ export default makeSource({
       ],
       rehypeKatex,
       rehypeKatexNoTranslate,
-      [rehypeCitation, { path: path.join(root, 'data') }],
+      [rehypeCitation, { path: path.join(root, 'data', 'showcase') }],
       [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
       rehypePresetMinify,
     ],

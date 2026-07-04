@@ -6,7 +6,7 @@ import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
 import Image from '@/components/Image'
 import Tag from '@/components/Tag'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata from '@/data/showcase/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import NativeShare from '@/components/NativeShare'
 

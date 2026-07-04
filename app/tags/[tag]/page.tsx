@@ -1,6 +1,6 @@
 import { slug } from 'github-slugger'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata from '@/data/showcase/siteMetadata'
 import ListLayout from '@/layouts/ListLayoutWithTags'
 import tagData from 'app/tag-data.json'
 import { genPageMetadata } from 'app/seo'
