@@ -11,8 +11,6 @@ abstract: "What does it mean to understand the world? Contemporary world models 
 [URL](http://arxiv.org/abs/2605.03413)
 
 ## Tags
-#computer-science---artificial-intelligence
-#computer-science---machine-learning
 
 
 ## Notes

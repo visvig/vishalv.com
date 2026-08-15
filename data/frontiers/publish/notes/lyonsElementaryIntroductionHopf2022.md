@@ -1,9 +1,7 @@
 ---
 title: "An Elementary Introduction to the Hopf Fibration"
 date: "2026-07-19"
-tags:
-  - "mathematical-physics"
-  - "mathematics---history-and-overview"
+tags: []
 draft: false
 summary: "The Hopf fibration is an important object in mathematics and physics. A landmark discovery in topology and a fundamental object in the theory of Lie groups, the Hopf fibration has a wide variety of physical applications including magnetic monopoles, rigid body mechanics, and..."
 ---

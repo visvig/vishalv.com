@@ -11,8 +11,6 @@ abstract: "The Hopf fibration is an important object in mathematics and physics.
 [URL](http://arxiv.org/abs/2212.01642)
 
 ## Tags
-#mathematical-physics
-#mathematics---history-and-overview
 
 
 ## Notes

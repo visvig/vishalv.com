@@ -1,9 +1,7 @@
 ---
 title: "How Intrinsic Motivation Underlies Embodied Open-Ended Behavior"
 date: "2026-07-28"
-tags:
-  - "fos:-biological-sciences"
-  - "neurons-and-cognition-(q-bio.nc)"
+tags: []
 draft: false
 summary: "Although most theories posit that natural behavior can be explained as maximizing some form of extrinsic reward, often called utility, some behaviors appear to be reward independent. For instance, spontaneous motor babbling in human newborns and curiosity in little kids and other..."
 ---

@@ -11,8 +11,6 @@ abstract: "Although most theories posit that natural behavior can be explained a
 [URL](https://arxiv.org/abs/2601.10276)
 
 ## Tags
-#fos:-biological-sciences
-#neurons-and-cognition-(q-bio.nc)
 
 
 ## Notes

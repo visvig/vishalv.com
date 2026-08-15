@@ -1,9 +1,7 @@
 ---
 title: "Learning to Theorize the World from Observation"
 date: "2026-08-05"
-tags:
-  - "computer-science---artificial-intelligence"
-  - "computer-science---machine-learning"
+tags: []
 draft: false
 summary: "What does it mean to understand the world? Contemporary world models often operationalize understanding as accurate future prediction in latent or observation space. Developmental cognitive science, however, suggests a different view: human understanding emerges through the..."
 ---
