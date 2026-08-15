@@ -1,0 +1,4 @@
+- Read text on Zotero
+- Annotate Tag new concept-ideas
+- Import into Obsidian
+- Let graph evolve

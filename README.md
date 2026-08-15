@@ -12,16 +12,16 @@ Personal site for Vishal V. Built on top of Timothy Lin’s Tailwind Next.js Sta
 
 ## Structure
 
-| Path | Purpose |
-| --- | --- |
-| `app/` | Routes, layouts, API handlers. |
-| `components/` | Shared UI pieces. |
-| `layouts/` | Page/article layouts via Pliny. |
+| Path              | Purpose                                                                            |
+| ----------------- | ---------------------------------------------------------------------------------- |
+| `app/`            | Routes, layouts, API handlers.                                                     |
+| `components/`     | Shared UI pieces.                                                                  |
+| `layouts/`        | Page/article layouts via Pliny.                                                    |
 | `data/frontiers/` | Personal knowledge frontiers: publishable notes/theses, research notes, templates. |
-| `data/showcase/` | Public-facing content collections, metadata, and support data. |
-| `css/` | Tailwind + Prism styles. |
-| `scripts/` | Post-build tasks (RSS, search index). |
-| `public/` | Static assets and generated search.json. |
+| `data/showcase/`  | Public-facing content collections, metadata, and support data.                     |
+| `css/`            | Tailwind + Prism styles.                                                           |
+| `scripts/`        | Post-build tasks (RSS, search index).                                              |
+| `public/`         | Static assets and generated search.json.                                           |
 
 ## Philosophy
 
@@ -50,14 +50,14 @@ Vercel Web Analytics is wired in [app/layout.tsx](/Users/vishalvignesh/codes/vis
 
 - Notes: `data/frontiers/publish/notes/*.md` → `/notes/[slug]`
 - Theses: `data/frontiers/publish/theses/*.md` → `/theses/[slug]`
-- Research notes: `data/frontiers/research-notes/**` stays private/raw and is excluded from Contentlayer.
+- Research notes: `data/frontiers/research-notes/*.md` stays raw, then `yarn publish:research-notes` generates publishable copies directly in `data/frontiers/publish/notes/*.md`. Hashtags become frontmatter `tags`, raw `modified` becomes `date`, and referenced images are copied to `public/static/research-notes/**`.
 - Obsidian templates: `data/frontiers/obsidian-templates/**` stays private/frontiers-only and is excluded from Contentlayer.
 - Hacks: `data/showcase/hacks/*.md` → `/hacks`
 - Bookshelf: `data/showcase/bookshelf/*.md` → `/bookshelf` + `/bookshelf/[slug]`
 - Health logs/routines: `data/showcase/health/**`
 - Author profile: `data/showcase/authors/default.md`
 
-Run `yarn dev` or `yarn build` after editing content so Contentlayer regenerates.
+Run `yarn dev` or `yarn build` after editing content so research notes and Contentlayer regenerate.
 
 ## Credits
 

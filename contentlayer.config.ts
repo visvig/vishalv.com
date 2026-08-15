@@ -299,6 +299,7 @@ export const Health = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: 'data',
   contentDirExclude: [
+    'frontiers/*.md',
     'frontiers/research-notes',
     'frontiers/obsidian-templates',
     'frontiers/.obsidian',

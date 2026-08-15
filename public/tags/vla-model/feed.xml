@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/vla-model</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Fri, 24 Jul 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/vla-model/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/wangWorldActionModels2026</guid>
+    <title>World Action Models: The Next Frontier in Embodied AI</title>
+    <link>https://www.vishalv.com/notes/wangWorldActionModels2026</link>
+    <description>Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention. A growing body of work addresses...</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>vla-model</category><category>world-model</category><category>world-action-model</category>
+  </item>
+
+    </channel>
+  </rss>

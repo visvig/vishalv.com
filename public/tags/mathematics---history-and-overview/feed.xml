@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/mathematics---history-and-overview</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Sun, 19 Jul 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/mathematics---history-and-overview/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/lyonsElementaryIntroductionHopf2022</guid>
+    <title>An Elementary Introduction to the Hopf Fibration</title>
+    <link>https://www.vishalv.com/notes/lyonsElementaryIntroductionHopf2022</link>
+    <description>The Hopf fibration is an important object in mathematics and physics. A landmark discovery in topology and a fundamental object in the theory of Lie groups, the Hopf fibration has a wide variety of physical applications including magnetic monopoles, rigid body mechanics, and...</description>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>mathematical-physics</category><category>mathematics---history-and-overview</category>
+  </item>
+
+    </channel>
+  </rss>

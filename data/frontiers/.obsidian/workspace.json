@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4213197895c105a",
+            "id": "915f243bca0c9ef0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/geometry-emerge.md",
+                "file": "research-notes/prangishviliEvolutionRepresentationInterpretation2026.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "prangishviliEvolutionRepresentationInterpretation2026"
+            }
+          },
+          {
+            "id": "1d88c2878ac2c99b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publish/notes/simplicial-complexes.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "simplicial-complexes"
+            }
+          },
+          {
+            "id": "b7e72478b12f042f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "research-notes/nielloOptimizingCognitiveEnhancement2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "geometry-emerge"
+              "title": "nielloOptimizingCognitiveEnhancement2026"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -41,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -183,14 +214,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "d4213197895c105a",
+  "active": "b7e72478b12f042f",
   "lastOpenFiles": [
-    "notes/graph-types.md",
-    "notes/crypto-trading.md",
-    "notes/zotero-ios.md",
-    "notes/ebms-and-pgms.md",
-    "notes/the-cost-of-convenience.md",
-    "notes/geometry-emerge.md",
-    "research/craneDISCRETEDIFFERENTIALGEOMETRY.md"
+    "publish/notes/nielloOptimizingCognitiveEnhancement2026.md",
+    "research-notes/prangishviliEvolutionRepresentationInterpretation2026.md",
+    "research-notes/caoFixedRepresentationsVocabulary2026.md",
+    "research-notes/baekLearningTheorizeWorld2026.md",
+    "research-notes/coverElementsInformationTheory2001.md",
+    "research-notes/moreno-boteHowIntrinsicMotivation2026.md",
+    "research-notes/hughesPositionOpenEndednessEssential2024.md",
+    "research-notes/xuInformationTheoreticDefinitionOpenEnded2026.md",
+    "research-notes/sevetlidisGAUGEINVARIANTREPRESENTATIONHOLONOMY2026.md",
+    "research-notes/grogerRevisitingPlatonicRepresentation2026.md",
+    "research-notes/images/grogerRevisitingPlatonicRepresentation2026/image-2-x48-y421.png",
+    "research-notes/images/grogerRevisitingPlatonicRepresentation2026",
+    "research-notes/parrActiveDataSelection2024.md",
+    "research-notes/mirchandaniYouThinkYou2025.md",
+    "research-notes/dengHumanNetScalingHumancentric2026.md",
+    "research-notes/wangWorldActionModels2026.md",
+    "research-notes/lyonsElementaryIntroductionHopf2022.md",
+    "research-notes/hatcherAlgebraicTopology2002.md",
+    "research-notes/anuyahUnderstandingGraphDatabases2024.md",
+    "research-notes/belkinLaplacianEigenmapsSpectral2002.md",
+    "research-notes/maaschProbabilisticGraphicalModels2025.md",
+    "research-notes/roughgardenCS168ModernAlgorithmic.md",
+    "research-notes/craneDISCRETEDIFFERENTIALGEOMETRY.md",
+    "research-notes/nielloOptimizingCognitiveEnhancement2026.md",
+    "research-notes/obsidian-templates/research-template.md",
+    "publish/notes/xuInformationTheoreticDefinitionOpenEnded2026.md",
+    "publish/notes/wangWorldActionModels2026.md",
+    "publish/notes/sevetlidisGAUGEINVARIANTREPRESENTATIONHOLONOMY2026.md",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-8-x203-y234.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-8-x170-y377.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-8-x153-y570.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-6-x206-y671.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-6-x199-y243.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-3-x403-y73.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-3-x234-y107.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-13-x54-y355.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026/image-12-x147-y504.png",
+    "research-notes/images/caoFixedRepresentationsVocabulary2026",
+    "research-notes/images/coverElementsInformationTheory2001",
+    "research-notes/images/xuInformationTheoreticDefinitionOpenEnded2026",
+    "research-notes/images/dengHumanNetScalingHumancentric2026",
+    "research-notes/images/wangWorldActionModels2026",
+    "research-notes/images/hatcherAlgebraicTopology2002",
+    "Untitled.base",
+    "research-notes/images/anuyahUnderstandingGraphDatabases2024",
+    "research-notes/images/belkinLaplacianEigenmapsSpectral2002"
   ]
 }

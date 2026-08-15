@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/computer-science---machine-learning</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Wed, 05 Aug 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/computer-science---machine-learning/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/baekLearningTheorizeWorld2026</guid>
+    <title>Learning to Theorize the World from Observation</title>
+    <link>https://www.vishalv.com/notes/baekLearningTheorizeWorld2026</link>
+    <description>What does it mean to understand the world? Contemporary world models often operationalize understanding as accurate future prediction in latent or observation space. Developmental cognitive science, however, suggests a different view: human understanding emerges through the...</description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>computer-science---artificial-intelligence</category><category>computer-science---machine-learning</category>
+  </item>
+
+    </channel>
+  </rss>

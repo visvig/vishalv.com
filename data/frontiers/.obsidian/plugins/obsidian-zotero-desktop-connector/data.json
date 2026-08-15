@@ -1,0 +1,20 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Import Annotation",
+      "outputPathTemplate": "research-notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "research-notes/images/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "research-notes/obsidian-templates/research-template.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}

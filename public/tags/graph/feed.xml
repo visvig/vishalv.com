@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/graph</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Tue, 21 Jul 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/graph/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/maaschProbabilisticGraphicalModels2025</guid>
+    <title>Probabilistic Graphical Models: A Concise Tutorial</title>
+    <link>https://www.vishalv.com/notes/maaschProbabilisticGraphicalModels2025</link>
+    <description>Probabilistic graphical modeling is a branch of machine learning that uses probability distributions to describe the world, make predictions, and support decision-making under uncertainty. Underlying this modeling framework is an elegant body of theory that bridges two...</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>graph</category>
+  </item>
+
+    </channel>
+  </rss>

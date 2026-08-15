@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/laplacian</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Tue, 21 Jul 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/laplacian/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/anuyahUnderstandingGraphDatabases2024</guid>
+    <title>Understanding Graph Databases: A Comprehensive Tutorial and Survey</title>
+    <link>https://www.vishalv.com/notes/anuyahUnderstandingGraphDatabases2024</link>
+    <description>This tutorial serves as a comprehensive guide for understanding graph databases, focusing on the fundamentals of graph theory while showcasing practical applications across various fields. It starts by introducing foundational concepts and delves into the structure of graphs...</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>laplacian</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/belkinLaplacianEigenmapsSpectral2002</guid>
+    <title>Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering</title>
+    <link>https://www.vishalv.com/notes/belkinLaplacianEigenmapsSpectral2002</link>
+    <description>Drawing on the correspondence between the graph Laplacian, the Laplace-Beltrami operator on a manifold , and the connections to the heat equation , we propose a geometrically motivated algorithm for constructing a representation for data sampled from a low dimensional manifold...</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>laplacian</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/roughgardenCS168ModernAlgorithmic</guid>
+    <title>CS168: The Modern Algorithmic Toolbox Lectures #11: Spectral Graph Theory, I</title>
+    <link>https://www.vishalv.com/notes/roughgardenCS168ModernAlgorithmic</link>
+    <description>Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: Spectral Graph Theory, I.</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>laplacian</category><category>adjacency-matrix</category>
+  </item>
+
+    </channel>
+  </rss>

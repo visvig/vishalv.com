@@ -7,9 +7,219 @@
       <language>en-us</language>
       <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
       <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
-      <lastBuildDate>Sun, 14 Dec 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 15 Aug 2026 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.vishalv.com/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://www.vishalv.com/notes/nielloOptimizingCognitiveEnhancement2026</guid>
+    <title>Optimizing cognitive enhancement through dopamine transporter modulation</title>
+    <link>https://www.vishalv.com/notes/nielloOptimizingCognitiveEnhancement2026</link>
+    <description>Psychostimulants act on monoamine systems including the dopamine transporter (DAT), a key regulator of dopamine reuptake following synaptic release. While these compounds can enhance energy, cognition, and sociability, their clinical utility is often limited by their abuse...</description>
+    <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/prangishviliEvolutionRepresentationInterpretation2026</guid>
+    <title>Evolution of Representation–Interpretation Systems: From Molecular Replicators to Artificial Intelligence</title>
+    <link>https://www.vishalv.com/notes/prangishviliEvolutionRepresentationInterpretation2026</link>
+    <description>This paper proposes that a fundamental organizational trend in biological, cognitive, cultural, and technological evolution is the emergence of progressively more capable representation–interpretation systems. Across these domains, evolution has repeatedly generated systems in...</description>
+    <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>gna</category><category>pna</category><category>tna</category><category>codon</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/caoFixedRepresentationsVocabulary2026</guid>
+    <title>Beyond Fixed Representations: The Vocabulary and Verifier Gaps in Open-Ended AI</title>
+    <link>https://www.vishalv.com/notes/caoFixedRepresentationsVocabulary2026</link>
+    <description>Modern AI systems are increasingly being evaluated for their ability to reason, code, prove theorems, use tools, and long-horizon research tasks. These are powerful capabilities, but they share a structural limitation: the representational frame within which the model operates,...</description>
+    <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>kolmogorov-complexity</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/baekLearningTheorizeWorld2026</guid>
+    <title>Learning to Theorize the World from Observation</title>
+    <link>https://www.vishalv.com/notes/baekLearningTheorizeWorld2026</link>
+    <description>What does it mean to understand the world? Contemporary world models often operationalize understanding as accurate future prediction in latent or observation space. Developmental cognitive science, however, suggests a different view: human understanding emerges through the...</description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>computer-science---artificial-intelligence</category><category>computer-science---machine-learning</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/xuInformationTheoreticDefinitionOpenEnded2026</guid>
+    <title>An Information-Theoretic Definition for Open-Ended Learning</title>
+    <link>https://www.vishalv.com/notes/xuInformationTheoreticDefinitionOpenEnded2026</link>
+    <description>A growing body of work points to the great promise of AI systems that can continually expand their capabilities as they operate in an open-ended environment. But yet there is no coherent definition of open-endedness or theory about how an agent ought to explore an open-ended...</description>
+    <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>bit-equivalent</category><category>probability-space</category><category>bandit-environment</category><category>nat</category><category>data-processing-inequality</category><category>kernelized-bandit-optimization</category><category>gaussian-process</category><category>mercer-decomposition</category><category>spectral-tail</category><category>matern-kernel</category><category>squared-exponential-kernel</category><category>thompson-sampling</category><category>fixed-truncation</category><category>gp-ucb</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/coverElementsInformationTheory2001</guid>
+    <title>Elements of information theory</title>
+    <link>https://www.vishalv.com/notes/coverElementsInformationTheory2001</link>
+    <description>Research notes on Elements of information theory.</description>
+    <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>asymptotic-equipartition-property</category><category>mutual-information</category><category>entropy</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/moreno-boteHowIntrinsicMotivation2026</guid>
+    <title>How Intrinsic Motivation Underlies Embodied Open-Ended Behavior</title>
+    <link>https://www.vishalv.com/notes/moreno-boteHowIntrinsicMotivation2026</link>
+    <description>Although most theories posit that natural behavior can be explained as maximizing some form of extrinsic reward, often called utility, some behaviors appear to be reward independent. For instance, spontaneous motor babbling in human newborns and curiosity in little kids and other...</description>
+    <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>fos:-biological-sciences</category><category>neurons-and-cognition-(q-bio.nc)</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/hughesPositionOpenEndednessEssential2024</guid>
+    <title>Position: Open-Endedness is Essential for Artificial Superhuman Intelligence</title>
+    <link>https://www.vishalv.com/notes/hughesPositionOpenEndednessEssential2024</link>
+    <description>In recent years there has been a tremendous surge in the general capabilities of AI systems, mainly fuelled by training foundation models on internet-scale data. Nevertheless, the creation of open-ended, ever self-improving AI remains elusive. In this position paper, we argue...</description>
+    <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/grogerRevisitingPlatonicRepresentation2026</guid>
+    <title>Revisiting the Platonic Representation Hypothesis: An Aristotelian View</title>
+    <link>https://www.vishalv.com/notes/grogerRevisitingPlatonicRepresentation2026</link>
+    <description>The Platonic Representation Hypothesis suggests that representations from neural networks are converging to a common statistical model of reality. We show that the existing metrics used to measure representational similarity are confounded by network scale: increasing model depth...</description>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/sevetlidisGAUGEINVARIANTREPRESENTATIONHOLONOMY2026</guid>
+    <title>GAUGE-INVARIANT REPRESENTATION HOLONOMY</title>
+    <link>https://www.vishalv.com/notes/sevetlidisGAUGEINVARIANTREPRESENTATIONHOLONOMY2026</link>
+    <description>Deep networks learn internal representations whose geometry—how features bend, rotate, and evolve—affects both generalization and robustness. Existing similarity measures such as CKA or SVCCA capture pointwise overlap between activation sets, but miss how representations change...</description>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/dengHumanNetScalingHumancentric2026</guid>
+    <title>HumanNet: Scaling Human-centric Video Learning to One Million Hours</title>
+    <link>https://www.vishalv.com/notes/dengHumanNetScalingHumancentric2026</link>
+    <description>Progress in embodied intelligence increasingly depends on scalable data infrastructure. While vision and language have scaled with internet corpora, learning physical interaction remains constrained by the lack of large, diverse, and richly annotated human activity data. We...</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/hatcherAlgebraicTopology2002</guid>
+    <title>Algebraic topology</title>
+    <link>https://www.vishalv.com/notes/hatcherAlgebraicTopology2002</link>
+    <description>Research notes on Algebraic topology.</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>algebraic-topology</category><category>homeomorphism</category><category>deformation-retraction</category><category>mapping-cylinder</category><category>quotient-space</category><category>homotopy</category><category>homotopic-maps</category><category>retraction</category><category>idempotent</category><category>homotopy-rel-a</category><category>inclusion</category><category>homotopy-equivalence</category><category>homotopy-equivalent</category><category>homotopy-type</category><category>contractible</category><category>nullhomotopic</category><category>genus</category><category>cw-complex</category><category>dimension</category><category>topological-graph</category><category>euler-characteristic</category><category>real-projective-space</category><category>complex-projective-space</category><category>characteristic-map</category><category>subcomplex</category><category>cw-pair</category><category>product-space</category><category>suspension</category><category>join</category><category>simplex</category><category>radial-projection</category><category>wedge-sum</category><category>smash-product</category><category>isomorphic</category><category>fundamental-group</category><category>reduced-suspension</category><category>attach</category><category>mapping-cone</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/mirchandaniYouThinkYou2025</guid>
+    <title>So You Think You Can Scale Up Autonomous Robot Data Collection?</title>
+    <link>https://www.vishalv.com/notes/mirchandaniYouThinkYou2025</link>
+    <description>A long-standing goal in robot learning is to develop methods for robots to acquire new skills autonomously. While reinforcement learning (RL) comes with the promise of enabling autonomous data collection, it remains challenging to scale in the real-world partly due to the...</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/parrActiveDataSelection2024</guid>
+    <title>Active Data Selection and Information Seeking</title>
+    <link>https://www.vishalv.com/notes/parrActiveDataSelection2024</link>
+    <description>Bayesian inference typically focuses upon two issues. The first is estimating the parameters of some model from data, and the second is quantifying the evidence for alternative hypotheses—formulated as alternative models. This paper focuses upon a third issue. Our interest is in...</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/wangWorldActionModels2026</guid>
+    <title>World Action Models: The Next Frontier in Embodied AI</title>
+    <link>https://www.vishalv.com/notes/wangWorldActionModels2026</link>
+    <description>Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention. A growing body of work addresses...</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>vla-model</category><category>world-model</category><category>world-action-model</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/anuyahUnderstandingGraphDatabases2024</guid>
+    <title>Understanding Graph Databases: A Comprehensive Tutorial and Survey</title>
+    <link>https://www.vishalv.com/notes/anuyahUnderstandingGraphDatabases2024</link>
+    <description>This tutorial serves as a comprehensive guide for understanding graph databases, focusing on the fundamentals of graph theory while showcasing practical applications across various fields. It starts by introducing foundational concepts and delves into the structure of graphs...</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>laplacian</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/belkinLaplacianEigenmapsSpectral2002</guid>
+    <title>Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering</title>
+    <link>https://www.vishalv.com/notes/belkinLaplacianEigenmapsSpectral2002</link>
+    <description>Drawing on the correspondence between the graph Laplacian, the Laplace-Beltrami operator on a manifold , and the connections to the heat equation , we propose a geometrically motivated algorithm for constructing a representation for data sampled from a low dimensional manifold...</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>laplacian</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/craneDISCRETEDIFFERENTIALGEOMETRY</guid>
+    <title>DISCRETE DIFFERENTIAL GEOMETRY: AN APPLIED INTRODUCTION</title>
+    <link>https://www.vishalv.com/notes/craneDISCRETEDIFFERENTIALGEOMETRY</link>
+    <description>Research notes on DISCRETE DIFFERENTIAL GEOMETRY: AN APPLIED INTRODUCTION.</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>simplicial-complex</category><category>simplicial-surface</category><category>manifold-complex</category><category>adjacency-matrix</category><category>combinatorial-surface</category><category>cw-complex</category><category>csaszar-polyhedron</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/maaschProbabilisticGraphicalModels2025</guid>
+    <title>Probabilistic Graphical Models: A Concise Tutorial</title>
+    <link>https://www.vishalv.com/notes/maaschProbabilisticGraphicalModels2025</link>
+    <description>Probabilistic graphical modeling is a branch of machine learning that uses probability distributions to describe the world, make predictions, and support decision-making under uncertainty. Underlying this modeling framework is an elegant body of theory that bridges two...</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>graph</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/roughgardenCS168ModernAlgorithmic</guid>
+    <title>CS168: The Modern Algorithmic Toolbox Lectures #11: Spectral Graph Theory, I</title>
+    <link>https://www.vishalv.com/notes/roughgardenCS168ModernAlgorithmic</link>
+    <description>Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: Spectral Graph Theory, I.</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>laplacian</category><category>adjacency-matrix</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/lyonsElementaryIntroductionHopf2022</guid>
+    <title>An Elementary Introduction to the Hopf Fibration</title>
+    <link>https://www.vishalv.com/notes/lyonsElementaryIntroductionHopf2022</link>
+    <description>The Hopf fibration is an important object in mathematics and physics. A landmark discovery in topology and a fundamental object in the theory of Lie groups, the Hopf fibration has a wide variety of physical applications including magnetic monopoles, rigid body mechanics, and...</description>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>mathematical-physics</category><category>mathematics---history-and-overview</category>
+  </item>
+
   <item>
     <guid>https://www.vishalv.com/theses/bets-on-post-GPU-compute</guid>
     <title>Bets on Post-GPU Compute</title>

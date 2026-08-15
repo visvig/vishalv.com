@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/simplex</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Fri, 24 Jul 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/simplex/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/hatcherAlgebraicTopology2002</guid>
+    <title>Algebraic topology</title>
+    <link>https://www.vishalv.com/notes/hatcherAlgebraicTopology2002</link>
+    <description>Research notes on Algebraic topology.</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>algebraic-topology</category><category>homeomorphism</category><category>deformation-retraction</category><category>mapping-cylinder</category><category>quotient-space</category><category>homotopy</category><category>homotopic-maps</category><category>retraction</category><category>idempotent</category><category>homotopy-rel-a</category><category>inclusion</category><category>homotopy-equivalence</category><category>homotopy-equivalent</category><category>homotopy-type</category><category>contractible</category><category>nullhomotopic</category><category>genus</category><category>cw-complex</category><category>dimension</category><category>topological-graph</category><category>euler-characteristic</category><category>real-projective-space</category><category>complex-projective-space</category><category>characteristic-map</category><category>subcomplex</category><category>cw-pair</category><category>product-space</category><category>suspension</category><category>join</category><category>simplex</category><category>radial-projection</category><category>wedge-sum</category><category>smash-product</category><category>isomorphic</category><category>fundamental-group</category><category>reduced-suspension</category><category>attach</category><category>mapping-cone</category>
+  </item>
+
+    </channel>
+  </rss>
