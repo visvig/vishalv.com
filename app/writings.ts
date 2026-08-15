@@ -3,6 +3,7 @@ import { coreContent, sortPosts } from 'pliny/utils/contentlayer'
 import { allAuthors, allBlogs } from 'contentlayer/generated'
 import type { Authors, Blog } from 'contentlayer/generated'
 import siteMetadata from '@/data/showcase/siteMetadata'
+import { absoluteUrl, getArticleJsonLd } from './schema'
 
 export type WritingCollection = 'notes' | 'theses'
 
@@ -44,6 +45,28 @@ function getImageList(post: Blog) {
   return typeof post.images === 'string' ? [post.images] : post.images
 }
 
+function toIsoDate(value?: string | null) {
+  if (!value) {
+    return undefined
+  }
+
+  const date = new Date(value)
+  return Number.isNaN(date.getTime()) ? value : date.toISOString()
+}
+
+function getPostModifiedDate(post: Blog, collection: WritingCollection) {
+  return toIsoDate(collection === 'notes' ? post.date : post.lastmod || post.date)
+}
+
+function getPostPublishedDate(post: Blog) {
+  const postWithPublicationDate = post as Blog & {
+    datePublished?: string
+    published?: string
+  }
+
+  return toIsoDate(postWithPublicationDate.datePublished || postWithPublicationDate.published)
+}
+
 export function getWritingMetadata(
   collection: WritingCollection,
   slug: string
@@ -57,17 +80,21 @@ export function getWritingMetadata(
   }
 
   const authorDetails = getAuthorDetails(post)
-  const publishedAt = new Date(post.date).toISOString()
-  const modifiedAt = new Date(post.lastmod || post.date).toISOString()
+  const publishedAt = getPostPublishedDate(post)
+  const modifiedAt = getPostModifiedDate(post, collection)
   const authors = authorDetails.map((author) => author.name)
   const imageList = getImageList(post)
   const ogImages = imageList.map((img) => ({
     url: img && img.includes('http') ? img : siteMetadata.siteUrl + img,
   }))
+  const canonicalUrl = absoluteUrl(`/${collection}/${slug}`)
 
   return {
     title: post.title,
     description: post.summary,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: post.title,
       description: post.summary,
@@ -76,7 +103,7 @@ export function getWritingMetadata(
       type: 'article',
       publishedTime: publishedAt,
       modifiedTime: modifiedAt,
-      url: './',
+      url: canonicalUrl,
       images: ogImages,
       authors: authors.length > 0 ? authors : [siteMetadata.author],
     },
@@ -108,14 +135,16 @@ export function getWritingPageData(collection: WritingCollection, slug: string) 
   const next = sortedCoreContents[postIndex - 1]
   const authorDetails = getAuthorDetails(post)
   const mainContent = getPublicWritingCoreContent(post, collection)
-  const structuredData = post.structuredData as Record<string, unknown>
-  const jsonLd = {
-    ...structuredData,
-    author: authorDetails.map((author) => ({
-      '@type': 'Person',
-      name: author.name,
-    })),
-  }
+  const jsonLd = getArticleJsonLd({
+    type: collection === 'notes' ? 'BlogPosting' : 'Article',
+    url: absoluteUrl(`/${post.path}`),
+    title: post.title,
+    description: post.summary,
+    dateModified: getPostModifiedDate(post, collection),
+    datePublished: getPostPublishedDate(post),
+    images: getImageList(post),
+    tags: collection === 'notes' ? post.tags : undefined,
+  })
 
   return {
     post,

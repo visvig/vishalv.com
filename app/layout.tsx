@@ -11,6 +11,7 @@ import Footer from '@/components/Footer'
 import siteMetadata from '@/data/showcase/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
+import { absoluteUrl } from './schema'
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -20,6 +21,7 @@ const space_grotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
+  authors: [{ name: siteMetadata.author, url: siteMetadata.siteUrl }],
   title: {
     default: siteMetadata.title,
     template: `%s | ${siteMetadata.title}`,
@@ -28,14 +30,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,
-    url: './',
+    url: absoluteUrl(),
     siteName: siteMetadata.title,
     images: [siteMetadata.socialBanner],
     locale: 'en_US',
     type: 'website',
   },
   alternates: {
-    canonical: './',
+    canonical: absoluteUrl(),
     types: {
       'application/rss+xml': `${siteMetadata.siteUrl}/feed.xml`,
     },

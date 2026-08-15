@@ -1,8 +1,10 @@
 import Card from '@/components/Card'
+import JsonLd from '@/components/JsonLd'
 import { genPageMetadata } from 'app/seo'
+import { getHacksPageJsonLd } from 'app/schema'
 import { allHacks } from 'contentlayer/generated'
 
-export const metadata = genPageMetadata({ title: 'Hacks' })
+export const metadata = genPageMetadata({ title: 'Hacks', path: '/hacks' })
 
 export default function Hacks() {
   const hacks = allHacks
@@ -11,6 +13,17 @@ export default function Hacks() {
 
   return (
     <>
+      <JsonLd
+        data={getHacksPageJsonLd(
+          hacks.map((hack) => ({
+            slug: hack.slug,
+            title: hack.title,
+            description: hack.description || hack.excerpt,
+            href: hack.href,
+            image: hack.image || hack.firstImage,
+          }))
+        )}
+      />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">

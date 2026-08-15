@@ -47,6 +47,12 @@ function toRoutePath(flattenedPath: string) {
   return segments.join('/')
 }
 
+function compactObject(value: Record<string, unknown>) {
+  return Object.fromEntries(
+    Object.entries(value).filter(([, item]) => item !== undefined && item !== null && item !== '')
+  )
+}
+
 function createExcerpt(markdown: string, maxLines = 2) {
   const sanitizedLines = markdown
     .split('\n')
@@ -175,21 +181,37 @@ export const Blog = defineDocumentType(() => ({
     layout: { type: 'string' },
     bibliography: { type: 'string' },
     canonicalUrl: { type: 'string' },
+    published: { type: 'date' },
+    datePublished: { type: 'date' },
   },
   computedFields: {
     ...computedFields,
     structuredData: {
       type: 'json',
-      resolve: (doc) => ({
-        '@context': 'https://schema.org',
-        '@type': 'BlogPosting',
-        headline: doc.title,
-        datePublished: doc.date,
-        dateModified: doc.lastmod || doc.date,
-        description: doc.summary,
-        image: doc.images ? doc.images[0] : siteMetadata.socialBanner,
-        url: `${siteMetadata.siteUrl}/${toRoutePath(doc._raw.flattenedPath)}`,
-      }),
+      resolve: (doc) => {
+        const routePath = toRoutePath(doc._raw.flattenedPath)
+        const url = `${siteMetadata.siteUrl}/${routePath}`
+
+        return compactObject({
+          '@context': 'https://schema.org',
+          '@type': routePath.startsWith('notes/') ? 'BlogPosting' : 'Article',
+          '@id': `${url}#article`,
+          headline: doc.title,
+          datePublished: doc.datePublished || doc.published,
+          dateModified: routePath.startsWith('notes/') ? doc.date : doc.lastmod || doc.date,
+          description: doc.summary,
+          image: doc.images ? doc.images[0] : siteMetadata.socialBanner,
+          url,
+          mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': url,
+          },
+          author: { '@id': siteMetadata.person.id },
+          creator: { '@id': siteMetadata.person.id },
+          publisher: { '@id': siteMetadata.person.id },
+          isPartOf: { '@id': `${siteMetadata.siteUrl}/#website` },
+        })
+      },
     },
   },
 }))

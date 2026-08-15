@@ -1,6 +1,8 @@
 import { allAuthors, allBookshelves, allHacks, allHealth } from 'contentlayer/generated'
 import Main from './Main'
 import { getPublishedWritingCoreContent } from './writings'
+import JsonLd from '@/components/JsonLd'
+import { getHomePageJsonLd } from './schema'
 
 type HomeThesis = {
   href: string
@@ -109,13 +111,16 @@ export default async function Page() {
     : null
 
   return (
-    <Main
-      latestThesis={latestThesis}
-      hacks={hacks}
-      notes={notes}
-      books={books}
-      metrics={metrics}
-      about={about}
-    />
+    <>
+      <JsonLd data={getHomePageJsonLd()} />
+      <Main
+        latestThesis={latestThesis}
+        hacks={hacks}
+        notes={notes}
+        books={books}
+        metrics={metrics}
+        about={about}
+      />
+    </>
   )
 }

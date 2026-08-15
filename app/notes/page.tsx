@@ -4,7 +4,7 @@ import { getPublishedWritingCoreContent } from 'app/writings'
 
 const POSTS_PER_PAGE = 5
 
-export const metadata = genPageMetadata({ title: 'Notes' })
+export const metadata = genPageMetadata({ title: 'Notes', path: '/notes' })
 
 export default async function NotesPage() {
   const posts = getPublishedWritingCoreContent('notes')

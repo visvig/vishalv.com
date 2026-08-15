@@ -1,6 +1,8 @@
 import ListLayout from '@/layouts/ListLayoutWithTags'
 import { notFound } from 'next/navigation'
 import { getPublishedWritingCoreContent } from 'app/writings'
+import { genPageMetadata } from 'app/seo'
+import { Metadata } from 'next'
 
 const POSTS_PER_PAGE = 5
 
@@ -10,6 +12,19 @@ export const generateStaticParams = async () => {
   const paths = Array.from({ length: totalPages }, (_, i) => ({ page: (i + 1).toString() }))
 
   return paths
+}
+
+export async function generateMetadata(props: {
+  params: Promise<{ page: string }>
+}): Promise<Metadata> {
+  const params = await props.params
+  const pageNumber = parseInt(params.page)
+
+  return genPageMetadata({
+    title: `Notes - Page ${Number.isNaN(pageNumber) ? params.page : pageNumber}`,
+    description: 'Explorations and learnings',
+    path: `/notes/page/${params.page}`,
+  })
 }
 
 export default async function Page(props: { params: Promise<{ page: string }> }) {

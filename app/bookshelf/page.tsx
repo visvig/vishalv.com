@@ -9,6 +9,7 @@ const PAGE_DESCRIPTION = 'A reading collection'
 export const metadata = genPageMetadata({
   title: PAGE_TITLE,
   description: PAGE_DESCRIPTION,
+  path: '/bookshelf',
 })
 
 export default function BookshelfPage() {

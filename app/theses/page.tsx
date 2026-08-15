@@ -8,6 +8,7 @@ const PAGE_DESCRIPTION = 'Positions and Views'
 export const metadata = genPageMetadata({
   title: PAGE_TITLE,
   description: PAGE_DESCRIPTION,
+  path: '/theses',
 })
 
 export default function ThesesPage() {

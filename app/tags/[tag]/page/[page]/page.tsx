@@ -4,6 +4,8 @@ import ListLayout from '@/layouts/ListLayoutWithTags'
 import tagData from 'app/tag-data.json'
 import { notFound } from 'next/navigation'
 import { getPublishedWritingPosts } from 'app/writings'
+import { genPageMetadata } from 'app/seo'
+import { Metadata } from 'next'
 
 const POSTS_PER_PAGE = 5
 
@@ -16,6 +18,19 @@ export const generateStaticParams = async () => {
       tag: encodeURI(tag),
       page: (i + 1).toString(),
     }))
+  })
+}
+
+export async function generateMetadata(props: {
+  params: Promise<{ tag: string; page: string }>
+}): Promise<Metadata> {
+  const params = await props.params
+  const tag = decodeURI(params.tag)
+
+  return genPageMetadata({
+    title: `${tag} - Page ${params.page}`,
+    description: `Notes tagged ${tag}`,
+    path: `/tags/${tag}/page/${params.page}`,
   })
 }
 

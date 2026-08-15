@@ -9,6 +9,7 @@ const PAGE_DESCRIPTION = 'Taking care of the hardware'
 export const metadata = genPageMetadata({
   title: PAGE_TITLE,
   description: PAGE_DESCRIPTION,
+  path: '/health',
 })
 
 export default function HealthPage() {
