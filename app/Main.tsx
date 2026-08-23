@@ -10,33 +10,6 @@ type HomeThesis = {
   date: string
 }
 
-type HomeHack = {
-  href: string
-  title: string
-  description: string
-  image?: string | null
-}
-
-type HomeNote = {
-  href: string
-  title: string
-  date: string
-}
-
-type HomeBook = {
-  href: string
-  title: string
-  author?: string
-  image?: string | null
-}
-
-type HomeMetric = {
-  movement: string
-  value: string
-  detail?: string | null
-  date: string
-}
-
 type HomeAbout = {
   name?: string
   avatar?: string | null
@@ -46,10 +19,6 @@ type HomeAbout = {
 
 type HomeProps = {
   latestThesis: HomeThesis | null
-  hacks: HomeHack[]
-  notes: HomeNote[]
-  books: HomeBook[]
-  metrics: HomeMetric[]
   about: HomeAbout | null
 }
 
@@ -69,14 +38,13 @@ function SectionHeader({ title, href, cta }: { title: string; href: string; cta:
   )
 }
 
-export default function Home({ latestThesis, hacks, notes, books, metrics, about }: HomeProps) {
+export default function Home({ latestThesis, about }: HomeProps) {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
         <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
           Home
         </h1>
-        <p className="text-lg leading-7 text-gray-800 dark:text-gray-200">Recent work</p>
       </div>
 
       <div className="space-y-16 py-12">
@@ -119,136 +87,6 @@ export default function Home({ latestThesis, hacks, notes, books, metrics, about
                 </div>
               </div>
             </article>
-          )}
-        </section>
-
-        <section className="space-y-6">
-          <SectionHeader title="Hacks" href="/hacks" cta="All hacks" />
-          {!hacks.length ? (
-            <p className="text-base leading-7 text-gray-700 dark:text-gray-200">No hacks yet.</p>
-          ) : (
-            <ul className="grid gap-5 md:grid-cols-3">
-              {hacks.map((hack) => (
-                <li key={hack.href}>
-                  <Link
-                    href={hack.href}
-                    className="block overflow-hidden rounded-xl border border-gray-200/50 bg-gray-100/75 shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-gray-800/50 dark:bg-gray-900/60"
-                  >
-                    <div
-                      className={hack.image ? 'grid grid-cols-[96px_minmax(0,1fr)] md:block' : ''}
-                    >
-                      {hack.image && (
-                        <div className="relative h-full min-h-[96px] w-full overflow-hidden md:aspect-[16/10] md:h-auto">
-                          <Image src={hack.image} alt={hack.title} fill className="object-cover" />
-                        </div>
-                      )}
-                      <div className="min-w-0 space-y-2 p-4 md:p-5">
-                        <h3 className="text-base font-semibold tracking-tight text-gray-900 md:text-lg dark:text-gray-100">
-                          {hack.title}
-                        </h3>
-                        <p className="truncate text-sm text-gray-700 dark:text-gray-200">
-                          {hack.description}
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
-        </section>
-
-        <section className="space-y-6">
-          <SectionHeader title="Notes" href="/notes" cta="All notes" />
-          {!notes.length ? (
-            <p className="text-base leading-7 text-gray-700 dark:text-gray-200">No notes yet.</p>
-          ) : (
-            <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-              {notes.map((note) => (
-                <li key={note.href} className="py-4">
-                  <div className="flex items-baseline justify-between gap-4">
-                    <h3 className="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-100">
-                      <Link href={note.href} className="text-gray-900 dark:text-gray-100">
-                        {note.title}
-                      </Link>
-                    </h3>
-                    <time
-                      dateTime={note.date}
-                      className="shrink-0 text-sm font-medium text-gray-700 dark:text-gray-200"
-                    >
-                      {formatDate(note.date, siteMetadata.locale)}
-                    </time>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          )}
-        </section>
-
-        <section className="space-y-6">
-          <SectionHeader title="Bookshelf" href="/bookshelf" cta="Full shelf" />
-          {!books.length ? (
-            <p className="text-base leading-7 text-gray-700 dark:text-gray-200">
-              No books logged yet.
-            </p>
-          ) : (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {books.map((book) => (
-                <article
-                  key={book.href}
-                  className="overflow-hidden rounded-xl border border-gray-200/50 bg-gray-100/75 shadow-sm dark:border-gray-800/50 dark:bg-gray-900/60"
-                >
-                  {book.image && (
-                    <div className="relative h-48 w-full overflow-hidden">
-                      <Image src={book.image} alt={book.title} fill className="object-cover" />
-                    </div>
-                  )}
-                  <div className="space-y-2 p-5">
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                      <Link href={book.href} className="text-gray-900 dark:text-gray-100">
-                        {book.title}
-                      </Link>
-                    </h3>
-                    {book.author && (
-                      <p className="text-sm text-gray-700 dark:text-gray-200">{book.author}</p>
-                    )}
-                  </div>
-                </article>
-              ))}
-            </div>
-          )}
-        </section>
-
-        <section className="space-y-6">
-          <SectionHeader title="Health" href="/health" cta="All health" />
-          {!metrics.length ? (
-            <p className="text-base leading-7 text-gray-700 dark:text-gray-200">
-              No performance entries yet.
-            </p>
-          ) : (
-            <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-              {metrics.map((metric) => (
-                <li key={`${metric.movement}-${metric.date}`} className="py-4">
-                  <div className="flex items-baseline justify-between gap-4">
-                    <div className="space-y-1">
-                      <h3 className="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-100">
-                        {metric.movement}
-                      </h3>
-                      <p className="text-sm text-gray-700 dark:text-gray-200">
-                        {metric.value}
-                        {metric.detail ? ` · ${metric.detail}` : ''}
-                      </p>
-                    </div>
-                    <time
-                      dateTime={metric.date}
-                      className="shrink-0 text-sm font-medium text-gray-700 dark:text-gray-200"
-                    >
-                      {formatDate(metric.date, siteMetadata.locale)}
-                    </time>
-                  </div>
-                </li>
-              ))}
-            </ul>
           )}
         </section>
 
