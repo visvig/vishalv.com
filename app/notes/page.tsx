@@ -22,7 +22,7 @@ export default async function NotesPage() {
       initialDisplayPosts={initialDisplayPosts}
       pagination={pagination}
       title="Notes"
-      description="Explorations and learnings"
+      description="Paper notes"
       entryCtaLabel="Full notes"
     />
   )

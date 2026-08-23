@@ -22,7 +22,7 @@ export async function generateMetadata(props: {
 
   return genPageMetadata({
     title: `Notes - Page ${Number.isNaN(pageNumber) ? params.page : pageNumber}`,
-    description: 'Explorations and learnings',
+    description: 'Paper notes',
     path: `/notes/page/${params.page}`,
   })
 }
@@ -52,7 +52,7 @@ export default async function Page(props: { params: Promise<{ page: string }> })
       initialDisplayPosts={initialDisplayPosts}
       pagination={pagination}
       title="Notes"
-      description="Explorations and learnings"
+      description="Paper notes"
       entryCtaLabel="Full notes"
     />
   )

@@ -1,7 +1,7 @@
 ---
 published: "2026-08-01"
 added: "2026-08-12"
-modified: "2026-08-19"
+modified: "2026-08-23"
 authors: Marco Niello, Predrag Kalaba, Anita Cybulska-Klosowicz, Michael Kirchhofer, Iva Spreitzer, Markus Spreitzer, Judith Wackerlig-Damle, Michele Santoni, Claudia Sagheddu, Simone B. Sartori, Karl Ebner, Jana Lubec, Ahmed M. Hussein, Tamara Stojanovic, Nicolas Singewald, Marco Pistis, Gert Lubec, Harald H. Sitte
 abstract: "Psychostimulants act on monoamine systems including the dopamine transporter (DAT), a key regulator of dopamine reuptake following synaptic release. While these compounds can enhance energy, cognition, and sociability, their clinical utility is often limited by their abuse potential and peripheral side effects. Research has traditionally focused more on their addictive properties rather than their therapeutic potential. However, certain psychostimulants, such as R-modafinil, enhance cognitive performance without inducing significant euphoria or addiction, making them promising lead candidates for clinical application. In this study, we hypothesized that R-modafinil analogs with extended residence time at DAT (i.e., slow koff) would enhance cognitive function more effectively. To test this, we evaluated a series of R-modafinil analogs using in vitro equilibrium and non-equilibrium measurements, in vivo fast-scan cyclic voltammetry, and highly translational cognitive assays in both healthy and scopolamine-treated rats modelling cognitive impairment. Our findings show that prolonging DAT occupancy improves dopamine signalling and leads to more robust enhancements in cognitive flexibility. Compounds with longer DAT resident time—such as S-MK-26 and (S,S)-CE158—produced the strongest cognitive effects. These results highlight the importance of DAT binding kinetics in shaping the behavioural actions of psychostimulants and support the development of safer and more effective dopamine-based cognitive enhancers."
 ---
@@ -69,6 +69,8 @@ It is a competitive antagonist.
 
 This results in impaired memory and attention.
 
+
+#scopolamine
 
 
 
@@ -252,7 +254,10 @@ benztropines stabilize the inward-facing conformation of DAT, which differs from
 
 
 
+> Ti state.
 
+
+#benztropine
 
 
 
@@ -381,6 +386,22 @@ more effective cognitive enhancers display a higher affinity for DAT and that th
 
 
 
+
+
+
+
+<span style="color:
+#FFF176;">
+fast scan cyclic voltammetry (FSCV)</span>
+([2](zotero://open-pdf/library/items/82ZDUWI7?page=2&annotation=N9ER6DE9))
+
+
+
+
+
+
+
+#fscv
 
 
 
@@ -840,6 +861,8 @@ methylphenidate (DAT-inhibitor)</span>
 > Ritalin.
 
 
+#methylphenidate
+
 
 
 
@@ -884,6 +907,8 @@ IC50s</span>
 
 > Concentration of drug required to inhibit transporter by 50%.
 
+
+#ic50
 
 
 
@@ -1389,6 +1414,870 @@ Apart from cocaine, none of the compounds showed pharmacologically relevant acti
 
 
 
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+activity at DAT, two major groups</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=3WTTALPZ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+first group displayed DAT inhibitory potency comparable to that of R-modafinil</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=KC8XYJN4))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R-modafinil</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=MQGYJNWW))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-CE-123</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=5YGQ82CV))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+CE125</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=LFZZMCNJ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-CE-146</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=J8G3HY9P))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R-CE-146</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=YNY657YM))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+second group was characterized by markedly higher potency</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=F3HNUHC4))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+(S,S)-CE-158</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=CP42SMBS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+SMK-26</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=FUEPZDG7))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+latter group thus exhibited a cocaine-like affinity for DAT while remaining devoid of activity at NET and SERT</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=M5QNVWQ7))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+elicited DAT-mediated currents by applying a saturating concentration of DA (30 μM) in hDAT-expressing HEK293 cells</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=HFRPJ2NY))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Once established a steady-state DAT-mediated current, we co-applied the compound of interest</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=8SW5WJWI))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+application of the inhibitor is stopped and the application of 30 μM DA continues alone</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=BWEW97VE))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+rate of recovery of the current is a measure of the koff for the tested inhibitor</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=V8ESBQKP))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+dopamine-mediated current recovers in a concentration-independent manner since a compound&#39;s koff  is solely time-dependent (s 1)</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=2EM5ARZE))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+(S,S)-CE-158 and S-MK-26 showing approximately 10 times slower koff compared to other drugs</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=KAGLVUVJ))
+
+
+
+
+
+> Therefore, longer residence time.
+
+Contributes to the high potency.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+differences in the koff linearly  correlated with the IC50s obtained in uptake-inhibition</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=CAENYUX5))
+
+
+
+
+
+> in Experiment 1.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+improvement in the IC50 of the drugs depends on the establishment of a more stable DAT-inhibitor complex</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=NZ9WQLDV))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Contrary to the recovery of the steady-state currents, the inhibition of DA steady state current is concentration dependent</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=MTUKL8BG))
+
+
+
+
+
+> Inhibitor Present: inhibition is concentration dependent
+
+Inhibitor Removed: inhibition is k_off dependent (concentration independent)
+
+
+
+
+
+<span style="color:
+#FFF176;">
+inhibition of the DA steady-state current saturates at the rate-limiting step (approximately 2 s 1 – dashed box Fig. 1h)</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=EIWKS97U))
+
+
+
+
+
+> Say DAT goes through steps while doing it's transport of DA,
+
+S1 -> S2 -> S3 -> ... S10
+
+Then if state S2 is the state with the slowest conversion speed to S3, then it is the rate limiting step.
+
+Even if the inhibitor is designed to target any single step say S3 or S4, then inhibitor has to wait for the population to cycle to S3 or S4.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+if it depends on more states it superseds this rate</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=IRBNCHCJ))
+
+
+
+
+
+> Say S2, S3, S4 all being targeted. Then more members of the states population can be bind.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+ibogaine</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=X8S78EQW))
+
+
+
+
+
+> Can interact with multiple states of DAT at once.
+
+Used to treat substance abuse patients.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+fastest koff</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=H54VP5WK))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R-modafinil</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=SHT8M7Z5))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-CE-123</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=NVXPHJ3E))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+slowest koff</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=MX6KUWFE))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-MK-26</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=PZWNH3YD))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+(S,S)-CE-158</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=ZJP5NELX))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+All compounds saturated at the rate-limiting step of DAT</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=2YQRRCRF))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+their molecular pharmacological properties depend on a single state of DAT transport cycle</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=S69SW5H9))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+cannot exclude the possibility that the compounds stabilize a particular transporter conformation, leading to atypical mechanisms of action</span>
+([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=FKI3XRWS))
+
+
+
+
+
+> Like benztropine favoring inside-facing DAT.
+
+
+
+
+
+### 3.2. In vivo pharmacological manipulation of DA dynamics
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x321-y232.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x321-y232.png)
+
+> (S,S)-CE-158 and S-MK-26 show 10x slower k_off.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x337-y91.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x337-y91.png)
+
+> Only ibogaine supersedes the rate-limiting step because it is the only drug that can bind with multiple states of DAT.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x90-y636.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x90-y636.png)
+
+> Closest to modafinil.
+
+Low stable DAT-interaction.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x397-y539.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x397-y539.png)
+
+> High stable DAT-interaction.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x51-y403.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x51-y403.png)
+
+> Only cocaine affects uptake of NET and SERT beyond just DAT.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x68-y233.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x68-y233.png)
+
+> Electrical current generated by DAT when transporting DA.
+
+So, when "+Inhibitor" the current becomes 0.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x58-y99.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x58-y99.png)
+
+> p stands for -log_10()
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x191-y99.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-5-x191-y99.png)
+
+> To: Transporter outward-facing
+
+Ti: Transporter inward-facing
+
+Na: Sodium
+
+S: Substrate (Dopamine here)
+
+Empty transporter Ti has to reset outward To. This is the rate limiting step.
+
+All inhibitors bind at ToNa state.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+more stable DAT-interaction (i.e. lower koff (S,S)-CE-158 and SMK-26)</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=RI73JMIY))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+less stable DAT interaction (i.e. higher koff Rmodafinil and S-CE-123</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=N4WGS9GG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+dorsal striatum</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=NLGPCPML))
+
+
+
+
+
+> Receives dense dopaminergic input.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+administered i. p.</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=PSK2J4EE))
+
+
+
+
+
+> IP: Intra Peritoneal Injection
+
+Abdomen cavity in rodents.
+
+
+#intra-peritoneal
+
+
+
+
+<span style="color:
+#FFF176;">
+electrical stimulation evoked a characteristic DA peak, identified by an oxidation peak at ~0.65V and a reduction peak at 0.4V</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=A6QM72VF))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R-modafinil and S-CE-123 fade within 120 min of recording, S-MK-26, and (S,S)-CE-158 still show elevated DAmax at 120 min, indicating a prolonged effect</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=PB2S7SKH))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-MK-26 was markedly less effective than (S,S)-CE-158 in increasing striatal DA</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=B3XY4GZC))
+
+
+
+
+
+
+
+
+
+
+### 3.3. Oral pharmacokinetics of DAT inhibitors
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+psychostimulants show reduced toxicity when administered orally</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=FKVEEJ6F))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+systemic parenteral administration</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=4XCM3PFG))
+
+
+
+
+
+> Systemic: entering the circulation and distribute throughout the body
+
+Parenteral: without entering gastrointestinal track
+
+Examples:
+
+IV: intravenous
+IM: intramuscular
+SC: subcutameous
+IP: intraperitoneal
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-6-x53-y247.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-6-x53-y247.png)
+
+> Up-sweep and down-sweep the voltage of the electrode stuck in brain.
+
+-0.04 to 1.2 to -0.4
+
+Measure how much electrons are being released.
+
+Colors are the measured current due to oxidation of dopamine as a result of voltage sweeping.
+
+Max oxidation at 0.65V 
+Max reduction at -0.4V
+
+
+
+
+
+<span style="color:
+#FFF176;">
+All compounds showed a slower pharmacokinetics compared to R-modafinil</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=6XRY5CPM))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+brain:plasma ratios ≥1 which indicates good brain penetrance</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=CRM69Q48))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+both S-MK-26 and (S,S)-CE-158 showed a much slower excretion compared to S-CE-123 and R-modafinil</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=JLM37TQG))
+
+
+
+
+
+
+
+
+
+
+### 3.4. Behavioral efficacy and suitability of slow binding kinetic DAT inhibitors
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+ASST in Wistar rats, a behavioral task modeled after the intradimensional/extradimensional component of the Cambridge Neuropsychological Test Automated Battery (CANTAB)</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=A9FKIPXB))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+f) koff from different inhibitors. Statistics is One-way ANOVA followed by Tukey multi-comparison test, α = 0.05. ANOVA: F (8, 104) = 21.31, P &lt; 0.0001. Tukey multi-comparison test: * = p &lt; 0.05, ** = p &lt; 0.01, *** = p &lt; 0.001, **** =  p &lt; 0.0001</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=LZT23SLV))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+h) Schematics of DAT transport cycle, with estimated transport rates</span>
+([6](zotero://open-pdf/library/items/82ZDUWI7?page=6&annotation=7JS3FQ9V))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-6-x53-y120.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-6-x53-y120.png)
+
+> In vivo reveals that (S,S)-CE-158 is much stronger than it's closer analog S-MK-26 during in vitro.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+3R principles by re-using the existing dataset—including the (S,S)-CE-158 + scopolamine condition—and integrating it with the newly generated datasets for the three additional compounds (R-modafinil, S-CE-123, and S-MK-26</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=A62KPDMH))
+
+
+
+
+
+> Replace: use non-animal alts
+Reduce: use fewest animals
+Refine: procedure to reduce distress
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-7-x93-y473.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-7-x93-y473.png)
 
 
 
