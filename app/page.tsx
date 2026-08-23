@@ -7,7 +7,6 @@ import { getHomePageJsonLd } from './schema'
 type HomeThesis = {
   href: string
   title: string
-  summary: string
   date: string
 }
 
@@ -26,7 +25,6 @@ export default async function Page() {
     ? {
         href: `/${latestThesisPost.path}`,
         title: latestThesisPost.title,
-        summary: latestThesisPost.summary || 'No summary yet.',
         date: latestThesisPost.date,
       }
     : null

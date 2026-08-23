@@ -6,7 +6,6 @@ import { formatDate } from 'pliny/utils/formatDate'
 type HomeThesis = {
   href: string
   title: string
-  summary: string
   date: string
 }
 
@@ -66,15 +65,12 @@ export default function Home({ latestThesis, about }: HomeProps) {
                   </dd>
                 </dl>
                 <div className="space-y-5 xl:col-span-3">
-                  <div className="space-y-4">
+                  <div>
                     <h3 className="text-3xl leading-10 font-bold tracking-tight text-gray-900 dark:text-gray-100">
                       <Link href={latestThesis.href} className="text-gray-900 dark:text-gray-100">
                         {latestThesis.title}
                       </Link>
                     </h3>
-                    <div className="prose max-w-none text-gray-700 dark:text-gray-200">
-                      {latestThesis.summary}
-                    </div>
                   </div>
                   <div className="text-base leading-6 font-medium">
                     <Link
