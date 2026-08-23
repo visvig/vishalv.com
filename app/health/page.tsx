@@ -32,7 +32,7 @@ export default function HealthPage() {
       <div className="space-y-16 py-12">
         <section className="space-y-6">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
-            {performances.slice(0, 5).map((entry) => {
+            {performances.map((entry) => {
               const hasWeight =
                 entry.weight !== undefined && entry.weight !== null && entry.weight !== ''
               const weightRaw = hasWeight ? String(entry.weight).trim() : ''
