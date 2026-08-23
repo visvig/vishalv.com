@@ -1,5 +1,5 @@
 ---
-date: 2025-07-31
+date: 2026-07-31
 movement: Squats
 weight: 265kg
 reps: "10"
