@@ -37,6 +37,14 @@ function SectionHeader({ title, href, cta }: { title: string; href: string; cta:
   )
 }
 
+function formatShortDate(date: string) {
+  return new Date(date).toLocaleDateString(siteMetadata.locale, {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  })
+}
+
 export default function Home({ latestThesis, about }: HomeProps) {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -55,32 +63,23 @@ export default function Home({ latestThesis, about }: HomeProps) {
             </p>
           ) : (
             <article>
-              <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                <dl>
+              <div className="flex min-w-0 items-baseline gap-4">
+                <dl className="shrink-0">
                   <dt className="sr-only">Published on</dt>
-                  <dd className="text-base leading-6 font-medium text-gray-700 dark:text-gray-200">
+                  <dd className="text-sm leading-6 font-medium text-gray-700 sm:text-base dark:text-gray-200">
                     <time dateTime={latestThesis.date}>
-                      {formatDate(latestThesis.date, siteMetadata.locale)}
+                      <span className="sm:hidden">{formatShortDate(latestThesis.date)}</span>
+                      <span className="hidden sm:inline">
+                        {formatDate(latestThesis.date, siteMetadata.locale)}
+                      </span>
                     </time>
                   </dd>
                 </dl>
-                <div className="space-y-5 xl:col-span-3">
-                  <div>
-                    <h3 className="text-3xl leading-10 font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                      <Link href={latestThesis.href} className="text-gray-900 dark:text-gray-100">
-                        {latestThesis.title}
-                      </Link>
-                    </h3>
-                  </div>
-                  <div className="text-base leading-6 font-medium">
-                    <Link
-                      href={latestThesis.href}
-                      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                    >
-                      Read thesis &rarr;
-                    </Link>
-                  </div>
-                </div>
+                <h3 className="min-w-0 text-lg leading-7 font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-8 md:text-3xl md:leading-10 dark:text-gray-100">
+                  <Link href={latestThesis.href} className="text-gray-900 dark:text-gray-100">
+                    {latestThesis.title}
+                  </Link>
+                </h3>
               </div>
             </article>
           )}
