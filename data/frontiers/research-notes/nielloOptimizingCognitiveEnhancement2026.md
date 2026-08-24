@@ -1,7 +1,7 @@
 ---
 published: "2026-08-01"
 added: "2026-08-12"
-modified: "2026-08-23"
+modified: "2026-08-24"
 authors: Marco Niello, Predrag Kalaba, Anita Cybulska-Klosowicz, Michael Kirchhofer, Iva Spreitzer, Markus Spreitzer, Judith Wackerlig-Damle, Michele Santoni, Claudia Sagheddu, Simone B. Sartori, Karl Ebner, Jana Lubec, Ahmed M. Hussein, Tamara Stojanovic, Nicolas Singewald, Marco Pistis, Gert Lubec, Harald H. Sitte
 abstract: "Psychostimulants act on monoamine systems including the dopamine transporter (DAT), a key regulator of dopamine reuptake following synaptic release. While these compounds can enhance energy, cognition, and sociability, their clinical utility is often limited by their abuse potential and peripheral side effects. Research has traditionally focused more on their addictive properties rather than their therapeutic potential. However, certain psychostimulants, such as R-modafinil, enhance cognitive performance without inducing significant euphoria or addiction, making them promising lead candidates for clinical application. In this study, we hypothesized that R-modafinil analogs with extended residence time at DAT (i.e., slow koff) would enhance cognitive function more effectively. To test this, we evaluated a series of R-modafinil analogs using in vitro equilibrium and non-equilibrium measurements, in vivo fast-scan cyclic voltammetry, and highly translational cognitive assays in both healthy and scopolamine-treated rats modelling cognitive impairment. Our findings show that prolonging DAT occupancy improves dopamine signalling and leads to more robust enhancements in cognitive flexibility. Compounds with longer DAT resident time—such as S-MK-26 and (S,S)-CE158—produced the strongest cognitive effects. These results highlight the importance of DAT binding kinetics in shaping the behavioural actions of psychostimulants and support the development of safer and more effective dopamine-based cognitive enhancers."
 ---
@@ -1233,6 +1233,8 @@ intra-dimensional shift phase (IDS)</span>
 
 
 
+#ids
+
 
 
 
@@ -1246,6 +1248,8 @@ extra-dimensional shift phase (EDS)</span>
 
 
 
+
+#eds
 
 
 
@@ -1756,6 +1760,8 @@ ibogaine</span>
 
 Used to treat substance abuse patients.
 
+
+#ibogaine
 
 
 
@@ -2276,8 +2282,766 @@ Refine: procedure to reduce distress
 
 
 
+<span style="color:
+#FFF176;">
+rats are challenged for the discrimination of different stimuli</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=PKMPNUUC))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+different odors</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=LAHF6KWG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+different mediums</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=H2WLC3VN))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+number of trials to reach the criterion</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=UH7IITC6))
+
+
+
+
+
+> measure of cognitive performance.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+difference in the number of trials to reach the criterion between IDS and EDS is a measure of cognitive flexibility</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=UT3HCY5Z))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R-modafinil facilitated overcoming this cognitive bias showing a statistically significant reduction in the trials to reach criterion in the EDS</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=CLLYGVWR))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-CE123 did not show any relevant effect compared to Vehicle in any of the cognitive dimensions</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=MWJ8RS6B))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-MK-26 showed statistically significant effects in the reversal</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=H79N8ZXG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+(S,S)-CE-158 did not show statistically different effects in any of the ASST phases included the EDS</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=4ZYMVTS7))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+(S,S)-CE-158 reduced the IDS→EDS shift cost</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=VJWZPNY7))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Following two weeks of washout, we re-tested the animals after the pre-treatment with the amnestic antimuscarinic drug scopolamine</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=DP6U7SQ8))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R-modafinil showed a robust decrease in the required trials to reach criterion during the EDS</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=VVVDFUZD))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-CE-123 showed a similar result to R-modafinil with a reduction in the number of trials to reach criterion in the EDS vs Vehicle</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=H64CRQIJ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-MK-26 produced a robust reduction in the number of trials required to reach criterion across multiple ASST stages</span>
+([7](zotero://open-pdf/library/items/82ZDUWI7?page=7&annotation=MU7N2MK3))
+
+
+
+
+
+
+
+
+
+
 
 ![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-7-x93-y473.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-7-x93-y473.png)
+
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x68-y390.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x68-y390.png)
+
+> R-modafinil reduces the number of trials for reaching EDS criterion.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x68-y263.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x68-y263.png)
+
+> Significant reversal.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x307-y391.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x307-y391.png)
+
+> No effect.
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x307-y262.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x307-y262.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+c1) Dimension-specific effects of R-modafinil vs  Vehicle: two-way mixed-effects ANOVA with main affect on test F (4, 54) = 33.19, p &lt; 0.0001, Sˇíd ́ak&#39;s multiple comparisons test for EDS Vehicle vs R-modafinil p = 0.0517, for all the other tests p &gt; 0.05</span>
+([8](zotero://open-pdf/library/items/82ZDUWI7?page=8&annotation=5R757VFH))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+d1) Dimension-specific effects of S-CE-123 vs Vehicle: two-way mixed-effects ANOVA with main affect on test (IDS vs EDS) F (4,  55) = 39.35, p &lt; 0.0001, for all test Sˇída ́k&#39;s multiple comparisons test Vehicle vs S-CE-123 p &gt; 0.05</span>
+([8](zotero://open-pdf/library/items/82ZDUWI7?page=8&annotation=XCPPUTYG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+e1) Dimension-specific effects of SMK-26 vs Vehicle: two-way mixed-effects ANOVA with main affect on test F (4, 58) = 33.52, p &lt; 0.0001, animals F (1, 15) = 6.914, p = 0.019, and test x animals F  (4, 58) = 2.752, p = 0.0364. Sˇíd ́ak&#39;s multiple comparisons for ASST tests comparing Vehicle vs S-MK-26: Rev p = 0.0480, EDS p = 0.0035, for all the other tests p &gt; 0.05</span>
+([8](zotero://open-pdf/library/items/82ZDUWI7?page=8&annotation=2VIJWCF4))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+f1)Dimension-specific effects of  (S,S)-CE-158 vs Vehicle: two-way mixed-effects ANOVA with main affect on test F (4, 75) = 20.54, p &lt; 0.0001. ˇSída ́k&#39;s multiple comparisons for ASST tests comparing Vehicle vs (S,S)-CE-158: all the tests p &gt; 0.05</span>
+([8](zotero://open-pdf/library/items/82ZDUWI7?page=8&annotation=D5PKMCRW))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x63-y625.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-8-x63-y625.png)
+
+> ASST Setup.
+
+
+#asst
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x278-y343.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x278-y343.png)
+
+
+
+
+
+
+
+![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x163-y624.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x163-y624.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+(S,S)-CE-158 produced only a modest reduction in trials to criterion across ASST stages</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=VER9SF4E))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R-modafinil did not show any effect on the rescue</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=J2D4YPWR))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S-CE-123 show only a partial rescue</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=6C8N4JU7))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+full rescue of performances was present for both slow bindingkinetic inhibitors S-MK-26</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=PV45UUFQ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+and (S,S)-CE-158</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=24C22XZQ))
+
+
+
+
+
+
+
+
+
+
+### 4. Discussion
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+DAT/SERT selectivity ratio, is regularly used as a predictive indicator of the abuse liability of a given drug</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=B4H49ZIE))
+
+
+
+
+
+> But there are exceptions, like cocaine.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+benztropines, rimcazole, GBR12909, and related analogs do not induce robust reinforcing</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=2GTKASDY))
+
+
+
+
+
+
+
+#gbr12909
+#rimcazole
+
+
+
+
+<span style="color:
+#FFF176;">
+cocaine, which induces reinforcing and stimulatory effects, does not present with a high DAT/SERT selectivity ratio</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=8AFA9NRL))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+benztropine analog JHW007 could antagonize the reinforcing effects of cocaine by slowly occupying DAT in the CNS</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=WKRVKESA))
+
+
+
+
+
+
+
+#jhw007
+
+
+
+
+<span style="color:
+#FFF176;">
+rate of unbinding of compounds at DAT predicts the length of stimulatory effects across different psychostimulants, indicating that binding kinetics can influence behavioral properties of DAT ligands</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=AD7X5MFS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+improvement in the equilibrium affinity from μM to sub-μM of different modafinil analogs is associated with their slower koff at DAT</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=U37XD9J2))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+replacing the terminal amide of R-modafinil with a thiazole, in combination with substitutions on the bis-phenyl ring system, plays a role in binding kinetics</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=89HXM5S7))
+
+
+
+
+
+> Amide: -CONH2
+Thiazole: -C3H3NS
+Bisphenyl: 2 benzene rings
+
+
+
+
+
+<span style="color:
+#FFF176;">
+pyrovalerone-based stimulants</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=MQR6DMXK))
+
+
+
+
+
+> Inhibit multiple states of DAT. Similar to ibogaine.
+
+
+#pyrovalerone
+
+
+
+
+<span style="color:
+#FFF176;">
+we cannot conclude if the tested inhibitors might be used for state-dependent modulation of DAT as reported for GBR12909 and benztropine</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=Q9UGBVWU))
+
+
+
+
+
+> benztropine stabilizes Ti state.
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+in contrast to R-modafinil, it is the opposite enantiomer that exhibits higher DAT affinity. Given the critical role of sulfoxide configuration in DAT binding for R-modafinil and related compounds, further atomistic studies will be necessary for elucidating the binding interactions of these analogs</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=DXFKN7C8))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+slow dissociation rate could be achieved via the establishment of occluded intermediates, as reported already for LSD in the case of 5HT2b and 5HT2a receptors</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=EKFCPWSU))
+
+
+
+
+
+
+
+#5ht2a
+#5ht2b
+
+
+
+
+<span style="color:
+#FFF176;">
+by stabilizing the inward-open state as established in the case of GBR12909 and benztropines</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=YKAXYJAS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+The molecular consequences of a long residence time at DAT are still enigmatic. Further studies will be needed to clarify this point</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=GQB4EUCW))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+our study did not assess the free-drug concentration for S-MK-26 and (S,S)-CE-158, as was done for R-modafinil and S-CE-123</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=KWSIIC8S))
+
+
+
+
+
+> total drug = free drug + tissue drug.
+
+Only free drug is readily available to interact with DAT.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+primarily impaired IDS performance, and rescue of IDS (i.e., attentional set formation) was most evident for the optimized DAT inhibitors S-MK-26 and (S,S)-CE-158, whereas R-modafinil and S-CE-123 showed weaker or no IDS rescue</span>
+([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=SJPF2ZBK))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+internally consistent with the stability–flexibility trade-off</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=K36WRRZF))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Set formation (IDS) demands strong and sustained dopaminergic engagement to stabilize task-relevant representations</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=C3FIYG9V))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+set shifting (EDS) can be facilitated by comparatively modest DA elevations that bias behavior away from perseveration and toward exploration</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=AIA9HVNP))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+under scopolamine, only compounds with robust cortical exposure and sufficient DAT residence time reliably restore attentional stability (IDS), while even weaker DAT inhibitors are sufficient to promote flexibility (EDS)</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=2JIM8W2G))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+DAT inhibition can promote set shifting even when cholinergic tone is low, but restoring attentional set formation under cholinergic disruption requires higher central dopaminergic load and sustained DAT engagement</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=Y44LREVH))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+primarily mediated by dopamine rather than other monoaminergic systems</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=CFF57EAJ))
+
+
+
+
+
+> Cognitive effects.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+GPCRs</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=PFUBBKHH))
+
+
+
+
+
+> G-protein coupled receptors.
+
+
+#gpcr
+
+
+
+
+<span style="color:
+#FFF176;">
+kinases</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=6GXL5VIJ))
+
+
+
+
+
+> Enzyme that adds a phosphate group to another molecule, usually a protein.
+
+
+#kinase
+
+
+
+
+<span style="color:
+#FFF176;">
+optimizing DAT binding kinetics profoundly shapes the molecular, neurochemical, and behavioral properties of these inhibitors</span>
+([11](zotero://open-pdf/library/items/82ZDUWI7?page=11&annotation=67VTXB8R))
+
+
+
+
 
 
 
