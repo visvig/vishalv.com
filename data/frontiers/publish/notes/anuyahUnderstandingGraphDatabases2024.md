@@ -24,7 +24,7 @@ summary: "This tutorial serves as a comprehensive guide for understanding graph 
 
 
 > prominent graph database systems like Neo4j, Amazon Neptune, and ArangoDB
-([](zotero://open-pdf/library/items/Z9HWWIYX?page=&annotation=W52SA4JM))
+([1](zotero://open-pdf/library/items/Z9HWWIYX?page=1&annotation=W52SA4JM))
 
 
 
@@ -36,7 +36,7 @@ summary: "This tutorial serves as a comprehensive guide for understanding graph 
 
 
 > node and edge creation, attribute assignment, and advanced queries with Cypher
-([](zotero://open-pdf/library/items/Z9HWWIYX?page=&annotation=I6KAB467))
+([1](zotero://open-pdf/library/items/Z9HWWIYX?page=1&annotation=I6KAB467))
 
 
 
@@ -48,7 +48,7 @@ summary: "This tutorial serves as a comprehensive guide for understanding graph 
 
 
 > graph visualization techniques using tools such as Plotly and Neo4j Bloom
-([](zotero://open-pdf/library/items/Z9HWWIYX?page=&annotation=JV3IX9K6))
+([1](zotero://open-pdf/library/items/Z9HWWIYX?page=1&annotation=JV3IX9K6))
 
 
 
@@ -60,7 +60,7 @@ summary: "This tutorial serves as a comprehensive guide for understanding graph 
 
 
 > Louvain method, which support clustering in large networks
-([](zotero://open-pdf/library/items/Z9HWWIYX?page=&annotation=KK6WNHBD))
+([1](zotero://open-pdf/library/items/Z9HWWIYX?page=1&annotation=KK6WNHBD))
 
 
 
@@ -105,7 +105,7 @@ summary: "This tutorial serves as a comprehensive guide for understanding graph 
 
 
 > A graph is therefore an ideal way to model networks in various fields. These fields include geosciences,  brain studies, transportation networks, etc
-([](zotero://open-pdf/library/items/Z9HWWIYX?page=&annotation=7K2B4IX3))
+([1](zotero://open-pdf/library/items/Z9HWWIYX?page=1&annotation=7K2B4IX3))
 
 
 
@@ -128,7 +128,7 @@ summary: "This tutorial serves as a comprehensive guide for understanding graph 
 
 
 > weights can represent distances or time costs
-([](zotero://open-pdf/library/items/Z9HWWIYX?page=&annotation=X8FKEQ7H))
+([1](zotero://open-pdf/library/items/Z9HWWIYX?page=1&annotation=X8FKEQ7H))
 
 
 
@@ -388,7 +388,7 @@ summary: "This tutorial serves as a comprehensive guide for understanding graph 
 
 
 
-> RDF - Resource Description Framework (everything is a triplet)
+RDF - Resource Description Framework (everything is a triplet)
 
 Property Graph: Nodes and Edges can have properties / attributes
 
@@ -591,7 +591,7 @@ Property Graph: Nodes and Edges can have properties / attributes
 
 
 
-> Node Identity
+Node Identity
 
 
 
@@ -604,7 +604,7 @@ Property Graph: Nodes and Edges can have properties / attributes
 
 
 
-> Node Property / Attribute
+Node Property / Attribute
 
 
 
@@ -653,7 +653,7 @@ Property Graph: Nodes and Edges can have properties / attributes
 
 
 
-> Awesome Procedures On Cypher
+Awesome Procedures On Cypher
 
 
 

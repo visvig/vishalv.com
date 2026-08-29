@@ -24,26 +24,26 @@ summary: "Drawing on the correspondence between the graph Laplacian, the Laplace
 
 
 > we propose a geometrically motivated algorithm for constructing a representation for data sampled from a low dimensional manifold embedded in a higher dimensional space
-([](zotero://open-pdf/library/items/RIK6GUT4?page=&annotation=6IW9HAH2))
+([1](zotero://open-pdf/library/items/RIK6GUT4?page=1&annotation=6IW9HAH2))
 
 
 
 
 
-> data points are in euclidean space (some higher dimensional space) and it might be from an underlying manifold (a lower dimensional space)
+data points are in euclidean space (some higher dimensional space) and it might be from an underlying manifold (a lower dimensional space)
 
 
 
 
 
 > gray scale n x n images of a fixed object taken with a moving camera yield data points in rn: n2 . However , the intrinsic dimensionality of the space of all images of t he same object is the number of degrees of freedom of the camera - in fact the space has the natural structure of a manifold embedded in rn: n2
-([](zotero://open-pdf/library/items/RIK6GUT4?page=&annotation=EFPKFRKB))
+([1](zotero://open-pdf/library/items/RIK6GUT4?page=1&annotation=EFPKFRKB))
 
 
 
 
 
-> assumption is that the object / scene is not changing. then the degrees of freedom of the camera is all that matters.
+assumption is that the object / scene is not changing. then the degrees of freedom of the camera is all that matters.
 
 degrees of freedom of camera is the intrinsic dimension of the space of images (which then is the dimensions of the manifold).
 
@@ -52,13 +52,13 @@ degrees of freedom of camera is the intrinsic dimension of the space of images (
 
 
 > The Laplacian of the graph obtained from the data points may be viewed as an approximation to the Laplace-Beltrami operator defined on the manifold
-([](zotero://open-pdf/library/items/RIK6GUT4?page=&annotation=FYRLEZY3))
+([1](zotero://open-pdf/library/items/RIK6GUT4?page=1&annotation=FYRLEZY3))
 
 
 
 
 
-> Laplace-Beltrami operator is for manifolds which does a similar operation as Laplacian does for graphs.
+Laplace-Beltrami operator is for manifolds which does a similar operation as Laplacian does for graphs.
 
 
 
@@ -83,7 +83,7 @@ degrees of freedom of camera is the intrinsic dimension of the space of images (
 
 
 
-> Laplacian Eigenmap Algorithm.
+Laplacian Eigenmap Algorithm.
 
 
 
@@ -291,7 +291,7 @@ degrees of freedom of camera is the intrinsic dimension of the space of images (
 
 
 
-> line is a vector in R of dimension 1
+line is a vector in R of dimension 1
 
 
 

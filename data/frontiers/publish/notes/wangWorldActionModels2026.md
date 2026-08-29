@@ -253,7 +253,7 @@ summary: "Vision-Language-Action (VLA) models have achieved strong semantic gene
 
 
 
-> Teleoperating means human is controlling the robot remotely and the video is captured by the robot / outside.
+Teleoperating means human is controlling the robot remotely and the video is captured by the robot / outside.
 
 
 

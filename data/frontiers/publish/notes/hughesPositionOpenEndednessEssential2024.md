@@ -23,7 +23,7 @@ summary: "In recent years there has been a tremendous surge in the general capab
 
 
 > ingredients are now in place to achieve openendedness in AI systems with respect to a human observer
-([](zotero://open-pdf/library/items/454KY8HZ?page=&annotation=3523EJER))
+([1](zotero://open-pdf/library/items/454KY8HZ?page=1&annotation=3523EJER))
 
 
 
@@ -35,7 +35,7 @@ summary: "In recent years there has been a tremendous surge in the general capab
 
 
 > open-endedness is an essential property of any artificial superhuman intelligence (ASI)
-([](zotero://open-pdf/library/items/454KY8HZ?page=&annotation=NECCYEHW))
+([1](zotero://open-pdf/library/items/454KY8HZ?page=1&annotation=NECCYEHW))
 
 
 
@@ -47,7 +47,7 @@ summary: "In recent years there has been a tremendous surge in the general capab
 
 
 > formal definition of open-endedness through the lens of novelty and learnability
-([](zotero://open-pdf/library/items/454KY8HZ?page=&annotation=GEVGJ6SS))
+([1](zotero://open-pdf/library/items/454KY8HZ?page=1&annotation=GEVGJ6SS))
 
 
 
@@ -59,4 +59,4 @@ summary: "In recent years there has been a tremendous surge in the general capab
 
 
 > path towards ASI via open-ended systems built on top of foundation models, capable of making novel, humanrelevant discoveries
-([](zotero://open-pdf/library/items/454KY8HZ?page=&annotation=SRFMQVGP))
+([1](zotero://open-pdf/library/items/454KY8HZ?page=1&annotation=SRFMQVGP))

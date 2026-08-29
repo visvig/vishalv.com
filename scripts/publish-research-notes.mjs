@@ -127,6 +127,17 @@ function normalizeHighlightSpans(markdown) {
   )
 }
 
+function normalizeLegacyAnnotationComments(markdown) {
+  return markdown.replace(/^>\s?/gm, '')
+}
+
+function normalizeMissingAnnotationPages(markdown) {
+  return markdown.replace(
+    /\(\[\]\((zotero:\/\/open-pdf\/library\/items\/[^?\s)]+)\?page=&annotation=([^\s)]+)\)\)/g,
+    (_, itemUrl, annotationId) => `([1](${itemUrl}?page=1&annotation=${annotationId}))`
+  )
+}
+
 function escapeMdxControlCharacters(markdown) {
   return markdown.replace(/{/g, '\\{').replace(/}/g, '\\}').replace(/</g, '&lt;')
 }
@@ -200,7 +211,13 @@ function serializeFrontmatter(frontmatter) {
 function transformBody(body) {
   return escapeMdxControlCharacters(
     rewriteAndCopyImages(
-      stripStandaloneTagLines(normalizeHighlightSpans(removeTagsSection(removeTitleHeading(body))))
+      stripStandaloneTagLines(
+        normalizeHighlightSpans(
+          normalizeMissingAnnotationPages(
+            normalizeLegacyAnnotationComments(removeTagsSection(removeTitleHeading(body)))
+          )
+        )
+      )
     )
   ).trim()
 }

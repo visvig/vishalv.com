@@ -23,7 +23,7 @@ summary: "Deep networks learn internal representations whose geometry—how feat
 
 
 > Existing similarity measures such as CKA or SVCCA capture pointwise overlap between activation sets, but miss how representations change along input paths
-([](zotero://open-pdf/library/items/CD5FGWRU?page=&annotation=KZG5RSIZ))
+([1](zotero://open-pdf/library/items/CD5FGWRU?page=1&annotation=KZG5RSIZ))
 
 
 
@@ -35,7 +35,7 @@ summary: "Deep networks learn internal representations whose geometry—how feat
 
 
 > We introduce representation holonomy, a gauge-invariant statistic that measures this path dependence
-([](zotero://open-pdf/library/items/CD5FGWRU?page=&annotation=RV966EK3))
+([1](zotero://open-pdf/library/items/CD5FGWRU?page=1&annotation=RV966EK3))
 
 
 
@@ -47,4 +47,4 @@ summary: "Deep networks learn internal representations whose geometry—how feat
 
 
 > Empirically, holonomy increases with loop radius, separates models that appear similar under CKA, and correlates with adversarial and corruption robustness
-([](zotero://open-pdf/library/items/CD5FGWRU?page=&annotation=VANS3ACF))
+([1](zotero://open-pdf/library/items/CD5FGWRU?page=1&annotation=VANS3ACF))

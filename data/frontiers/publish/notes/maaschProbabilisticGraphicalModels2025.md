@@ -127,7 +127,7 @@ summary: "Probabilistic graphical modeling is a branch of machine learning that 
 
 
 
-> notion abuse - should be i+l where l is the length of the path; as n is reserved for total number of vertices of the graph
+notion abuse - should be i+l where l is the length of the path; as n is reserved for total number of vertices of the graph
 
 
 
@@ -464,7 +464,7 @@ summary: "Probabilistic graphical modeling is a branch of machine learning that 
 
 
 
-> "overlapping": edge between bags
+"overlapping": edge between bags
 
 
 
@@ -477,7 +477,7 @@ summary: "Probabilistic graphical modeling is a branch of machine learning that 
 
 
 
-> vertexes can repeat across bags
+vertexes can repeat across bags
 
 
 
@@ -490,7 +490,7 @@ summary: "Probabilistic graphical modeling is a branch of machine learning that 
 
 
 
-> every edge is captured collectively by all bags
+every edge is captured collectively by all bags
 
 
 
@@ -503,7 +503,7 @@ summary: "Probabilistic graphical modeling is a branch of machine learning that 
 
 
 
-> when a vertex is repeating in 2 bags, they form an edge in the tree of bags
+when a vertex is repeating in 2 bags, they form an edge in the tree of bags
 
 
 
@@ -528,7 +528,7 @@ summary: "Probabilistic graphical modeling is a branch of machine learning that 
 
 
 
-> no odd cycle length. even cycle lengths, or no cycles at all.
+no odd cycle length. even cycle lengths, or no cycles at all.
 
 
 

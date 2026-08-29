@@ -14,7 +14,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 ## Notes
 
 > 1) represent the graph as a matrix
-([](zotero://open-pdf/library/items/FDSGGVVE?page=&annotation=BEN94RHS))
+([1](zotero://open-pdf/library/items/FDSGGVVE?page=1&annotation=BEN94RHS))
 
 
 
@@ -26,7 +26,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 > 2) study the eigenvectors/eigenvalues of that matrix
-([](zotero://open-pdf/library/items/FDSGGVVE?page=&annotation=WRUU6HQQ))
+([1](zotero://open-pdf/library/items/FDSGGVVE?page=1&annotation=WRUU6HQQ))
 
 
 
@@ -38,7 +38,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 > we will consider undirected, and unweighted graphs (i.e. all edges have weight 1), that do not have any self-loops
-([](zotero://open-pdf/library/items/FDSGGVVE?page=&annotation=LPXD46VA))
+([1](zotero://open-pdf/library/items/FDSGGVVE?page=1&annotation=LPXD46VA))
 
 
 
@@ -50,7 +50,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 > Most of the definitions and techniques will extend to both directed graphs, as well as weighted graphs
-([](zotero://open-pdf/library/items/FDSGGVVE?page=&annotation=IAN5ZMCK))
+([1](zotero://open-pdf/library/items/FDSGGVVE?page=1&annotation=IAN5ZMCK))
 
 
 
@@ -73,13 +73,13 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 > Laplacian matrix associated to G is an n × n matrix LG = D − A
-([](zotero://open-pdf/library/items/FDSGGVVE?page=&annotation=DCS8XSUL))
+([1](zotero://open-pdf/library/items/FDSGGVVE?page=1&annotation=DCS8XSUL))
 
 
 
 
 
-> A derived matrix that aims to capture the local variation of node values (signals) on a graph
+A derived matrix that aims to capture the local variation of node values (signals) on a graph
 
 
 
@@ -87,13 +87,13 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 > D is the degree matrix
-([](zotero://open-pdf/library/items/FDSGGVVE?page=&annotation=6PSM9NH2))
+([1](zotero://open-pdf/library/items/FDSGGVVE?page=1&annotation=6PSM9NH2))
 
 
 
 
 
-> Can be derived from matrix A
+Can be derived from matrix A
 
 
 
@@ -118,7 +118,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 
-> Matrix A itself. Captures all about the connectivity of the graph.
+Matrix A itself. Captures all about the connectivity of the graph.
 
 
 
@@ -140,7 +140,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 ![research-notes/images/roughgardenCS168ModernAlgorithmic/image-2-x214-y621.png](/static/research-notes/images/roughgardenCS168ModernAlgorithmic/image-2-x214-y621.png)
 
-> L_G is a matrix. Its elements are either deg(i) or -1 or 0.
+L_G is a matrix. Its elements are either deg(i) or -1 or 0.
 
 
 
@@ -161,7 +161,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 ![research-notes/images/roughgardenCS168ModernAlgorithmic/image-2-x159-y509.png](/static/research-notes/images/roughgardenCS168ModernAlgorithmic/image-2-x159-y509.png)
 
-> deg(i)v(i): think of adding the v(i) for deg(i) times because deg(i) is the number of edges (i,j) going from node i
+deg(i)v(i): think of adding the v(i) for deg(i) times because deg(i) is the number of edges (i,j) going from node i
 
 
 
@@ -206,7 +206,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 
-> v is the value given (signal) on the nodes
+v is the value given (signal) on the nodes
 
 
 
@@ -219,7 +219,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 
-> vTLv is a scalar called Dirichlet Energy
+vTLv is a scalar called Dirichlet Energy
 
 
 
@@ -243,7 +243,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 
-> Because undirected graphs have symmetric information.
+Because undirected graphs have symmetric information.
 
 
 
@@ -256,7 +256,7 @@ summary: "Research notes on CS168: The Modern Algorithmic Toolbox Lectures #11: 
 
 
 
-> vTLv = Lambda_v * vTv
+vTLv = Lambda_v * vTv
 
 Collection of laplacian eigenvalues of a graph is called spectrum. 
 
@@ -286,7 +286,7 @@ Consider, the operation done on a graph that makes the original co-spectral with
 
 
 
-> Since every row and column of L sums to zero.
+Since every row and column of L sums to zero.
 
 Operating L on any constant vector (every component is same) will result in a zero vector. Then that constant vector is the eigenvector with eigenvalue 0.
 
@@ -336,7 +336,7 @@ Operating L on any constant vector (every component is same) will result in a ze
 
 
 
-> Sum of squares of edge lengths
+Sum of squares of edge lengths
 
 
 
@@ -349,7 +349,7 @@ Operating L on any constant vector (every component is same) will result in a ze
 
 
 
-> vTLv is Lambda. Lambda is eigenvalue of eigenvector v
+vTLv is Lambda. Lambda is eigenvalue of eigenvector v
 
 
 
@@ -362,7 +362,7 @@ Operating L on any constant vector (every component is same) will result in a ze
 
 
 
-> say 6 nodes.
+say 6 nodes.
 
 1-2-3 
 4-5-6
@@ -383,7 +383,7 @@ eigenvector (1,1,1,-1,-1,-1) with eigenvalue 0
 
 
 
-> second smallest eigenvalue, because 0 is the smallest for every L
+second smallest eigenvalue, because 0 is the smallest for every L
 
 
 
@@ -474,7 +474,7 @@ eigenvector (1,1,1,-1,-1,-1) with eigenvalue 0
 
 
 
-> Euclidean tools can be applied now.
+Euclidean tools can be applied now.
 
 
 

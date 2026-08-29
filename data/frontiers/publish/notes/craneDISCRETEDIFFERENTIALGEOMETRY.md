@@ -72,7 +72,7 @@ summary: "Research notes on DISCRETE DIFFERENTIAL GEOMETRY: AN APPLIED INTRODUCT
 
 
 
-> In continuous domain the shapes are manifolds. Differential geometry can be studied for both continuous and discrete domains.
+In continuous domain the shapes are manifolds. Differential geometry can be studied for both continuous and discrete domains.
 
 
 
@@ -144,7 +144,7 @@ summary: "Research notes on DISCRETE DIFFERENTIAL GEOMETRY: AN APPLIED INTRODUCT
 
 
 
-> Just simplicial complex from topology.
+Just simplicial complex from topology.
 
 Worded as "abstract" to differentiate from "geometric simplicial complex" that people from computer graphics and geometry are familiar with.
 
@@ -168,7 +168,7 @@ Worded as "abstract" to differentiate from "geometric simplicial complex" that p
 
 ![research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-10-x91-y534.png](/static/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-10-x91-y534.png)
 
-> Shaded is for triangles. Otherwise its just edges.
+Shaded is for triangles. Otherwise its just edges.
 
 Dotted line to show tetrahedron.
 
@@ -183,7 +183,7 @@ Dotted line to show tetrahedron.
 
 
 
-> These are more generalized structures than necessary to encode just surfaces.
+These are more generalized structures than necessary to encode just surfaces.
 
 
 
@@ -268,7 +268,7 @@ Dotted line to show tetrahedron.
 
 
 
-> If graph G = (V,E), simplicial complex K = (S) where S is collection of simplices.
+If graph G = (V,E), simplicial complex K = (S) where S is collection of simplices.
 
 Vertex is 0-simplex
 Edge is 1-simplex
@@ -317,7 +317,7 @@ A collection of simplices where every face of every simplex is also included.
 
 
 
-> If its a vertex, it should be part of a line, which should be part of some triangle, which should be some part of a tetrahedron and so on.
+If its a vertex, it should be part of a line, which should be part of some triangle, which should be some part of a tetrahedron and so on.
 
 Notice there's no tetrahedron here. Only vertex, edge and triangles. This is a pure 2-simplicial complex - and all vertexes (0-simplex) are part of some edge (1-simplex) and is part of some triangle (2-simplex) in the simplicial complex.
 
@@ -328,7 +328,7 @@ Notice there's no tetrahedron here. Only vertex, edge and triangles. This is a p
 
 ![research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-11-x150-y422.png](/static/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-11-x150-y422.png)
 
-> pure simplicial complex only has triangles. No vertex only, edge only, tetrahedron only observed. So, every vertex, edge are part of some triangle.
+pure simplicial complex only has triangles. No vertex only, edge only, tetrahedron only observed. So, every vertex, edge are part of some triangle.
 
 
 
@@ -376,7 +376,7 @@ Notice there's no tetrahedron here. Only vertex, edge and triangles. This is a p
 
 
 
-> The vertex i, all the edges going out, and the triangles are part of the star. but explicitly the outer edges (1-simplex-es) are not part of the star since they do not contain i.
+The vertex i, all the edges going out, and the triangles are part of the star. but explicitly the outer edges (1-simplex-es) are not part of the star since they do not contain i.
 
 So, star is not generally a simplicial complex.
 
@@ -391,7 +391,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> Explicitly a simplicial complex by definition. Hence will contain those outer edges.
+Explicitly a simplicial complex by definition. Hence will contain those outer edges.
 
 
 
@@ -416,7 +416,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> Star of closure of a vertex is just the star of the vertex.
+Star of closure of a vertex is just the star of the vertex.
 
 
 
@@ -441,7 +441,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> Link is set difference between closure of star of i and star of closure of i.
+Link is set difference between closure of star of i and star of closure of i.
 
 
 
@@ -514,7 +514,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> boundary is a closure and therefore a simplicial complex.
+boundary is a closure and therefore a simplicial complex.
 
 
 
@@ -586,7 +586,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> 4-simplex is called pentachoron
+4-simplex is called pentachoron
 
 
 
@@ -647,7 +647,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> one equivalence class - one triple
+one equivalence class - one triple
 
 
 
@@ -660,7 +660,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> any ordering can be achieved either by even number of swaps or odd number of swaps.
+any ordering can be achieved either by even number of swaps or odd number of swaps.
 
 
 
@@ -697,7 +697,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> Consider the consistent orientation figure, in left triangle (2-simplex) the vertex i and j (2 vertices) orientation is ij. In right triangle it is ji.
+Consider the consistent orientation figure, in left triangle (2-simplex) the vertex i and j (2 vertices) orientation is ij. In right triangle it is ji.
 
 
 
@@ -722,7 +722,7 @@ So, star is not generally a simplicial complex.
 
 
 
-> related to boundary operator idea.
+related to boundary operator idea.
 
 for edge, orientation is a direction. for vertex, orientation is a sign.
 
@@ -739,7 +739,7 @@ endpoint j inherits positive sign, start point i inherits negative sign.
 
 
 
-> for vertex its a sign.
+for vertex its a sign.
 for edge its a direction.
 for triangle its clockwise/anti-clockwise.
 
@@ -767,7 +767,7 @@ beyond 3d, we just describe orientation based on odd/even permutation.
 
 
 
-> Special kind of a manifold complex (It is triangulated 2-manifold), which is again a special category of simplicial complexes.
+Special kind of a manifold complex (It is triangulated 2-manifold), which is again a special category of simplicial complexes.
 
 remember a 2-complex can be visualized in 3d.
 
@@ -783,7 +783,7 @@ remember a 2-complex can be visualized in 3d.
 
 
 
-> manifold complexes are more general than simplicial surfaces but less than simplicial complexes.
+manifold complexes are more general than simplicial surfaces but less than simplicial complexes.
 
 Anything besides are nonmanifold complexes.
 
@@ -823,7 +823,7 @@ Anything besides are nonmanifold complexes.
 
 
 
-> unorientable surfaces
+unorientable surfaces
 
 
 
@@ -836,7 +836,7 @@ Anything besides are nonmanifold complexes.
 
 
 
-> simplicial manifold is a special kind of a simplicial complex.
+simplicial manifold is a special kind of a simplicial complex.
 
 "surface" if 2-manifold.
 
@@ -847,7 +847,7 @@ Anything besides are nonmanifold complexes.
 
 ![research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-17-x232-y433.png](/static/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-17-x232-y433.png)
 
-> simplicial n-sphere.
+simplicial n-sphere.
 
 
 
@@ -872,7 +872,7 @@ Anything besides are nonmanifold complexes.
 
 
 
-> the more general version of surface is manifold.
+the more general version of surface is manifold.
 
 
 
@@ -884,7 +884,7 @@ Anything besides are nonmanifold complexes.
 
 
 
-> Graphs have adjacency matrices. 
+Graphs have adjacency matrices. 
 
 Simplicial complex can have the equivalent of that - collection of matrices, each describing how a k-simplex is connected to k-1-simplex.
 
@@ -920,7 +920,7 @@ Simplicial complex can have the equivalent of that - collection of matrices, eac
 
 ![research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-18-x224-y573.png](/static/research-notes/images/craneDISCRETEDIFFERENTIALGEOMETRY/image-18-x224-y573.png)
 
-> Not a tetrahedron. Just a simplicial 2-complex.
+Not a tetrahedron. Just a simplicial 2-complex.
 
 
 
@@ -969,7 +969,7 @@ Simplicial complex can have the equivalent of that - collection of matrices, eac
 
 
 
-> Edge 1 contain Vertex 0.
+Edge 1 contain Vertex 0.
 
 
 
@@ -982,7 +982,7 @@ Simplicial complex can have the equivalent of that - collection of matrices, eac
 
 
 
-> Triangle 1 contains Edge 0.
+Triangle 1 contains Edge 0.
 
 
 
@@ -1031,7 +1031,7 @@ Simplicial complex can have the equivalent of that - collection of matrices, eac
 
 
 
-> Edge 1 is going from 0 so sign of 0 is negative.
+Edge 1 is going from 0 so sign of 0 is negative.
 
 
 
@@ -1044,7 +1044,7 @@ Simplicial complex can have the equivalent of that - collection of matrices, eac
 
 
 
-> Edge 1 is going towards 2 so sign of 2 is positive.
+Edge 1 is going towards 2 so sign of 2 is positive.
 
 
 
@@ -1080,7 +1080,7 @@ Simplicial complex can have the equivalent of that - collection of matrices, eac
 
 
 
-> combinatorial surface is more general than simplicial surface since we can have polygons instead of triangles (which is a special case of a simplicial complex).
+combinatorial surface is more general than simplicial surface since we can have polygons instead of triangles (which is a special case of a simplicial complex).
 
 
 
@@ -1094,7 +1094,7 @@ Simplicial complex can have the equivalent of that - collection of matrices, eac
 
 
 
-> CW complex is more general than simplicial complex.
+CW complex is more general than simplicial complex.
 
 Instead of having only triangles we can have arbitrary polygonal faces.
 
@@ -1110,7 +1110,7 @@ Instead of having only triangles we can have arbitrary polygonal faces.
 
 
 
-> no boundary so obviously no unshared edge. the outer edge is not included as we explicitly consider surface with no boundary (outer edges).
+no boundary so obviously no unshared edge. the outer edge is not included as we explicitly consider surface with no boundary (outer edges).
 
 since surface is a pure 2-simplical complex which can be projected on a plane, we can order the edges uniquely.
 
@@ -1137,7 +1137,7 @@ since surface is a pure 2-simplical complex which can be projected on a plane, w
 
 
 
-> |H| = 2|E| is true for surface with boundary as well. It is generally true.
+|H| = 2|E| is true for surface with boundary as well. It is generally true.
 
 
 
@@ -1262,7 +1262,7 @@ since surface is a pure 2-simplical complex which can be projected on a plane, w
 
 
 
-> any pair - the pair of maps can describe any surface.
+any pair - the pair of maps can describe any surface.
 
 Instead of vertices, faces and edges - we start to describe surfaces as functions
 
@@ -1277,7 +1277,7 @@ Instead of vertices, faces and edges - we start to describe surfaces as function
 
 
 
-> Because |H| = 2|E|
+Because |H| = 2|E|
 
 
 
@@ -1290,7 +1290,7 @@ Instead of vertices, faces and edges - we start to describe surfaces as function
 
 
 
-> "permutation of a set" (H here) is a  function that simply outputs a rearrangement of the set from H->H
+"permutation of a set" (H here) is a  function that simply outputs a rearrangement of the set from H->H
 
 
 
@@ -1303,7 +1303,7 @@ Instead of vertices, faces and edges - we start to describe surfaces as function
 
 
 
-> 1. involution: n(n(ij)) = ij
+1. involution: n(n(ij)) = ij
 2. no fixed points: n(ij) != ij
 
 
@@ -1329,7 +1329,7 @@ Instead of vertices, faces and edges - we start to describe surfaces as function
 
 
 
-> Because number of halfedges (|H|) is even.
+Because number of halfedges (|H|) is even.
 
 
 
@@ -1342,7 +1342,7 @@ Instead of vertices, faces and edges - we start to describe surfaces as function
 
 
 
-> triangle to cone + bottom disk example
+triangle to cone + bottom disk example
 
 
 
@@ -1392,4 +1392,4 @@ Instead of vertices, faces and edges - we start to describe surfaces as function
 
 
 
-> Promote the boundary loop form a single polygonal face, and now all the outer edges are contained in exactly 2 polygons too.
+Promote the boundary loop form a single polygonal face, and now all the outer edges are contained in exactly 2 polygons too.

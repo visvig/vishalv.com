@@ -1,7 +1,7 @@
 ---
 published: "2026-08-01"
 added: "2026-08-12"
-modified: "2026-08-24"
+modified: "2026-08-25"
 authors: Marco Niello, Predrag Kalaba, Anita Cybulska-Klosowicz, Michael Kirchhofer, Iva Spreitzer, Markus Spreitzer, Judith Wackerlig-Damle, Michele Santoni, Claudia Sagheddu, Simone B. Sartori, Karl Ebner, Jana Lubec, Ahmed M. Hussein, Tamara Stojanovic, Nicolas Singewald, Marco Pistis, Gert Lubec, Harald H. Sitte
 abstract: "Psychostimulants act on monoamine systems including the dopamine transporter (DAT), a key regulator of dopamine reuptake following synaptic release. While these compounds can enhance energy, cognition, and sociability, their clinical utility is often limited by their abuse potential and peripheral side effects. Research has traditionally focused more on their addictive properties rather than their therapeutic potential. However, certain psychostimulants, such as R-modafinil, enhance cognitive performance without inducing significant euphoria or addiction, making them promising lead candidates for clinical application. In this study, we hypothesized that R-modafinil analogs with extended residence time at DAT (i.e., slow koff) would enhance cognitive function more effectively. To test this, we evaluated a series of R-modafinil analogs using in vitro equilibrium and non-equilibrium measurements, in vivo fast-scan cyclic voltammetry, and highly translational cognitive assays in both healthy and scopolamine-treated rats modelling cognitive impairment. Our findings show that prolonging DAT occupancy improves dopamine signalling and leads to more robust enhancements in cognitive flexibility. Compounds with longer DAT resident time—such as S-MK-26 and (S,S)-CE158—produced the strongest cognitive effects. These results highlight the importance of DAT binding kinetics in shaping the behavioural actions of psychostimulants and support the development of safer and more effective dopamine-based cognitive enhancers."
 ---
@@ -11,6 +11,7 @@ abstract: "Psychostimulants act on monoamine systems including the dopamine tran
 [URL](https://linkinghub.elsevier.com/retrieve/pii/S0028390826001425)
 
 ## Tags
+#✅
 
 
 ## Notes
@@ -3011,6 +3012,8 @@ GPCRs</span>
 
 > G-protein coupled receptors.
 
+Example: Dopamine Receptors
+
 
 #gpcr
 
@@ -3026,7 +3029,11 @@ kinases</span>
 
 
 
-> Enzyme that adds a phosphate group to another molecule, usually a protein.
+> Kinase: Enzyme that adds a phosphate group to another molecule, usually a protein.
+
+Process is called phosphorylation.
+
+Phosphatase: Removes phosphate group from the protein.
 
 
 #kinase

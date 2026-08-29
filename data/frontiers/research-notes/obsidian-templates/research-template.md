@@ -25,6 +25,7 @@ abstract: "{{ abstractNote | default('No abstract available.') | escape }}"
 
 ## Notes
 {% for annotation in annotations -%}
+{%- set annotationPage = annotation.page | default("1", true) -%}
 
 {%- if annotation.annotatedText -%}
 {% if 'Red' in annotation.colorCategory %}
@@ -40,7 +41,7 @@ elif annotation.colorCategory == 'Magenta' %}#E573E5{%
 elif annotation.colorCategory == 'Gray' %}#B0BEC5{%
 else %}#FFFFFF{% endif %};">
 {{ annotation.annotatedText | escape }}</span>
-([{{ annotation.page }}](zotero://open-pdf/library/items/{{ annotation.attachment.itemKey }}?page={{ annotation.page }}&annotation={{ annotation.id }}))
+([{{ annotationPage }}](zotero://open-pdf/library/items/{{ annotation.attachment.itemKey }}?page={{ annotationPage }}&annotation={{ annotation.id }}))
 {% endif %}
 {% endif %}
 
@@ -49,7 +50,7 @@ else %}#FFFFFF{% endif %};">
 {%- endif %}
 
 {% if annotation.comment -%}
-> {{ annotation.comment }}
+{{ annotation.comment }}
 {% endif %}
 
 {% if annotation.tags -%}

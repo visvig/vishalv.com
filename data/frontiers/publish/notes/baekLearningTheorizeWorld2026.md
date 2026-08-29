@@ -23,7 +23,7 @@ summary: "What does it mean to understand the world? Contemporary world models o
 
 
 > Contemporary world models often operationalize understanding as accurate future prediction in latent or observation space
-([](zotero://open-pdf/library/items/G2Q65J9N?page=&annotation=4EFC85SG))
+([1](zotero://open-pdf/library/items/G2Q65J9N?page=1&annotation=4EFC85SG))
 
 
 
@@ -35,7 +35,7 @@ summary: "What does it mean to understand the world? Contemporary world models o
 
 
 > human understanding emerges through the construction of internal theories of how the world works
-([](zotero://open-pdf/library/items/G2Q65J9N?page=&annotation=375JH83F))
+([1](zotero://open-pdf/library/items/G2Q65J9N?page=1&annotation=375JH83F))
 
 
 
@@ -47,7 +47,7 @@ summary: "What does it mean to understand the world? Contemporary world models o
 
 
 > Learning-to-Theorize, a learning paradigm for inferring explicit explanatory theories of the world from raw, non-textual observations
-([](zotero://open-pdf/library/items/G2Q65J9N?page=&annotation=PN9533SC))
+([1](zotero://open-pdf/library/items/G2Q65J9N?page=1&annotation=PN9533SC))
 
 
 
@@ -59,4 +59,4 @@ summary: "What does it mean to understand the world? Contemporary world models o
 
 
 > Neural Theorizer (NEO), a probabilistic neural model that induces latent programs as a learned Language of Thought
-([](zotero://open-pdf/library/items/G2Q65J9N?page=&annotation=8RCQ28I5))
+([1](zotero://open-pdf/library/items/G2Q65J9N?page=1&annotation=8RCQ28I5))

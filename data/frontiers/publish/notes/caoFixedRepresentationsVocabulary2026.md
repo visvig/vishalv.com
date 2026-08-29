@@ -24,7 +24,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > open-ended innovation requires additional classes of operations: the creation, stabilization, and reuse of new representational primitives, which alter the space being searched rather than simply searching within it
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=2TJ36YZH))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=2TJ36YZH))
 
 
 
@@ -36,7 +36,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > distance between current AI systems and genuinely open-ended intelligence through two gaps
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=DEVYVTPL))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=DEVYVTPL))
 
 
 
@@ -48,7 +48,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > vocabulary gap, the difficulty of inventing and stabilizing new representational primitives
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=46PRYYIF))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=46PRYYIF))
 
 
 
@@ -60,7 +60,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > verifier gap, the difficulty of judging the value of a new primitive when its full payoff may be visible only after future reuse
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=L74JFYF8))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=L74JFYF8))
 
 
 
@@ -72,7 +72,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > cognitive discrepancy reduction
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=DMKXT2XN))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=DMKXT2XN))
 
 
 
@@ -84,7 +84,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > intelligent behaviors as a sequence of cognitive transformations
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=6TXQ4UBZ))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=6TXQ4UBZ))
 
 
 
@@ -96,7 +96,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > intra-space transformations
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=HHMNN57I))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=HHMNN57I))
 
 
 
@@ -108,7 +108,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 > generative transformations
-([](zotero://open-pdf/library/items/SAPUZ8GJ?page=&annotation=6EU4UB3Z))
+([1](zotero://open-pdf/library/items/SAPUZ8GJ?page=1&annotation=6EU4UB3Z))
 
 
 
@@ -185,7 +185,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 
-> "Cognitive discrepancy" is the idea for the objective function here.
+"Cognitive discrepancy" is the idea for the objective function here.
 
 
 
@@ -198,7 +198,7 @@ summary: "Modern AI systems are increasingly being evaluated for their ability t
 
 
 
-> "Innovation" is like the backprop here.
+"Innovation" is like the backprop here.
  
 The 3 processes involved while doing "cognitive discrepancy reduction":
 
@@ -241,7 +241,7 @@ The 3 processes involved while doing "cognitive discrepancy reduction":
 
 
 
-> "Representation Transformation" is the thing these open-ended AI should be able to do.
+"Representation Transformation" is the thing these open-ended AI should be able to do.
 
 
 
@@ -324,7 +324,7 @@ The 3 processes involved while doing "cognitive discrepancy reduction":
 
 
 
-> Representational Budget.
+Representational Budget.
 
 
 
@@ -1010,7 +1010,7 @@ The 3 processes involved while doing "cognitive discrepancy reduction":
 
 
 
-> Length of the shortest program that can output something.
+Length of the shortest program that can output something.
 
 Ex:
 
@@ -1032,7 +1032,7 @@ then, K(x) ~ x
 
 
 
-> The representation.
+The representation.
 
 Ex:
 
@@ -1102,7 +1102,7 @@ K(O|h) = 0
 
 
 
-> Bounded intelligence.
+Bounded intelligence.
 
 The shortest description an agent can realistically find (might not be the absolute argmin)
 
@@ -1117,7 +1117,7 @@ The shortest description an agent can realistically find (might not be the absol
 
 
 
-> Both MDL and AIT
+Both MDL and AIT
 
 
 
@@ -1545,7 +1545,7 @@ The shortest description an agent can realistically find (might not be the absol
 
 
 
-> We don't know what we don't know.
+We don't know what we don't know.
 
 
 

@@ -46,7 +46,7 @@ summary: "Research notes on Elements of information theory."
 
 
 
-> Entropy H(X) - Conditional Entropy H(X|Y)
+Entropy H(X) - Conditional Entropy H(X|Y)
 
 
 

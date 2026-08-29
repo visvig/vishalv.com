@@ -23,7 +23,7 @@ summary: "Although most theories posit that natural behavior can be explained as
 
 
 > some behaviors appear to be reward independent
-([](zotero://open-pdf/library/items/BA78VIC4?page=&annotation=QZVM66SY))
+([1](zotero://open-pdf/library/items/BA78VIC4?page=1&annotation=QZVM66SY))
 
 
 
@@ -35,7 +35,7 @@ summary: "Although most theories posit that natural behavior can be explained as
 
 
 > intrinsic motivation has emerged as a potentially major driver of behavior
-([](zotero://open-pdf/library/items/BA78VIC4?page=&annotation=6YG6VG4F))
+([1](zotero://open-pdf/library/items/BA78VIC4?page=1&annotation=6YG6VG4F))
 
 
 
@@ -47,7 +47,7 @@ summary: "Although most theories posit that natural behavior can be explained as
 
 
 > behavior as being organized hierarchically: objective–intrinsic reward, or motivation–drives, goals and extrinsic reward
-([](zotero://open-pdf/library/items/BA78VIC4?page=&annotation=SKSAVP9Q))
+([1](zotero://open-pdf/library/items/BA78VIC4?page=1&annotation=SKSAVP9Q))
 
 
 
@@ -59,7 +59,7 @@ summary: "Although most theories posit that natural behavior can be explained as
 
 
 > main formalizations of intrinsic motivation, including empowerment, the free energy principle, information-gain maximization, and the maximum occupancy principle
-([](zotero://open-pdf/library/items/BA78VIC4?page=&annotation=RS2DGP6W))
+([1](zotero://open-pdf/library/items/BA78VIC4?page=1&annotation=RS2DGP6W))
 
 
 
@@ -71,7 +71,7 @@ summary: "Although most theories posit that natural behavior can be explained as
 
 
 > Bounded cognition and embodiment impose constraints and boundary conditions for the intrinsic motivation objective
-([](zotero://open-pdf/library/items/BA78VIC4?page=&annotation=QRVZY33Q))
+([1](zotero://open-pdf/library/items/BA78VIC4?page=1&annotation=QRVZY33Q))
 
 
 
@@ -83,7 +83,7 @@ summary: "Although most theories posit that natural behavior can be explained as
 
 
 > theories of intrinsic motivation promise to become successful generative models of open-ended, embodied behavior
-([](zotero://open-pdf/library/items/BA78VIC4?page=&annotation=W25NUUCT))
+([1](zotero://open-pdf/library/items/BA78VIC4?page=1&annotation=W25NUUCT))
 
 
 
@@ -95,7 +95,7 @@ summary: "Although most theories posit that natural behavior can be explained as
 
 
 > Extrinsic rewards are a means for achieving the maximization of the intrinsic motivation  objective
-([](zotero://open-pdf/library/items/BA78VIC4?page=&annotation=BHQ4ZCWR))
+([1](zotero://open-pdf/library/items/BA78VIC4?page=1&annotation=BHQ4ZCWR))
 
 
 

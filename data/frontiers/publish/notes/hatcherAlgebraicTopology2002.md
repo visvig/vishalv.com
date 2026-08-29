@@ -147,7 +147,7 @@ summary: "Research notes on Algebraic topology."
 
 
 
-> homeomorphism is a function to continuously deform one topological space to another, without tearing.
+homeomorphism is a function to continuously deform one topological space to another, without tearing.
 
 the "equivalent" is intended to be even broader. It's the homotopy.
 
@@ -195,7 +195,7 @@ the "equivalent" is intended to be even broader. It's the homotopy.
 
 
 
-> &lt;b>X&lt;/b> - X is the set theoretic difference
+&lt;b>X&lt;/b> - X is the set theoretic difference
 
 
 
@@ -232,7 +232,7 @@ the "equivalent" is intended to be even broader. It's the homotopy.
 
 
 
-> Identity map here means output of the function is same as the input.
+Identity map here means output of the function is same as the input.
 
 at t=0: the space X hasn't changed so f_0(x) = x
 
@@ -262,7 +262,7 @@ f_t|A: restrict the inputs to f_t from only space A then f_t(a) = a because spac
 
 
 
-> Topology itself changed by deformation retraction.
+Topology itself changed by deformation retraction.
 
 
 
@@ -291,7 +291,7 @@ f_t|A: restrict the inputs to f_t from only space A then f_t(a) = a because spac
 
 
 
-> Topology itself changed. Also, deformation retraction depends on the choice of space A, so not unique.
+Topology itself changed. Also, deformation retraction depends on the choice of space A, so not unique.
 
 
 
@@ -304,7 +304,7 @@ f_t|A: restrict the inputs to f_t from only space A then f_t(a) = a because spac
 
 
 
-> mapping cylinder helps us convert the transformations (maps) into a thing (cylinder) that we can study.
+mapping cylinder helps us convert the transformations (maps) into a thing (cylinder) that we can study.
 
 I is unit interval [0,1] in topology
 
@@ -346,7 +346,7 @@ Quotient space is gluing.
 
 
 
-> Thick X can be deformed to a point directly.
+Thick X can be deformed to a point directly.
 
 
 
@@ -359,7 +359,7 @@ Quotient space is gluing.
 
 
 
-> from space X to a different space Y.
+from space X to a different space Y.
 
 X x I because I signifies t=[0,1] representation.
 
@@ -382,7 +382,7 @@ Homotopy can describe maps that increase dimensions as well, and so entirely new
 
 
 
-> that f_t is the homotopy (continuous path through space of maps from X to Y)
+that f_t is the homotopy (continuous path through space of maps from X to Y)
 
 
 
@@ -396,7 +396,7 @@ Homotopy can describe maps that increase dimensions as well, and so entirely new
 
 
 
-> deformation retraction is a homotopy.
+deformation retraction is a homotopy.
 
 homotopy needs 2 endpoint functions f_0 and f_1. here:
 
@@ -421,7 +421,7 @@ r | A = identity (note: we don't write it as r(A) = A, because its weaker. This 
 
 
 
-> r: X->A
+r: X->A
 r(X) = A
 r(a) = a for all a element of A
 
@@ -436,7 +436,7 @@ r(a) = a for all a element of A
 
 
 
-> r^2 = r means r(r(x)) = r(x)
+r^2 = r means r(r(x)) = r(x)
 
 r is an idempotent function.
 
@@ -454,7 +454,7 @@ like the twin function for halfedge meshes.
 
 
 
-> projection operators try to project from some space to another.
+projection operators try to project from some space to another.
 
 say we apply some projection operator from R^3 to R^3. 
 
@@ -475,7 +475,7 @@ Applying the projection operator again on the projection is just identity.
 
 
 
-> retraction doesn't care about the line segments connecting the points in space X to A (that is path-connectedness).
+retraction doesn't care about the line segments connecting the points in space X to A (that is path-connectedness).
 
 but deformation retraction requires path-connectedness.
 
@@ -502,7 +502,7 @@ but deformation retraction requires path-connectedness.
 
 
 
-> deformation retraction (f_t(a) = a and so obviously doesn't depend on t) is a special case of homotopy rel A (f_t(a) just doesn't depend on t).
+deformation retraction (f_t(a) = a and so obviously doesn't depend on t) is a special case of homotopy rel A (f_t(a) just doesn't depend on t).
 
 the output points for inputs from subspace A of domain X, remain unchanged throughout the homotopy.
 
@@ -518,7 +518,7 @@ the output points for inputs from subspace A of domain X, remain unchanged throu
 
 
 
-> more stronger statement on the kind of homotopy that happens with deformation retraction.
+more stronger statement on the kind of homotopy that happens with deformation retraction.
 
 
 
@@ -531,7 +531,7 @@ the output points for inputs from subspace A of domain X, remain unchanged throu
 
 
 
-> we just view the space A points as space X points.
+we just view the space A points as space X points.
 
 homotopy equivalence needs an inclusion function (and a retraction function of course).
 
@@ -551,7 +551,7 @@ i(r) is homotopic to identity (because point has moved during this)
 
 
 
-> now generalize the deformation retraction case, relax the strict "equal to identity" for r(i) composition in deformation retraction, and make make both homotopic (the general homotopy case)
+now generalize the deformation retraction case, relax the strict "equal to identity" for r(i) composition in deformation retraction, and make make both homotopic (the general homotopy case)
 
 so now, fg and gf are homotopic to identity map and not necessarily equal.
 
@@ -574,7 +574,7 @@ special case: deformation retraction
 
 
 
-> spaces X and Y are homotopy equivalent / show same homotopy type.
+spaces X and Y are homotopy equivalent / show same homotopy type.
 
 
 
@@ -600,7 +600,7 @@ special case: deformation retraction
 
 
 
-> say these are subspaces A, B, C of space X.
+say these are subspaces A, B, C of space X.
 
 since this is deformation retraction case, there are 3 retraction maps and 3 inclusion maps.
 
@@ -668,7 +668,7 @@ A and B are homotopy equivalent spaces.
 
 
 
-> general identity map: f(x) = x
+general identity map: f(x) = x
 nullhomotopic: f(x) = c
 
 
@@ -683,7 +683,7 @@ nullhomotopic: f(x) = c
 
 
 
-> Because deformation retraction has strict constraints common to contractible:
+Because deformation retraction has strict constraints common to contractible:
 
 f_0 = identity
 f_1 = constant map
@@ -738,7 +738,7 @@ f_t(a) = a.
 
 
 
-> Think of thickening the walls (this is deformation retraction which implies homotopy).
+Think of thickening the walls (this is deformation retraction which implies homotopy).
 
 
 
@@ -751,7 +751,7 @@ f_t(a) = a.
 
 
 
-> Think of the fingers pushing and making space in a ball.
+Think of the fingers pushing and making space in a ball.
 
 Lower finger makes the upper chamber space, upper finger makes the lower chamber space.
 
@@ -768,7 +768,7 @@ this is homeomorphism (this implies homotopy).
 
 
 
-> Think of a ball deformation retract to a point (homotopy).
+Think of a ball deformation retract to a point (homotopy).
 
 
 
@@ -781,7 +781,7 @@ this is homeomorphism (this implies homotopy).
 
 
 
-> House with 2 rooms is contractible.
+House with 2 rooms is contractible.
 
 
 
@@ -794,7 +794,7 @@ this is homeomorphism (this implies homotopy).
 
 
 
-> House with 2 rooms is a deformation retraction onto a point.
+House with 2 rooms is a deformation retraction onto a point.
 
 
 
@@ -818,7 +818,7 @@ this is homeomorphism (this implies homotopy).
 
 
 
-> genus is number of handles / holes
+genus is number of handles / holes
 
 
 
@@ -832,7 +832,7 @@ this is homeomorphism (this implies homotopy).
 
 
 
-> 4g polygon on right.
+4g polygon on right.
 union of 2g circles on left.
 
 The point is depicted in the figure.
@@ -848,7 +848,7 @@ The point is depicted in the figure.
 
 
 
-> 2-cell: open disk
+2-cell: open disk
 
 
 
@@ -861,7 +861,7 @@ The point is depicted in the figure.
 
 
 
-> 1-cell: open arc
+1-cell: open arc
 
 
 
@@ -882,7 +882,7 @@ The point is depicted in the figure.
 
 
 
-> alpha-th n-cell.
+alpha-th n-cell.
 
 alpha is the index given to the n-cell.
 
@@ -899,7 +899,7 @@ e^n = Interior(D^n)
 
 
 
-> attaching map.
+attaching map.
 
 S^(n-1): boundary of new n-cell disk.
 
@@ -916,7 +916,7 @@ X^(n-1): space already built.
 
 
 
-> gluing of these things in this union (which is disjoint as of now).
+gluing of these things in this union (which is disjoint as of now).
 
 
 
@@ -929,7 +929,7 @@ X^(n-1): space already built.
 
 
 
-> Rule for attaching.
+Rule for attaching.
 
 attach x to attachingmap(x)
 
@@ -944,7 +944,7 @@ attach x to attachingmap(x)
 
 
 
-> point x is on the boundary of the disk.
+point x is on the boundary of the disk.
 
 
 
@@ -957,7 +957,7 @@ attach x to attachingmap(x)
 
 
 
-> This has boundary + interior. boundary is required for attaching.
+This has boundary + interior. boundary is required for attaching.
 
 
 
@@ -970,7 +970,7 @@ attach x to attachingmap(x)
 
 
 
-> X^n would simply be a union of n-cells.
+X^n would simply be a union of n-cells.
 
 
 
@@ -983,7 +983,7 @@ attach x to attachingmap(x)
 
 
 
-> infinite cell complex.
+infinite cell complex.
 
 
 
@@ -996,7 +996,7 @@ attach x to attachingmap(x)
 
 
 
-> Part of A that's in X^n.
+Part of A that's in X^n.
 
 
 
@@ -1009,7 +1009,7 @@ attach x to attachingmap(x)
 
 
 
-> In each skeleton, A should be open.
+In each skeleton, A should be open.
 
 
 
@@ -1022,7 +1022,7 @@ attach x to attachingmap(x)
 
 
 
-> Go skeleton by skeleton. You attach the n-cells to the entire X^(n-1) skeleton. And the entire boundary of the n-cell to be attached.
+Go skeleton by skeleton. You attach the n-cells to the entire X^(n-1) skeleton. And the entire boundary of the n-cell to be attached.
 
 
 
@@ -1036,7 +1036,7 @@ attach x to attachingmap(x)
 
 
 
-> Dimension of a space is the smallest dimension among all possible CW decomposition.
+Dimension of a space is the smallest dimension among all possible CW decomposition.
 
 Example: Dim(Standard Torus) = 2
 
@@ -1065,7 +1065,7 @@ Example: Dim(Standard Torus) = 2
 
 
 
-> # even-dim cells - # odd-dim cells
+# even-dim cells - # odd-dim cells
 
 
 
@@ -1091,7 +1091,7 @@ Example: Dim(Standard Torus) = 2
 
 
 
-> for a 2d sphere, we take all the boundary points of a closed disk 2-cell and glue them to one point, like a balloon.
+for a 2d sphere, we take all the boundary points of a closed disk 2-cell and glue them to one point, like a balloon.
 
 
 
@@ -1104,7 +1104,7 @@ Example: Dim(Standard Torus) = 2
 
 
 
-> / means what's on RHS is equivalence.
+/ means what's on RHS is equivalence.
 
 Here, consider Set D^n, with every point in boundary set delD^n becoming equivalent to every other point in it. 
 
@@ -1121,7 +1121,7 @@ Now glue them all (quotient them) to a point (visualization).
 
 
 
-> Geometric Perspective.
+Geometric Perspective.
 
 Space of directions. Each point in the space is a line (gives direction). Like a vector without a magnitude.
 
@@ -1139,7 +1139,7 @@ RP^2: each point in this space is a line through origin in R^3.
 
 
 
-> Quotient of vectors.
+Quotient of vectors.
 
 All vectors on the same line becomes an equivalence class.
 
@@ -1154,7 +1154,7 @@ All vectors on the same line becomes an equivalence class.
 
 
 
-> Push all those vectors in each equivalence class to unit distance from origin.
+Push all those vectors in each equivalence class to unit distance from origin.
 
 
 
@@ -1167,7 +1167,7 @@ All vectors on the same line becomes an equivalence class.
 
 
 
-> Because we pushed, the only 2 representatives on the same line would then be diametrically opposite.
+Because we pushed, the only 2 representatives on the same line would then be diametrically opposite.
 
 
 
@@ -1180,7 +1180,7 @@ All vectors on the same line becomes an equivalence class.
 
 
 
-> if 3D, it's (x,y,z) & (-x,-y,-z)
+if 3D, it's (x,y,z) & (-x,-y,-z)
 
 
 
@@ -1193,7 +1193,7 @@ All vectors on the same line becomes an equivalence class.
 
 
 
-> Quotient of hemisphere.
+Quotient of hemisphere.
 
 hemisphere is homeomorphic to disk, and its boundary is a 2D disk.
 
@@ -1212,7 +1212,7 @@ RP^n is D^n / x~-x on delD^n
 
 
 
-> By identified, we mean glued.
+By identified, we mean glued.
 
 
 
@@ -1225,7 +1225,7 @@ RP^n is D^n / x~-x on delD^n
 
 
 
-> CW Complex.
+CW Complex.
 
 S^1 is the regular boundary of a disk (ordinary colored rim).
 
@@ -1258,7 +1258,7 @@ Keep increasing thickness. n-cell is disk interior which becomes the intersectin
 
 
 
-> C^3 be (a+bi, c+di, e+fi)
+C^3 be (a+bi, c+di, e+fi)
 
 Point in CP^2 would then be a line through (0,0,0) in C^3
 
@@ -1274,7 +1274,7 @@ Point in CP^2 would then be a line through (0,0,0) in C^3
 
 
 
-> C^1 is 2 dimensional.
+C^1 is 2 dimensional.
 
 S^2n+1 because 2*(n+1) - 1 would be the dimension of the sphere for C^n+1.
 
@@ -1289,7 +1289,7 @@ S^2n+1 because 2*(n+1) - 1 would be the dimension of the sphere for C^n+1.
 
 
 
-> D^2n because dimension of disk in C^n would be 2n.
+D^2n because dimension of disk in C^n would be 2n.
 
 
 
@@ -1302,7 +1302,7 @@ S^2n+1 because 2*(n+1) - 1 would be the dimension of the sphere for C^n+1.
 
 
 
-> Set of (input, output) pairs.
+Set of (input, output) pairs.
 
 
 
@@ -1327,7 +1327,7 @@ S^2n+1 because 2*(n+1) - 1 would be the dimension of the sphere for C^n+1.
 
 
 
-> For an n-cell,
+For an n-cell,
 
 attaching map: boundary points
 characteristic map: boundary points + interior points
@@ -1348,7 +1348,7 @@ Where the points of the 2-disk ends up in the boys surface is the characteristic
 
 
 
-> The balloon visualization.
+The balloon visualization.
 
 
 
@@ -1361,7 +1361,7 @@ Where the points of the 2-disk ends up in the boys surface is the characteristic
 
 
 
-> closed: includes all of interior and boundary points.
+closed: includes all of interior and boundary points.
 
 
 
@@ -1400,7 +1400,7 @@ Where the points of the 2-disk ends up in the boys surface is the characteristic
 
 
 
-> Just two cells: S^n = e^0 U e^n
+Just two cells: S^n = e^0 U e^n
 
 
 
@@ -1413,7 +1413,7 @@ Where the points of the 2-disk ends up in the boys surface is the characteristic
 
 
 
-> Consider S^2.
+Consider S^2.
 
 Equatorial S^1 is a circle (closed), 
 
@@ -1434,7 +1434,7 @@ So, S^1 is a subcomplex of S^2
 
 
 
-> The two hemispheres are quotiented to the n-cell in RP^n.
+The two hemispheres are quotiented to the n-cell in RP^n.
 
 
 
@@ -1447,7 +1447,7 @@ So, S^1 is a subcomplex of S^2
 
 
 
-> Take a circle (S^1), and to only part of it, find a way to attach a 2-cell (subarc, can be non trivial).
+Take a circle (S^1), and to only part of it, find a way to attach a 2-cell (subarc, can be non trivial).
 
 closure of the 2-cell would then be the 2-cell and this non-trivial subarc.
 
@@ -1475,7 +1475,7 @@ This can't be a subcomplex because it should be a union of whole cells.
 
 
 
-> These are the operations.
+These are the operations.
 
 
 
@@ -1487,7 +1487,7 @@ This can't be a subcomplex because it should be a union of whole cells.
 
 
 
-> Combine spaces.
+Combine spaces.
 
 
 
@@ -1513,7 +1513,7 @@ This can't be a subcomplex because it should be a union of whole cells.
 
 
 
-> Torus is Cartesian product of 2 circles.
+Torus is Cartesian product of 2 circles.
 
 
 
@@ -1526,7 +1526,7 @@ This can't be a subcomplex because it should be a union of whole cells.
 
 
 
-> finer topology: has more open sets
+finer topology: has more open sets
 
 if X and Y are finite CW complexes, then CW topology (cell by cell) on XxY is exactly the product topology.
 
@@ -1540,7 +1540,7 @@ if X and Y are finite CW complexes, then CW topology (cell by cell) on XxY is ex
 
 
 
-> Glue Spaces.
+Glue Spaces.
 
 
 
@@ -1564,7 +1564,7 @@ if X and Y are finite CW complexes, then CW topology (cell by cell) on XxY is ex
 
 
 
-> Raise Dimension.
+Raise Dimension.
 
 
 
@@ -1578,7 +1578,7 @@ if X and Y are finite CW complexes, then CW topology (cell by cell) on XxY is ex
 
 
 
-> I is [0,1]
+I is [0,1]
 
 So XxI is a cylinder. Now collapse each end at 0 and 1 to points.
 
@@ -1601,7 +1601,7 @@ So XxI is a cylinder. Now collapse each end at 0 and 1 to points.
 
 
 
-> say X=S^1 (circle), then SX = S^2 (sphere)), with north and south pole points as (0,0,-1) and (0,0,+1).
+say X=S^1 (circle), then SX = S^2 (sphere)), with north and south pole points as (0,0,-1) and (0,0,+1).
 
 The dimension is raised.
 
@@ -1688,7 +1688,7 @@ The dimension is raised.
 
 
 
-> Instead of just 2 spaces X_1 and X_2 (here we called them X and Y), 
+Instead of just 2 spaces X_1 and X_2 (here we called them X and Y), 
 
 say we have n spaces X_1, X_2,...,X_n.
 
@@ -1703,7 +1703,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> Now make each of them as just a point.
+Now make each of them as just a point.
 
 
 
@@ -1716,7 +1716,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> 1-simplex.
+1-simplex.
 
 
 
@@ -1729,7 +1729,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> 2-simplex.
+2-simplex.
 
 
 
@@ -1742,7 +1742,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> 3-simplex.
+3-simplex.
 
 
 
@@ -1768,7 +1768,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> n-1-simplex.
+n-1-simplex.
 
 
 
@@ -1793,7 +1793,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> Say R^3 then 
+Say R^3 then 
 
 (+-1,0,0)
 (0,+-1,0)
@@ -1810,7 +1810,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> 2^3 = 8 copies of the 2-simplex
+2^3 = 8 copies of the 2-simplex
 
 
 
@@ -1823,7 +1823,7 @@ say we have n spaces X_1, X_2,...,X_n.
 
 
 
-> Radial projection means just push each point on the simplex to unit distance from the center.
+Radial projection means just push each point on the simplex to unit distance from the center.
 
 Therefore,
 
@@ -1925,7 +1925,7 @@ Join of n number of S^0 spaces is n-1-sphere.
 
 
 
-> Torus is made of 
+Torus is made of 
 
 1 0-cell
 2 1-cells
@@ -1962,7 +1962,7 @@ Therefore, S^1 A S^1 has cell structure with just 2 cells of dim 0 and 2.
 
 
 
-> If two spaces deformation retracts to the same space, they are homotopy equivalent.
+If two spaces deformation retracts to the same space, they are homotopy equivalent.
 
 
 
@@ -1975,7 +1975,7 @@ Therefore, S^1 A S^1 has cell structure with just 2 cells of dim 0 and 2.
 
 
 
-> Like the three graphs example.
+Like the three graphs example.
 
 
 
@@ -2023,7 +2023,7 @@ Therefore, S^1 A S^1 has cell structure with just 2 cells of dim 0 and 2.
 
 
 
-> The quotient map shows homotopy equivalence.
+The quotient map shows homotopy equivalence.
 
 
 
@@ -2036,7 +2036,7 @@ Therefore, S^1 A S^1 has cell structure with just 2 cells of dim 0 and 2.
 
 
 
-> Instead of deformation retraction idea from the same space, here's a quick way to check,
+Instead of deformation retraction idea from the same space, here's a quick way to check,
 
 using the collapsing subspace method.
 
@@ -2051,7 +2051,7 @@ using the collapsing subspace method.
 
 
 
-> 1-dimensional CW complex.
+1-dimensional CW complex.
 
 
 
@@ -2076,7 +2076,7 @@ using the collapsing subspace method.
 
 
 
-> Isomorphic means exact same graphs, other than vertex naming.
+Isomorphic means exact same graphs, other than vertex naming.
 
 Before collapsing, two graphs can be homotopy equivalent but not isomorphic. But after collapsing they will be homotopy equivalent and isomorphic.
 
@@ -2104,7 +2104,7 @@ Before collapsing, two graphs can be homotopy equivalent but not isomorphic. But
 
 
 
-> Number of even-dim cell is 1 (one point at wedge)
+Number of even-dim cell is 1 (one point at wedge)
 
 Number of odd-dim cell is m (m 1-spheres aka m circles)
 
@@ -2119,7 +2119,7 @@ Number of odd-dim cell is m (m 1-spheres aka m circles)
 
 
 
-> Even though euler characteristic depends on counting the cells in even and odd dimensions of the CW complex, it really does depend on the homotopy only and not on the way we decompose the CW cell.
+Even though euler characteristic depends on counting the cells in even and odd dimensions of the CW complex, it really does depend on the homotopy only and not on the way we decompose the CW cell.
 
 Although, the proof for showing this is hard.
 
@@ -2134,7 +2134,7 @@ Although, the proof for showing this is hard.
 
 
 
-> Instead of assigning a number like euler characteristic, we assign an algebraic object called group.
+Instead of assigning a number like euler characteristic, we assign an algebraic object called group.
 
 This is going to help us prove the homotopy of spaces trivially.
 
@@ -2158,7 +2158,7 @@ This is going to help us prove the homotopy of spaces trivially.
 
 
 
-> This is the only thing that's not contractible.
+This is the only thing that's not contractible.
 
 
 
@@ -2171,7 +2171,7 @@ This is going to help us prove the homotopy of spaces trivially.
 
 
 
-> A and B are subspaces of X and are contractible. 
+A and B are subspaces of X and are contractible. 
 
 So X/A and X/B are homotopy equivalent to X.
 
@@ -2255,7 +2255,7 @@ So X/A and X/B are homotopy equivalent to X.
 
 
 
-> Two bangles joint at a point.
+Two bangles joint at a point.
 
 
 
@@ -2268,7 +2268,7 @@ So X/A and X/B are homotopy equivalent to X.
 
 
 
-> 2 balls connected by a string.
+2 balls connected by a string.
 
 
 
@@ -2281,7 +2281,7 @@ So X/A and X/B are homotopy equivalent to X.
 
 
 
-> 2 balls joint at a point.
+2 balls joint at a point.
 
 
 
@@ -2306,7 +2306,7 @@ So X/A and X/B are homotopy equivalent to X.
 
 
 
-> Smashing a space X with a circle, is the same as taking a reduced suspension of X.
+Smashing a space X with a circle, is the same as taking a reduced suspension of X.
 
 
 
@@ -2330,7 +2330,7 @@ So X/A and X/B are homotopy equivalent to X.
 
 
 
-> Attach points on X_0 with points on subspace A in X_1.
+Attach points on X_0 with points on subspace A in X_1.
 
 
 
@@ -2355,7 +2355,7 @@ So X/A and X/B are homotopy equivalent to X.
 
 
 
-> A is subspace of X_1.
+A is subspace of X_1.
 
 
 
@@ -2369,7 +2369,7 @@ So X/A and X/B are homotopy equivalent to X.
 
 
 
-> Just like mapping cylinder, but collapse the copy of X to a point.
+Just like mapping cylinder, but collapse the copy of X to a point.
 
 More like suspension on one side and attach on another.
 
@@ -2433,7 +2433,7 @@ More like suspension on one side and attach on another.
 
 
 
-> Instead of collapsing a subspace (LHS), we can attaching to a contractible gadget (RHS).
+Instead of collapsing a subspace (LHS), we can attaching to a contractible gadget (RHS).
 
 
 
@@ -2446,7 +2446,7 @@ More like suspension on one side and attach on another.
 
 
 
-> Like a S^2 and S^0 will become like sphere and bangle attached at a point
+Like a S^2 and S^0 will become like sphere and bangle attached at a point
 
 Ultimately, this section summary:
 

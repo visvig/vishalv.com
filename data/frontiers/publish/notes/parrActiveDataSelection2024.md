@@ -23,7 +23,7 @@ summary: "Bayesian inference typically focuses upon two issues. The first is est
 
 
 > Optimising data-selection ensures we can achieve good inference with fewer data, saving on computational and experimental costs
-([](zotero://open-pdf/library/items/4G6M9S49?page=&annotation=MZN9NXTB))
+([1](zotero://open-pdf/library/items/4G6M9S49?page=1&annotation=MZN9NXTB))
 
 
 
@@ -35,4 +35,4 @@ summary: "Bayesian inference typically focuses upon two issues. The first is est
 
 
 > this approach to data selection could be applied to the design of (Bayes-adaptive) clinical trials
-([](zotero://open-pdf/library/items/4G6M9S49?page=&annotation=M5KZBMYJ))
+([1](zotero://open-pdf/library/items/4G6M9S49?page=1&annotation=M5KZBMYJ))

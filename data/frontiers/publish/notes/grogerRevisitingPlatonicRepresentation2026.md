@@ -23,7 +23,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > Platonic Representation Hypothesis suggests that representations from neural networks are converging to a common statistical model of reality
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=M63979W6))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=M63979W6))
 
 
 
@@ -35,7 +35,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > we introduce a permutation-based null-calibration framework that transforms any representational similarity metric into a calibrated score with statistical guarantees
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=4925RPKJ))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=4925RPKJ))
 
 
 
@@ -47,7 +47,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > the apparent convergence reported by global spectral measures largely disappears after calibration, while local neighborhood similarity, but not local distances, retains significant agreement across different modalities
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=8C2NYBRI))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=8C2NYBRI))
 
 
 
@@ -59,7 +59,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > Aristotelian Representation Hypothesis: representations in neural networks are converging to shared local neighborhood relationships
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=TZAD9UKN))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=TZAD9UKN))
 
 
 
@@ -82,7 +82,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > To measure representational similarity across models, different metrics have been proposed
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=JUDECSMK))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=JUDECSMK))
 
 
 
@@ -94,7 +94,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > Centered Kernel Alignment
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=NAQ3PA6E))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=NAQ3PA6E))
 
 
 
@@ -106,7 +106,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > Canonical Correlation Analysis
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=PI27ETRU))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=PI27ETRU))
 
 
 
@@ -118,7 +118,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > Representational Similarity Analysis
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=IK3LBMEH))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=IK3LBMEH))
 
 
 
@@ -130,7 +130,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > mutual k-Nearest Neighbors
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=QSBMR7CX))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=QSBMR7CX))
 
 
 
@@ -142,7 +142,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > two pervasive confounders that distort representational similarity measurements
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=FAHVGFUQ))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=FAHVGFUQ))
 
 
 
@@ -154,7 +154,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > model width: when the embedding dimension increases relative to the sample size, interaction-matrix-based similarity metrics exhibit a systematic positive baseline even when representations are independent
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=KUNG4UJP))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=KUNG4UJP))
 
 
 
@@ -166,7 +166,7 @@ summary: "The Platonic Representation Hypothesis suggests that representations f
 
 
 > model depth
-([](zotero://open-pdf/library/items/BDGVMRU9?page=&annotation=C4WK9GPS))
+([1](zotero://open-pdf/library/items/BDGVMRU9?page=1&annotation=C4WK9GPS))
 
 
 

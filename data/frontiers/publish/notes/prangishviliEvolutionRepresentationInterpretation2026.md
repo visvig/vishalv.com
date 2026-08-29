@@ -188,7 +188,7 @@ summary: "This paper proposes that a fundamental organizational trend in biologi
 
 
 
-> Representational Autonomy.
+Representational Autonomy.
 
 
 
@@ -260,7 +260,7 @@ summary: "This paper proposes that a fundamental organizational trend in biologi
 
 
 
-> 1. Self-replicating RNA
+1. Self-replicating RNA
 
 
 
@@ -357,7 +357,7 @@ summary: "This paper proposes that a fundamental organizational trend in biologi
 
 
 
-> PNA: Peptide Nucleic Acid
+PNA: Peptide Nucleic Acid
 TNA: Threose Nucleic Acid
 GNA: Glycol Nucleic Acid
 
@@ -421,7 +421,7 @@ GNA: Glycol Nucleic Acid
 
 
 
-> 2. Genetic Code
+2. Genetic Code
 
 
 
@@ -457,7 +457,7 @@ GNA: Glycol Nucleic Acid
 
 
 
-> Codon: triplet code
+Codon: triplet code
 
 
 
@@ -590,7 +590,7 @@ GNA: Glycol Nucleic Acid
 
 
 
-> 3. Language
+3. Language
 
 
 
@@ -663,7 +663,7 @@ GNA: Glycol Nucleic Acid
 
 
 
-> 4. Artificial Intelligence
+4. Artificial Intelligence
 
 
 

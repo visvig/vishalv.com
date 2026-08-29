@@ -23,4 +23,4 @@ summary: "A long-standing goal in robot learning is to develop methods for robot
 
 
 > simply collecting more human data often provides significantly more improvement
-([](zotero://open-pdf/library/items/QY3SZC3E?page=&annotation=E399XPDZ))
+([1](zotero://open-pdf/library/items/QY3SZC3E?page=1&annotation=E399XPDZ))

@@ -37,7 +37,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > there is no coherent definition of open-endedness or theory about how an agent ought to explore an open-ended environment
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=WVSR2Q85))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=WVSR2Q85))
 
 
 
@@ -49,7 +49,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > bit-equivalent – which quantifies the information required to attain each level of expected reward
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=BT6W9TSP))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=BT6W9TSP))
 
 
 
@@ -61,7 +61,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > environment to be open-ended if an agent can attain linear growth in the bitequivalent
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=R5ZUHM8C))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=R5ZUHM8C))
 
 
 
@@ -84,7 +84,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > environment as open-ended if the sequence of artifacts an agent produces is both novel and learnable, from the perspective of an observer
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=MG3G3EST))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=MG3G3EST))
 
 
 
@@ -96,7 +96,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > novelty means that there is greater uncertainty about future relative to current observations
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=4VAYGTA3))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=4VAYGTA3))
 
 
 
@@ -108,7 +108,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > learnable means that current observations inform predictions of future observations
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=PV53Z9ZX))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=PV53Z9ZX))
 
 
 
@@ -120,7 +120,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > novelty and learnability do not fully capture open-endedness
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=2ZSVYR3J))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=2ZSVYR3J))
 
 
 
@@ -132,7 +132,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > agent that continually generates novel and learnable policies does not necessarily acquire information that enables improved performance
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=INYTQQ4I))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=INYTQQ4I))
 
 
 
@@ -144,7 +144,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > environment open-ended if sustained reward improvement requires continual acquisition of useful information
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=NUA99DDU))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=NUA99DDU))
 
 
 
@@ -156,7 +156,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 > bit-equivalent Bρ of expected reward ρ is the minimum amount of information about the environment required to attain expected reward ρ
-([](zotero://open-pdf/library/items/3UVAW6NG?page=&annotation=ZY687ML6))
+([1](zotero://open-pdf/library/items/3UVAW6NG?page=1&annotation=ZY687ML6))
 
 
 
@@ -464,7 +464,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 
-> infimum: greatest lower bound.
+infimum: greatest lower bound.
 
 
 
@@ -622,7 +622,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 
-> The average bit-equivalent is upper bounded by information gain.
+The average bit-equivalent is upper bounded by information gain.
 
 
 
@@ -648,7 +648,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 
-> If we can prove that information gain is sublinear, we can say that environment is not open-ended.
+If we can prove that information gain is sublinear, we can say that environment is not open-ended.
 
 
 
@@ -661,7 +661,7 @@ summary: "A growing body of work points to the great promise of AI systems that 
 
 
 
-> Sometimes, a non-open-ended environment can have infinite information gain also.
+Sometimes, a non-open-ended environment can have infinite information gain also.
 
 Therefore, it's not so straight forward to prove open-endedness using information gain idea.
 
@@ -816,7 +816,7 @@ So, we have average bit-equivalent idea.
 
 
 
-> "Infinite" dimensions is because of theta.
+"Infinite" dimensions is because of theta.
 
 Theta is not a finite vector, it's a random function.
 
@@ -844,7 +844,7 @@ Theta is not a finite vector, it's a random function.
 
 
 
-> Gaussian Distribution: probability distribution over numbers. You get output as a number.
+Gaussian Distribution: probability distribution over numbers. You get output as a number.
 
 Multivariate Gaussian Distribution: Probability distribution over vectors. You get output as d-dimensional vector.
 
@@ -882,7 +882,7 @@ GP: Mean Function, Kernel
 
 
 
-> Eigendecomposition of a kernel.
+Eigendecomposition of a kernel.
 
 
 
@@ -908,7 +908,7 @@ GP: Mean Function, Kernel
 
 
 
-> eigenfunctions.
+eigenfunctions.
 
 
 
@@ -981,7 +981,7 @@ GP: Mean Function, Kernel
 
 
 
-> Even for an expressive kernel, the GP bandit remains non-open-ended.
+Even for an expressive kernel, the GP bandit remains non-open-ended.
 
 
 
@@ -995,7 +995,7 @@ GP: Mean Function, Kernel
 
 
 
-> Very smooth neighbor correlation.
+Very smooth neighbor correlation.
 
 
 
@@ -1043,7 +1043,7 @@ GP: Mean Function, Kernel
 
 
 
-> Uniform distribution on the interval [0,1]
+Uniform distribution on the interval [0,1]
 
 
 
@@ -1098,7 +1098,7 @@ GP: Mean Function, Kernel
 
 
 
-> Infinity is in the action space.
+Infinity is in the action space.
 
 
 
@@ -1189,7 +1189,7 @@ GP: Mean Function, Kernel
 
 
 
-> infinite-dimensional linear-Gaussian bandit.
+infinite-dimensional linear-Gaussian bandit.
 
 
 
@@ -1306,7 +1306,7 @@ GP: Mean Function, Kernel
 
 
 
-> The assumptions don't hold and del_D doesn't go to 0.
+The assumptions don't hold and del_D doesn't go to 0.
 
 
 
@@ -1342,7 +1342,7 @@ GP: Mean Function, Kernel
 
 
 
-> This one doesn't have unbounded rewards, but still shows open-endedness.
+This one doesn't have unbounded rewards, but still shows open-endedness.
 
 
 
@@ -1414,7 +1414,7 @@ GP: Mean Function, Kernel
 
 
 
-> TS agent.
+TS agent.
 
 
 
@@ -1427,7 +1427,7 @@ GP: Mean Function, Kernel
 
 
 
-> FT agent.
+FT agent.
 
 
 
@@ -1856,7 +1856,7 @@ GP: Mean Function, Kernel
 
 
 
-> Satisficing TS.
+Satisficing TS.
 
 
 
@@ -1881,7 +1881,7 @@ GP: Mean Function, Kernel
 
 
 
-> Rate-distortion tradeoff modified to consider increase in information complexity over time.
+Rate-distortion tradeoff modified to consider increase in information complexity over time.
 
 
 
@@ -1962,7 +1962,7 @@ GP: Mean Function, Kernel
 
 
 
-> TS with learning target.
+TS with learning target.
 
 
 
@@ -2066,7 +2066,7 @@ GP: Mean Function, Kernel
 
 
 
-> Truncated Thompson Sampling.
+Truncated Thompson Sampling.
 
 
 
@@ -2163,7 +2163,7 @@ GP: Mean Function, Kernel
 
 
 
-> Because vannila TS agent gets -inf rewards, and FT agent rewards are bounded.
+Because vannila TS agent gets -inf rewards, and FT agent rewards are bounded.
 
 
 
@@ -2310,7 +2310,7 @@ GP: Mean Function, Kernel
 
 
 
-> Gaussian Process Upper Confidence Bound algorithm. 
+Gaussian Process Upper Confidence Bound algorithm. 
 
 One of the algos for Gaussian Process Bandit environment.
 
@@ -2338,7 +2338,7 @@ One of the algos for Gaussian Process Bandit environment.
 
 
 
-> TTS agent and GP-UCB-type agent.
+TTS agent and GP-UCB-type agent.
 
 
 
