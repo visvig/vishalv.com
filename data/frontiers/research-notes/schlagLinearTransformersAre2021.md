@@ -1,7 +1,7 @@
 ---
 published: "2021-07-01"
 added: "2026-08-30"
-modified: "2026-09-01"
+modified: "2026-09-04"
 authors: Imanol Schlag, Kazuki Irie, Jürgen Schmidhuber
 abstract: "We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are additive outer products of self-invented activation patterns (today called keys and values). Such Fast Weight Programmers (FWPs) learn to manipulate the contents of a finite memory and dynamically interact with it. We infer a memory capacity limitation of recent linearised softmax attention variants, and replace the purely additive outer products by a delta rule-like programming instruction, such that the FWP can more easily learn to correct the current mapping from keys to values. The FWP also learns to compute dynamically changing learning rates. We also propose a new kernel function to linearise attention which balances simplicity and effectiveness. We conduct experiments on synthetic retrieval problems as well as standard machine translation and language modelling tasks which demonstrate the benefits of our methods."
 ---
@@ -407,9 +407,27 @@ Output: Matrix
 
 
 
-![research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y144.png](research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y144.png)
+![research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y182.png](research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y182.png)
 
-FWP.
+FWP: Slow Weights Operation
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y163.png](research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y163.png)
+
+FWP: Write Fast Weights by appending
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y147.png](research-notes/images/schlagLinearTransformersAre2021/image-2-x90-y147.png)
+
+FWP: Retrieval by matrix multiplication
 
 
 
@@ -529,7 +547,7 @@ use of outer products results in a model of associations similar to tensor produ
 Outer product organizes the associations in matrix form, meanwhile tensor product is simply more generalized (ex: collection of component multiplications in one vector).
 
 
-#tensor-product
+#tensor-product-representation
 
 
 
@@ -1076,8 +1094,40 @@ ineptness to edit previously stored associations</span>
 
 <span style="color:
 #FFF176;">
+Endlessly adding new associations to a memory of finite size, as in Eq. 17, inevitably will reach a limit</span>
+([3](zotero://open-pdf/library/items/XC745P5Q?page=3&annotation=KHJ4LU2G))
+
+
+
+
+
+W^i = W^(i-1) + v^(i) (x)  k^(i)
+
+Here the fast weight matrix is endlessly added with the outer product.
+
+
+
+
+
+<span style="color:
+#FFF176;">
 linear attention, information is stored in a matrix and is retrieved using matrix multiplication</span>
 ([3](zotero://open-pdf/library/items/XC745P5Q?page=3&annotation=BE3URAF3))
+
+
+
+
+
+y^(i) RHS is simply matrix multiplication and is the retrieval.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+to prevent associations from interfering with each other upon retrieval, the respective keys need to be orthogonal</span>
+([3](zotero://open-pdf/library/items/XC745P5Q?page=3&annotation=W7RUTA8V))
 
 
 
@@ -1090,8 +1140,618 @@ linear attention, information is stored in a matrix and is retrieved using matri
 
 <span style="color:
 #FFF176;">
-to prevent associations from interfering with each other upon retrieval, the respective keys need to be orthogonal</span>
-([3](zotero://open-pdf/library/items/XC745P5Q?page=3&annotation=W7RUTA8V))
+keys embedded in a ddot space</span>
+([3](zotero://open-pdf/library/items/XC745P5Q?page=3&annotation=7YIGPJBD))
+
+
+
+
+
+The phi kernel function output dimension is d_dot.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+storing more than ddot associations will result in a retrieval error</span>
+([3](zotero://open-pdf/library/items/XC745P5Q?page=3&annotation=WE226338))
+
+
+
+
+
+Association: a key-value pair.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+when the length of the sequence is longer than ddot, the model might be in such an overcapacity</span>
+([3](zotero://open-pdf/library/items/XC745P5Q?page=3&annotation=E6JYFDKZ))
+
+
+
+
+
+
+
+
+
+
+### Tensor Product Representation Theory
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+distributed representations as a means for storing symbolic structures</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=J4BCMIM5))
+
+
+
+
+
+Distributed representation: Concepts and entities are vectors and so information is spread across.
+
+Symbolic structure: information represented as discrete entities and explicit relations between them.
+
+
+#symbolic-structure
+
+
+
+
+<span style="color:
+#FFF176;">
+tensor product representation (TPR) of a structured symbolic system consisting of a set of variables and values constructed from outer products of the so called role and filler vectors</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=BG8VA4ZU))
+
+
+
+
+
+filler ((x)) role
+
+Filler ~ Value
+Role ~ Key
+
+Example:
+
+"Peter loves MJ"
+
+Roles are subject, verb, object.
+Fillers are Peter, loves, MJ.
+
+Write:
+T = f_Peter r_subject^T + f_loves r_verb^T + f_MJ r_object^T
+
+Read / Retrieval:
+
+Subject: T dot r_subject
+
+
+#role
+#filler
+
+
+
+
+<span style="color:
+#FFF176;">
+fast weight memories of Eq. 17 are the most basic form of such representations (second order tensors)</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=EZK3HKHA))
+
+
+
+
+
+Second order tensor is Matrix.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Smolensky (1990) discuss more formally the crosstalk and retrieval error intuitively</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=VFYBKZFG))
+
+
+
+
+
+The point on orthogonal associations and it is required to prevent interference.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+classic TPRs of Smolensky (1990) are constructed with a priori knowledge of the symbolic structure</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=M7UF4AAA))
+
+
+
+
+
+TPR: Role (subject, verb, object) is from priori. 
+
+FWP: Key itself isn't a priori.
+
+
+
+
+
+### 4.2. Improving the FWP’s Programming Instruction
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Once in overcapacity, an ideal memory model should dynamically interact with the memory contents and selectively determine which associations to remember or to forget</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=2XD9WETV))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+contrast to the standard Transformer which stores immutable pairs</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=AQBJ95T3))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+from the perspective of dynamic interaction with the memory, the purely additive update rule of Eqs. 17 may be sub-optima</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=LX4YKEYV))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+basic instruction that essentially implements the famous error-correcting delta rule (Widrow &amp; Hoff, 1960) in an end-to-end differentiable way</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=5G8DBWNW))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Given a new input key-value pair (k(i), v(i)), the FWP first accesses the current state of the memory W (i−1) and retrieves the value v ̄(i) currently paired with the key k(i)</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=MFYB66QJ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Then the model stores a convex combination v(i)  new of the retrieved value v ̄(i) and the input v(i) using an interpolation weight 0 ≤ β(i) ≤ 1 also generated by the model</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=KLQWZNIU))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y690.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y690.png)
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y673.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y673.png)
+
+Retrieve v^(i) paired with k^(i)
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y655.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y655.png)
+
+Model generated the interpolation weight.
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y635.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x331-y635.png)
+
+Model stores new value, which is a convex combination of retrieved value and input value.
+
+beta (v - v_bar) + v_bar
+
+first term is directly the error.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Wβ ∈ R1×d</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=RVNP2IYC))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+σ is the sigmoid function</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=IZ3EUAXG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+interpolation weight β(i) is the “write-strength”</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=TSB8EBLS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+β(i) only depends on x(i)</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=ZYZ2PV6J))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+multilayer model, x(i) has the full context information</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=3V9LAQ32))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+W (0) = 0</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=287VMA4S))
+
+
+
+
+
+Fast weight memory at timestep 0 is 0.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+z(0) = 0</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=YYCTLNFY))
+
+
+
+
+
+Accumulated normalization at timestep 0 is 0.
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x309-y471.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x309-y471.png)
+
+Delta Rule.
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x309-y439.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x309-y439.png)
+
+Final output.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+dynamic learning rate β(i)</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=UYPYKW89))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+advantage of this approach over the gated update rule</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=ZRALHHJZ))
+
+
+
+
+
+
+
+
+
+
+### Normalisation
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+accumulator</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=B5C6PF2H))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x369-y276.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x369-y276.png)
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x369-y225.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x369-y225.png)
+
+Value with normalization.
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-4-x370-y195.png](research-notes/images/schlagLinearTransformersAre2021/image-4-x370-y195.png)
+
+Output with normalization.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+define v ̄(1) = 0. In this approach, the output y(i) is a weighted average of β(j)(v(j) − v ̄(j)) for 1 ≤ j ≤ i. We refer to this approach as attention normalisation</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=A3F5G8CX))
+
+
+
+
+
+
+
+#attention-normalisation
+
+
+
+
+<span style="color:
+#FFF176;">
+drawbacks</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=TQIMPRWA))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+First, the accumulation of positive values in Eq. 26 always grows with the number of steps, and may result in instability</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=BRXSQYA9))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Second, specifically for our update rule, this normalisation is not sufficient to balance the weights between write and remove operations</span>
+([4](zotero://open-pdf/library/items/XC745P5Q?page=4&annotation=JP5HYNXY))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+better approach based on simple normalisation</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=7P9QRQRF))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+divide the effective key and query vectors φ(k(i)) and φ(q(i)) by the sum of its components</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=K5BCL244))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-5-x114-y632.png](research-notes/images/schlagLinearTransformersAre2021/image-5-x114-y632.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+sum normalisation</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=L4DWKJQF))
+
+
+
+
+
+Divide the key and query vectors by sum of components.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Since this is a simple substitution of φ(k(i)) and φ(q(i)) in Eqs. 20-25, one might still ask whether additional attention normalisation is needed</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=37PZLHX6))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+language modelling experiments (Sec. 6.3), we show that this is not the case</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=H5H8LGYQ))
 
 
 
