@@ -1,7 +1,7 @@
 ---
 published: "2021-07-01"
 added: "2026-08-30"
-modified: "2026-09-04"
+modified: "2026-09-05"
 authors: Imanol Schlag, Kazuki Irie, Jürgen Schmidhuber
 abstract: "We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are additive outer products of self-invented activation patterns (today called keys and values). Such Fast Weight Programmers (FWPs) learn to manipulate the contents of a finite memory and dynamically interact with it. We infer a memory capacity limitation of recent linearised softmax attention variants, and replace the purely additive outer products by a delta rule-like programming instruction, such that the FWP can more easily learn to correct the current mapping from keys to values. The FWP also learns to compute dynamically changing learning rates. We also propose a new kernel function to linearise attention which balances simplicity and effectiveness. We conduct experiments on synthetic retrieval problems as well as standard machine translation and language modelling tasks which demonstrate the benefits of our methods."
 ---
@@ -1752,6 +1752,522 @@ Since this is a simple substitution of φ(k(i)) and φ(q(i)) in Eqs. 20-25, one 
 #FFF176;">
 language modelling experiments (Sec. 6.3), we show that this is not the case</span>
 ([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=H5H8LGYQ))
+
+
+
+
+
+
+
+
+
+
+### 5. Linear Attention Functions
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+softmax linearisation (Sec. 3.2) is the φ function which maps key and query vectors to the space where the dot product is executed: Rdkey → Rddot .</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=ANLWGJCB))
+
+
+
+
+
+
+
+
+
+
+### 5.1. Properties
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+φ should be positive</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=Q7K4LS8V))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+dimensionality of its codomain ddot defines the model’s capacity</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=G4F99QU3))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+transformation which projects the input dimension dkey to a larger dimension ddot, the φ function can potentially increase the upper bound</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=JIESMLVF))
+
+
+
+
+
+
+
+
+
+
+### 5.2. Katharopoulos’ Linear Attention
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+simple element-wise ELU + 1</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=TX6FL36S))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-5-x70-y138.png](research-notes/images/schlagLinearTransformersAre2021/image-5-x70-y138.png)
+
+
+
+#katharopoulos-linear-attention
+
+
+
+
+<span style="color:
+#FFF176;">
+a simple element-wise function, this φ function preserves the dimension of the input key vector (dkey = ddot)</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=THVKWRBL))
+
+
+
+
+
+
+
+
+
+
+### 5.3. FAVOR+
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+mathematically rigorous method to approximate the softmax with random features</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=76QKHSML))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-5-x357-y576.png](research-notes/images/schlagLinearTransformersAre2021/image-5-x357-y576.png)
+
+
+
+#favor+
+
+
+
+
+<span style="color:
+#FFF176;">
+concatenation  [a  b  ]  of two vectors a and b</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=7HLWVSGG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+R ∈ Rm×dkey is a matrix with m random features</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=BZMVP32Q))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+row vector r ∈ R1×dkey is drawn from N (0, Idkey )</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=WW8S7SL8))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+dimension of the codomain ddot is 2m</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=R6HSC6H3))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+increases the theoretical capacity of the memory if 2m &gt; dkey</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=6KMNT93S))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+m is the only hyperparameter of FAVOR+</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=DTPR7LMS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+sampling process is the main drawback of FAVOR+ as it introduces variance into the model’s output</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=F7H792MP))
+
+
+
+
+
+
+
+
+
+
+### 5.4. Deterministic Parameter-Free Projection (DPFP)
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+propose an alternative approach called deterministic parameter-free projection (DPFP)</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=K8DQPDYD))
+
+
+
+
+
+
+
+#dpfp
+
+
+
+
+<span style="color:
+#FFF176;">
+Consider 4 keys k(i), i ∈ {1, 2, 3, 4} in R2</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=YXJVDYRU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+φ : R2 → R4  ≥0</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=V35GQUXU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+l-th element of φ(x) is generated by the partial function φl : R2 → R≥0</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=4JLAPYMW))
+
+
+
+
+
+Partial function: takes the key in its d_key dimension and projects it onto a higher dimension d_dot
+
+
+
+
+
+<span style="color:
+#FFF176;">
+design φ such that it facilitates orthogonality in the projected space, i.e. φ(k(i)) · φ(k(j)) = 0 for i 6= j</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=C7LCNJ5R))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+construct φ such that if φl(x) &gt; 0 then φn(x) = 0 for all n 6= l</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=2X26AH5A))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+enforced by limiting the domains of the partial functions to be non-overlapping</span>
+([5](zotero://open-pdf/library/items/XC745P5Q?page=5&annotation=PWBK3DRS))
+
+
+
+
+
+For each phi_i ensure its domain doesn't overlap with others.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+element-wise rectifier function r(a) = max(0, a)</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=YG6L783U))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+partial functions</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=IB9L6R2F))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-6-x117-y619.png](research-notes/images/schlagLinearTransformersAre2021/image-6-x117-y619.png)
+
+max(0,a) ensures only one of them is positive and makes rest 0.
+
+phi = [ phi_1 phi_2 phi_3, phi_4]
+
+phi: R2 to R4
+phi_1: R2 to R1
+
+for any k, find this projected components to be this.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+each vector in the 2d plane will have a single non-zero component in the 4d space and equally splits the input space into four areas which will be orthogonal in the projected space</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=CL8QQTF3))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-6-x45-y390.png](research-notes/images/schlagLinearTransformersAre2021/image-6-x45-y390.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+input vector k ∈ Rdkey and i ∈ [1, 2dkey], the partial function</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=FWCLLSWR))
+
+
+
+
+
+i number of keys.
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-6-x98-y292.png](research-notes/images/schlagLinearTransformersAre2021/image-6-x98-y292.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+ν ∈ {1, 2, .., dkey2 − 1} is a capacity controlling hyperparameter</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=WEARSTTV))
+
+
+
+
+
+Think of this as offset for doing element wise multiplication.
+
+
+#capacity-control
+
+
+
+
+<span style="color:
+#FFF176;">
+codomain dimensionality of φ(k) is thus ddot = 2dkeyν</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=9M22666I))
+
+
+
+
+
+If we include more values for v, we are generating more sets of pairwise features.
+
+
+
+
+
+### 6. Experimental Results
+
+
+
+
+
+
+
+
+
+
+### 6.1. Synthetic Settings
 
 
 
