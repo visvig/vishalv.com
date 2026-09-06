@@ -1,7 +1,7 @@
 ---
 published: "2021-07-01"
 added: "2026-08-30"
-modified: "2026-09-05"
+modified: "2026-09-06"
 authors: Imanol Schlag, Kazuki Irie, Jürgen Schmidhuber
 abstract: "We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are additive outer products of self-invented activation patterns (today called keys and values). Such Fast Weight Programmers (FWPs) learn to manipulate the contents of a finite memory and dynamically interact with it. We infer a memory capacity limitation of recent linearised softmax attention variants, and replace the purely additive outer products by a delta rule-like programming instruction, such that the FWP can more easily learn to correct the current mapping from keys to values. The FWP also learns to compute dynamically changing learning rates. We also propose a new kernel function to linearise attention which balances simplicity and effectiveness. We conduct experiments on synthetic retrieval problems as well as standard machine translation and language modelling tasks which demonstrate the benefits of our methods."
 ---
@@ -2268,6 +2268,333 @@ If we include more values for v, we are generating more sets of pairwise feature
 
 
 ### 6.1. Synthetic Settings
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+our toy problem consists of retrieving the correct value from a sequence of randomly sampled keyvalue associations when queried with one of the used keys</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=EWU245QK))
+
+
+
+
+
+used key: key from the sampled keys value pairs.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+K and V be the finite and fixed sets of keys and values</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=4WT65ZUQ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+S = |K| = |V|</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=FHR52GPR))
+
+
+
+
+
+Total available keys and values.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+input to the model is the sequence [(k, v)1, ..., (k, v)L] followed by q where every pair (k, v) ∈ K × V is sampled randomly, and q is randomly chosen to be one of the L keys</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=VDMSPDN2))
+
+
+
+
+
+Take L keys out of S.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+v(i), i ∈ [1, .., S] is assigned a fixed one-hot vector v(i) ∈ RS</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=EALA9DFS))
+
+
+
+
+
+The dimension of the one hot vector is the same as number of value vectors.
+
+Hence, can have orthonormal basis.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+embedding of the key symbols is the learned function e : K → Rdemb</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=Y4HJ2RPM))
+
+
+
+
+
+e is embedding function (learned).
+
+
+
+
+
+<span style="color:
+#FFF176;">
+k = WK [e(k); v]</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=M9KTNEPB))
+
+
+
+
+
+Write.
+
+concatenate the value vector along with the embedding vector of key.
+
+dim of e(k) is d_emb
+
+dim of v is S (recall the orthonormal basis design requires that this should be S, the size of total key-value pairs)
+
+
+
+
+
+<span style="color:
+#FFF176;">
+WK ∈ Rdkey×(demb+S)</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=YWD7MHPD))
+
+
+
+
+
+d_key is the dim of key in this attention mechanism usage.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+L write operations</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=63X955AY))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+query vector q = WQe(q), WQ ∈ Rdkey×demb are used to retrieve vˆ ∈ RS from memory</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=5VPVT8L5))
+
+
+
+
+
+Retrieve.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+loss is defined as l(vˆ, v∗) = ∑S  j  1 2 (v∗  j − vˆj)2</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=48JVYP5J))
+
+
+
+
+
+v has S elements.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+v∗ is the value vector assigned to q in the input sequence</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=UF9DE72H))
+
+
+
+
+
+
+
+
+
+
+### 6.1.1. SETTING 1: TESTING CAPACITY
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+fix dkey to be 64</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=T5XYPFZL))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+different φ functions produce different ddot</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=SHDIMFJ2))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+L = S</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=PF3HK8XQ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+sample the keys and values without replacement</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=YXGXLN5B))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+all linear attention models (using the simple sum update rule of Sec. 3.2) fail at retrieving when S exceeds ddot.</span>
+([6](zotero://open-pdf/library/items/XC745P5Q?page=6&annotation=JLHZSGG8))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-7-x48-y477.png](research-notes/images/schlagLinearTransformersAre2021/image-7-x48-y477.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+LinearAttention has a capacity of 64 due to the choice of dkey = ddot = 64. Experimentally, Linear-Attention begins to accumulate errors with 60 or more associations</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=CK4PUSVU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+DPFP projections 1, 2 and 3 start to accumulate errors as they approach their respective limits at 128, 256, and 384</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=XAP5IGXE))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+softmax attention is outperforming all φ functions, although it struggles to fully converge with more than 500 keys</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=SX3WUXYT))
+
+
+
+
+
+
+
+
+
+
+### 6.1.2. SETTING 2: COMPARING UPDATE RULES
 
 
 
