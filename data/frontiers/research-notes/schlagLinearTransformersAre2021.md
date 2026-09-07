@@ -1,7 +1,7 @@
 ---
 published: "2021-07-01"
 added: "2026-08-30"
-modified: "2026-09-06"
+modified: "2026-09-07"
 authors: Imanol Schlag, Kazuki Irie, Jürgen Schmidhuber
 abstract: "We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are additive outer products of self-invented activation patterns (today called keys and values). Such Fast Weight Programmers (FWPs) learn to manipulate the contents of a finite memory and dynamically interact with it. We infer a memory capacity limitation of recent linearised softmax attention variants, and replace the purely additive outer products by a delta rule-like programming instruction, such that the FWP can more easily learn to correct the current mapping from keys to values. The FWP also learns to compute dynamically changing learning rates. We also propose a new kernel function to linearise attention which balances simplicity and effectiveness. We conduct experiments on synthetic retrieval problems as well as standard machine translation and language modelling tasks which demonstrate the benefits of our methods."
 ---
@@ -2600,6 +2600,672 @@ softmax attention is outperforming all φ functions, although it struggles to fu
 
 
 
+
+
+
+
+
+<span style="color:
+#FFF176;">
+keys and values will be sampled with replacement and sequence length L = 2S</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=N5WMBYH8))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+DPFP-1 as the φ</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=XA9STN53))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+sequence length is fixed at 40 with 20 unique keys and values</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=HRJLPVQT))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+fast weight memory programming instruction with normalisation</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=9BHFTS8V))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+three baselines</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=2JKW6AC4))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+sum update rule</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=3K5R64F7))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Schlag (2021)</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=KHB3FST6))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Schlag (2021) with DPFP</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=RNETWSCZ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+tanh nonlinearity for its key representations</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=TNDTRK4D))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+new update rule outperforms all other variants</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=2WPKKUQE))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-7-x299-y384.png](research-notes/images/schlagLinearTransformersAre2021/image-7-x299-y384.png)
+
+
+
+
+
+
+### 6.2. Machine Translation Experiments
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Linear Transformer</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=DKH5IBAY))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Performer</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=MMN2VHIM))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+φ function DPFP</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=TMLXUJEG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+vary the model hyper-parameters m in Performers</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=X8C3P7Q3))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+ν in DPFP models</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=8INYPD25))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+BLEU score</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=X5LWUDLN))
+
+
+
+
+
+BLEU: Bilingual Evaluation Understudy
+
+
+#bleu
+
+
+
+
+<span style="color:
+#FFF176;">
+DPFP model outperforms the Linear Transformer as well as the Performer when ddot is relatively small</span>
+([7](zotero://open-pdf/library/items/XC745P5Q?page=7&annotation=TU9XW8FZ))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-8-x45-y588.png](research-notes/images/schlagLinearTransformersAre2021/image-8-x45-y588.png)
+
+
+
+
+
+
+### 6.3. Language Modelling Experiments
+
+
+
+
+
+
+
+
+
+
+### Experimental setups
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+WikiText-103 consists of long articles from Wikipedia</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=YE7P4R43))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+training set contains about 28 K articles</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=YDEXM28C))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+103 M running words</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=EDL85B7B))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+contextual text blocks of about 3600 word</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=Q9JBQQ95))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+validation and test sets</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=TYFNI22D))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+218 K and 246 K running words</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=MMKM4DMS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+split the training data into L-word long segments</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=5Y93SAVA))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+For evaluation, we use a batch size of one, and go through the text with a sliding window of size L</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=2F2RE6W4))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+only the last position for computing perplexity</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=Q8FCLQS7))
+
+
+
+
+
+Perplexity: How surprised the language model is by actual next tokens.
+
+
+#perplexity
+
+
+
+
+### Effectiveness of our new update rule
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+two configurations</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=CH8CI2F9))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+small configuration, we set the model dimension (same for key, value, and query) D to 128, and the training and evaluation context length L to 256</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=4RLAANDR))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+D = H ∗ ddot</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=XALJUU7F))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+H is the number of heads</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=F3TN6LBE))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+H is set to 8</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=KYI5FCUW))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+feed-forward layer dimension is 2048</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=8ASESZS4))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+medium configuration, we set D = 256 and L = 384</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=I7C4YAND))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-8-x302-y500.png](research-notes/images/schlagLinearTransformersAre2021/image-8-x302-y500.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+models can be trained using two V100 GPUs in less than four days</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=I63SSACX))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Linear Transformer with our delta update rule as a Delta Network</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=SASAZIMH))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+ablation study to test the effect of the absolute positional encoding and an extra attention normalisation</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=BHV55C24))
+
+
+
+
+
+Ablation study: Remove or modify one of the components of a model to study performance changes.
+
+
+#ablation-study
+
+
+
+
+<span style="color:
+#FFF176;">
+better perplexities are obtained when no additional attention normalisation is applied</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=WFTJQTSQ))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-8-x302-y136.png](research-notes/images/schlagLinearTransformersAre2021/image-8-x302-y136.png)
+
+
+
+
+
+
+### Complexity, wall clock time, memory
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+All methods we propose are within the framework of “linear Transformers”</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=XE4E7N8V))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+constant in space</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=CV87NZZI))
+
+
+
+
+
+The W^i matrix size is the same throughout the updates with outer product.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+linear in time</span>
+([8](zotero://open-pdf/library/items/XC745P5Q?page=8&annotation=Z9T2D2KN))
+
+
+
+
+
+"The bird flew"
+
+W^1: d^2 outer prod comp
+W^2: same
+W^3: same
+
+Total is nd^2
+
+So O(nd^2) = O(n)
 
 
 
