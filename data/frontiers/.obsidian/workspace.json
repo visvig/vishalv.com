@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research-notes/schlagLinearTransformersAre2021.md",
+                "file": "research-notes/yangPresentFutureNovo2026.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "schlagLinearTransformersAre2021"
+              "title": "yangPresentFutureNovo2026"
             }
           }
         ],
@@ -244,6 +244,12 @@
   },
   "active": "44d6cefec112d762",
   "lastOpenFiles": [
+    "research-notes/images/yangPresentFutureNovo2026/image-3-x39-y660.png",
+    "research-notes/images/yangPresentFutureNovo2026/image-3-x345-y660.png",
+    "research-notes/images/yangPresentFutureNovo2026",
+    "research-notes/schlagLinearTransformersAre2021.md",
+    "research-notes/yangPresentFutureNovo2026.md",
+    "research-notes/images/schlagLinearTransformersAre2021/image-9-x42-y485.png",
     "research-notes/images/schlagLinearTransformersAre2021/image-8-x302-y136.png",
     "research-notes/images/schlagLinearTransformersAre2021/image-8-x302-y500.png",
     "research-notes/images/schlagLinearTransformersAre2021/image-8-x45-y588.png",
@@ -252,13 +258,9 @@
     "research-notes/images/schlagLinearTransformersAre2021/image-6-x98-y292.png",
     "research-notes/images/schlagLinearTransformersAre2021/image-6-x45-y390.png",
     "research-notes/images/schlagLinearTransformersAre2021/image-6-x117-y619.png",
-    "research-notes/images/schlagLinearTransformersAre2021/image-5-x357-y576.png",
-    "research-notes/images/schlagLinearTransformersAre2021/image-5-x70-y138.png",
     "publish/notes/teamKimiK3Open2026.md",
     "publish/notes/nielloOptimizingCognitiveEnhancement2026.md",
-    "research-notes/schlagLinearTransformersAre2021.md",
     "research-notes/princeUnderstandingDeepLearning2023.md",
-    "research-notes/images/schlagLinearTransformersAre2021/image-5-x114-y632.png",
     "research-notes/images/schlagLinearTransformersAre2021",
     "research-notes/teamKimiK3Open2026.md",
     "research-notes/images/princeUnderstandingDeepLearning2023",
@@ -283,12 +285,10 @@
     "research-notes/belkinLaplacianEigenmapsSpectral2002.md",
     "research-notes/grogerRevisitingPlatonicRepresentation2026.md",
     "research-notes/mirchandaniYouThinkYou2025.md",
-    "research-notes/dengHumanNetScalingHumancentric2026.md",
     "research-notes/images/grogerRevisitingPlatonicRepresentation2026",
     "research-notes/images/caoFixedRepresentationsVocabulary2026",
     "research-notes/images/coverElementsInformationTheory2001",
     "research-notes/images/xuInformationTheoreticDefinitionOpenEnded2026",
-    "research-notes/images/dengHumanNetScalingHumancentric2026",
-    "research-notes/images/wangWorldActionModels2026"
+    "research-notes/images/dengHumanNetScalingHumancentric2026"
   ]
 }

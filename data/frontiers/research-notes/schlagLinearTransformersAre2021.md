@@ -1,7 +1,7 @@
 ---
 published: "2021-07-01"
 added: "2026-08-30"
-modified: "2026-09-07"
+modified: "2026-09-08"
 authors: Imanol Schlag, Kazuki Irie, Jürgen Schmidhuber
 abstract: "We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are additive outer products of self-invented activation patterns (today called keys and values). Such Fast Weight Programmers (FWPs) learn to manipulate the contents of a finite memory and dynamically interact with it. We infer a memory capacity limitation of recent linearised softmax attention variants, and replace the purely additive outer products by a delta rule-like programming instruction, such that the FWP can more easily learn to correct the current mapping from keys to values. The FWP also learns to compute dynamically changing learning rates. We also propose a new kernel function to linearise attention which balances simplicity and effectiveness. We conduct experiments on synthetic retrieval problems as well as standard machine translation and language modelling tasks which demonstrate the benefits of our methods."
 ---
@@ -11,6 +11,7 @@ abstract: "We show the formal equivalence of linearised self-attention mechanism
 [URL](https://proceedings.mlr.press/v139/schlag21a.html)
 
 ## Tags
+#✅
 
 
 ## Notes
@@ -3166,6 +3167,8 @@ Linear Transformer with our delta update rule as a Delta Network</span>
 
 
 
+#delta-network
+
 
 
 
@@ -3266,6 +3269,195 @@ W^3: same
 Total is nd^2
 
 So O(nd^2) = O(n)
+
+
+
+
+
+
+![research-notes/images/schlagLinearTransformersAre2021/image-9-x42-y485.png](research-notes/images/schlagLinearTransformersAre2021/image-9-x42-y485.png)
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+63 K</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=VAP8DXP6))
+
+
+
+
+
+Wall Clock Time w Delta Rule.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+66 K words/sec</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=HWREPFDM))
+
+
+
+
+
+Wall Clock Time w/o Delta Rule.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+14</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=QSGPIAMA))
+
+
+
+
+
+Memory requirement w Delta Rule.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+13 GB</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=GQUK9HYN))
+
+
+
+
+
+Memory requirement w/o Delta Rule.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+extra resource requirement is thus marginal</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=M88EM3LE))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+we use custom CUDA kernels for these linear Transformers, they are faster than the regular Transformers implemented in PyTorch which process 33K words/sec and require 17 GB memory</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=T42YSQ39))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+speed of the DPFP and Performer models (for Table 5 in Appendix with a larger ddot) are 63 K and 57 K words/sec</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=CGGEBG5D))
+
+
+
+
+
+
+
+
+
+
+### Without truncating context
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Performance of the Delta Net does not yet match the performance of the Transformer XL when the latter is evaluated with a large state size (large attention window)</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=C4B45YYK))
+
+
+
+
+
+
+
+
+
+
+### 7. Conclusion
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+FWP perspective allows for discussing associative memory capacity limitations of linear attention</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=LY9B99PA))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+an alternative differentiable elementary programming instruction that the FWP can use to dynamically edit the memory, akin to the famous delta rule, but such that the FWP can learn to use the rule wisely through gradient descent</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=KIUVZWVR))
+
+
+
+
+
+Beta that decides the fast weights write strength comes from slow weights.
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+FWP perspective opens up new avenues for investigating even better programming instructions and designs for Transformers with finite memory</span>
+([9](zotero://open-pdf/library/items/XC745P5Q?page=9&annotation=9JTHQDTZ))
+
+
+
+
+
 
 
 
