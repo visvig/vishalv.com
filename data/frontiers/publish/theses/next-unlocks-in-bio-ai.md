@@ -188,7 +188,7 @@ Biomanufacturing is therefore useful not merely as a revenue opportunity. It for
 
 India already has a large industrial base against which this technology could create value.
 
-The [India BioEconomy Report 2026](https://www.birac.nic.in/webcontent/IBER_2026.pdf) estimates India's bioeconomy at $195.3 billion in 2025, with BioIndustrial at $90.2 billion and BioAgri at $14.6 billion. The report projects BioIndustrial alone reaching roughly $130 billion by 2030. 
+The [India BioEconomy Report 2026](https://www.birac.nic.in/webcontent/IBER_2026.pdf) estimates India's bioeconomy at USD 195.3 billion in 2025, with BioIndustrial at USD 90.2 billion and BioAgri at USD 14.6 billion. The report projects BioIndustrial alone reaching roughly USD 130 billion by 2030. 
 
 *Note: These figures describe the industrial base rather than an addressable market; the initial opportunity is the subset of processes in which molecular control can materially improve production economics.*
 
