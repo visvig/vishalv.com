@@ -113,18 +113,20 @@ The technical breakthroughs closest to practical engineering today are highly ap
 
 - **Programmable sensing:** detect chosen metabolites or process states;
 - **Predictable allostery:** convert sensing into controlled changes in protein activity;
-- **Modular coupling:** connect different molecular inputs to different biochemical outputs;
-- **Multi-input control:** respond to combinations of molecular signals;
-- **Feedback:** dynamically regulate pathways as conditions change;
-- **Inverse design:** eventually specify the desired behaviour first and generate the controller.
-
-Several of these capabilities are already beginning to cross from biological discovery into engineering, and biomanufacturing provides an environment where improved molecular control has direct economic value.
 
 Dynamic metabolic control is already an active field. The 2026 [review paper](https://doi.org/10.1016/j.tibtech.2025.10.002) surveys approaches including protein degradation, spatial regulation, and engineered allosteric switches for controlling metabolic flux.
 
-The opportunity is that general-purpose, de novo-designed protein controllers remain an emerging capability.
+The opportunity is that general-purpose, de novo-designed protein controllers remain an emerging capability. 
 
-[This paper](https://doi.org/10.1038/s41587-026-03081-9) demonstrated synthetic allosteric switches with small-molecule, peptide, and protein inputs, including YES and AND logic. More recently, [this paper](https://doi.org/10.64898/2026.09.08.750245), from David Baker's group, demonstrated de novo enzymes whose catalytic activity could be activated or repressed by designed protein effectors.
+Closing that gap requires further progress in:
+
+- **Modular coupling:** connect different molecular inputs to different biochemical outputs;
+- **Multi-input control:** respond to combinations of molecular signals;
+- **Feedback:** dynamically regulate pathways as conditions change;
+
+Pieces of these capabilities are already beginning to cross from biological discovery into engineering. [This paper](https://doi.org/10.1038/s41587-026-03081-9) demonstrated synthetic allosteric switches with small-molecule, peptide, and protein inputs, including YES and AND logic. More recently, [this paper](https://doi.org/10.64898/2026.09.08.750245), from David Baker's group, demonstrated de novo enzymes whose catalytic activity could be activated or repressed by designed protein effectors.
+
+The longer-term goal is **inverse design**: specify the desired behaviour first and generate the controller that implements it.
 
 The market thesis is therefore:
 
