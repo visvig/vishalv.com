@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-09-25"
+modified: "2026-09-27"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -314,6 +314,8 @@ For allosteric activator:
 
 G(E_I) < G(E_A)
 
+But not specified here.
+
 
 #tied-proteinmpnn
 
@@ -551,6 +553,325 @@ Designs predicted by AlphaFold2 to adopt the target active and inactive conforma
 
 
 AF2 should predict E_AP_A complex to show active state and E_I is the enzyme alone which shows inactive state.
+
+
+
+
+
+### Characterization of allosteric activators
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+generated inactive win1 conformations by partial diffusion in the absence of substrate</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=FIK6LUCV))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+designed small proteins that bind to and stabilize the active state of win1</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=VMYE4B86))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Sixty-one such designed enzyme-effector pairs that passed AF2 filters were selected for experimental characterization</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=8Z6K22JS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+expressed in E. coli</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=FR9A46KL))
+
+
+
+
+
+Both enzyme and effector separately.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+activity was measured in cell lysates using the fluorogenic substrate 4-methylumbelliferone acetate (4Mu-Ac)</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=U3PPPMP2))
+
+
+
+
+
+Experimental Assay:
+
+Cell lysate: Make living cells produce the design protein, then break the cells open.
+
+4Mu-Ac + H2O -> 4Mu (fluorescent)+ Ac
+
+Catalyst is serine hydrolase.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+identified two effector-enzyme pairs, Janus1 and Janus2</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=TNQGANMC))
+
+
+
+
+
+Both of their active state geometries are similar.
+
+
+#janus1
+#janus2
+
+
+
+
+<span style="color:
+#FFF176;">
+addition of effector cell lysate substantially increased formation of the fluorescent product, 4Mu</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=5FBJ55V5))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+both pairs, there is substantial predicted conformational remodeling of the designed enzyme in the inactive and effector-bound complexes with Cα RMSDs of 8.3 Å and 3.80 Å for Janus1 and Janus2 respectively</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=95XUV2VC))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+nactive state, the catalytic residues Ser142, His17, Asp37, and Thr99 have a disrupted geometry incompatible with efficient catalysis</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=6EJEYDFQ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+effector binding, both designs transition to an active-like catalytic arrangement</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=YRBFFTRX))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+mutational and kinetic analyses of the purified effectors and enzymes</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=MQ94644P))
+
+
+
+
+
+Mutational Analysis: change / knockout specific residues and see change in catalytic activity
+
+Kinetic Analysis: Measure reaction rates quantitatively
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Active site residue knockouts had activity reduced to background levels or below the detection limit (Supplementary Figure 1), supporting catalysis through the expected serine/cysteine hydrolase machinery, as for the parent enzyme</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=5NLR3IZH))
+
+
+
+
+
+Mutational Analysis.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+To characterize the kinetics in more detail, steady-state kinetic measurements were performed in the absence and presence of effector at a 1:2 enzyme:effector ratio</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=WRVDR4JU))
+
+
+
+
+
+Kinetic Analysis.
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x70-y358.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x70-y358.png)
+
+Janus1, Active state.
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y236.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y236.png)
+
+Janus2, Inactive state.
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y112.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y112.png)
+
+Janus2, Active state.
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x369-y359.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x369-y359.png)
+
+Relative Fluorescence Units.
+
+Slope of this graph is a proxy for enzyme reaction rate.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+fluorescent group, R1 in blue, from the leaving group R2 (acetate or phenylacetate)</span>
+([7](zotero://open-pdf/library/items/NFN88FKJ?page=7&annotation=CJVR7BSH))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y624.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y624.png)
+
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y487.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x71-y487.png)
+
+Janus1, Inactive state.
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x371-y486.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x371-y486.png)
+
+Michaelis-Menten Kinetics.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Michaelis-Menten kinetics of Janus1 comparing unbound enzyme and enzyme with saturating effector</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=33RKDX49))
+
+
+
+
+
+
+
+#michaelis-menton
+
+
+
+
+<span style="color:
+#FFF176;">
+Addition of saturating Janus1_b effector rapidly accelerates catalysis</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=NS2FJGZJ))
+
+
+
+
+
+RFU: Relative Fluorescence Units.
 
 
 
