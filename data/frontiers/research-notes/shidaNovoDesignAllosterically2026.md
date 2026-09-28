@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-09-27"
+modified: "2026-09-28"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -768,6 +768,122 @@ Kinetic Analysis.
 
 
 
+<span style="color:
+#FFF176;">
+Janus1, effector binding increased the turnover rate from kcat = 0.0033 ± 0.00010 s−1 to 0.017 ± 0.0003 s−1, an approximately 5-fold increase</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=2XBS8UGW))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Janus2, kcat increased from 0.00050 ± 0.00005 s−1 in the absence of effector to 0.0013 ± 0.00003 s−1 in the presence of effector, corresponding to a 2.6-fold enhancement</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=MA39VQXF))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Effector binding also altered substrate affinity in Janus1: Km increased 4.3-fold, from 8.1 ± 1.0 μM in the apo state to 35 ± 2 μM in complex with Janus1_b</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=GZCRW6E9))
+
+
+
+
+
+Increased K_m results in worse substrate affinity.
+
+Low K_m implies the enzyme works well at low [S]
+
+
+
+
+
+<span style="color:
+#FFF176;">
+In contrast, the Km of Janus2 was unchanged within error (4 ± 2 μM apo vs. 2.5 ± 0.3 μM bound</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=9I7SLTLU))
+
+
+
+
+
+Reduced K_m but insignificant.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+2x molar ratio of effector was added to an ongoing enzymatic reaction</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=DSYAX63L))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+both Janus1 and Janus2, addition of effector increased catalytic activity to the levels observed in the pre-incubation experiment</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=WL3YNVI2))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+effector on-rate is fast relative to the mixing and measurement dead time (~21 seconds</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=9UP7IDDU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+To test the specificity of each effector  is made available under a CC-BY-NC 4.0 International license. preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It  bioRxiv preprint doi: https://doi.org/10.64898/2026.09.08.750245; this version posted September 10, 2026. The copyright holder for this for its cognate enzyme, we incubated Janus1 and Janus2 with Janus2_b and Janus1_b, respectively. Both enzymes demonstrate specificity to their respective effector, with no rate enhancement when incubated with the non-cognate effector (Supplementary Figure 2)</span>
+([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=E3A8AQYZ))
+
+
+
+
+
+
+
+
+
+
 
 ![research-notes/images/shidaNovoDesignAllosterically2026/image-7-x70-y358.png](research-notes/images/shidaNovoDesignAllosterically2026/image-7-x70-y358.png)
 
@@ -872,6 +988,19 @@ Addition of saturating Janus1_b effector rapidly accelerates catalysis</span>
 
 
 RFU: Relative Fluorescence Units.
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-10-x58-y471.png](research-notes/images/shidaNovoDesignAllosterically2026/image-10-x58-y471.png)
+
+k_cat: Catalytic Rate Constant
+
+K_M: Michaelis Constant
+
+k_cat/K_M: Catalytic Efficiency (Specificity Constant)
 
 
 
