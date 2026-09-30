@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-09-28"
+modified: "2026-09-30"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -644,6 +644,8 @@ Cell lysate: Make living cells produce the design protein, then break the cells 
 Catalyst is serine hydrolase.
 
 
+#4mu-ac
+
 
 
 
@@ -872,7 +874,7 @@ effector on-rate is fast relative to the mixing and measurement dead time (~21 s
 
 <span style="color:
 #FFF176;">
-To test the specificity of each effector  is made available under a CC-BY-NC 4.0 International license. preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It  bioRxiv preprint doi: https://doi.org/10.64898/2026.09.08.750245; this version posted September 10, 2026. The copyright holder for this for its cognate enzyme, we incubated Janus1 and Janus2 with Janus2_b and Janus1_b, respectively. Both enzymes demonstrate specificity to their respective effector, with no rate enhancement when incubated with the non-cognate effector (Supplementary Figure 2)</span>
+To test the specificity of each effector for its cognate enzyme, we incubated Janus1 and Janus2 with Janus2_b and Janus1_b, respectively. Both enzymes demonstrate specificity to their respective effector, with no rate enhancement when incubated with the non-cognate effector (Supplementary Figure 2)</span>
 ([5](zotero://open-pdf/library/items/NFN88FKJ?page=5&annotation=E3A8AQYZ))
 
 
@@ -988,6 +990,121 @@ Addition of saturating Janus1_b effector rapidly accelerates catalysis</span>
 
 
 RFU: Relative Fluorescence Units.
+
+
+
+
+
+### Characterization of allosteric inhibitors
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+designs off of designed serine hydrolases, win1_b1 16 and win1_b4 (Supplementary Figure 1), that hydrolyze the larger substrate 4-methylumbelliferone phenylacetate (4Mu-PhAc, Figure 2A)</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=6JVFX4TY))
+
+
+
+
+
+The system changes from allosteric activator case to allosteric inhibitor case.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+coupling in molecular machines like Hsp70 24, in which ATP binding switches Hsp70 into a protein-binding competent state, we reasoned that the bulkier, more hydrophobic leaving group of 4Mu-PhAc would provide more binding energy to drive conformational change</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=TI4WLG3K))
+
+
+
+
+
+4Mu-PhAc is bulkier than 4Mu-Ac.
+
+del G_bind (S, E) is lower:
+
+when S = 4Mu-PhAc 
+
+than when S = 4Mu-Ac.
+
+
+#4mu-phac
+
+
+
+
+<span style="color:
+#FFF176;">
+sought to improve the baseline catalytic activity of the designed enzymes in the unbound form</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=IHRFBZ77))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+found that a serine-to-cysteine substitution led to dramatic increases in catalytic efficiency across a variety of designed serine hydrolases</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=LH5X5D4W))
+
+
+
+
+
+Enzyme changed.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+experimentally characterized 24 designed allosteric inhibitor-enzyme pairs using lysate screening with fluorescent 4Mu-PhAc in the absence and presence of the effector</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=LKDF2NTN))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Of these, eight designs retained catalytic activity, and one, Janus3, had a clear reduction of enzymatic activity for both cysteine and serine variants upon addition of effector</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=NPI4I43R))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-9-x71-y428.png](research-notes/images/shidaNovoDesignAllosterically2026/image-9-x71-y428.png)
+
+Allosteric Inhibitor.
 
 
 
