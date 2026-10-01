@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-09-30"
+modified: "2026-10-01"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -1101,10 +1101,144 @@ Of these, eight designs retained catalytic activity, and one, Janus3, had a clea
 
 
 
+<span style="color:
+#FFF176;">
+Cα RMSDs between states of 1.84 Å</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=BPK2P6ZP))
+
+
+
+
+
+Much lower / subtle than activator Janus1, Janus2.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+effector binding, the nucleophilic Cys142 is disrupted and turned outward and away</span>
+([8](zotero://open-pdf/library/items/NFN88FKJ?page=8&annotation=A89SJV9K))
+
+
+
+
+
+
+
+
+
+
 
 ![research-notes/images/shidaNovoDesignAllosterically2026/image-9-x71-y428.png](research-notes/images/shidaNovoDesignAllosterically2026/image-9-x71-y428.png)
 
 Allosteric Inhibitor.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+The primary change is in the catalytic nucleophile residue</span>
+([9](zotero://open-pdf/library/items/NFN88FKJ?page=9&annotation=34L5TZPT))
+
+
+
+
+
+Serine to Cystine.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Janus3 enzyme</span>
+([9](zotero://open-pdf/library/items/NFN88FKJ?page=9&annotation=4A6YN86S))
+
+
+
+
+
+Janus3_e
+
+
+
+
+
+<span style="color:
+#FFF176;">
+effector (Janus3_b)</span>
+([9](zotero://open-pdf/library/items/NFN88FKJ?page=9&annotation=RQP6ERC8))
+
+
+
+
+
+Binder.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+substantial decrease in kcat upon Janus3_b binding (Figure 3B) from .0024 s−1 (unbound) to .0003 s−1 (bound), an 8-fold reduction (Table 1)</span>
+([9](zotero://open-pdf/library/items/NFN88FKJ?page=9&annotation=LJAC8RAM))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+no significant difference in KM between the bound and unbound states of Janus3, suggesting that the binding of Janus3_b alters catalytic residue geometry without affecting the substrate binding pocket of Janus3, consistent with the design model</span>
+([9](zotero://open-pdf/library/items/NFN88FKJ?page=9&annotation=CEBYNY9Z))
+
+
+
+
+
+Much cleaner than Janus1 and Janus2.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Mutation of active site residues Cys142, His17, Asp37, and Thr99 to alanine eliminated or reduced activity, confirming that the catalytic mechanism is unchanged</span>
+([9](zotero://open-pdf/library/items/NFN88FKJ?page=9&annotation=BQBQ4NKU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+addition of Janus3_b into the Janus3_e and 4Mu-PhAc reaction, the rate decreased to a lower steady state within the dead time of our mixing procedure</span>
+([9](zotero://open-pdf/library/items/NFN88FKJ?page=9&annotation=DZ63EDCZ))
+
+
+
+
+
+Dead time: Experimentally unobservable time, like mixing time so instrument can't measure.
+
+21 secs in the activator case.
 
 
 
