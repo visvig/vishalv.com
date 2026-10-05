@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-10-01"
+modified: "2026-10-05"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -1252,6 +1252,91 @@ k_cat: Catalytic Rate Constant
 K_M: Michaelis Constant
 
 k_cat/K_M: Catalytic Efficiency (Specificity Constant)
+
+
+
+
+
+<span style="color:
+#FFF176;">
+SEC traces for the Janus1, Janus2, and Janus3 systems with enzyme alone, effector alone, and enzyme and effector in a 1:1 stoichiometric ratio</span>
+([11](zotero://open-pdf/library/items/NFN88FKJ?page=11&annotation=KA5R7943))
+
+
+
+
+
+SEC: Size Exclusion Chromatography
+
+Inject protein sample into a column packed with porous beads, then continuously pump liquid through it.
+
+Small proteins enter lots of little pores, takes longer route, come out later
+
+Large proteins enter can't enter many pores, take shorter route, come out earlier
+
+
+#sec
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y577.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y577.png)
+
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y471.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y471.png)
+
+Retention Volume: Amount of liquid has flowed through
+
+usually,
+
+complex > enzyme > binder
+
+A280: Proteins absorb UC at 280nm, because of aromatic amino acids
+
+mAU: milli-Absorbance Units
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x341-y577.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x341-y577.png)
+
+Comparison between the complex vs the unbound active state of the enzyme.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+crystal structure of the Janus3 enzyme-effector complex at 1.7 Å resolution</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=26A7THZH))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+effector binds far from the active site, confirming that the alteration in activity occurs purely due to conformational coupling (rather than steric interference with substrate binding)</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=QBIZP25Q))
+
+
+
+
+
 
 
 
