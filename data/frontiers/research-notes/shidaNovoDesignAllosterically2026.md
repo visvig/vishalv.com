@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-10-05"
+modified: "2026-10-06"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -1136,6 +1136,8 @@ effector binding, the nucleophilic Cys142 is disrupted and turned outward and aw
 Allosteric Inhibitor.
 
 
+#janus3
+
 
 
 
@@ -1283,6 +1285,7 @@ Large proteins enter can't enter many pores, take shorter route, come out earlie
 
 ![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y577.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y577.png)
 
+3D design overlaid on the crystal to see if enzyme-effector complex indeed follows the design.
 
 
 
@@ -1308,7 +1311,7 @@ mAU: milli-Absorbance Units
 
 ![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x341-y577.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x341-y577.png)
 
-Comparison between the complex vs the unbound active state of the enzyme.
+Comparison between the complex (inactive state) vs the unbound active state of the enzyme.
 
 
 
@@ -1337,6 +1340,132 @@ effector binds far from the active site, confirming that the alteration in activ
 
 
 
+
+
+
+
+
+<span style="color:
+#FFF176;">
+catalytic cysteine was oxidized to sulfinic acid, which likely occurred during crystallization or data collection</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=MWWDYVHG))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+crystal-inactive state design model Cα RMSD= 1.66 Å, crystal-active state design model Cα RMSD= 1.87 Å</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=NPCDW8YX))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+primary differences between the designed active vs inactive states lie in a shift in the placement of the cysteine residue and a rotation and translation of the Thr99 oxyanion stabilizing residue</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=3PPKZGXY))
+
+
+
+
+
+So the crystal should be similar to the bound state (as intended) but then they also find the active state catalytic site geometry is also very similar. Only a couple of differences:
+
+- shift in cysteine
+- rotation and translation of Thr
+
+
+
+
+
+<span style="color:
+#FFF176;">
+crystal and the inactive state design model show a 1.2 Å shift of the cysteine backbone Cα relative to the active state model in addition to the rotation of the oxyanion stabilizing oxygen away from the catalytic pocket</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=5WD6NG5M))
+
+
+
+
+
+Validation that the computational model from active to inactive model state is exhibited by the inactive crystal.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+next investigated the effect of substrate on effector binding</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=4RGD3KA4))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Size exclusion chromatography (SEC) of effector alone, enzyme alone, and enzyme and effector together revealed monodisperse 1:1 binding</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=P4V82EDR))
+
+
+
+
+
+monodisperse binding: the complex behaves as a uniform species.
+
+E was E
+B was B
+EB was EB instead of EB_2, E_2B or any other aggregates
+
+
+#monodisperse
+
+
+
+
+<span style="color:
+#FFF176;">
+Janus2 enzyme alone appears to be a dimer, but forms a monodisperse complex with Janus2_b with the expected molecular weight</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=YRNACUUL))
+
+
+
+
+
+E_2 instead of E for Janus2.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+monodisperse complex peak upon addition of effector indicates near stoichiometric binding under these conditions</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=RUKK7WI6))
+
+
+
+
+
+For 1 E, 1 B binded.
 
 
 
