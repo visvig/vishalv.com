@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-10-06"
+modified: "2026-10-07"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -1259,6 +1259,15 @@ k_cat/K_M: Catalytic Efficiency (Specificity Constant)
 
 
 
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x100-y361.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x100-y361.png)
+
+SPR, 5 fold dilutions.
+
+
+
+
+
 <span style="color:
 #FFF176;">
 SEC traces for the Janus1, Janus2, and Janus3 systems with enzyme alone, effector alone, and enzyme and effector in a 1:1 stoichiometric ratio</span>
@@ -1415,6 +1424,23 @@ next investigated the effect of substrate on effector binding</span>
 
 
 
+- SEC
+- SPR
+
+
+
+
+
+<span style="color:
+#FFF176;">
+first characterized binding of effector and enzyme in the absence of substrate</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=F47TMN9S))
+
+
+
+
+
+By SEC.
 
 
 
@@ -1466,6 +1492,107 @@ monodisperse complex peak upon addition of effector indicates near stoichiometri
 
 
 For 1 E, 1 B binded.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+measured the binding affinity of the designed effectors for their cognate enzymes by surface plasmon resonance (SPR)</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=PXR4TYSI))
+
+
+
+
+
+
+
+#spr
+
+
+
+
+<span style="color:
+#FFF176;">
+streptavidin-biotin conjugation</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=ZD2BP2LC))
+
+
+
+
+
+
+
+#streptavidin-biotin
+
+
+
+
+<span style="color:
+#FFF176;">
+All of the allosteric effectors bind their cognate enzymes with nanomolar to sub-nanomolar affinity: equilibrium dissociation constants (KD) of 2.97 nM for Janus1 (kon = 2.52 × 106 M−1s−1, koff = 7.46 × 10−3 s−1), 0.726 nM for Janus2 (kon = 3.49 × 106 M−1s−1, koff = 2.53 × 10−3 s−1), and 106 nM for Janus3 (kon = 5.93 × 105 M−1s−1, koff = 6.31 × 10−2 s−1)</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=WZEZFPN3))
+
+
+
+
+
+E + B <-> EB
+
+k_on: association rate constant
+binding rate = k_on[E][B]
+
+k_off: dissociation rate constant
+unbinding rate = k_off[EB]
+
+K_D = k_off/k_on
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Janus3 on-rate is roughly an order of magnitude lower than those of Janus1 and Janus2, suggesting lower occupancy of the inactive binding-competent conformation and higher occupancy of the unbound, active state</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=8CFK6PRN))
+
+
+
+
+
+This is experimental explanation for the underlying thermodynamics:
+
+- They say both active and inactive states exist even when unbounded.
+
+- Janus3 takes time to attach with its binder because the Janus3 population has lesser inactive state confirmations to bind to and stabilize.
+
+- Janus 1 and Janus 2 has their binder-compatible active state more than binder-compatible inactive state of Janus3.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+While there are many allosteric enzymes for which catalysis does not impact allosteric effector binding under physiologically relevant conditions (25,26), such coupling is a hallmark of natural molecular machines</span>
+([12](zotero://open-pdf/library/items/NFN88FKJ?page=12&annotation=7Q5R3HCY))
+
+
+
+
+
+Cycles are key for molecular machines, so coupling is preferred.
+
+It's more about coordination.
+
+Additional thought:
+
+So, the enzyme can keep doing catalysis without change in its performance significantly as substrate concentration increases.
+
+Think of a manufacturing line, as the number of jobs / feed increase , the line still makes the same product roughly. Hence, this is in fact a conventional machine.
+
+natural ones usually have a coupling, but here we have de coupled.
 
 
 
