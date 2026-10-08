@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-10-07"
+modified: "2026-10-08"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -1268,6 +1268,21 @@ SPR, 5 fold dilutions.
 
 
 
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x100-y252.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x100-y252.png)
+
+Only Janus1 changed under varying substrate concentration.
+
+K_D = k_d / k_a
+
+4Mu-N-Ac is a non hydrolysable analogue of 4Mu-Ac
+
+
+#mu-n-ac
+
+
+
+
 <span style="color:
 #FFF176;">
 SEC traces for the Janus1, Janus2, and Janus3 systems with enzyme alone, effector alone, and enzyme and effector in a 1:1 stoichiometric ratio</span>
@@ -1586,6 +1601,10 @@ Cycles are key for molecular machines, so coupling is preferred.
 
 It's more about coordination.
 
+Janus1 shows such coupling (catalysis at active site impacts effector binding at distal site, and vice versa)
+
+Janus2, Janus3 don't
+
 Additional thought:
 
 So, the enzyme can keep doing catalysis without change in its performance significantly as substrate concentration increases.
@@ -1593,6 +1612,93 @@ So, the enzyme can keep doing catalysis without change in its performance signif
 Think of a manufacturing line, as the number of jobs / feed increase , the line still makes the same product roughly. Hence, this is in fact a conventional machine.
 
 natural ones usually have a coupling, but here we have de coupled.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+At high substrate concentrations, we observed a modest but reproducible (Figure 4C) change in the binding affinity of the Janus1 system, with KD shifting from 2.97 nM (no substrate) to 13.3 nM (with 100 μM substrate, Figure 4C, Table 2)</span>
+([13](zotero://open-pdf/library/items/NFN88FKJ?page=13&annotation=DG4AH6F5))
+
+
+
+
+
+Coupling in Janus1.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+coupling between catalysis and binding for Janus 1 reflects substrate binding or catalytic turnover, we repeated the experiment using a non-hydrolyzable substrate analog containing an amide bond in place of the scissile ester linkage</span>
+([13](zotero://open-pdf/library/items/NFN88FKJ?page=13&annotation=IMVD76TL))
+
+
+
+
+
+substrate binding: E + S -> ES
+
+catalytic turnover: ES -> EP -> E + P
+
+
+
+
+
+<span style="color:
+#FFF176;">
+This analog did not change effector binding affinity relative to the substrate-free condition</span>
+([13](zotero://open-pdf/library/items/NFN88FKJ?page=13&annotation=A7XJYS8N))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+nearly isosteric amide analog has no effect on effector binding across concentrations, the affinity changes with the cleavable substrate likely arise from catalytic turnover rather than substrate occupancy of the active site or off-target binding at the effector interface</span>
+([13](zotero://open-pdf/library/items/NFN88FKJ?page=13&annotation=5L8ST2P4))
+
+
+
+
+
+The rows with substrate 4Mu-N-Ac in table
+
+
+
+
+
+<span style="color:
+#FFF176;">
+covalent acyl enzyme intermediate accumulates during active catalysis (Supplementary Figure 8); this covalent species is likely more able to outcompete binding of the much larger protein effector than the non-covalently interacting inhibitor</span>
+([13](zotero://open-pdf/library/items/NFN88FKJ?page=13&annotation=967MZBGU))
+
+
+
+
+
+The intermediate formation during catalytic turnover causes the coupling.
+
+This intermediate (formed by 4Mu-Ac) can outcompete the effector in binding. In 4Mu-N-Ac case, that doesn't happen.
+
+
+
+
+
+
+![research-notes/images/shidaNovoDesignAllosterically2026/image-13-x69-y197.png](research-notes/images/shidaNovoDesignAllosterically2026/image-13-x69-y197.png)
+
+Substrate concentration vs K_D
 
 
 
