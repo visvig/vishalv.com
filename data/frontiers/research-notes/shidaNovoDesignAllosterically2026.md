@@ -1,7 +1,7 @@
 ---
 published: "2026-09-10"
 added: "2026-09-17"
-modified: "2026-10-08"
+modified: "2026-10-11"
 authors: Alexander Shida, Kelly Wang, Hojae Choi, Samuel Pellock, Adam Broerman, Saman Salike, William Grubbe, Emily Joyce, Alex Kang, Asim K. Bera, Xinting Li, Arvind Pillai, David Baker
 abstract: "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions."
 ---
@@ -1699,6 +1699,289 @@ This intermediate (formed by 4Mu-Ac) can outcompete the effector in binding. In 
 ![research-notes/images/shidaNovoDesignAllosterically2026/image-13-x69-y197.png](research-notes/images/shidaNovoDesignAllosterically2026/image-13-x69-y197.png)
 
 Substrate concentration vs K_D
+
+
+
+
+
+### Discussion/Conclusion
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+large scale conformational changes were required</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=ETZWEJC2))
+
+
+
+
+
+For previous methods to work.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+design of rapidly switching allosteric systems, smaller magnitude conformational changes can have lower energy barriers to reconfiguration</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=MDD2JPS5))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+close agreement of the crystal structure of the Janus3 designed effector-enzxyme complex with the design model demonstrates the atomic accuracy of our allostery design approach</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=H27KLDJT))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+room for improvement in the structure prediction methods used to predict state in the presence and absence of effector</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=TZ5Z6P9Z))
+
+
+
+
+
+1
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+the calculation of the free energy difference between the two states</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=JRADMJSL))
+
+
+
+
+
+2
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+the method of generation of the alternative state; in the latter case multistate design methods should in principle be able to directly optimize for an inactive state in the absence and the active state in the presence of a co-designed effector</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=QFBH47XU))
+
+
+
+
+
+3
+
+
+
+
+
+<span style="color:
+#FFF176;">
+our designs resemble native allosteric systems in both the magnitude of the conformational change and the rapidity of response, the designed mechanism may inform our understanding of natural allostery</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=6UVYL3M8))
+
+
+
+
+
+Another argument for why this research is useful:
+
+- outside focus problem
+
+
+
+
+
+<span style="color:
+#FFF176;">
+we focus entirely on design of two distinct states whose energy differences are toggled by effector–the presumption is that the two are in rapid equilibrium and the effector functions by modulating the equilibrium between the two of them</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=9I24DFYL))
+
+
+
+
+
+A big presumption by the authors - 
+
+they didn't explicitly input the thermodynamic factors, it was just sequence filtering method.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+wide variety of exciting applications</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=5JCBMABL))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+metabolic engineering enzymes that carry out key steps in pathways for generating new high value compounds, where the extent of activity can be, for example, made dependent on the abundance of substrate (in the activator case) or product (in the inhibitor case)</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=95TEH977))
+
+
+
+
+
+1. Metabolic Enzymes
+
+Substrate abundance makes Janus1 effector binding affinity lesser. 
+
+If we can just push Janus2 to somehow get this done.
+
+We know Janus2 K_D doesn't vary much with the substrate conc (as in the effector binding affinity doesn't change with [S]). 
+
+We want the substrate concentration itself to affect the effector, or even substrate being the effector would be cool.
+
+Like abundance of [S] increasing the effector binding affinity which increases the extent of activity of the enzyme.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+de novo enzymes could also provide an effective route to new classes of sensors, where a protein analyte is sensed through its allosteric effect on the activity of an easy to monitor enzyme</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=XWLDFYTE))
+
+
+
+
+
+2. Sensors
+
+Here the protein analyte could be the effector itself.
+
+Upon binding with enzyme, the bound state activity would be easier to detect and hence can be used as a sensor.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+interesting application of allostery is to the design of machines and motors. If effector binding was modulated through the catalytic cycle, then hydrolysis of a fuel molecule could be coupled to the binding and unbinding of the foot of a walker from a track</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=W32K2JC9))
+
+
+
+
+
+3. Nanotechnology
+
+
+
+
+
+<span style="color:
+#FFF176;">
+effects of effector on catalysis</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=HIHIM6CW))
+
+
+
+
+
+Forward coupling.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+catalysis on effector binding</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=9QSVGNDZ))
+
+
+
+
+
+Reciprocal coupling.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+stronger effects of effector binding on catalysis than and weaker effects of substrate binding on effector binding</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=Z2NTF793))
+
+
+
+
+
+Forward effect is stronger than reverse effect. 
+
+Janus2/3 have virtually no reverse effect.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+change in effector binding affinity for Janus1 over the full catalytic cycle which likely reflects formation of the acyl enzyme intermediate; in natural systems such as the Ras family of small GTPases, protein binding affinities are similarly modulated</span>
+([14](zotero://open-pdf/library/items/NFN88FKJ?page=14&annotation=I9ZC487F))
+
+
+
+
+
+
+
+#ras-gtp
+
+
+
+
+<span style="color:
+#BA68C8;">
+design of stronger coupling between substrate binding, catalysis and effector binding, an exciting next challenge for protein design</span>
+([15](zotero://open-pdf/library/items/NFN88FKJ?page=15&annotation=HCWJNRPK))
+
+
+
+
+
 
 
 
