@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/nanopore</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/nanopore/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/yangPresentFutureNovo2026</guid>
+    <title>The past, present and future of de novo protein design</title>
+    <link>https://www.vishalv.com/notes/yangPresentFutureNovo2026</link>
+    <description>Research notes on The past, present and future of de novo protein design.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>RFdiffusion</category><category>anfinsens-hypothesis</category><category>PDB</category><category>activation-maximization</category><category>Chroma</category><category>escherichia-coli</category><category>masked-language-models</category><category>3D-crystal</category><category>1D-fibre</category><category>2D-lattice</category><category>9OP9</category><category>NCAA</category><category>beta-barrel</category><category>Top7</category><category>TIM-barrel</category><category>protein-language-models</category><category>rosetta</category><category>nanopore</category><category>macrocycle</category><category>oligoamide</category><category>BindCraft</category><category>ProGen</category><category>PXDesign</category><category>affinity</category><category>TNF</category><category>scFv</category><category>VHH</category><category>CDR</category><category>HELM-GPT</category><category>RFpeptides</category><category>IDR</category><category>PepPrCLIP</category><category>affinity-handle</category><category>beta-catenin</category><category>SS18-SSX1</category><category>beta-amyloid</category><category>tau-protein</category><category>glycoproteins</category><category>oligomerization</category><category>FGF</category><category>endocytosis</category><category>transcytosis</category><category>EndoTags</category><category>digoxigenin</category><category>methotrexate</category><category>CID</category><category>kemp-elimination</category><category>retro-aldol</category><category>luciferase</category><category>PLACER</category><category>serine</category><category>CRISPR-Cas</category><category>zinc-fingers</category>
+  </item>
+
+    </channel>
+  </rss>

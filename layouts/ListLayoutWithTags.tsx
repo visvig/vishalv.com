@@ -1,7 +1,6 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
-import { slug } from 'github-slugger'
 import { formatDate } from 'pliny/utils/formatDate'
 import { CoreContent } from 'pliny/utils/contentlayer'
 import type { Blog } from 'contentlayer/generated'
@@ -9,6 +8,7 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/showcase/siteMetadata'
 import tagData from 'app/tag-data.json'
+import tagDisplayData from 'app/tag-display-data.json'
 
 interface PaginationProps {
   totalPages: number
@@ -82,8 +82,10 @@ export default function ListLayoutWithTags({
 }: ListLayoutProps) {
   const pathname = usePathname()
   const tagCounts = tagData as Record<string, number>
+  const tagLabels = tagDisplayData as Record<string, string>
   const tagKeys = Object.keys(tagCounts)
   const sortedTags = tagKeys.sort((a, b) => tagCounts[b] - tagCounts[a])
+  const activeTag = decodeURI(pathname.split('/tags/')[1]?.split('/')[0] ?? '')
 
   const displayPosts = initialDisplayPosts.length > 0 ? initialDisplayPosts : posts
 
@@ -113,19 +115,20 @@ export default function ListLayoutWithTags({
               )}
               <ul>
                 {sortedTags.map((t) => {
+                  const label = tagLabels[t] ?? t
                   return (
                     <li key={t} className="my-3">
-                      {decodeURI(pathname.split('/tags/')[1]) === slug(t) ? (
-                        <h3 className="text-primary-500 inline px-3 py-2 text-sm font-bold uppercase">
-                          {`${t} (${tagCounts[t]})`}
+                      {activeTag === t ? (
+                        <h3 className="text-primary-500 inline px-3 py-2 text-sm font-bold">
+                          {`${label} (${tagCounts[t]})`}
                         </h3>
                       ) : (
                         <Link
-                          href={`/tags/${slug(t)}`}
-                          className="hover:text-primary-500 dark:hover:text-primary-500 px-3 py-2 text-sm font-medium text-gray-700 uppercase dark:text-gray-200"
-                          aria-label={`View posts tagged ${t}`}
+                          href={`/tags/${t}`}
+                          className="hover:text-primary-500 dark:hover:text-primary-500 px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-200"
+                          aria-label={`View posts tagged ${label}`}
                         >
-                          {`${t} (${tagCounts[t]})`}
+                          {`${label} (${tagCounts[t]})`}
                         </Link>
                       )}
                     </li>

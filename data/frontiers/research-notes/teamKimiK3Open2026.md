@@ -65,11 +65,7 @@ Mixture-of-Experts model</span>
 
 
 
-#moe
-
-
-
-
+#MoE
 <span style="color:
 #FFF176;">
 1-million-token context window</span>
@@ -244,11 +240,7 @@ Kimi Delta Attention (KDA) [63] provides efficient longsequence mixing</span>
 
 
 
-#kda
-
-
-
-
+#KDA
 <span style="color:
 #FFF176;">
 Gated MLA layers preserving global interaction</span>
@@ -261,11 +253,7 @@ Gated MLA layers preserving global interaction</span>
 MLA: Multi-head Latent Attention
 
 
-#mla
-
-
-
-
+#MLA
 <span style="color:
 #FFF176;">
 Attention Residuals (AttnRes) [57] allows each layer to selectively attend to representations from all preceding layers</span>
@@ -620,11 +608,7 @@ depth dimension, Attention Residuals (AttnRes) [57] enable each module to select
 
 
 
-#attnres
-
-
-
-
+#AttnRes
 <span style="color:
 #FFF176;">
 width dimension, each attention layer is followed by a Stable LatentMoE layer that performs sparse channel mixing</span>
@@ -636,11 +620,7 @@ width dimension, each attention layer is followed by a Stable LatentMoE layer th
 
 
 
-#latentmoe
-
-
-
-
+#LatentMoE
 <span style="color:
 #FFF176;">
 For native vision, MoonViT-V2 encodes images and videos</span>
@@ -652,11 +632,7 @@ For native vision, MoonViT-V2 encodes images and videos</span>
 
 
 
-#moonvit-v2
-
-
-
-
+#MoonViT-V2
 <span style="color:
 #FFF176;">
 Per-Head Muon (§2.5), these components provide a unified architecture for scaling information flow across tokens, layers, and channels</span>
@@ -668,11 +644,7 @@ Per-Head Muon (§2.5), these components provide a unified architecture for scali
 
 
 
-#muon
-
-
-
-
+#Muon
 ### 2.1 Hybrid Attention
 
 

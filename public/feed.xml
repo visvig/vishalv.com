@@ -7,17 +7,77 @@
       <language>en-us</language>
       <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
       <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
-      <lastBuildDate>Fri, 28 Aug 2026 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.vishalv.com/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://www.vishalv.com/notes/ruffoloDesignHighlyFunctional2025</guid>
+    <title>Design of highly functional genome editors by modelling CRISPR–Cas sequences</title>
+    <link>https://www.vishalv.com/notes/ruffoloDesignHighlyFunctional2025</link>
+    <description>Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human...</description>
+    <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>operon</category><category>sgRNA</category><category>SpCas9</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/shidaNovoDesignAllosterically2026</guid>
+    <title>De novo design of allosterically controlled enzymes</title>
+    <link>https://www.vishalv.com/notes/shidaNovoDesignAllosterically2026</link>
+    <description>The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining...</description>
+    <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>tied-proteinMPNN</category><category>Win1</category><category>4Mu-Ac</category><category>Janus1</category><category>Janus2</category><category>michaelis-menton</category><category>4Mu-PhAc</category><category>Janus3</category><category>Mu-N-Ac</category><category>SEC</category><category>monodisperse</category><category>SPR</category><category>streptavidin-biotin</category><category>Ras-GTP</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/theses/next-unlocks-in-bio-ai</guid>
+    <title>Next Unlocks in Bio-AI</title>
+    <link>https://www.vishalv.com/theses/next-unlocks-in-bio-ai</link>
+    <description>Proteins are the machinery of life, and we are getting closer to designing them directly. That puts humanity near a fundamental unlock: the ability to engineer function at one of its deepest physical layers. Bio-AI is the bet that this becomes a new general-purpose capability.</description>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/yangPresentFutureNovo2026</guid>
+    <title>The past, present and future of de novo protein design</title>
+    <link>https://www.vishalv.com/notes/yangPresentFutureNovo2026</link>
+    <description>Research notes on The past, present and future of de novo protein design.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>RFdiffusion</category><category>anfinsens-hypothesis</category><category>PDB</category><category>activation-maximization</category><category>Chroma</category><category>escherichia-coli</category><category>masked-language-models</category><category>3D-crystal</category><category>1D-fibre</category><category>2D-lattice</category><category>9OP9</category><category>NCAA</category><category>beta-barrel</category><category>Top7</category><category>TIM-barrel</category><category>protein-language-models</category><category>rosetta</category><category>nanopore</category><category>macrocycle</category><category>oligoamide</category><category>BindCraft</category><category>ProGen</category><category>PXDesign</category><category>affinity</category><category>TNF</category><category>scFv</category><category>VHH</category><category>CDR</category><category>HELM-GPT</category><category>RFpeptides</category><category>IDR</category><category>PepPrCLIP</category><category>affinity-handle</category><category>beta-catenin</category><category>SS18-SSX1</category><category>beta-amyloid</category><category>tau-protein</category><category>glycoproteins</category><category>oligomerization</category><category>FGF</category><category>endocytosis</category><category>transcytosis</category><category>EndoTags</category><category>digoxigenin</category><category>methotrexate</category><category>CID</category><category>kemp-elimination</category><category>retro-aldol</category><category>luciferase</category><category>PLACER</category><category>serine</category><category>CRISPR-Cas</category><category>zinc-fingers</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/schlagLinearTransformersAre2021</guid>
+    <title>Linear Transformers Are Secretly Fast Weight Programmers</title>
+    <link>https://www.vishalv.com/notes/schlagLinearTransformersAre2021</link>
+    <description>We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are...</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>self-attention</category><category>linear-transformer</category><category>FWP</category><category>update-rule</category><category>delta-rule</category><category>fast-weights</category><category>slow-weights</category><category>outer-product</category><category>tensor-product-representation</category><category>softmax-kernal</category><category>symbolic-structure</category><category>role</category><category>filler</category><category>attention-normalisation</category><category>katharopoulos-linear-attention</category><category>FAVOR</category><category>DPFP</category><category>capacity-control</category><category>BLEU</category><category>perplexity</category><category>delta-network</category><category>ablation-study</category>
+  </item>
+
+  <item>
+    <guid>https://www.vishalv.com/notes/princeUnderstandingDeepLearning2023</guid>
+    <title>Understanding deep learning</title>
+    <link>https://www.vishalv.com/notes/princeUnderstandingDeepLearning2023</link>
+    <description>&amp;quot;This book covers modern deep learning and tackles supervised learning, model architecture, unsupervised learning, and deep reinforcement learning&amp;quot;--</description>
+    <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>self-attention</category><category>value</category><category>key</category><category>query</category><category>attention-weights</category><category>dot-prod-sa</category><category>scaled-dot-prod-sa</category><category>multi-head-sa</category><category>transformer-layer</category>
+  </item>
+
   <item>
     <guid>https://www.vishalv.com/notes/teamKimiK3Open2026</guid>
     <title>Kimi K3: Open Frontier Intelligence</title>
     <link>https://www.vishalv.com/notes/teamKimiK3Open2026</link>
     <description>We introduce Kimi K3, a 2.8T parameter Mixture-of-Experts model with 104 billion activated parameters, native vision capabilities, and a 1-million-token context window. Kimi K3 is built on Kimi Delta Attention and Attention Residuals, which improve information flow across...</description>
-    <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>moe</category><category>kda</category><category>mla</category>
+    <category>MoE</category><category>KDA</category><category>MLA</category><category>AttnRes</category><category>LatentMoE</category><category>MoonViT-V2</category><category>Muon</category>
   </item>
 
   <item>
@@ -27,7 +87,7 @@
     <description>Psychostimulants act on monoamine systems including the dopamine transporter (DAT), a key regulator of dopamine reuptake following synaptic release. While these compounds can enhance energy, cognition, and sociability, their clinical utility is often limited by their abuse...</description>
     <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>scopolamine</category><category>benztropine</category><category>fscv</category><category>methylphenidate</category><category>ic50</category><category>ids</category><category>eds</category><category>t-test</category><category>anova</category><category>tukeys-post-hoc</category><category>fishers-lsd</category><category>sidaks-correction</category><category>two-way-anova</category><category>kolmogorov-smirnov-test</category><category>ibogaine</category><category>intra-peritoneal</category><category>asst</category><category>gbr12909</category><category>rimcazole</category><category>jhw007</category><category>pyrovalerone</category><category>5ht2a</category><category>5ht2b</category><category>gpcr</category><category>kinase</category>
+    <category>scopolamine</category><category>benztropine</category><category>FSCV</category><category>methylphenidate</category><category>IC50</category><category>IDS</category><category>EDS</category><category>t-test</category><category>ANOVA</category><category>tukeys-post-hoc</category><category>fishers-LSD</category><category>sidaks-correction</category><category>two-way-ANOVA</category><category>kolmogorov-smirnov-test</category><category>ibogaine</category><category>intra-peritoneal</category><category>ASST</category><category>GBR12909</category><category>rimcazole</category><category>JHW007</category><category>pyrovalerone</category><category>5HT2a</category><category>5HT2b</category><category>GPCR</category><category>kinase</category>
   </item>
 
   <item>
@@ -37,7 +97,7 @@
     <description>This paper proposes that a fundamental organizational trend in biological, cognitive, cultural, and technological evolution is the emergence of progressively more capable representation–interpretation systems. Across these domains, evolution has repeatedly generated systems in...</description>
     <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>gna</category><category>pna</category><category>tna</category><category>codon</category>
+    <category>GNA</category><category>PNA</category><category>TNA</category><category>codon</category>
   </item>
 
   <item>
@@ -67,7 +127,7 @@
     <description>A growing body of work points to the great promise of AI systems that can continually expand their capabilities as they operate in an open-ended environment. But yet there is no coherent definition of open-endedness or theory about how an agent ought to explore an open-ended...</description>
     <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>bit-equivalent</category><category>probability-space</category><category>bandit-environment</category><category>nat</category><category>data-processing-inequality</category><category>kernelized-bandit-optimization</category><category>gaussian-process</category><category>mercer-decomposition</category><category>spectral-tail</category><category>matern-kernel</category><category>squared-exponential-kernel</category><category>thompson-sampling</category><category>fixed-truncation</category><category>gp-ucb</category>
+    <category>bit-equivalent</category><category>probability-space</category><category>bandit-environment</category><category>nat</category><category>data-processing-inequality</category><category>kernelized-bandit-optimization</category><category>gaussian-process</category><category>mercer-decomposition</category><category>spectral-tail</category><category>matern-kernel</category><category>squared-exponential-kernel</category><category>thompson-sampling</category><category>fixed-truncation</category><category>GP-UCB</category>
   </item>
 
   <item>
@@ -137,7 +197,7 @@
     <description>Research notes on Algebraic topology.</description>
     <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>algebraic-topology</category><category>homeomorphism</category><category>deformation-retraction</category><category>mapping-cylinder</category><category>quotient-space</category><category>homotopy</category><category>homotopic-maps</category><category>retraction</category><category>idempotent</category><category>homotopy-rel-a</category><category>inclusion</category><category>homotopy-equivalence</category><category>homotopy-equivalent</category><category>homotopy-type</category><category>contractible</category><category>nullhomotopic</category><category>genus</category><category>cw-complex</category><category>dimension</category><category>topological-graph</category><category>euler-characteristic</category><category>real-projective-space</category><category>complex-projective-space</category><category>characteristic-map</category><category>subcomplex</category><category>cw-pair</category><category>product-space</category><category>suspension</category><category>join</category><category>simplex</category><category>radial-projection</category><category>wedge-sum</category><category>smash-product</category><category>isomorphic</category><category>fundamental-group</category><category>reduced-suspension</category><category>attach</category><category>mapping-cone</category>
+    <category>Algebraic-topology</category><category>homeomorphism</category><category>deformation-retraction</category><category>mapping-cylinder</category><category>quotient-space</category><category>homotopy</category><category>homotopic-maps</category><category>retraction</category><category>idempotent</category><category>homotopy-rel-A</category><category>inclusion</category><category>homotopy-equivalence</category><category>homotopy-equivalent</category><category>homotopy-type</category><category>contractible</category><category>nullhomotopic</category><category>genus</category><category>CW-complex</category><category>dimension</category><category>topological-graph</category><category>euler-characteristic</category><category>real-projective-space</category><category>complex-projective-space</category><category>characteristic-map</category><category>subcomplex</category><category>CW-pair</category><category>product-space</category><category>suspension</category><category>join</category><category>simplex</category><category>radial-projection</category><category>wedge-sum</category><category>smash-product</category><category>isomorphic</category><category>fundamental-group</category><category>reduced-suspension</category><category>attach</category><category>mapping-cone</category>
   </item>
 
   <item>
@@ -167,7 +227,7 @@
     <description>Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention. A growing body of work addresses...</description>
     <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>vla-model</category><category>world-model</category><category>world-action-model</category>
+    <category>VLA-model</category><category>world-model</category><category>world-action-model</category>
   </item>
 
   <item>
@@ -197,7 +257,7 @@
     <description>Research notes on DISCRETE DIFFERENTIAL GEOMETRY: AN APPLIED INTRODUCTION.</description>
     <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>simplicial-complex</category><category>simplicial-surface</category><category>manifold-complex</category><category>adjacency-matrix</category><category>combinatorial-surface</category><category>cw-complex</category><category>csaszar-polyhedron</category>
+    <category>simplicial-complex</category><category>simplicial-surface</category><category>manifold-complex</category><category>adjacency-matrix</category><category>combinatorial-surface</category><category>CW-complex</category><category>csaszar-polyhedron</category>
   </item>
 
   <item>

@@ -147,11 +147,7 @@ memories of such FWPs contain key-value associations</span>
 
 
 
-#fwp
-
-
-
-
+#FWP
 <span style="color:
 #FFF176;">
 learn to reprogram them through sequences of differentiable elementary instructions (also called update rules)</span>
@@ -1920,11 +1916,7 @@ mathematically rigorous method to approximate the softmax with random features</
 
 
 
-#favor+
-
-
-
-
+#FAVOR+
 <span style="color:
 #FFF176;">
 concatenation  [a  b  ]  of two vectors a and b</span>
@@ -2045,11 +2037,7 @@ propose an alternative approach called deterministic parameter-free projection (
 
 
 
-#dpfp
-
-
-
-
+#DPFP
 <span style="color:
 #FFF176;">
 Consider 4 keys k(i), i ∈ {1, 2, 3, 4} in R2</span>
@@ -2847,11 +2835,7 @@ BLEU score</span>
 BLEU: Bilingual Evaluation Understudy
 
 
-#bleu
-
-
-
-
+#BLEU
 <span style="color:
 #FFF176;">
 DPFP model outperforms the Linear Transformer as well as the Performer when ddot is relatively small</span>

@@ -2,6 +2,7 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import { slug } from 'github-slugger'
 import tagData from 'app/tag-data.json'
+import tagDisplayData from 'app/tag-display-data.json'
 import { genPageMetadata } from 'app/seo'
 
 export const metadata = genPageMetadata({
@@ -12,6 +13,7 @@ export const metadata = genPageMetadata({
 
 export default async function Page() {
   const tagCounts = tagData as Record<string, number>
+  const tagLabels = tagDisplayData as Record<string, string>
   const tagKeys = Object.keys(tagCounts)
   const sortedTags = tagKeys.sort((a, b) => tagCounts[b] - tagCounts[a])
   return (
@@ -25,13 +27,14 @@ export default async function Page() {
         <div className="flex max-w-lg flex-wrap">
           {tagKeys.length === 0 && 'No tags found.'}
           {sortedTags.map((t) => {
+            const label = tagLabels[t] ?? t
             return (
               <div key={t} className="mt-2 mr-5 mb-2">
-                <Tag text={t} />
+                <Tag text={label} />
                 <Link
-                  href={`/tags/${slug(t)}`}
-                  className="-ml-2 text-sm font-semibold text-gray-600 uppercase dark:text-gray-300"
-                  aria-label={`View posts tagged ${t}`}
+                  href={`/tags/${slug(label, true)}`}
+                  className="-ml-2 text-sm font-semibold text-gray-600 dark:text-gray-300"
+                  aria-label={`View posts tagged ${label}`}
                 >
                   {` (${tagCounts[t]})`}
                 </Link>

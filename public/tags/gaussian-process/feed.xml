@@ -17,7 +17,7 @@
     <description>A growing body of work points to the great promise of AI systems that can continually expand their capabilities as they operate in an open-ended environment. But yet there is no coherent definition of open-endedness or theory about how an agent ought to explore an open-ended...</description>
     <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>bit-equivalent</category><category>probability-space</category><category>bandit-environment</category><category>nat</category><category>data-processing-inequality</category><category>kernelized-bandit-optimization</category><category>gaussian-process</category><category>mercer-decomposition</category><category>spectral-tail</category><category>matern-kernel</category><category>squared-exponential-kernel</category><category>thompson-sampling</category><category>fixed-truncation</category><category>gp-ucb</category>
+    <category>bit-equivalent</category><category>probability-space</category><category>bandit-environment</category><category>nat</category><category>data-processing-inequality</category><category>kernelized-bandit-optimization</category><category>gaussian-process</category><category>mercer-decomposition</category><category>spectral-tail</category><category>matern-kernel</category><category>squared-exponential-kernel</category><category>thompson-sampling</category><category>fixed-truncation</category><category>GP-UCB</category>
   </item>
 
     </channel>

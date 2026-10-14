@@ -2,7 +2,7 @@
 title: "World Action Models: The Next Frontier in Embodied AI"
 date: "2026-07-24"
 tags:
-  - "vla-model"
+  - "VLA-model"
   - "world-model"
   - "world-action-model"
 draft: false
@@ -27,10 +27,6 @@ summary: "Vision-Language-Action (VLA) models have achieved strong semantic gene
 
 > Vision-Language-Action (VLA) models are a class of embodied foundation models that frame robot control as a multimodal sequence modeling task
 ([3](zotero://open-pdf/library/items/HTS3RJBX?page=3&annotation=XR9Z4MID))
-
-
-
-
 
 
 

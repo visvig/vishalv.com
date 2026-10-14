@@ -402,11 +402,7 @@ fast scan cyclic voltammetry (FSCV)</span>
 
 
 
-#fscv
-
-
-
-
+#FSCV
 <span style="color:
 #FFF176;">
 high affinity DAT inhibitors impact DA dynamics in anhestetized rats</span>
@@ -909,11 +905,7 @@ IC50s</span>
 > Concentration of drug required to inhibit transporter by 50%.
 
 
-#ic50
-
-
-
-
+#IC50
 ### 2.5. Electrophysiology
 
 
@@ -1234,11 +1226,7 @@ intra-dimensional shift phase (IDS)</span>
 
 
 
-#ids
-
-
-
-
+#IDS
 <span style="color:
 #FFF176;">
 extra-dimensional shift phase (EDS)</span>
@@ -1250,11 +1238,7 @@ extra-dimensional shift phase (EDS)</span>
 
 
 
-#eds
-
-
-
-
+#EDS
 ### 2.9. Statistics
 
 
@@ -1303,7 +1287,7 @@ Tukey: Check which specific pairs differ.
 q = |X_i - X_j| / SE
 
 
-#anova
+#ANOVA
 #tukeys-post-hoc
 
 
@@ -1333,13 +1317,9 @@ Fisher's LSD:
 t = (X_i - X_j)/sqrt(MS_error (1/ni + 1/nj))
 
 
-#fishers-lsd
+#fishers-LSD
 #sidaks-correction
-#two-way-anova
-
-
-
-
+#two-way-ANOVA
 <span style="color:
 #FFF176;">
 Normality of data distributions was assessed using the Kolmogorov–Smirnov test</span>
@@ -2585,12 +2565,7 @@ f1)Dimension-specific effects of  (S,S)-CE-158 vs Vehicle: two-way mixed-effects
 > ASST Setup.
 
 
-#asst
-
-
-
-
-
+#ASST
 ![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x278-y343.png](research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x278-y343.png)
 
 
@@ -2713,7 +2688,7 @@ benztropines, rimcazole, GBR12909, and related analogs do not induce robust rein
 
 
 
-#gbr12909
+#GBR12909
 #rimcazole
 
 
@@ -2744,11 +2719,7 @@ benztropine analog JHW007 could antagonize the reinforcing effects of cocaine by
 
 
 
-#jhw007
-
-
-
-
+#JHW007
 <span style="color:
 #FFF176;">
 rate of unbinding of compounds at DAT predicts the length of stimulatory effects across different psychostimulants, indicating that binding kinetics can influence behavioral properties of DAT ligands</span>
@@ -2851,12 +2822,8 @@ slow dissociation rate could be achieved via the establishment of occluded inter
 
 
 
-#5ht2a
-#5ht2b
-
-
-
-
+#5HT2a
+#5HT2b
 <span style="color:
 #FFF176;">
 by stabilizing the inward-open state as established in the case of GBR12909 and benztropines</span>
@@ -3015,11 +2982,7 @@ GPCRs</span>
 Example: Dopamine Receptors
 
 
-#gpcr
-
-
-
-
+#GPCR
 <span style="color:
 #FFF176;">
 kinases</span>

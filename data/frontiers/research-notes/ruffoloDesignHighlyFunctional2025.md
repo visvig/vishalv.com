@@ -102,11 +102,7 @@ sgRNA has 2 parts:
 2. Scaffold: Folds into a 3D structure to help Cas9 do its function on DNA
 
 
-#sgrna
-
-
-
-
+#sgRNA
 <span style="color:
 #FFF176;">
 improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence</span>
@@ -126,11 +122,7 @@ A difference of:
 = 29%
 
 
-#spcas9
-
-
-
-
+#SpCas9
 <span style="color:
 #FFF176;">
 OpenCRISPR-1, exhibits compatibility with base editing</span>

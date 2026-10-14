@@ -4,28 +4,28 @@ date: "2026-08-25"
 tags:
   - "scopolamine"
   - "benztropine"
-  - "fscv"
+  - "FSCV"
   - "methylphenidate"
-  - "ic50"
-  - "ids"
-  - "eds"
+  - "IC50"
+  - "IDS"
+  - "EDS"
   - "t-test"
-  - "anova"
+  - "ANOVA"
   - "tukeys-post-hoc"
-  - "fishers-lsd"
+  - "fishers-LSD"
   - "sidaks-correction"
-  - "two-way-anova"
+  - "two-way-ANOVA"
   - "kolmogorov-smirnov-test"
   - "ibogaine"
   - "intra-peritoneal"
-  - "asst"
-  - "gbr12909"
+  - "ASST"
+  - "GBR12909"
   - "rimcazole"
-  - "jhw007"
+  - "JHW007"
   - "pyrovalerone"
-  - "5ht2a"
-  - "5ht2b"
-  - "gpcr"
+  - "5HT2a"
+  - "5HT2b"
+  - "GPCR"
   - "kinase"
 draft: false
 summary: "Psychostimulants act on monoamine systems including the dopamine transporter (DAT), a key regulator of dopamine reuptake following synaptic release. While these compounds can enhance energy, cognition, and sociability, their clinical utility is often limited by their abuse..."
@@ -363,10 +363,6 @@ Memory enhancing.
 
 > fast scan cyclic voltammetry (FSCV)
 ([2](zotero://open-pdf/library/items/82ZDUWI7?page=2&annotation=N9ER6DE9))
-
-
-
-
 
 
 
@@ -817,10 +813,6 @@ Transporter Inhibitor.
 Concentration of drug required to inhibit transporter by 50%.
 
 
-
-
-
-
 ### 2.5. Electrophysiology
 
 
@@ -1103,16 +1095,8 @@ Voltage sweeps ups and down to measure neurotransmitter concentration changes.
 
 
 
-
-
-
-
 > extra-dimensional shift phase (EDS)
 ([4](zotero://open-pdf/library/items/82ZDUWI7?page=4&annotation=FF262RVX))
-
-
-
-
 
 
 
@@ -1187,10 +1171,6 @@ alpha_ind = 1 - (1-alpha)^(1/m)
 Fisher's LSD:
 
 t = (X_i - X_j)/sqrt(MS_error (1/ni + 1/nj))
-
-
-
-
 
 
 > Normality of data distributions was assessed using the Kolmogorov–Smirnov test
@@ -2295,11 +2275,6 @@ No effect.
 ASST Setup.
 
 
-
-
-
-
-
 ![research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x278-y343.png](/static/research-notes/images/nielloOptimizingCognitiveEnhancement2026/image-9-x278-y343.png)
 
 
@@ -2433,10 +2408,6 @@ But there are exceptions, like cocaine.
 
 
 
-
-
-
-
 > rate of unbinding of compounds at DAT predicts the length of stimulatory effects across different psychostimulants, indicating that binding kinetics can influence behavioral properties of DAT ligands
 ([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=AD7X5MFS))
 
@@ -2517,10 +2488,6 @@ benztropine stabilizes Ti state.
 
 > slow dissociation rate could be achieved via the establishment of occluded intermediates, as reported already for LSD in the case of 5HT2b and 5HT2a receptors
 ([10](zotero://open-pdf/library/items/82ZDUWI7?page=10&annotation=EKFCPWSU))
-
-
-
-
 
 
 
@@ -2662,10 +2629,6 @@ Cognitive effects.
 G-protein coupled receptors.
 
 Example: Dopamine Receptors
-
-
-
-
 
 
 > kinases

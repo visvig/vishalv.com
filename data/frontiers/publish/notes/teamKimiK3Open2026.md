@@ -1,10 +1,14 @@
 ---
 title: "Kimi K3: Open Frontier Intelligence"
-date: "2026-08-28"
+date: "2026-08-29"
 tags:
-  - "moe"
-  - "kda"
-  - "mla"
+  - "MoE"
+  - "KDA"
+  - "MLA"
+  - "AttnRes"
+  - "LatentMoE"
+  - "MoonViT-V2"
+  - "Muon"
 draft: false
 summary: "We introduce Kimi K3, a 2.8T parameter Mixture-of-Experts model with 104 billion activated parameters, native vision capabilities, and a 1-million-token context window. Kimi K3 is built on Kimi Delta Attention and Attention Residuals, which improve information flow across..."
 ---
@@ -51,10 +55,6 @@ summary: "We introduce Kimi K3, a 2.8T parameter Mixture-of-Experts model with 1
 
 > Mixture-of-Experts model
 ([1](zotero://open-pdf/library/items/9CG9H7FU?page=1&annotation=INAL6248))
-
-
-
-
 
 
 
@@ -214,10 +214,6 @@ Scaling Efficiency = Capability Gained / Extra Params
 
 
 
-
-
-
-
 > Gated MLA layers preserving global interaction
 ([2](zotero://open-pdf/library/items/9CG9H7FU?page=2&annotation=6QSSLXTK))
 
@@ -226,10 +222,6 @@ Scaling Efficiency = Capability Gained / Extra Params
 
 
 MLA: Multi-head Latent Attention
-
-
-
-
 
 
 > Attention Residuals (AttnRes) [57] allows each layer to selectively attend to representations from all preceding layers
@@ -440,7 +432,18 @@ GLU: Gated Linear Unit
 
 
 
+![research-notes/images/teamKimiK3Open2026/image-3-x326-y491.png](/static/research-notes/images/teamKimiK3Open2026/image-3-x326-y491.png)
+
+1 Block.
+
+
+
+
+
+
 ![research-notes/images/teamKimiK3Open2026/image-3-x334-y503.png](/static/research-notes/images/teamKimiK3Open2026/image-3-x334-y503.png)
+
+1. Sequence Dimension Scaling
 
 3 KDA followed by 1 Gated MLA.
 
@@ -451,6 +454,10 @@ GLU: Gated Linear Unit
 
 ![research-notes/images/teamKimiK3Open2026/image-3-x444-y503.png](/static/research-notes/images/teamKimiK3Open2026/image-3-x444-y503.png)
 
+2. Depth Dimension Scaling
+
+Attention Residuals.
+
 w: pseudo-queries
 alpha: attention weights
 
@@ -460,6 +467,8 @@ alpha: attention weights
 
 
 ![research-notes/images/teamKimiK3Open2026/image-3-x99-y559.png](/static/research-notes/images/teamKimiK3Open2026/image-3-x99-y559.png)
+
+3. Width Dimension Scaling
 
 Stable Latent MoE Module.
 
@@ -529,8 +538,66 @@ KDA Module.
 
 
 
-
-
-
 > width dimension, each attention layer is followed by a Stable LatentMoE layer that performs sparse channel mixing
 ([3](zotero://open-pdf/library/items/9CG9H7FU?page=3&annotation=DV84BDTC))
+
+
+
+
+
+
+
+> For native vision, MoonViT-V2 encodes images and videos
+([3](zotero://open-pdf/library/items/9CG9H7FU?page=3&annotation=T9PAV44H))
+
+
+
+
+
+
+
+> Per-Head Muon (§2.5), these components provide a unified architecture for scaling information flow across tokens, layers, and channels
+([3](zotero://open-pdf/library/items/9CG9H7FU?page=3&annotation=UBJLHMPR))
+
+
+
+
+
+
+
+### 2.1 Hybrid Attention
+
+
+
+
+
+
+
+
+
+
+> Each block contains 3 KDA layers followed by 1 Gated MLA layer, giving a 3:1 mixing ratio
+([4](zotero://open-pdf/library/items/9CG9H7FU?page=4&annotation=8KLI3WU2))
+
+
+
+
+
+
+
+
+
+
+> Gated MLA layer is placed at the end of the backbone, ensuring that the final layer always performs global attention
+([4](zotero://open-pdf/library/items/9CG9H7FU?page=4&annotation=KLWJBKXK))
+
+
+
+
+
+
+
+
+
+
+### 2.1.1 Kimi Delta Attention

@@ -58,7 +58,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     getFileLastModified('app/health/page.tsx'),
     ...health.map((item) => getContentLastModified(item.filePath))
   )
-  const noteTags = [...new Set(notes.flatMap((post) => post.tags || []).map((tag) => slug(tag)))]
+  const noteTags = [
+    ...new Set(notes.flatMap((post) => post.tags || []).map((tag) => slug(tag, true))),
+  ]
 
   const noteRoutes = notes.map((post) => ({
     url: `${siteUrl}/${post.path}`,
@@ -85,7 +87,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const tagRoutes = noteTags.flatMap((tag) => {
     const taggedPostCount = notes.filter((post) =>
-      post.tags?.some((postTag) => slug(postTag) === tag)
+      post.tags?.some((postTag) => slug(postTag, true) === tag)
     ).length
     const totalPages = Math.max(1, Math.ceil(taggedPostCount / 5))
 

@@ -2599,11 +2599,7 @@ GP-UCB-type agents</span>
 One of the algos for Gaussian Process Bandit environment.
 
 
-#gp-ucb
-
-
-
-
+#GP-UCB
 <span style="color:
 #FFF176;">
 tuned confidence widths may also achieve open-ended learning</span>

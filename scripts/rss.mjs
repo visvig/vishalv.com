@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync } from 'fs'
+import { existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from 'fs'
 import path from 'path'
 import { slug } from 'github-slugger'
 import { escape } from 'pliny/utils/htmlEscaper.js'
@@ -55,12 +55,22 @@ async function generateRSS(config, posts, page = 'feed.xml', channelPath = '') {
 const rss = () => {
   const publishedWriting = allBlogs.filter((post) => post.draft !== true)
   const publishedNotes = publishedWriting.filter((post) => post.path.startsWith('notes/'))
+  const tagKeys = Object.keys(tagData)
+  const tagsPath = path.join(outputFolder, 'tags')
 
   generateRSS(siteMetadata, publishedWriting)
 
-  for (const tag of Object.keys(tagData)) {
+  mkdirSync(tagsPath, { recursive: true })
+  for (const entry of readdirSync(tagsPath, { withFileTypes: true })) {
+    const feedPath = path.join(tagsPath, entry.name, 'feed.xml')
+    if (entry.isDirectory() && !tagKeys.includes(entry.name) && existsSync(feedPath)) {
+      rmSync(path.join(tagsPath, entry.name), { recursive: true, force: true })
+    }
+  }
+
+  for (const tag of tagKeys) {
     const filteredPosts = publishedNotes.filter((post) =>
-      post.tags.map((t) => slug(t)).includes(tag)
+      post.tags.map((t) => slug(t, true)).includes(tag)
     )
     if (!filteredPosts.length) {
       continue

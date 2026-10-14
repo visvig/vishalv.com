@@ -11,9 +11,7 @@ abstract: "No abstract available."
 [URL]()
 
 ## Tags
-#algebraic-topology
-
-
+#Algebraic-topology
 ## Notes
 
 
@@ -538,11 +536,7 @@ homotopy ft : X→Y whose  restriction to a subspace A ⊂ X is independent of t
 the output points for inputs from subspace A of domain X, remain unchanged throughout the homotopy.
 
 
-#homotopy-rel-a
-
-
-
-
+#homotopy-rel-A
 <span style="color:
 #A7F3A7;">
 deformation retraction of X onto  A is a homotopy rel A from the identity map of X to a retraction of X onto A</span>
@@ -1130,11 +1124,7 @@ space X constructed in this way is called a cell complex or CW complex</span>
 > Go skeleton by skeleton. You attach the n-cells to the entire X^(n-1) skeleton. And the entire boundary of the n-cell to be attached.
 
 
-#cw-complex
-
-
-
-
+#CW-complex
 <span style="color:
 #A7F3A7;">
 X = Xn for some n , then X is said to be finite-dimensional, and the smallest such n is the dimension of X , the maximum dimension of cells of X</span>
@@ -1552,11 +1542,7 @@ pair (X, A) consisting of a cell complex X and a subcomplex A will be called a C
 
 
 
-#cw-pair
-
-
-
-
+#CW-pair
 <span style="color:
 #A7F3A7;">
 natural inclusions S  0  ⊂S  1  ⊂ ··· ⊂ S  n  , but these subspheres are not subcomplexes of S  n  in its usual cell structure with just two cells</span>

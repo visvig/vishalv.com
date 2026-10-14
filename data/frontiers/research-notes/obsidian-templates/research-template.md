@@ -20,7 +20,7 @@ abstract: "{{ abstractNote | default('No abstract available.') | escape }}"
 
 ## Tags
 {% for tag in tags -%}
-#{{ tag.tag | default(tag) | replace(" ", "-") | lower }}
+#{{ tag.tag | default(tag) | replace(" ", "-") }}
 {% endfor %}
 
 ## Notes
@@ -55,7 +55,7 @@ else %}#FFFFFF{% endif %};">
 
 {% if annotation.tags -%}
 {% for tag in annotation.tags -%}
-#{{ tag.tag | default(tag) | replace(" ", "-") | lower }}
+#{{ tag.tag | default(tag) | replace(" ", "-") }}
 {% endfor %}
 {% endif %}
 

@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/symbolic-structure</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/symbolic-structure/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/schlagLinearTransformersAre2021</guid>
+    <title>Linear Transformers Are Secretly Fast Weight Programmers</title>
+    <link>https://www.vishalv.com/notes/schlagLinearTransformersAre2021</link>
+    <description>We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are...</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>self-attention</category><category>linear-transformer</category><category>FWP</category><category>update-rule</category><category>delta-rule</category><category>fast-weights</category><category>slow-weights</category><category>outer-product</category><category>tensor-product-representation</category><category>softmax-kernal</category><category>symbolic-structure</category><category>role</category><category>filler</category><category>attention-normalisation</category><category>katharopoulos-linear-attention</category><category>FAVOR</category><category>DPFP</category><category>capacity-control</category><category>BLEU</category><category>perplexity</category><category>delta-network</category><category>ablation-study</category>
+  </item>
+
+    </channel>
+  </rss>

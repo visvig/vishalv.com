@@ -17,7 +17,7 @@
     <description>Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention. A growing body of work addresses...</description>
     <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
-    <category>vla-model</category><category>world-model</category><category>world-action-model</category>
+    <category>VLA-model</category><category>world-model</category><category>world-action-model</category>
   </item>
 
     </channel>

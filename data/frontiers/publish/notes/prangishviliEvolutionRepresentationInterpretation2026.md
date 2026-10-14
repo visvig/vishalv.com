@@ -2,9 +2,9 @@
 title: "Evolution of Representation–Interpretation Systems: From Molecular Replicators to Artificial Intelligence"
 date: "2026-08-12"
 tags:
-  - "gna"
-  - "pna"
-  - "tna"
+  - "GNA"
+  - "PNA"
+  - "TNA"
   - "codon"
 draft: false
 summary: "This paper proposes that a fundamental organizational trend in biological, cognitive, cultural, and technological evolution is the emergence of progressively more capable representation–interpretation systems. Across these domains, evolution has repeatedly generated systems in..."
@@ -360,10 +360,6 @@ Representational Autonomy.
 PNA: Peptide Nucleic Acid
 TNA: Threose Nucleic Acid
 GNA: Glycol Nucleic Acid
-
-
-
-
 
 
 > Natural selection therefore began to operate not only on molecular structures themselves but also on the informational patterns those structures embodied

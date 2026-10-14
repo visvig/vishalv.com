@@ -317,11 +317,7 @@ G(E_I) < G(E_A)
 But not specified here.
 
 
-#tied-proteinmpnn
-
-
-
-
+#tied-proteinMPNN
 ### Design approach
 
 
@@ -495,11 +491,7 @@ The sequence is shared between the generated inactive and active states.
 So, the sequence isn't same as Win1.
 
 
-#win1
-
-
-
-
+#Win1
 <span style="color:
 #FFF176;">
 vast majority of partially diffused conformations are likely to have compromised active sites with reduced or ablated catalytic activity</span>
@@ -644,11 +636,7 @@ Cell lysate: Make living cells produce the design protein, then break the cells 
 Catalyst is serine hydrolase.
 
 
-#4mu-ac
-
-
-
-
+#4Mu-Ac
 <span style="color:
 #FFF176;">
 identified two effector-enzyme pairs, Janus1 and Janus2</span>
@@ -661,12 +649,8 @@ identified two effector-enzyme pairs, Janus1 and Janus2</span>
 Both of their active state geometries are similar.
 
 
-#janus1
-#janus2
-
-
-
-
+#Janus1
+#Janus2
 <span style="color:
 #FFF176;">
 addition of effector cell lysate substantially increased formation of the fluorescent product, 4Mu</span>
@@ -1039,11 +1023,7 @@ when S = 4Mu-PhAc 
 than when S = 4Mu-Ac.
 
 
-#4mu-phac
-
-
-
-
+#4Mu-PhAc
 <span style="color:
 #FFF176;">
 sought to improve the baseline catalytic activity of the designed enzymes in the unbound form</span>
@@ -1136,11 +1116,7 @@ effector binding, the nucleophilic Cys142 is disrupted and turned outward and aw
 Allosteric Inhibitor.
 
 
-#janus3
-
-
-
-
+#Janus3
 <span style="color:
 #FFF176;">
 The primary change is in the catalytic nucleophile residue</span>
@@ -1278,11 +1254,7 @@ K_D = k_d / k_a
 4Mu-N-Ac is a non hydrolysable analogue of 4Mu-Ac
 
 
-#mu-n-ac
-
-
-
-
+#Mu-N-Ac
 <span style="color:
 #FFF176;">
 SEC traces for the Janus1, Janus2, and Janus3 systems with enzyme alone, effector alone, and enzyme and effector in a 1:1 stoichiometric ratio</span>
@@ -1301,12 +1273,7 @@ Small proteins enter lots of little pores, takes longer route, come out later
 Large proteins enter can't enter many pores, take shorter route, come out earlier
 
 
-#sec
-
-
-
-
-
+#SEC
 ![research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y577.png](research-notes/images/shidaNovoDesignAllosterically2026/image-11-x99-y577.png)
 
 3D design overlaid on the crystal to see if enzyme-effector complex indeed follows the design.
@@ -1523,11 +1490,7 @@ measured the binding affinity of the designed effectors for their cognate enzyme
 
 
 
-#spr
-
-
-
-
+#SPR
 <span style="color:
 #FFF176;">
 streptavidin-biotin conjugation</span>
@@ -1968,11 +1931,7 @@ change in effector binding affinity for Janus1 over the full catalytic cycle whi
 
 
 
-#ras-gtp
-
-
-
-
+#Ras-GTP
 <span style="color:
 #BA68C8;">
 design of stronger coupling between substrate binding, catalysis and effector binding, an exciting next challenge for protein design</span>

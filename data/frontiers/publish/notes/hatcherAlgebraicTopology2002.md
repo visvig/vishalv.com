@@ -2,7 +2,7 @@
 title: "Algebraic topology"
 date: "2026-07-24"
 tags:
-  - "algebraic-topology"
+  - "Algebraic-topology"
   - "homeomorphism"
   - "deformation-retraction"
   - "mapping-cylinder"
@@ -11,7 +11,7 @@ tags:
   - "homotopic-maps"
   - "retraction"
   - "idempotent"
-  - "homotopy-rel-a"
+  - "homotopy-rel-A"
   - "inclusion"
   - "homotopy-equivalence"
   - "homotopy-equivalent"
@@ -19,7 +19,7 @@ tags:
   - "contractible"
   - "nullhomotopic"
   - "genus"
-  - "cw-complex"
+  - "CW-complex"
   - "dimension"
   - "topological-graph"
   - "euler-characteristic"
@@ -27,7 +27,7 @@ tags:
   - "complex-projective-space"
   - "characteristic-map"
   - "subcomplex"
-  - "cw-pair"
+  - "CW-pair"
   - "product-space"
   - "suspension"
   - "join"
@@ -505,10 +505,6 @@ but deformation retraction requires path-connectedness.
 deformation retraction (f_t(a) = a and so obviously doesn't depend on t) is a special case of homotopy rel A (f_t(a) just doesn't depend on t).
 
 the output points for inputs from subspace A of domain X, remain unchanged throughout the homotopy.
-
-
-
-
 
 
 > deformation retraction of X onto  A is a homotopy rel A from the identity map of X to a retraction of X onto A
@@ -1025,10 +1021,6 @@ In each skeleton, A should be open.
 Go skeleton by skeleton. You attach the n-cells to the entire X^(n-1) skeleton. And the entire boundary of the n-cell to be attached.
 
 
-
-
-
-
 > X = Xn for some n , then X is said to be finite-dimensional, and the smallest such n is the dimension of X , the maximum dimension of cells of X
 ([15](zotero://open-pdf/library/items/KZRTTTMS?page=15&annotation=9QZXKZST))
 
@@ -1382,10 +1374,6 @@ closed: includes all of interior and boundary points.
 
 > pair (X, A) consisting of a cell complex X and a subcomplex A will be called a CW pair
 ([16](zotero://open-pdf/library/items/KZRTTTMS?page=16&annotation=8WHGDF8S))
-
-
-
-
 
 
 

@@ -70,7 +70,6 @@ function normalizeTag(value) {
     .replace(/^#/, '')
     .replace(/[.,;:!?]+$/, '')
     .trim()
-    .toLowerCase()
 
   if (!tag || isHexColor(tag) || /^\d+$/.test(tag)) {
     return null

@@ -15,7 +15,7 @@ tags:
   - "squared-exponential-kernel"
   - "thompson-sampling"
   - "fixed-truncation"
-  - "gp-ucb"
+  - "GP-UCB"
 draft: false
 summary: "A growing body of work points to the great promise of AI systems that can continually expand their capabilities as they operate in an open-ended environment. But yet there is no coherent definition of open-endedness or theory about how an agent ought to explore an open-ended..."
 ---
@@ -2313,10 +2313,6 @@ Because vannila TS agent gets -inf rewards, and FT agent rewards are bounded.
 Gaussian Process Upper Confidence Bound algorithm. 
 
 One of the algos for Gaussian Process Bandit environment.
-
-
-
-
 
 
 > tuned confidence widths may also achieve open-ended learning

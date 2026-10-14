@@ -7,7 +7,7 @@ tags:
   - "manifold-complex"
   - "adjacency-matrix"
   - "combinatorial-surface"
-  - "cw-complex"
+  - "CW-complex"
   - "csaszar-polyhedron"
 draft: false
 summary: "Research notes on DISCRETE DIFFERENTIAL GEOMETRY: AN APPLIED INTRODUCTION."
@@ -1097,10 +1097,6 @@ combinatorial surface is more general than simplicial surface since we can have 
 CW complex is more general than simplicial complex.
 
 Instead of having only triangles we can have arbitrary polygonal faces.
-
-
-
-
 
 
 > oriented simplicial surface K (which for now we’ll assume has no boundary):  • every edge is contained in two polygons, and • the edges around a vertex can be given a cyclic order.

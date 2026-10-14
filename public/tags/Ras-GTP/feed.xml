@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>vishalv.com</title>
+      <link>https://www.vishalv.com/tags/Ras-GTP</link>
+      <description>Personal website of Vishal V, featuring writing, ideas, projects, and research</description>
+      <language>en-us</language>
+      <managingEditor>vishalvignesh.iitm@gmail.com (Vishal V)</managingEditor>
+      <webMaster>vishalvignesh.iitm@gmail.com (Vishal V)</webMaster>
+      <lastBuildDate>Sun, 11 Oct 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.vishalv.com/tags/Ras-GTP/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.vishalv.com/notes/shidaNovoDesignAllosterically2026</guid>
+    <title>De novo design of allosterically controlled enzymes</title>
+    <link>https://www.vishalv.com/notes/shidaNovoDesignAllosterically2026</link>
+    <description>The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining...</description>
+    <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    <author>vishalvignesh.iitm@gmail.com (Vishal V)</author>
+    <category>tied-proteinMPNN</category><category>Win1</category><category>4Mu-Ac</category><category>Janus1</category><category>Janus2</category><category>michaelis-menton</category><category>4Mu-PhAc</category><category>Janus3</category><category>Mu-N-Ac</category><category>SEC</category><category>monodisperse</category><category>SPR</category><category>streptavidin-biotin</category><category>Ras-GTP</category>
+  </item>
+
+    </channel>
+  </rss>

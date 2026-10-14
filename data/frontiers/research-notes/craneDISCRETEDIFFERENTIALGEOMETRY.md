@@ -1251,11 +1251,7 @@ halfedge mesh allows us to encode a surface as a 2-dimensional CW complex</span>
 Instead of having only triangles we can have arbitrary polygonal faces.
 
 
-#cw-complex
-
-
-
-
+#CW-complex
 <span style="color:
 #A7F3A7;">
 oriented simplicial surface K (which for now we’ll assume has no boundary):  • every edge is contained in two polygons, and • the edges around a vertex can be given a cyclic order.</span>

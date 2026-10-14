@@ -1,5 +1,5 @@
 import { defineDocumentType, ComputedFields, makeSource } from 'contentlayer2/source-files'
-import { writeFileSync } from 'fs'
+import { existsSync, readFileSync, writeFileSync } from 'fs'
 import readingTime from 'reading-time'
 import { slug as slugify } from 'github-slugger'
 import path from 'path'
@@ -130,15 +130,23 @@ const computedFields: ComputedFields = {
   toc: { type: 'json', resolve: (doc) => extractTocHeadings(doc.body.raw) },
 }
 
+function writeFileIfChanged(filePath: string, content: string) {
+  if (!existsSync(filePath) || readFileSync(filePath, 'utf8') !== content) {
+    writeFileSync(filePath, content)
+  }
+}
+
 /**
- * Count the occurrences of all tags across content posts and write to json file
+ * Build tag counts and retain the authored label for each normalized tag slug.
  */
-async function createTagCount(allBlogs) {
+async function createTagData(allBlogs) {
   const tagCount: Record<string, number> = {}
+  const tagDisplay: Record<string, string> = {}
   allBlogs.forEach((file) => {
     if (file.tags && file.draft !== true && file.path.startsWith('notes/')) {
       file.tags.forEach((tag) => {
-        const formattedTag = slugify(tag)
+        const formattedTag = slugify(tag, true)
+        tagDisplay[formattedTag] ??= tag
         if (formattedTag in tagCount) {
           tagCount[formattedTag] += 1
         } else {
@@ -147,8 +155,12 @@ async function createTagCount(allBlogs) {
       })
     }
   })
-  const formatted = await prettier.format(JSON.stringify(tagCount, null, 2), { parser: 'json' })
-  writeFileSync('./app/tag-data.json', formatted)
+  const [formattedCounts, formattedLabels] = await Promise.all([
+    prettier.format(JSON.stringify(tagCount, null, 2), { parser: 'json' }),
+    prettier.format(JSON.stringify(tagDisplay, null, 2), { parser: 'json' }),
+  ])
+  writeFileIfChanged('./app/tag-data.json', formattedCounts)
+  writeFileIfChanged('./app/tag-display-data.json', formattedLabels)
 }
 
 function createSearchIndex(allBlogs) {
@@ -358,7 +370,7 @@ export default makeSource({
   },
   onSuccess: async (importData) => {
     const { allBlogs } = await importData()
-    createTagCount(allBlogs)
+    createTagData(allBlogs)
     createSearchIndex(allBlogs)
   },
 })

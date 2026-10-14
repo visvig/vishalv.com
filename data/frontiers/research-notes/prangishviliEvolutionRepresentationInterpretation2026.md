@@ -415,13 +415,9 @@ TNA: Threose Nucleic Acid
 GNA: Glycol Nucleic Acid
 
 
-#gna
-#pna
-#tna
-
-
-
-
+#GNA
+#PNA
+#TNA
 <span style="color:
 #FFF176;">
 Natural selection therefore began to operate not only on molecular structures themselves but also on the informational patterns those structures embodied</span>

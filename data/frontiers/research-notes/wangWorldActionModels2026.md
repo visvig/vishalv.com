@@ -37,11 +37,7 @@ Vision-Language-Action (VLA) models are a class of embodied foundation models th
 
 
 
-#vla-model
-
-
-
-
+#VLA-model
 <span style="color:
 #FFF176;">
 VLA architecture typically leverages the pre-trained semantic latent spaces of Large Language Models (LLMs) or Vision-Language Models (VLMs) to map perceptual inputs directly to the action space</span>
