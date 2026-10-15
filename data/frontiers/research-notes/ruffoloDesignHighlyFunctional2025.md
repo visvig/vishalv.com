@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-13"
+modified: "2026-10-15"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -103,6 +103,10 @@ sgRNA has 2 parts:
 
 
 #sgRNA
+
+
+
+
 <span style="color:
 #FFF176;">
 improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence</span>
@@ -118,11 +122,15 @@ SpCas9 contains 1368 amino acids.
 
 A difference of:
 
-400/1568 * 100
+400/1368 * 100
 = 29%
 
 
 #SpCas9
+
+
+
+
 <span style="color:
 #FFF176;">
 OpenCRISPR-1, exhibits compatibility with base editing</span>
@@ -132,7 +140,63 @@ OpenCRISPR-1, exhibits compatibility with base editing</span>
 
 
 
+Base editing: Chemically change the base instead of breaking the double strand.
 
+Adenine Base Editor (ABE): converts A-T to G-C
+
+- A to I (inosine).
+- Cell repairs I-T to G-C.
+
+Cytosine Base Editor (CBE): converts G-C to A-T
+
+- C to U (uracil).
+- Cell repairs G-U to A-T.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+prokaryotic CRISPR–Cas systems</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=Z6JV5MGM))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Cas9 nuclease from Streptococcus pyogenes (SpCas9), have been used in biotechnology owing to their simplicity, robustness and compact form</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=Y5DY7GHJ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+exhibit tradeoffs in critical attributes such as basal activity in target cells, protospacer-adjacent motif (PAM) selectivity, thermal optima or in vitro biochemical properties</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=4ZJQLNGQ))
+
+
+
+
+
+PAM recognition is a property of Cas9.
+
+
+#PAM
 
 
 
