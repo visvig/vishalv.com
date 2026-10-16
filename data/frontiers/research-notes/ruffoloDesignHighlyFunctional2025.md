@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-15"
+modified: "2026-10-16"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -193,10 +193,54 @@ exhibit tradeoffs in critical attributes such as basal activity in target cells,
 
 
 
+PAM: A short DNA sequence adjacent to the target.
+
 PAM recognition is a property of Cas9.
 
 
 #PAM
+
+
+
+
+<span style="color:
+#FFF176;">
+protein engineering approaches, including directed evolution and structure-guided mutagenesis</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=WZDPB9DP))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Directed evolution of CRISPR–Cas proteins has proven extremely powerful yet can be limited by the rugged and non-convex nature of the fitness landscapes</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=C8YWAS4W))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Structure-guided rational mutagenesis offers an alternative or synergistic approach that has proven successful for improving Cas9 basal activity and specificity in human cells</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=HL92C4NJ))
+
+
+
+
+
+
 
 
 

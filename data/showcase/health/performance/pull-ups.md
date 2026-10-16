@@ -1,7 +1,7 @@
 ---
-date: 2026-08-01
+date: 2026-09-14
 movement: Pull ups
-weight: 35kg
-reps: "3"
+weight: 40kg
+reps: "2"
 notes: Weighted
 ---
