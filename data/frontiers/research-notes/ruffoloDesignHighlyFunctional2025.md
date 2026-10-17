@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-16"
+modified: "2026-10-17"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -228,6 +228,8 @@ Directed evolution of CRISPR–Cas proteins has proven extremely powerful yet ca
 
 
 
+#directed-evolution
+
 
 
 
@@ -240,6 +242,37 @@ Structure-guided rational mutagenesis offers an alternative or synergistic appro
 
 
 
+
+
+#structure-guided-mutagenesis
+
+
+
+
+<span style="color:
+#FFF176;">
+both of these approaches depend on explicit structural hypotheses, either in the form of mechanistic understanding for rational mutagenesis or structures representing key functional states for computational design</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=NBLVQHTL))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Protein language models eschew explicit structural hypotheses and instead learn the co-evolutionary blueprint underlying protein function</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=LRBZZVPS))
+
+
+
+
+
+Very strong statement. We don't exactly know what is being learnt nor there was ever a blueprint to learn.
 
 
 
