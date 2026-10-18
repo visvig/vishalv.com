@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-17"
+modified: "2026-10-18"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -273,6 +273,103 @@ Protein language models eschew explicit structural hypotheses and instead learn 
 
 
 Very strong statement. We don't exactly know what is being learnt nor there was ever a blueprint to learn.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Compared to protein LMs, these family-specific models are less computationally expensive to train but are typically restricted to pairwise coupling terms (limiting their expressiveness) and do not leverage sequences from other protein families</span>
+([1](zotero://open-pdf/library/items/NQ2XVX9U?page=1&annotation=N7W2XCXS))
+
+
+
+
+
+Pairwise interaction between amino acids in a sequence.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+LMs can effectively generate diverse CRISPR–Cas proteins spanning a broad set of families</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=BGYL2GH9))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+generated type II effector proteins can assemble as functional gene editors in human cells, despite being hundreds of mutations away from any known natural protein</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=VFTFHVC6))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+one exemplar editor, which we denote OpenCRISPR-1</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=TKJXAJGI))
+
+
+
+
+
+
+
+
+
+
+### LMs generate diverse CRISPR–Cas proteins
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+phylogenies</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=BF553R4N))
+
+
+
+
+
+Representation of evolutionary relationships between organisms, genes or proteins.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+for specific applications, such as the generation of gene editors, it is necessary to steer generation towards particular subsets of protein families of interest</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=UWUCVTPF))
+
+
+
+
+
 
 
 
