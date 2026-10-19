@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-18"
+modified: "2026-10-19"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -52,7 +52,29 @@ we demonstrate successful precision editing of the human genome with a programma
 
 
 
-Operon: genetic module containing multiple genes.
+Operon: genetic module containing multiple genes. This is primarily in bacteria and not humans.
+
+Base (A, T, G, C) 
+
+-> 
+
+Nucleotide (Base + Sugar + Phosphate) 
+
+-> 
+
+Codon (3 Nucleotides specifying any of the 20 amino acids or STOP) 
+
+-> 
+
+Gene (Bunch of codons for protein coding genes, or simply one short segment of DNA sequence for a functional RNA)
+
+-> 
+
+Operon (Bacteria Specific) (One segments of DNA sequence, multiple genes transcribed together)
+
+-> Chromosome (One continuous double-strand DNA packaged with proteins)
+
+-> Cell Nucleus (46 Chromosomes, 23 from mom and 23 from pop)
 
 
 #operon
@@ -165,7 +187,10 @@ prokaryotic CRISPR–Cas systems</span>
 
 
 
+CRISPR: Clustered Regularly Interspaced Short Palindromic Repeats
 
+
+#CRISPR-Cas
 
 
 
@@ -371,6 +396,56 @@ for specific applications, such as the generation of gene editors, it is necessa
 
 
 
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x38-y539.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x38-y539.png)
+
+UniRef: UniProt Reference Clusters
+
+- UniRef100: Nearly identical sequences clustered together
+
+- UniRef90: Seq clustered at approx 90% identity
+
+- UniRef50: Sequences clustered at approx 50% identity
+
+BFD: Big Fantastic Database
+
+- Collection of protein sequences
+
+CRISPR-Cas Atlas
+
+- Dataset containing sequences associated with CRISPR-Cas Systems
+
+Types based on effector proteins:
+
+- Type 1: Cascase + Cas3
+- Type 2: Cas9
+- Type 3: Cas10-containing complex
+- Type 5: Cas12
+- Type6: Cas13
+
+gRNA: guide RNA
+
+- In Type 2 systems, crRNA + tracrRNA
+
+- crRNA: CRISPR RNA 
+- contains a sequence that identifies the target DNA
+
+- tracrRNA: trans-activating CRISPR RNA
+- helps process precursor crRNA to mature crRNA and forms an RNA structure that helps Cas9 assemble into active complex.
+
+In engineered systems, these are fused into a single-guide RNA (sgRNA)
+
+
+#BFD
+#CRISPR-Cas-Atlas
+#crRNA
+#gRNA
+#tracrRNA
+#UniRef
 
 
 
