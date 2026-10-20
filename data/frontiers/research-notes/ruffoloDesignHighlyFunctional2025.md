@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-19"
+modified: "2026-10-20"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -72,9 +72,13 @@ Gene (Bunch of codons for protein coding genes, or simply one short segment of D
 
 Operon (Bacteria Specific) (One segments of DNA sequence, multiple genes transcribed together)
 
--> Chromosome (One continuous double-strand DNA packaged with proteins)
+-> 
 
--> Cell Nucleus (46 Chromosomes, 23 from mom and 23 from pop)
+Chromosome (One continuous double-strand DNA packaged with proteins)
+
+-> 
+
+Cell Nucleus (For Humans: 46 Chromosomes, 23 from mom and 23 from pop)
 
 
 #operon
@@ -400,14 +404,163 @@ for specific applications, such as the generation of gene editors, it is necessa
 
 
 
+<span style="color:
+#FFF176;">
+data mining to construct a dataset of curated CRISPR operons, including Cas proteins, CRISPR arrays, trans-activating CRISPR RNAs (tracrRNAs) and PAMs (Extended Data Fig. 1). We refer to this resource as the CRISPR–Cas Atlas</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=WGLAZED8))
+
+
+
+
+
+Protein sequences as well as the operons that encode for them.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+26.2 terabases of assembled microbial genomes and metagenomes</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=WCGETHZR))
+
+
+
+
+
+The encoding.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+1,246,088 CRISPR–Cas operons</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=F96P9TGI))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+389,000 single-effector systems classified as type II, type V or type VI</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=6FQ3YKRW))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+resource displayed expanded natural diversity compared to curated databases such as CRISPRCasDB and CasPDB (Extended Data Fig.1e), as well as UniProt, the world’s largest protein resource</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=D3G9N7KQ))
+
+
+
+
+
+
+
+#CasPDB
+#CRISPRCasDB
+
+
+
+
+<span style="color:
+#FFF176;">
+CRISPR–Cas Atlas has on average 2.7× more protein clusters than UniProt using a 70% sequence identity (%ID)</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=8NANA2NK))
+
+
+
+
+
+UniProt: Database of protein sequences and annotations.
+
+
+#UniProt
+
+
+
+
+<span style="color:
+#FFF176;">
+greater expansions for families such as Cas9 (4.1×), Cas12a (6.7×) and Cas13 (7.1×)</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=IFQ85IJK))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+fine-tuned the ProGen2-base LM2 on the CRISPR–Cas Atlas</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=ZZGMNM7M))
+
+
+
+
+
+
+
+#ProGen2
+
+
+
+
+<span style="color:
+#FFF176;">
+generated 4 million sequences</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=AWWCFZZM))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x38-y336.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x38-y336.png)
+
+Clustering at 70% sequence identity prevents near duplicate proteins from inflating the diversity count.
+
+- CRISPR-Cas Atlas contains 5M sequence yet many are similar enough to collapse into sub 20x10^3 with 70% Identity.
+
+- Generated sequences though contains lesser sequences (1.2M + 0.8M) shows lot of clusters with bigger stacks on y axis showing more diversity.
+
+
+
+
+
 
 ![research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x38-y539.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x38-y539.png)
 
 UniRef: UniProt Reference Clusters
 
-- UniRef100: Nearly identical sequences clustered together
+- UniRef100: Identical sequences clustered together
 
-- UniRef90: Seq clustered at approx 90% identity
+- UniRef90: Sequences clustered at approx 90% identity
 
 - UniRef50: Sequences clustered at approx 50% identity
 
@@ -417,11 +570,11 @@ BFD: Big Fantastic Database
 
 CRISPR-Cas Atlas
 
-- Dataset containing sequences associated with CRISPR-Cas Systems
+- Dataset containing sequences associated with CRISPR-Cas Systems (operon and cas protein)
 
 Types based on effector proteins:
 
-- Type 1: Cascase + Cas3
+- Type 1: Cascade + Cas3
 - Type 2: Cas9
 - Type 3: Cas10-containing complex
 - Type 5: Cas12
@@ -431,10 +584,12 @@ gRNA: guide RNA
 
 - In Type 2 systems, crRNA + tracrRNA
 
-- crRNA: CRISPR RNA 
+crRNA (CRISPR RNA)
+
 - contains a sequence that identifies the target DNA
 
-- tracrRNA: trans-activating CRISPR RNA
+tracrRNA (trans-activating CRISPR RNA)
+
 - helps process precursor crRNA to mature crRNA and forms an RNA structure that helps Cas9 assemble into active complex.
 
 In engineered systems, these are fused into a single-guide RNA (sgRNA)
@@ -446,6 +601,38 @@ In engineered systems, these are fused into a single-guide RNA (sgRNA)
 #gRNA
 #tracrRNA
 #UniRef
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x392-y336.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-2-x392-y336.png)
+
+Authors are borrowing AF2 credibility. Reasonable thesis generation, and nothing more to be said concretely about ProGen2 or AF2 or generations.
+
+Each dot is a generated protein sequence.
+
+X Axis: Generated sequence %ID with natural sequences from the Atlas.
+
+Note that generated sequences with very low %ID from natural sequences at times show very high AF2 confidence about local structural prediction.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+pLDDT</span>
+([2](zotero://open-pdf/library/items/NQ2XVX9U?page=2&annotation=GPIEG6GK))
+
+
+
+
+
+pLDDT: predicted Local Distance Difference Test
+
+
+#pLDDT
 
 
 
