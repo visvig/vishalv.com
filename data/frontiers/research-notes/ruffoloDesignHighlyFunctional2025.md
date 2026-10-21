@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-20"
+modified: "2026-10-21"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -633,6 +633,135 @@ pLDDT: predicted Local Distance Difference Test
 
 
 #pLDDT
+
+
+
+
+<span style="color:
+#FFF176;">
+other half were prompted with up to 50 residues from the N or C terminus of a natural protein to guide generation towards a particular family (conditional)</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=SXLDEIY8))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+strict filtering and sequence clustering</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=BE5HEGEU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+generated sequences represented a 4.8-fold expansion of diversity compared to natural proteins from the CRISPR–Cas Atlas</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=KJMF7AAL))
+
+
+
+
+
+Diversity, not n.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+rate of new cluster generation for generated sequences significantly outpaced that of natural sequences</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=ZCFV676G))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+generated sequences displayed similar levels of chimerism, indicating that LMs produce sequences with novelty akin to that of evolution</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=CYZP454K))
+
+
+
+
+
+Chimerism here means how much the protein sequence resembles a patchwork of different natural proteins.
+
+They are claiming the patchwork by their model resembles that of evolution itself.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+generated proteins were confidently predicted by AlphaFold2, with 81.65% of structures having a mean predicted local-distance difference test (pLDDT) above 80</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=8765KULT))
+
+
+
+
+
+Gives a good hypothesis to start experimental testing.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+For a small number of sequences, we observed high similarity to natural proteins in the CRISPR–Cas Atlas but low structure prediction confidence, owing to limited homology in the ColabFold sequence database used for predictions</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=HEBJSJIM))
+
+
+
+
+
+ColabFold is a structure prediction pipeline built around AF2.
+
+ColabFold Pipeline:
+
+MMseqs2: search for protein sequences related to input
+
+Sequence database: Collection of proteins search
+
+AF2: Predicts 3D structure using the resulting sequence information
+
+
+#ColabFold
+#homology
+
+
+
+
+<span style="color:
+#FFF176;">
+adopt folds highly similar to natural proteins from the same family (Extended Data Fig.3), indicating they may be functional</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=EEB5KG5X))
+
+
+
+
+
+
 
 
 
