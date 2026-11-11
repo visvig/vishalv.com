@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-10-21"
+modified: "2026-11-11"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -142,7 +142,9 @@ improved activity and specificity relative to SpCas9, the prototypical gene edit
 
 
 
-SpCas9: Widely used Cas9 protein from Streptococcus pyogenes.
+Cas9: A family of RNA-guided DNA-cutting enzymes found in different microorganisms.
+
+SpCas9: One particular ortholog. Widely used Cas9 protein from Streptococcus pyogenes.
 
 SpCas9 contains 1368 amino acids.
 
@@ -473,8 +475,8 @@ resource displayed expanded natural diversity compared to curated databases such
 
 
 
-#CasPDB
 #CRISPRCasDB
+#CasPDB
 
 
 
@@ -595,12 +597,12 @@ tracrRNA (trans-activating CRISPR RNA)
 In engineered systems, these are fused into a single-guide RNA (sgRNA)
 
 
+#UniRef
 #BFD
 #CRISPR-Cas-Atlas
-#crRNA
 #gRNA
+#crRNA
 #tracrRNA
-#UniRef
 
 
 
@@ -646,6 +648,9 @@ other half were prompted with up to 50 residues from the N or C terminus of a na
 
 
 
+any* natural protein.
+
+811232/2M is 40.6% which is aggregate rate across families.
 
 
 
@@ -746,8 +751,8 @@ Sequence database: Collection of proteins search
 AF2: Predicts 3D structure using the resulting sequence information
 
 
-#ColabFold
 #homology
+#ColabFold
 
 
 
@@ -761,6 +766,301 @@ adopt folds highly similar to natural proteins from the same family (Extended Da
 
 
 
+Just because it folds similar, doesn't mean it does something useful like its natural counterpart, because the chemistry is changed at the interaction site.
+
+
+
+
+
+### LMs generate diverse type II effectors
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+To generate new Cas9-like sequences, we prompted the CRISPR–Cas model with 50 residues from the N or C terminus of Cas9s sampled from the CRISPRCas Atlas</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=CKVYMG9Y))
+
+
+
+
+
+Cas9 protein population only, unlike the previous conditional generation.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+27.6% of these prompted generations survived our strict sequence viability filters</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=NM3F6L5B))
+
+
+
+
+
+As compared to the 40.6% aggregate over all families.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+fine-tuned another LM using only the 238,913 Cas9 sequences from the CRISPR–Cas Atlas</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=KAIFN7DC))
+
+
+
+
+
+Off the 5100022 total, only 238913 are Cas9 family. 
+
+Only 4.68% of the Atlas is Cas9 family.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+This model produced viable Cas9-like sequences at twice the rate of the CRISPR–Cas model (54.2%; Supplementary Fig. 3a) and did not require any prompting</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=E6UAEWQ3))
+
+
+
+
+
+Perhaps better prompt (understanding) of Cas9 itself would have worked, and no need for finetuning.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+used the Cas9 model to generate 1 million Cas9 proteins</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=CDFMMLQN))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+maximum-likelihood phylogenetic tree</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=3ZFT886N))
+
+
+
+
+
+Types:
+
+- maximum-likelihood
+- parsimony
+- bayesian
+- minimum evolution
+
+
+#phylogenetic-tree
+
+
+
+
+<span style="color:
+#FFF176;">
+generated proteins, which made up 94.1% of the total phylogenetic diversity</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=L8METTNB))
+
+
+
+
+
+Total green branch length / Total tree branch length * 100
+
+
+
+
+
+<span style="color:
+#FFF176;">
+10.3-fold increase in diversity relative to the entire CRISPR–Cas Atlas</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=M7EFZCHZ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Generated sequences diverged from the CRISPR–Cas Atlas, with an average identity of only 56.8% to any natural sequence</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=G8WU96QX))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+himeric novelty produced by the LM was similar in form to what would be expected from discovery of new natural Cas9s</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=98NHJRXI))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Cas9 orthologues that have been biochemically characterized7 or used as genome editors</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=U278EZ83))
+
+
+
+
+
+ortholog: a gene or protein in different species that evolved from a common ancestral gene via speciation event.
+
+
+#ortholog
+#speciation
+
+
+
+
+<span style="color:
+#FFF176;">
+apable of generating proteins with a variety of functional properties</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=CNZDC87G))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+enerated sequences closely matched the length of natural proteins from the same protein cluster, with a Pearson correlation of 0.97</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=CSYW4QWD))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+AlphaFold2 (ref. 30) to predict the structures of 5,000 generated and 5,000 natural sequences, with one sequence each being selected randomly from the largest 70%ID protein clusters among each group. Most structures were predicted confidently (with 99.4% having mean pLDDT above 80), including for Cas9-like proteins with as low as 60%ID to any natural protein</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=R4RQB74Q))
+
+
+
+
+
+AF2 hypothesis.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+SCOPe database</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=F8SBWVI6))
+
+
+
+
+
+Structural Classification of Proteins extended.
+
+
+#SCOPe
+
+
+
+
+<span style="color:
+#FFF176;">
+presence of core Cas9 domains in most generated proteins and at a similar rate as naturals</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=EV9TUWDJ))
+
+
+
+
+
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x38-y456.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x38-y456.png)
+
+Natural Cas9s and Generated (542,042) Cas9s.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x279-y454.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x279-y454.png)
+
+Comparison with SCOPe.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x310-y560.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x310-y560.png)
+
+Proteins from same clusters.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x309-y652.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x309-y652.png)
+
+Average identity.
 
 
 
