@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-11-11"
+modified: "2026-11-12"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -972,8 +972,8 @@ apable of generating proteins with a variety of functional properties</span>
 
 <span style="color:
 #FFF176;">
-enerated sequences closely matched the length of natural proteins from the same protein cluster, with a Pearson correlation of 0.97</span>
-([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=CSYW4QWD))
+generated sequences closely matched the length of natural proteins from the same protein cluster, with a Pearson correlation of 0.97</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=3TA5SET9))
 
 
 
@@ -1025,6 +1025,168 @@ presence of core Cas9 domains in most generated proteins and at a similar rate a
 
 
 
+Domain: a distinct structural and functional unit of a protein, often folds independently of the rest of the protein.
+
+Cas9 Domains:
+
+- PI recognizes a compatible PAM
+- REC helps stabilize pairing between gRNA and target DNA
+- HNH cuts target strand
+- RuvC cuts the non-target strand
+
+
+#Cas9-domain
+
+
+
+
+<span style="color:
+#FFF176;">
+HNH and RuvC nuclease domains (100% and 52.1%</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=TMJ58L8P))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+PAM-interacting domain (PID; 92.9%)</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=4K9A4CXL))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+target recognition (REC) lobe (99.9%)</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=FP2CFNKF))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+a predicted structure resembling Nme1Cas9 (template modelling score 0.71) despite sharing only 25.8%ID to Nme1Cas9 and a maximum of 39.2%ID to any protein in the CRISPR–Cas Atlas</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=MI55QVQB))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+gRNA is composed of a targeting RNA sequence (spacer), CRISPR RNA (crRNA) repeat and tracrRNA</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=FSQSUII2))
+
+
+
+
+
+gRNA = crRNA + tracrRNA
+
+crRNA = spacer + CRISPR RNA repeat
+
+spacer: the targeting sequence that base pairs with DNA
+
+CRISPR repeat: a sequence that pairs with tracrRNA
+
+tracrRNA: helps form the RNA structure recognized by Cas9
+
+
+
+
+
+<span style="color:
+#FFF176;">
+spacer sequence is programmed to match the target DNA site for gene editing applications</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=ELYGKGQ7))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+train a sequence-to-sequence gRNA model that conditionally generates crRNA and tracrRNA sequences for a given protein</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=ZPVMPBWU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+designed gRNAs, as well as the natural gRNAs from metagenome mining, were formatted into single-guide RNAs (sgRNAs) and embedded according to their pairwise edit distances with t-distributed stochastic neighbour embedding</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=Y3XYX88K))
+
+
+
+
+
+edit distance: minimum number of insertions, deletions or substitutions needed to transform one to another.
+
+
+#t-SNE
+
+
+
+
+<span style="color:
+#FFF176;">
+crRNA:tracrRNA pairs often formed the canonical duplex</span>
+([3](zotero://open-pdf/library/items/NQ2XVX9U?page=3&annotation=Y6CH68ME))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+model can be used to generate functional sgRNAs for generated Cas9-like proteins</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=5B6W33RM))
+
+
+
+
+
 
 
 
@@ -1058,9 +1220,27 @@ Proteins from same clusters.
 
 
 
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x425-y624.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x425-y624.png)
+
+
+
+#Nme1Cas9
+
+
+
+
+
 ![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x309-y652.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x309-y652.png)
 
 Average identity.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x433-y461.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x433-y461.png)
+
 
 
 
