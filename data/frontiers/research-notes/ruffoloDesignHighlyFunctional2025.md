@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-11-12"
+modified: "2026-11-15"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -1192,6 +1192,189 @@ model can be used to generate functional sgRNAs for generated Cas9-like proteins
 
 
 
+### Designed editors function in human cells
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+LM fine-tuned on Cas9 proteins using either the N-terminal segment or the C-terminal PID of SpCas9</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=R6SVR4NJ))
+
+
+
+
+
+PID: PAM Interacting (PI) Domain
+
+N-terminal segment here is everything non-PID.
+
+Deliberately include only PI domain from the C-terminal to show some useful function in human cells. 
+
+No other domains are there between PI and C-terminal.
+
+N-terminal is 1099 amino acids
+C-terminal is 269 amino acids
+
+
+
+
+
+<span style="color:
+#FFF176;">
+generated 200,000 and 150,000 Cas9-like proteins prompted by the N-terminal segments and C-terminal PIDs</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=BLNK9FSJ))
+
+
+
+
+
+200,000 is the source of generated PIDs
+
+150,000 is the source of generated non-PIDs
+
+
+
+
+
+<span style="color:
+#FFF176;">
+selected 82 SpCas9 PID-conditioned sequences</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=PQDUXPSB))
+
+
+
+
+
+82 from the 150,000 generated non-PIDs
+
+
+
+
+
+<span style="color:
+#FFF176;">
+127 fully generated sequences, created by combining our generated N-terminal segments and PID domains, on the basis of an average of pretrained and Cas9-fine-tuned LM log likelihoods and auxiliary predictors of compatibility with SpCas9’s PAM and tracrRNA</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=QGKCT47P))
+
+
+
+
+
+Using the combined pool of 200,000 generated PIDs and 150,000 generated non-PIDs.
+
+127 was combined using some compatibility metrics:
+
+- log likelihoods from pretrained model
+- "auxiliary predictors"
+
+
+
+
+
+<span style="color:
+#FFF176;">
+selected 209 Cas9-like proteins for subsequent functional analysis in human cells</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=IFKNH8XI))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+cotransfecting HEK293T cells with nuclease plasmids and SpCas9 sgRNA plasmids, targeting one of three previously characterized  target sites and inferred DNA repair outcomes after three days using a Sanger-sequencing-based method</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=I2H6FT75))
+
+
+
+
+
+nuclease plasmid: DNA encoding for generated Cas9
+
+
+SpCas9 sgRNA plasmid: DNA encoding for SpCas9 sgRNA
+
+
+#sanger-sequencing
+
+
+
+
+<span style="color:
+#FFF176;">
+subset of Cas9-like proteins showing activity on par with or higher than SpCas9</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=4SM8VNPW))
+
+
+
+
+
+Comparing the generated Cas9s only with SpCas9's functions.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+selected 48 Cas9-like proteins that were fully generated (both N- and C-terminal domains), displayed moderate or high insertion and deletion (indel) rates across one or more sites and were substantially different from any natural or engineered enzyme in patent databases (lens.org)</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=KGQ5CZFG))
+
+
+
+
+
+48 out of the 127 fully generated Cas9s.
+
+Note: That 127 were not autonomously fully generated. Involved human logic.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+assayed the editing efficiency and specificity of these 48 proteins across a panel of previously characterized SpCas9 on- and off-target sites (n = 5 and n = 15, respectively)</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=MDH7SZVC))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Nuclease- and sgRNA-expressing plasmids were cotransfected in HEK293T cells, and DNA repair outcomes were measured after three days using next-generation sequencing of amplicons (NGS)</span>
+([4](zotero://open-pdf/library/items/NQ2XVX9U?page=4&annotation=LEAZVC8B))
+
+
+
+
+
+
+
+#NGS
+
+
+
+
 
 ![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x38-y456.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x38-y456.png)
 
@@ -1241,6 +1424,58 @@ Average identity.
 
 ![research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x433-y461.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-4-x433-y461.png)
 
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x36-y500.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x36-y500.png)
+
+209 Cas9s in total.
+
+48 star ones from experimental performances.
+
+The star ones are radially satisfying all three selection criteria:
+
+Indel Activity: Insertions + Deletions shown on one or more of SpCas9 target sites. Here there are three HEK3, HEK2, CD3G_1
+
+Patent %ID: % similarity to any patented Cas9 protein
+
+Fully Generated: The 127 Cas9s
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x283-y627.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x283-y627.png)
+
+Target Site 1: HEK3
+
+120 showed activity, 16 surpassed.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x378-y627.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x378-y627.png)
+
+Target Site 2: HEK2
+
+84 showed activity, 28 surpassed.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x469-y627.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x469-y627.png)
+
+Target Site 3: CD3G_1
+
+61 showed activity, 4 surpassed.
 
 
 
