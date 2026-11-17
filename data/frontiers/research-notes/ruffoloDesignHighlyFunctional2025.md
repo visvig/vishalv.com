@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-11-16"
+modified: "2026-11-17"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -1661,6 +1661,15 @@ Bars: Median of points on each side. 3rd point for on-target, 8nd point for off-
 
 
 
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x436-y354.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-5-x436-y354.png)
+
+PF-CAS-182 shows more on-target edits than off-target edits as compared to SpCas9.
+
+
+
+
+
 <span style="color:
 #FFF176;">
 PF-CAS-182, displayed levels of activity comparable to SpCas9 at on-target sites (median indel rates of 56.4% versus 47.1%) while having a 95% reduction in editing at known SpCas9 off-target sites (median indel rates of 0.32% versus 6.1%)</span>
@@ -1687,6 +1696,301 @@ nominated PF-CAS-182 as the OpenCRISPR-1 protein</span>
 
 
 
+
+
+
+
+
+<span style="color:
+#FFF176;">
+purified OpenCRISPR-1 and SpCas9 proteins and used these as input to SITE-Seq using the same five gRNA used in Fig. 3e (AAVs1, HEK2, HEK3, FANCF and VEGFA) at four different ribonucleoprotein concentrations</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=BUKHIH56))
+
+
+
+
+
+Selective Enrichment and Identification of Tagged Genomic DNA Ends by Sequencing.
+
+- used to discover where Cas9 cuts DNA across the genome, including unintended locations.
+
+- This sequencing technique is done on extracted DNA (as compared to DNA in living cells for NGS done previously, although NGS can be done on extracted DNA as well) so it has its normal chromatin packaging removed, hence Cas9 can access location previously inaccessible. 
+
+Ribonucleoprotein (RNP) here is RNA + Protein that is sgRNA + Cas9
+
+
+#SITE-Seq
+
+
+
+
+<span style="color:
+#FFF176;">
+higher proportion of cleavage events occurred at on-target sites for OpenCRISPR-1 compared to SpCas9 across all ribonucleoprotein concentrations and gRNAs tested</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=HTFZM9LL))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 off targets were a subset of the SpyCas9 off targets</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=XZEG9EZ2))
+
+
+
+
+
+SpyCas9 and SpCas9 are same.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 does not generate new cleavage patterns</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=NN5PWMVQ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+achieves a low off-target profile by means of a distinct set of molecular interactions</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=ZS7LMNDT))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 lacked previously identified immunodominant and subdominant SpCas9 T cell epitopes for HLA-A*02:01, indicating that it may be less immunogenic than SpCas9</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=GCVW48D6))
+
+
+
+
+
+They think OpenCRISPR-1 is potentially low immunogenic for people carrying HLA-A*02:01, a variant of HLA.
+
+T cell epitope: A specific peptide from a protein recognized by a T cell when presented by HLA molecule
+
+HLA: Human Leukocyte Antigen System
+
+A protein on the surface of human cells that displays small pieces of proteins to immune system
+
+A: Gene encoding an HLA class 1 molecule
+
+02: Allele group
+
+01: Specific protein Variant
+
+Immunogenicity: Ability of substance to provoke an immune response
+
+
+#epitope
+#HLA
+#immunogenicity
+#T-cell
+
+
+
+
+<span style="color:
+#FFF176;">
+iELISA to measure the amount of human antibody bound to OpenCRISPR-1 and two other generated proteins (PF-CAS-151 and PF-CAS-189)</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=D6R7SUAV))
+
+
+
+
+
+iELISA: indirect Enyzme-Linked Immunosorbent Assay
+
+Lab technique to measure antibody binding against a particular antigen.
+
+
+#iELISA
+
+
+
+
+<span style="color:
+#FFF176;">
+1 μg ml−1 protein concentrations, and serum samples from 40 healthy donors were diluted from 100-fold to 1,600-fold</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=AJFGR5BU))
+
+
+
+
+
+iELISA setup.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+iELISA quantification showed lower immunogenicity for all generated Cas9-like proteins compared to SpCas9 at one or more dilution levels</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=ZTRSIDNM))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+proteins designed with machine learning have the potential to be less immunogenic than pathogen-derived genome editors such as SpCas9</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=5R9IQ7HS))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 was 1,380 residues in length and considerably diverged from both SpCas9 (403 mutations) and any natural protein in the CRISPR–Cas Atlas (182 mutations)</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=JC5C6S4Y))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+NCBI-nr showed top hits to proteins from several Streptococcus spp. (Streptococcus cristatus, S. pyogenes and Streptococcus sanguinis)</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=JL2Q5L6H))
+
+
+
+
+
+NCBI-nr: National Center for Biotechnology Information's non-redundant protein sequence database.
+
+
+#NCBI-nr
+
+
+
+
+<span style="color:
+#FFF176;">
+three natural Cas9s yielded a cumulative identity of 98.3% for OpenCRISPR-1</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=PTTUEXCY))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+most of the mutations were concentrated at the solvent-exposed surface of the protein, with only a fraction located at the protein–nucleic acid interface</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=4PSUSP5R))
+
+
+
+
+
+Fewer mutations at the interaction site may preserve the chemistry of Cas9-DNA interaction.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+critical nucleic-acid-coordinating residues and nuclease-site components were preserved</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=3UALYM7W))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+addition to point mutations, OpenCRISPR-1 contained two loop insertions in the REC1 and HNH domains</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=M5ZYTX6W))
+
+
+
+
+
+Cas9 domains REC1 and HNH.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+nine-residue positively charged insertion in the REC1 domain may interact with the phosphate backbone of both the repeat:anti-repeat segment of the gRNA and the PAM-proximal region of the target DNA</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=5XEA2EWL))
+
+
+
+
+
+Effects of Insertion in REC1.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+four-residue insertion in the HNH domain is compatible with all the experimentally elucidated catalytic states40 and may have a role in stabilizing the cleavage checkpoint state</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=D2V479T8))
+
+
+
+
+
+Effects of Insertion in HNH.
 
 
 
