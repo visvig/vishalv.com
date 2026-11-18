@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-11-17"
+modified: "2026-11-18"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -1991,6 +1991,86 @@ four-residue insertion in the HNH domain is compatible with all the experimental
 
 
 Effects of Insertion in HNH.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+cell-based assay with NGS measurement of indel rates to screen 98 previously characterized SpCas9 target sites</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=9DIQ5JW9))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+able to characterize nuclease performance at 92 of these sites (NGG PAMs, n = 49; non-NGG PAMs n = 43)</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=FP64FETU))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+below reported levels15, probably owing to the transfection efficiency observed from lipofection</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=X2IZF48I))
+
+
+
+
+
+Lipofection: chemical transfection technique that uses lipids to deliver DNA or RNA into living cells.
+
+Then, it gets into the nucleus during cell division (mitosis)
+
+- Plasmid enters cytoplasm
+- Cell enters mitosis
+- Nuclear envelope reforms
+- plasmid DNA coexists with chromosomal DNA
+
+So, plasmid DNA is transcribed in nucleus.
+
+- sgRNA now inside the nucleus
+- Cas9 now inside cell
+- Cas9 enters nucleus by NLS (Nuclear Localization Signal)
+- Chromosomal DNA cut
+- Repair by NHEJ (Non-Homologous End Joining) or HDR (Homology-Directed Repair)
+
+NHEJ produces indels, HDR precise gene mutations.
+
+
+#HDR
+#lipofection
+#mitosis
+#NHEJ
+#plasmid
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 displayed comparable levels of on-target activity across sites bearing the NGG PAM</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=VSIANAYZ))
+
+
+
+
+
 
 
 
