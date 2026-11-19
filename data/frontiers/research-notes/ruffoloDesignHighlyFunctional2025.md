@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-11-18"
+modified: "2026-11-19"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -180,6 +180,9 @@ Cytosine Base Editor (CBE): converts G-C to A-T
 - C to U (uracil).
 - Cell repairs G-U to A-T.
 
+
+#base-editing
+#inosine
 
 
 
@@ -1030,12 +1033,16 @@ Domain: a distinct structural and functional unit of a protein, often folds inde
 Cas9 Domains:
 
 - PI recognizes a compatible PAM
-- REC helps stabilize pairing between gRNA and target DNA
-- HNH cuts target strand
-- RuvC cuts the non-target strand
+- REC helps stabilize pairing between sgRNA and target DNA
+- HNH cuts matching strand of DNA with sgRNA
+- RuvC cuts the strand opposite to matching strand
 
 
 #Cas9-domain
+#HNH
+#PI
+#REC
+#RuvC
 
 
 
@@ -2019,6 +2026,7 @@ able to characterize nuclease performance at 92 of these sites (NGG PAMs, n = 49
 
 
 
+Of the 92 sites, some turned out to be NGG PAM and some non-NGG PAM.
 
 
 
@@ -2026,12 +2034,14 @@ able to characterize nuclease performance at 92 of these sites (NGG PAMs, n = 49
 
 <span style="color:
 #FFF176;">
-below reported levels15, probably owing to the transfection efficiency observed from lipofection</span>
-([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=X2IZF48I))
+Our measurements of activity for SpCas9 at these targets were moderately below reported levels15, probably owing to the transfection efficiency observed from lipofection</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=G2ZFRWYC))
 
 
 
 
+
+Their SpCas9 measurements are lower than other reported works, but it's okay since we are going to make this as a comparable baseline for OC-1.
 
 Lipofection: chemical transfection technique that uses lipids to deliver DNA or RNA into living cells.
 
@@ -2053,12 +2063,6 @@ So, plasmid DNA is transcribed in nucleus.
 NHEJ produces indels, HDR precise gene mutations.
 
 
-#HDR
-#lipofection
-#mitosis
-#NHEJ
-#plasmid
-
 
 
 
@@ -2071,6 +2075,170 @@ OpenCRISPR-1 displayed comparable levels of on-target activity across sites bear
 
 
 
+
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 exhibited several-fold reduction in activity at genomic sites bearing a mismatch in the PAM</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=WFIU7LPJ))
+
+
+
+
+
+OC-1 doesn't make a lot of unintended intrusions.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 has activity comparable to SpCas9 at on-target sites while avoiding double-strand breaks at sites with mismatches in either the PAM or target regions</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=ITCXYU7W))
+
+
+
+
+
+Gene editing requires breaking the double helix strand of DNA.
+
+OC-1 does the job without breaking off-target DNA double strands.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+converted OpenCRISPR-1 to a putative target-strand nickase (containing D10A mutation) and fused it to a previously engineered adenosine deaminase (ABE8.20) commonly used in base editing</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=VXNPPLNS))
+
+
+
+
+
+D10A means replacing aspartate (D) at amino acid position 10 with alanine (A). 
+
+This disables RuvC (which cuts the opposite DNA strand) and keeps HNH functional (which cuts the DNA strand complementary to sgRNA).
+
+ABE8.20 chemically converts adenine (A) to inosine (I) in exposed single DNA strand.
+
+Cells interpret inosine much like guanine (G) and converts the A-T to G-C.
+
+
+#ABE8.20
+
+
+
+
+<span style="color:
+#FFF176;">
+sgRNAs targeting three genomic loci containing adenines in the editing window (that is, position 3–9 in the spacer)</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=SKGMQ5FA))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+observed robust A-to-G conversion with the OpenCRISPR-1 base editor on all three target sites (35–60% editing rate)</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=F8V76AED))
+
+
+
+
+
+almost same performance as SpCas9 fused with deaminases.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x37-y608.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x37-y608.png)
+
+SpCas9 is an NGG preferring enzyme, so it shows low activity for non-NGG PAMs.
+
+SpCas9 can naturally recognize all 4 canonical PAMs (AGG, CGG, TGG, GGG). No need to specify which of these 4. So we engineer only the sgRNA sequence.
+
+ OC-1 shows even lower tolerance for non-NGG.
+
+OC-1 shows lower editing at sites lacking NGG PAM.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x254-y607.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x254-y607.png)
+
+Each point is a common site from 92 sites. 
+
+Notice for most non-NGG site, the points lie above the dotted line.
+
+For the same non-NGG site, OC-1 indel rate is lower than SpCas9's.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x37-y501.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x37-y501.png)
+
+ABE8.20 was fused at N terminal.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x211-y478.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x211-y478.png)
+
+Plots for each target sites (3 plots).
+
+- HEK3
+- T39
+- CD3G_1
+
+3 deaminases were tried (ABE8.20, PF-DEAM-1, PF-DEAM-2) on 2 editors (SpCas9, OC-1).
+
+3 experimental replicates (3 dots).
+
+
+#PF-DEAM-1
+#PF-DEAM-2
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x412-y607.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x412-y607.png)
+
+PAM site counts in experiment (n):
+
+NGG = 49
+
+NGC = 11
+
+NGT = 10
+
+NGA = 10
+
+NAG = 9
+
+NTG = 2
+
+NCG = 1
 
 
 
