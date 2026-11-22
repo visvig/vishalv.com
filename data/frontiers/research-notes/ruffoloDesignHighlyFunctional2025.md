@@ -1,7 +1,7 @@
 ---
 published: "2025-09-01"
 added: "2026-10-11"
-modified: "2026-11-19"
+modified: "2026-11-20"
 authors: Jeffrey A. Ruffolo, Stephen Nayfach, Joseph Gallagher, Aadyot Bhatnagar, Joel Beazer, Riffat Hussain, Jordan Russ, Jennifer Yip, Emily Hill, Martin Pacesa, Alexander J. Meeske, Peter Cameron, Ali Madani
 abstract: "Gene editing has the potential to solve fundamental challenges in agriculture, biotechnology and human health. CRISPR-based gene editors derived from microorganisms, although powerful, often show notable functional tradeoffs when ported into non-native environments, such as human cells1. Artificial-intelligence-enabled design provides a powerful alternative with the potential to bypass evolutionary constraints and generate editors with optimal properties. Here, using large language models2 trained on biological diversity at scale, we demonstrate successful precision editing of the human genome with a programmable gene editor designed with artificial intelligence. To achieve this goal, we curated a dataset of more than 1 million CRISPR operons through systematic mining of 26 terabases of assembled genomes and metagenomes. We demonstrate the capacity of our models by generating 4.8× the number of protein clusters across CRISPR–Cas families found in nature and tailoring single-guide RNA sequences for Cas9-like effector proteins. Several of the generated gene editors show comparable or improved activity and specificity relative to SpCas9, the prototypical gene editing effector, while being 400 mutations away in sequence. Finally, we demonstrate that an artificial-intelligence-generated gene editor, denoted as OpenCRISPR-1, exhibits compatibility with base editing. We release OpenCRISPR-1 to facilitate broad, ethical use across research and commercial applications."
 ---
@@ -11,6 +11,7 @@ abstract: "Gene editing has the potential to solve fundamental challenges in agr
 [URL](https://www.nature.com/articles/s41586-025-09298-z)
 
 ## Tags
+#✅
 
 
 ## Notes
@@ -2164,6 +2165,298 @@ almost same performance as SpCas9 fused with deaminases.
 
 
 
+<span style="color:
+#FFF176;">
+trained models based on TadA-like proteins from UniProtKB44 and BFD</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=RR74QAE9))
+
+
+
+
+
+TadA: tRNA-specific adenosine deaminase.
+
+They just want to show that their modelling approach generalizes beyond Cas9s.
+
+
+#TadA-proteins
+
+
+
+
+<span style="color:
+#FFF176;">
+generated a series of synthetic adenine deaminases with 55–80%ID to any known natural deaminase, including both engineered variants and the Escherichia coli TadA</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=PNZCWUC6))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+tested two of our most active deaminases (PF-DEAM-1 and PF-DEAM-2) fused to the N terminus of either SpCas9 or OpenCRISPR-1 nickases</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=QF9LXSZM))
+
+
+
+
+
+nickase means the post D10A mutation molecule.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+A-to-G editing levels comparable to ABE8.20</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=CAS9MVRM))
+
+
+
+
+
+Absolutely no improvements. Just showing the modelling approach can do more than just Cas9 generation.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+narrow editing windows were observed in early adenine base editors evolved from ecTadA through directed evolution</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=57VVYRQU))
+
+
+
+
+
+
+
+#ecTadA
+
+
+
+
+<span style="color:
+#FFF176;">
+all of the experiments up to this point had used the SpCas9 sgRNA scaffold, we reasoned that this might not be optimal for OpenCRISPR-1 and other generated Cas9-like proteins</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=D3IMELKC))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+designed 14 generated sgRNAs for each of five generated Cas9-like proteins (including OpenCRISPR-1)</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=X2ZTXKBR))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Generated sgRNA sequences exhibited high sequence conservation compared to SpCas9’s sgRNA</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=B6DYXLBJ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+observed enhanced editing with 31 designed sgRNAs relative to SpCas9’s sgRNA</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=K877H3RY))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+significant improvements for four sgRNAs for two of five variants</span>
+([6](zotero://open-pdf/library/items/NQ2XVX9U?page=6&annotation=WX52NPNJ))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+Designed sgRNAs were generally compatible with SpCas9, but only one showed significant improvements in editing efficiency</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=Y4WFK4FH))
+
+
+
+
+
+1 designed sgRNA that increases SpCas9's editing efficiency itself.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+performed similarly with a designed sgRNA or SpCas9’s sgRNA</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=7Z5FGX2S))
+
+
+
+
+
+OC-1.
+
+
+
+
+
+### Discussion
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+Although evolution has created a massive diversity of CRISPR–Cas proteins, identifying the best natural protein for a given application (if it exists) remains a principal bottleneck in the design of more advanced gene editing systems</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=WYPARMPA))
+
+
+
+
+
+1
+
+
+
+
+
+<span style="color:
+#FFF176;">
+This approach allows us to diversify existing lineages of interest or explore regions of sequence space that were not visited by evolution</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=GR2ZUY8J))
+
+
+
+
+
+Pitch for using LMs for making gene editors.
+
+
+
+
+
+<span style="color:
+#FFF176;">
+OpenCRISPR-1 may provide a viable alternative to SpCas9 for use in gene editing technologies, with similar editing behaviour and compatibility with systems like base editing</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=H6YU6QVP))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+examine OpenCRISPR-1 activity across a range of experimental conditions, cell types and delivery methods to more thoroughly characterize robustness</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=7RGX94TT))
+
+
+
+
+
+2
+
+
+
+
+
+<span style="color:
+#FFF176;">
+curated the CRISPR–Cas Atlas—a large resource of CRISPR systems. Datasets like the CRISPR–Cas Atlas are critical for refining the general learnings of pretrained protein LMs into a functional blueprint for design</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=NBS4JQJK))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#BA68C8;">
+ffectors from other Class 2 systems (for example, Cas12a, Cas12f and Cas13) may be amenable to the same approach</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=FDERHGVR))
+
+
+
+
+
+3
+
+
+
+
+
+<span style="color:
+#FFF176;">
+alternative systems have unique properties that would benefit gene editing applications (for example, reduced size of Cas12f or RNA interference of Cas13)</span>
+([7](zotero://open-pdf/library/items/NQ2XVX9U?page=7&annotation=L8V3E6SM))
+
+
+
+
+
+
+
+
+
+
 
 ![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x37-y608.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x37-y608.png)
 
@@ -2204,6 +2497,8 @@ ABE8.20 was fused at N terminal.
 
 ![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x211-y478.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x211-y478.png)
 
+Note that OC-1 was not necessary to make a base editor, SpCas9 already could do base editing well.
+
 Plots for each target sites (3 plots).
 
 - HEK3
@@ -2217,6 +2512,34 @@ Plots for each target sites (3 plots).
 
 #PF-DEAM-1
 #PF-DEAM-2
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x36-y387.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x36-y387.png)
+
+editing efficiency at HEK3 target site only.
+
+5 generated Cas9s (plots)
+
+14 generated sgRNA (bars)
+
+1 SpCas9 sgRNA (bar)
+
+31 generated sgRNAs are better than spCas9 sgRNA.
+
+- for OC-1 there is one designed sgRNA better than SpCas9 sgRNA.
+
+
+
+
+
+
+![research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x445-y388.png](research-notes/images/ruffoloDesignHighlyFunctional2025/image-7-x445-y388.png)
+
+4 designed sgRNAs show significant improvement for 2 of 5 variants.
+
 
 
 
@@ -2239,6 +2562,51 @@ NAG = 9
 NTG = 2
 
 NCG = 1
+
+
+
+
+
+<span style="color:
+#FFF176;">
+CRISPR–Cas Atlas could be used to model specific properties of gene editors, such as nuclease size, PAM preference, tracrRNA compatibility, thermostability or temperature-dependent activity</span>
+([8](zotero://open-pdf/library/items/NQ2XVX9U?page=8&annotation=MQNVCENR))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+design of protein function typically begins with an explicit structural hypothesis that is translated into a set of constraints to guide a search for satisfying sequences49. This approach has largely reduced some design problems, such as de novo design of protein binders</span>
+([8](zotero://open-pdf/library/items/NQ2XVX9U?page=8&annotation=3N89GD3S))
+
+
+
+
+
+
+
+
+
+
+<span style="color:
+#FFF176;">
+design of complex functions as embodied by the gene editors in this work, structure-based approaches do not offer a straightforward solution. By contrast, LMs provide an implicit means of modelling protein function (and thus structure) through sequence alone</span>
+([8](zotero://open-pdf/library/items/NQ2XVX9U?page=8&annotation=RUTJ5DHK))
+
+
+
+
+
+They claim that to do complex stuff like editing, currently the structure based approach (like de novo) isn't straightforward to tackle that. 
+
+So, focus on sequence and it may implicitly handle the structure for us.
 
 
 
